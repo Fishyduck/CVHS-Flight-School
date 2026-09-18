@@ -365,7 +365,14 @@ function App() {
           <section className="module-modal" role="dialog" aria-modal="true" aria-labelledby="module-title">
             <div className="module-modal-head"><div><p className="eyebrow">MODULE {String(activeModule.id).padStart(2, "0")} · FAA COURSE READING</p><h2 id="module-title">{activeModule.title}</h2></div><button className="icon-button" aria-label="Close module" onClick={() => setActiveModule(null)}><X /></button></div>
             <div className="module-toolbar"><span>Chapter {activeModule.id} · FAA-H-8083-25C</span><a href={activeModule.pdf} target="_blank" rel="noreferrer">Open PDF in new tab <ExternalLink /></a></div>
-            <iframe className="pdf-frame" src={activeModule.pdf} title={`FAA Chapter ${activeModule.id}: ${activeModule.title}`} />
+            <iframe className="pdf-frame" src={`${activeModule.pdf}#view=FitH`} title={`FAA Chapter ${activeModule.id}: ${activeModule.title}`} />
+            <div className="mobile-pdf-reader" role="region" aria-label="Mobile chapter reader">
+              <BookOpen />
+              <h3>Read Chapter {activeModule.id}</h3>
+              <p>For reliable multi-page reading on phones and tablets, open the FAA chapter in your device's PDF viewer. You can swipe or scroll through every page, then return here for the quiz.</p>
+              <a className="button primary mobile-pdf-button" href={activeModule.pdf} target="_blank" rel="noreferrer">Open full chapter PDF <ExternalLink /></a>
+              <small>The chapter opens in a new tab so your place in CVHS Flight School stays available.</small>
+            </div>
             <div className="module-modal-foot"><div><p>Reading does not change completion status. Score 70% or higher on this module's quiz to mark it complete. Quizzes can be retaken anytime.</p></div><button className="button primary" onClick={() => { startQuiz(activeModule); setActiveModule(null); }}>Next: Module quiz <ArrowRight /></button></div>
           </section>
         </div>
