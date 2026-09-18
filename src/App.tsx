@@ -7,34 +7,34 @@ import {
   Clock3,
   LogOut,
   Menu,
-  Plane,
   ShieldCheck,
   ExternalLink,
   FileText,
   Library,
   X,
+  Plane, BrainCircuit, PanelsTopLeft, Wind, Waves, SlidersHorizontal, Cog, Gauge, Files, Scale, ChartNoAxesCombined, CloudSun, Radar, TowerControl, CircleDotDashed, Compass, HeartPulse,
 } from "lucide-react";
 import { isSupabaseConfigured, supabase } from "./supabase";
 import { buildQuiz, getChapterQuestions, type Question } from "./questionBank";
 
 const modules = [
-  { id: 1, title: 'Introduction To Flying', pdf: "https://www.faa.gov/sites/faa.gov/files/03_phak_ch1.pdf" },
-  { id: 2, title: 'Aeronautical Decision-Making', pdf: "https://www.faa.gov/sites/faa.gov/files/04_phak_ch2.pdf" },
-  { id: 3, title: 'Aircraft Construction', pdf: "https://www.faa.gov/sites/faa.gov/files/05_phak_ch3_0.pdf" },
-  { id: 4, title: 'Principles of Flight', pdf: "https://www.faa.gov/sites/faa.gov/files/06_phak_ch4_0.pdf" },
-  { id: 5, title: 'Aerodynamics of Flight', pdf: "https://www.faa.gov/sites/faa.gov/files/07_phak_ch5_0.pdf" },
-  { id: 6, title: 'Flight Controls', pdf: "https://www.faa.gov/sites/faa.gov/files/08_phak_ch6.pdf" },
-  { id: 7, title: 'Aircraft Systems', pdf: "https://www.faa.gov/sites/faa.gov/files/09_phak_ch7.pdf" },
-  { id: 8, title: 'Flight Instruments', pdf: "https://www.faa.gov/sites/faa.gov/files/10_phak_ch8.pdf" },
-  { id: 9, title: 'Flight Manuals and Other Documents', pdf: "https://www.faa.gov/sites/faa.gov/files/11_phak_ch9.pdf" },
-  { id: 10, title: 'Weight and Balance', pdf: "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf" },
-  { id: 11, title: 'Aircraft Performance', pdf: "https://www.faa.gov/sites/faa.gov/files/13_phak_ch11.pdf" },
-  { id: 12, title: 'Weather Theory', pdf: "https://www.faa.gov/sites/faa.gov/files/14_phak_ch12.pdf" },
-  { id: 13, title: 'Aviation Weather Services', pdf: "https://www.faa.gov/sites/faa.gov/files/15_phak_ch13.pdf" },
-  { id: 14, title: 'Airport Operations', pdf: "https://www.faa.gov/sites/faa.gov/files/16_phak_ch14.pdf" },
-  { id: 15, title: 'Airspace', pdf: "https://www.faa.gov/sites/faa.gov/files/17_phak_ch15.pdf" },
-  { id: 16, title: 'Navigation', pdf: "https://www.faa.gov/sites/faa.gov/files/18_phak_ch16.pdf" },
-  { id: 17, title: 'Aeromedical Factors', pdf: "https://www.faa.gov/sites/faa.gov/files/19_phak_ch17.pdf" }
+  { id: 1, title: 'Introduction To Flying', icon: Plane, pdf: "https://www.faa.gov/sites/faa.gov/files/03_phak_ch1.pdf" },
+  { id: 2, title: 'Aeronautical Decision-Making', icon: BrainCircuit, pdf: "https://www.faa.gov/sites/faa.gov/files/04_phak_ch2.pdf" },
+  { id: 3, title: 'Aircraft Construction', icon: PanelsTopLeft, pdf: "https://www.faa.gov/sites/faa.gov/files/05_phak_ch3_0.pdf" },
+  { id: 4, title: 'Principles of Flight', icon: Wind, pdf: "https://www.faa.gov/sites/faa.gov/files/06_phak_ch4_0.pdf" },
+  { id: 5, title: 'Aerodynamics of Flight', icon: Waves, pdf: "https://www.faa.gov/sites/faa.gov/files/07_phak_ch5_0.pdf" },
+  { id: 6, title: 'Flight Controls', icon: SlidersHorizontal, pdf: "https://www.faa.gov/sites/faa.gov/files/08_phak_ch6.pdf" },
+  { id: 7, title: 'Aircraft Systems', icon: Cog, pdf: "https://www.faa.gov/sites/faa.gov/files/09_phak_ch7.pdf" },
+  { id: 8, title: 'Flight Instruments', icon: Gauge, pdf: "https://www.faa.gov/sites/faa.gov/files/10_phak_ch8.pdf" },
+  { id: 9, title: 'Flight Manuals and Other Documents', icon: Files, pdf: "https://www.faa.gov/sites/faa.gov/files/11_phak_ch9.pdf" },
+  { id: 10, title: 'Weight and Balance', icon: Scale, pdf: "https://www.faa.gov/sites/faa.gov/files/12_phak_ch10.pdf" },
+  { id: 11, title: 'Aircraft Performance', icon: ChartNoAxesCombined, pdf: "https://www.faa.gov/sites/faa.gov/files/13_phak_ch11.pdf" },
+  { id: 12, title: 'Weather Theory', icon: CloudSun, pdf: "https://www.faa.gov/sites/faa.gov/files/14_phak_ch12.pdf" },
+  { id: 13, title: 'Aviation Weather Services', icon: Radar, pdf: "https://www.faa.gov/sites/faa.gov/files/15_phak_ch13.pdf" },
+  { id: 14, title: 'Airport Operations', icon: TowerControl, pdf: "https://www.faa.gov/sites/faa.gov/files/16_phak_ch14.pdf" },
+  { id: 15, title: 'Airspace', icon: CircleDotDashed, pdf: "https://www.faa.gov/sites/faa.gov/files/17_phak_ch15.pdf" },
+  { id: 16, title: 'Navigation', icon: Compass, pdf: "https://www.faa.gov/sites/faa.gov/files/18_phak_ch16.pdf" },
+  { id: 17, title: 'Aeromedical Factors', icon: HeartPulse, pdf: "https://www.faa.gov/sites/faa.gov/files/19_phak_ch17.pdf" }
 ];
 
 const guestStorageKey = "cvhs-flight-school-progress";
@@ -251,11 +251,12 @@ function App() {
   }
 
 
+  const brandAsset = (file: string) => `${import.meta.env.BASE_URL}brand/${file}`;
+
   const Sidebar = () => (
     <aside className="sidebar">
       <a className="brand" href="#top" aria-label="CVHS Flight School home">
-        <span className="brand-mark"><Plane aria-hidden="true" /></span>
-        <span><b>CVHS</b><small>FLIGHT SCHOOL</small></span>
+        <img className="sidebar-logo" src={brandAsset("cvhs-wordmark-reverse-transparent-cropped.png")} alt="CVHS Flight School" />
       </a>
       <nav aria-label="Primary navigation">
         <a className="active" href="#modules" onClick={() => setMobileOpen(false)}>
@@ -284,6 +285,7 @@ function App() {
       <main>
         <header className="topbar">
           <button className="icon-button menu-button" aria-label="Open navigation" onClick={() => setMobileOpen(true)}><Menu /></button>
+          <a className="mobile-wordmark" href="#top" aria-label="CVHS Flight School home"><img src={brandAsset("cvhs-wordmark-reverse-transparent-cropped.png")} alt="CVHS Flight School" /></a>
           <div className="route"><span>TRAINING PORTAL</span><b>GROUND SCHOOL</b></div>
           <div className="account-area">
             {session ? (
@@ -324,7 +326,7 @@ function App() {
                 return (
                   <article className={`module-card ${done ? "complete" : ""}`} key={module.id}>
                     <div className="module-top"><span>MODULE {String(module.id).padStart(2, "0")}</span><b className={`status-badge ${done ? "done" : "pending"}`}>{done ? "COMPLETE" : "NOT COMPLETE"}</b></div>
-                    <h3>{module.title}</h3>
+                    <div className="module-title-row"><span className={`module-icon module-icon-${((module.id - 1) % 4) + 1}`}><module.icon /></span><h3>{module.title}</h3></div>
                     <p>Chapter {module.id}</p>
                     <div className="module-actions">
                       <button className="open-button" onClick={() => setActiveModule(module)}>
@@ -355,7 +357,7 @@ function App() {
         </div>
 
         <footer>
-          <b>CVHS FLIGHT SCHOOL</b>
+          <div className="footer-brand"><img src={brandAsset("cvhs-secondary-seal.png")} alt="CVHS Flight School seal" /><b>CVHS FLIGHT SCHOOL</b></div>
           <p>Educational material does not replace instruction from an authorized instructor, current FAA publications, or aircraft-specific documentation.</p>
         </footer>
       </main>
@@ -421,7 +423,7 @@ function App() {
         <div className="modal-backdrop" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && setAuthOpen(false)}>
           <section className="auth-modal" role="dialog" aria-modal="true" aria-labelledby="auth-title">
             <button className="icon-button modal-close" aria-label="Close account window" onClick={() => setAuthOpen(false)}><X /></button>
-            <span className="auth-icon"><Plane /></span>
+            <span className="auth-icon brand-auth-icon"><img src={brandAsset("cvhs-brand-mark.png")} alt="" /></span>
             <p className="eyebrow">STUDENT ACCOUNT</p>
             <h2 id="auth-title">{authMode === "login" ? "Welcome back" : authMode === "signup" ? "Create your account" : authMode === "reset" ? "Reset your password" : "Choose a new password"}</h2>
             <p className="modal-copy">{authMode === "reset" ? "We’ll email you a secure password-reset link." : authMode === "new-password" ? "Enter the new password you want to use." : "Save your course progress and continue on any device."}</p>

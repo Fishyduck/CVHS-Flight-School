@@ -318,3 +318,58 @@ footer p { max-width: 700px; margin: 0; text-align: right; line-height: 1.45; }
   .quiz-footer { gap: .55rem; }
   .quiz-footer .button { font-size: .78rem; }
 }
+
+/* Official CVHS Flight School brand assets */
+.brand { padding: .15rem .15rem 1.65rem; }
+.sidebar-logo { display: block; width: 100%; max-width: 188px; height: auto; margin: 0 auto; border-radius: .18rem; }
+.mobile-wordmark { display: none; align-items: center; flex: 0 1 150px; min-width: 0; margin-right: .75rem; text-decoration: none; }
+.mobile-wordmark img { display: block; width: 100%; max-width: 145px; height: auto; }
+.footer-brand { display: flex; align-items: center; gap: .7rem; }
+.footer-brand img { width: 42px; height: 42px; object-fit: contain; background: #fff; border-radius: 50%; }
+.brand-auth-icon { width: 3.5rem; height: 3.5rem; overflow: hidden; padding: .2rem; background: #fff; border: 1px solid var(--line); }
+.brand-auth-icon img { width: 100%; height: 100%; object-fit: contain; }
+
+@media (max-width: 800px) {
+  .mobile-wordmark { display: flex; }
+  .route { display: none; }
+  .sidebar-logo { max-width: 176px; }
+}
+
+@media (max-width: 480px) {
+  .mobile-wordmark { flex-basis: 118px; margin-right: .4rem; }
+  .mobile-wordmark img { max-width: 118px; }
+  .topbar { padding-inline: .65rem; }
+  .account-area { gap: .4rem; }
+  .account-area .button { padding-inline: .65rem; font-size: .75rem; white-space: nowrap; }
+  .footer-brand img { width: 36px; height: 36px; }
+}
+
+/* Final brand lockup + module icon system */
+.brand { justify-content: center; padding: .15rem .35rem 1.55rem; }
+.sidebar-logo { width: 100%; max-width: 174px; background: transparent; border-radius: 0; }
+.module-title-row { display: flex; align-items: center; gap: .85rem; margin: .35rem 0 .2rem; }
+.module-title-row h3 { margin: 0; }
+.module-icon { flex: 0 0 42px; width: 42px; height: 42px; display: grid; place-items: center; border-radius: 50%; border: 1px solid rgba(8,48,69,.08); }
+.module-icon svg { width: 21px; height: 21px; stroke-width: 1.8; }
+.module-icon-1 { background: #e1f0f8; color: #0b5679; }
+.module-icon-2 { background: #dff3eb; color: #176c61; }
+.module-icon-3 { background: #fff0d4; color: #8a5a12; }
+.module-icon-4 { background: #eee8f7; color: #5d4b82; }
+@media (max-width: 800px) {
+  .sidebar-logo { max-width: 166px; }
+  .mobile-wordmark img { max-width: 132px; }
+}
+@media (max-width: 480px) {
+  .module-icon { flex-basis: 38px; width: 38px; height: 38px; }
+  .module-icon svg { width: 19px; height: 19px; }
+  .mobile-wordmark img { max-width: 110px; }
+}
+
+
+/* Compact desktop brand zone: use the tightly-cropped web lockup so the
+   transparent source canvas does not create artificial vertical whitespace. */
+@media (min-width: 801px) {
+  .sidebar { padding-top: 1.35rem; }
+  .brand { padding: .35rem .25rem 1.85rem; }
+  .sidebar-logo { max-width: 184px; }
+}
