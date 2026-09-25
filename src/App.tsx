@@ -285,7 +285,7 @@ function App() {
       <main>
         <header className="topbar">
           <button className="icon-button menu-button" aria-label="Open navigation" onClick={() => setMobileOpen(true)}><Menu /></button>
-          <a className="mobile-wordmark" href="#top" aria-label="CVHS Flight School home"><img src={brandAsset("cvhs-wordmark-reverse-transparent-cropped.png")} alt="CVHS Flight School" /></a>
+          <a className="mobile-wordmark" href="#top" aria-label="CVHS Flight School home"><img src={brandAsset("cvhs-wordmark-transparent-cropped.png")} alt="CVHS Flight School" /></a>
           <div className="route"><span>TRAINING PORTAL</span><b>GROUND SCHOOL</b></div>
           <div className="account-area">
             {session ? (
