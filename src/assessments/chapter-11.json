@@ -8,10 +8,10 @@
     "type": "scenario",
     "prompt": "A normally aspirated airplane is departing a high-elevation airport on a hot afternoon. What combined performance change should the pilot expect?",
     "choices": [
-      "Longer takeoff roll and reduced climb because high density altitude reduces engine, propeller, and wing performance",
-      "Shorter takeoff roll but reduced climb, because thin air lowers drag enough to improve acceleration while reducing engine power",
-      "Longer takeoff roll but improved climb, because higher true airspeed at liftoff increases excess lift after becoming airborne",
-      "Little change in takeoff or climb if indicated liftoff and climb speeds are maintained, because the wing responds to indicated airspeed"
+      "Longer takeoff roll and reduced climb",
+      "Shorter takeoff roll but reduced climb",
+      "Longer takeoff roll but improved climb",
+      "Little change in takeoff or climb if indicated liftoff and climb speeds are maintained"
     ],
     "correctIndex": 0,
     "explanation": "High density altitude means low air density. A normally aspirated engine develops less power, the propeller produces less thrust, and the wing needs greater true airspeed for a given indicated aerodynamic speed.",
@@ -28,10 +28,10 @@
     "type": "scenario",
     "prompt": "Pressure altitude is 5,000 feet and the temperature is far above standard. Compared with 5,000 feet pressure altitude on a standard day, density altitude will be what?",
     "choices": [
-      "The same as field elevation if the altimeter is set to the current local pressure before takeoff",
+      "Equal to the field elevation",
       "Higher than 5,000 feet",
-      "Lower than 5,000 feet because warm air expands and lowers the effective altitude seen by the airplane",
-      "Approximately 5,000 feet because pressure altitude already accounts for temperature departures from standard"
+      "Lower than 5,000 feet",
+      "Approximately 5,000 feet"
     ],
     "correctIndex": 1,
     "explanation": "Warmer-than-standard air is less dense, so density altitude rises above pressure altitude.",
@@ -48,10 +48,10 @@
     "type": "scenario",
     "prompt": "A strong headwind exists for takeoff. What happens to the ground distance needed to reach a given liftoff airspeed, all else equal?",
     "choices": [
-      "It remains unchanged because takeoff distance depends on indicated airspeed rather than groundspeed",
-      "It decreases only after liftoff; the ground roll is unchanged because the wheels measure speed over the runway",
-      "It generally decreases because the required airspeed is reached at a lower groundspeed",
-      "It generally increases because a headwind adds to the groundspeed needed to reach liftoff IAS"
+      "It remains unchanged",
+      "It decreases only after liftoff",
+      "It generally decreases",
+      "It generally increases"
     ],
     "correctIndex": 2,
     "explanation": "A headwind reduces the groundspeed corresponding to a given airspeed, usually shortening ground roll.",
@@ -70,7 +70,7 @@
     "choices": [
       "The same airspeed produces lower groundspeed in a tailwind, so braking starts at a lower kinetic energy",
       "Tailwind affects only the approach angle; touchdown groundspeed and kinetic energy depend only on indicated airspeed",
-      "Landing roll may decrease because a tailwind reduces the aerodynamic drag acting opposite the airplane's motion over the ground",
+      "Landing roll may decrease",
       "For the same airspeed, groundspeed is higher, increasing kinetic energy and runway distance"
     ],
     "correctIndex": 3,
@@ -148,9 +148,9 @@
     "type": "scenario",
     "prompt": "What speed gives the greatest altitude gain per unit of time under the stated aircraft conditions?",
     "choices": [
-      "Vx, because best angle of climb also produces the maximum vertical speed in feet per minute",
-      "Best glide speed, because minimum drag leaves the greatest excess power available for climb",
-      "VA, because maneuvering speed provides the highest usable angle of attack without exceeding structural limits",
+      "Vx",
+      "Best glide speed",
+      "VA",
       "Vy"
     ],
     "correctIndex": 3,
@@ -169,9 +169,9 @@
     "prompt": "What speed gives the greatest altitude gain per unit of horizontal distance?",
     "choices": [
       "Vx",
-      "Vy, because best rate also produces the greatest altitude gain for each mile traveled",
-      "Best glide speed, because maximum lift-to-drag ratio creates the steepest climb path",
-      "VFE, because flap operating limit provides the highest lift coefficient and therefore the greatest climb angle"
+      "Vy",
+      "Best glide speed",
+      "VFE"
     ],
     "correctIndex": 0,
     "explanation": "Vx is best angle of climb speed: maximum altitude gain per unit horizontal distance.",
@@ -190,7 +190,7 @@
     "choices": [
       "Vx decreases while Vy increases with altitude in indicated airspeed, causing them to move farther apart",
       "Available excess thrust and power change with altitude, altering the speeds for best angle and best rate",
-      "Vx and Vy remain fixed indicated speeds at all altitudes because they are based only on wing aerodynamics",
+      "Vx and Vy remain fixed indicated speeds at all altitudes",
       "Both speeds decrease at the same rate with altitude, so their separation remains constant until the ceiling"
     ],
     "correctIndex": 1,
@@ -208,10 +208,10 @@
     "type": "scenario",
     "prompt": "At the absolute ceiling, what is the airplane’s maximum steady rate of climb?",
     "choices": [
-      "The same rate of climb as at service ceiling because the two ceilings differ only by certification terminology",
-      "A small positive rate determined by the aircraft's maximum glide ratio and propeller efficiency",
+      "Equal to the rate at service ceiling",
+      "A small rate set by glide ratio",
       "Zero",
-      "The minimum positive climb rate specified for service ceiling, typically still enough to clear obstacles"
+      "The minimum specified service-ceiling rate"
     ],
     "correctIndex": 2,
     "explanation": "At the absolute ceiling, maximum excess power is zero, so no steady climb is possible.",
@@ -249,9 +249,9 @@
     "prompt": "A pilot wants maximum distance from a given amount of fuel in still air. What performance objective is being optimized?",
     "choices": [
       "Range",
-      "Endurance, because remaining airborne longer also guarantees the greatest still-air distance",
-      "Maximum groundspeed, because covering distance faster always uses less fuel per mile",
-      "Minimum sink, because the condition that minimizes altitude loss in a glide also minimizes fuel per mile in powered flight"
+      "Endurance",
+      "Maximum groundspeed",
+      "Minimum sink"
     ],
     "correctIndex": 0,
     "explanation": "Maximum range seeks the greatest distance per unit fuel.",
@@ -268,10 +268,10 @@
     "type": "scenario",
     "prompt": "A pilot wants to remain airborne as long as possible with the available fuel. What objective is being optimized?",
     "choices": [
-      "Best glide, because maximum lift-to-drag ratio is always the same condition as minimum fuel flow in powered flight",
+      "Best glide",
       "Endurance",
-      "Range, because flying the greatest distance for the fuel necessarily keeps the airplane airborne the longest",
-      "Maximum cruise power, because a higher airspeed reduces the time during which fuel is consumed"
+      "Range",
+      "Maximum cruise power"
     ],
     "correctIndex": 1,
     "explanation": "Maximum endurance seeks maximum time aloft, not maximum distance.",
@@ -288,7 +288,7 @@
     "type": "scenario",
     "prompt": "Why are maximum range and maximum endurance normally achieved at different operating conditions?",
     "choices": [
-      "Endurance requires the highest practical airspeed while range requires the lowest, because time and distance goals are exact opposites",
+      "Endurance requires the highest practical airspeed while range requires the lowest",
       "Maximum range is found at minimum fuel flow, while maximum endurance is found at the best lift-to-drag ratio regardless of engine type",
       "The condition that minimizes fuel used per distance is not generally identical to the condition that minimizes fuel used per unit time",
       "They are normally the same; any difference is caused only by wind rather than airplane aerodynamics or engine efficiency"
@@ -409,9 +409,9 @@
     "prompt": "How does increased weight generally affect takeoff distance?",
     "choices": [
       "It increases takeoff distance",
-      "It decreases distance because more weight increases tire traction and propeller loading during the ground roll",
-      "Distance remains the same if rotation is delayed to the heavier-weight stall speed",
-      "It affects liftoff speed but not acceleration, so only obstacle-clearance distance changes rather than ground roll"
+      "It decreases takeoff distance",
+      "It leaves takeoff distance unchanged",
+      "It changes liftoff speed but not ground roll"
     ],
     "correctIndex": 0,
     "explanation": "Heavier aircraft require more energy and higher lift speed, generally increasing takeoff distance.",
@@ -428,10 +428,10 @@
     "type": "scenario",
     "prompt": "How does increased weight generally affect landing distance?",
     "choices": [
-      "It increases only the airborne portion of landing distance; once on the runway greater weight improves deceleration enough to offset the energy",
-      "It increases landing distance because approach/touchdown speed and energy increase",
-      "It decreases distance because higher weight increases wheel braking force in direct proportion to kinetic energy",
-      "It has little effect if the same approach speed is flown, because brakes dissipate energy at the same rate"
+      "It increases only the airborne portion",
+      "It increases landing distance",
+      "It decreases landing distance",
+      "It has little effect at the same approach speed"
     ],
     "correctIndex": 1,
     "explanation": "More weight means more kinetic energy to dissipate and generally higher reference speeds.",
@@ -470,7 +470,7 @@
     "choices": [
       "Water vapor is heavier than dry air and increases pressure altitude even though actual density rises",
       "Humidity changes indicated airspeed calibration but not the actual density of the air used by the wing and propeller",
-      "Humidity lowers density altitude because moist air cools more efficiently and therefore increases engine power",
+      "Humidity lowers density altitude",
       "Water vapor is less dense than the dry-air molecules it replaces, reducing air density"
     ],
     "correctIndex": 3,
@@ -491,7 +491,7 @@
       "Liftoff only demonstrates enough lift at that instant; reduced engine thrust/power and high true airspeed can still leave little excess performance for climb",
       "Liftoff proves the airplane has enough excess power to climb, so poor climb afterward usually indicates an instrument error",
       "High density altitude raises indicated stall speed after leaving ground effect even though engine power remains normal",
-      "The airplane can lift off because ground effect increases engine power; once clear of the runway that engine benefit disappears"
+      "The airplane can lift off"
     ],
     "correctIndex": 0,
     "explanation": "High density altitude degrades both takeoff and climb; leaving ground effect can reveal inadequate excess power.",
@@ -508,10 +508,10 @@
     "type": "scenario",
     "prompt": "What is the relationship between indicated airspeed and true airspeed at high density altitude for the same aerodynamic lift condition?",
     "choices": [
-      "Indicated airspeed becomes higher than true airspeed because the pitot system senses a larger pressure ratio at altitude",
+      "Indicated airspeed becomes higher than true airspeed",
       "True airspeed is higher for approximately the same indicated airspeed",
-      "True airspeed is lower because thin air requires fewer molecules to move past the wing for a given indicated value",
-      "True and indicated airspeed remain approximately equal because the same lift condition fixes both velocities"
+      "True airspeed is lower",
+      "True and indicated airspeed remain approximately equal"
     ],
     "correctIndex": 1,
     "explanation": "A given indicated airspeed corresponds to a given dynamic pressure; lower density requires greater true velocity.",
@@ -550,7 +550,7 @@
     "choices": [
       "Scale every published distance directly by the ratio of actual weight to maximum gross weight even if the POH provides no such method",
       "Assume the maximum-gross chart is invalid for any lighter weight and use a generic performance calculator instead",
-      "Replace the POH value with the airplane's typical observed climb performance because lighter weight guarantees better results",
+      "Replace the POH value with the airplane's typical observed climb performance",
       "Actual performance may be better, but the pilot should use approved chart methods rather than invent an unapproved correction"
     ],
     "correctIndex": 3,
@@ -569,7 +569,7 @@
     "prompt": "Why should pilots calculate performance before departure instead of relying on how the airplane “usually feels”?",
     "choices": [
       "Small changes in density altitude, weight, wind, runway, and obstacles can combine to erase familiar margins",
-      "Past experience is more representative than performance charts because it includes the actual airplane, engine, and pilot technique",
+      "Past experience is more representative than performance charts",
       "If each factor remains within a familiar range, their combined effect will be no worse than the largest individual change",
       "Performance planning matters mainly at high-elevation airports; at familiar low-altitude airports the airplane's usual feel is a reliable margin"
     ],

@@ -68,9 +68,9 @@
     "type": "calculation",
     "prompt": "Runway 27 is aligned approximately with what magnetic direction?",
     "choices": [
-      "Approximately 027° magnetic",
-      "Approximately 090° magnetic",
-      "Approximately 360° magnetic",
+      "027° magnetic",
+      "090° magnetic",
+      "360° magnetic",
       "270°"
     ],
     "correctIndex": 3,
@@ -209,7 +209,7 @@
     "prompt": "A pilot is unsure whether an ATC taxi instruction is understood correctly. What is the best action?",
     "choices": [
       "Follow the airport diagram to the most likely route and request clarification after reaching the next hold-short point",
-      "Repeat the instruction as best as possible and proceed if no other aircraft is visible, because stopping can obstruct taxi traffic",
+      "Repeat the instruction as best as possible and proceed if no other aircraft is visible",
       "Stop or maintain a safe position and ask ATC for clarification before proceeding",
       "Continue slowly while reading back the part that is understood; ATC will correct any mistake before a conflict develops"
     ],
@@ -251,7 +251,7 @@
       "It allows the pilot to pre-brief the route, runways, hot spots, and likely hold-short points before workload rises",
       "It provides legal taxi clearance information and can replace ATC instructions if the expected route differs from the controller's route",
       "It shows only runway dimensions; taxiway names, hot spots, and hold points are found exclusively in the Chart Supplement",
-      "It is useful mainly after landing because departure taxi routes can be assumed from the runway assigned in the ATIS"
+      "It is useful mainly after landing"
     ],
     "correctIndex": 0,
     "explanation": "Pre-taxi route planning reduces heads-down time and confusion during surface movement.",
@@ -409,9 +409,9 @@
     "prompt": "A PAPI shows two white and two red lights. What does that indicate?",
     "choices": [
       "Approximately on the glidepath",
-      "The airplane is slightly below the glidepath and should climb until three white lights appear",
-      "The airplane is slightly above the glidepath and should descend until one white light remains",
-      "The airplane is on the runway centerline; PAPI color balance indicates lateral rather than vertical alignment"
+      "Slightly below the glidepath",
+      "Slightly above the glidepath",
+      "On the runway centerline"
     ],
     "correctIndex": 0,
     "explanation": "Two white and two red is the standard on-slope indication.",
@@ -468,7 +468,7 @@
     "type": "scenario",
     "prompt": "Why should a pilot listen to ATIS/AWOS before entering a busy airport environment when available?",
     "choices": [
-      "ATIS/AWOS replaces the need to monitor tower or CTAF because it contains current traffic and clearance information",
+      "ATIS/AWOS replaces the need to monitor tower or CTAF",
       "The information is primarily for filing flight plans; pilots should wait to obtain runway and weather conditions directly from the controller",
       "It is reliable for the entire flight once copied before departure, so a new code or observation need not be checked on return",
       "It provides current routine airport/weather information and reduces frequency congestion, allowing the pilot to prepare before contacting ATC"
@@ -490,7 +490,7 @@
     "choices": [
       "Do not enter the runway unless the clearance is understood; ask for clarification if uncertain",
       "The readback transfers responsibility to the controller; if it was not corrected, the pilot may act on the clearance as understood",
-      "Proceed if the runway appears clear visually, because the controller's failure to correct the readback constitutes implied approval",
+      "Proceed if the runway appears clear visually",
       "Hold-short instructions need not be understood word-for-word if the assigned taxi route on the airport diagram is clear"
     ],
     "correctIndex": 0,
@@ -508,10 +508,10 @@
     "type": "scenario",
     "prompt": "At night, a pilot sees an illuminated large “X” at the runway end. What does it indicate?",
     "choices": [
-      "The runway is closed only to large aircraft; light airplanes may use it if no barricades are present",
+      "Closed only to large aircraft",
       "The runway is closed",
-      "The runway is available only for takeoff, not landing",
-      "The threshold has been displaced and landing must begin beyond the X"
+      "Available only for takeoff",
+      "Landing permitted beyond a displaced threshold"
     ],
     "correctIndex": 1,
     "explanation": "An “X” is the standard closed-runway marking/lighting indication.",
@@ -571,7 +571,7 @@
       "Brief the assigned runway, taxi route, runway signs/markings, expected heading, and verify the runway before takeoff",
       "Rely on the runway number visible ahead; taxi signs and expected heading are unnecessary once ATC assigns a runway",
       "Confirm the runway only after beginning the takeoff roll, when the heading indicator provides the most accurate alignment cue",
-      "Use GPS moving-map runway depiction as the primary confirmation because painted markings and signs can be difficult to see at night"
+      "Use GPS moving-map runway depiction as the primary confirmation"
     ],
     "correctIndex": 0,
     "explanation": "A pre-takeoff runway verification using signage, heading, and clearance prevents wrong-surface departures.",

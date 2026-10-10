@@ -9,9 +9,9 @@
     "prompt": "A pilot rolls right with conventional ailerons. What coordinated control input is normally required to counter adverse yaw?",
     "choices": [
       "Right rudder as needed",
-      "Left rudder as needed, because the down-going aileron on the left wing creates less drag",
-      "No rudder; coordinated turns are established with aileron first and rudder is used only to correct a skid after the bank is set",
-      "Right rudder only after the desired bank is reached; using it during roll-in would create excessive proverse yaw"
+      "Left rudder as needed",
+      "No rudder until the bank is established",
+      "Right rudder only after the turn begins"
     ],
     "correctIndex": 0,
     "explanation": "The down-going aileron on the rising wing generally creates more drag, tending to yaw opposite the roll. Coordinated rudder counters that adverse yaw.",
@@ -68,9 +68,9 @@
     "type": "scenario",
     "prompt": "A pilot presses the right rudder pedal. What is the primary aircraft response?",
     "choices": [
-      "Roll to the right about the longitudinal axis, because rudder deflection changes lift on the vertical tail",
-      "Yaw to the left about the vertical axis because the rudder moves the tail in the same direction as the pedal",
-      "Pitch down about the lateral axis because the vertical tail force acts behind the center of gravity",
+      "Roll to the right about the longitudinal axis",
+      "Yaw to the left about the vertical axis",
+      "Pitch down about the lateral axis",
       "Yaw to the right about the vertical axis"
     ],
     "correctIndex": 3,
@@ -108,7 +108,7 @@
     "type": "scenario",
     "prompt": "A pilot holds steady aft pressure in a climb. What is the proper use of trim?",
     "choices": [
-      "Trim to eliminate control pressure before establishing the target airspeed, because trim determines the airplane's pitch attitude more precisely than elevator",
+      "Trim to eliminate control pressure before establishing the target airspeed",
       "Adjust trim to relieve the sustained control force after establishing the desired attitude and airspeed",
       "Use trim first to establish the climb attitude, then use elevator only for small corrections around the trimmed position",
       "Continue holding the force and leave trim neutral so the pilot can feel the exact aerodynamic load throughout the climb"
@@ -131,7 +131,7 @@
       "Retrimming is needed only after configuration changes such as flap extension; power and airspeed alone do not alter trim requirements",
       "Trim changes are required mainly to correct control-system friction, so a previously smooth airplane should not need retrimming in a new flight condition",
       "Aerodynamic forces on the control surfaces change with speed, power, and configuration",
-      "Trim setting should remain valid because trim balances the airplane's center of gravity rather than aerodynamic forces"
+      "Trim setting should remain valid"
     ],
     "correctIndex": 2,
     "explanation": "A new flight condition changes control forces and often requires a new trim setting to relieve pressure.",
@@ -169,7 +169,7 @@
     "prompt": "A stabilator differs from a conventional elevator because what moves?",
     "choices": [
       "The entire horizontal tail surface pivots",
-      "Only the trailing-edge elevator portion moves; the fixed stabilizer pivots to provide trim",
+      "Only the trailing-edge elevator portion moves",
       "The vertical stabilizer and elevator move together as one surface to control both pitch and yaw",
       "The entire horizontal tail pivots only for trim, while a separate elevator provides all normal pitch control"
     ],
@@ -228,8 +228,8 @@
     "type": "scenario",
     "prompt": "A pilot extends flaps at an airspeed above the published flap operating limit. Why is this unsafe?",
     "choices": [
-      "The airplane may exceed its structural load factor because flap extension increases wing bending but not flap loads",
-      "The primary risk is an accelerated stall because extending flaps above VFE raises stall speed sharply",
+      "The airplane may exceed its structural load factor",
+      "The primary risk is an accelerated stall",
       "Flap limits protect only the motor or handle mechanism; aerodynamic loads on the flap surfaces are unchanged with speed",
       "Aerodynamic loads on the flap system may exceed design limits"
     ],
@@ -288,7 +288,7 @@
     "type": "scenario",
     "prompt": "A pilot deploys speed brakes/spoilers during descent. What should the pilot anticipate?",
     "choices": [
-      "A predictable nose-up pitch always occurs because spoiler deployment moves the center of lift forward",
+      "A predictable nose-up pitch always occurs",
       "A predictable nose-down pitch always occurs, so elevator compensation can be applied before deployment without reference to the aircraft manual",
       "A change in lift/drag and possibly pitch that may require attitude or power adjustment",
       "Only drag changes; spoilers do not meaningfully affect lift or pitch unless deployed asymmetrically"
@@ -348,10 +348,10 @@
     "type": "scenario",
     "prompt": "A pilot enters a steep turn using aileron only and no rudder. What cockpit indication would most clearly reveal uncoordinated flight?",
     "choices": [
-      "The altimeter momentarily changing, because a skid produces a static-pressure error proportional to lateral acceleration",
+      "The altimeter momentarily changing",
       "The slip/skid indicator displaced from center",
-      "The turn coordinator miniature airplane bank indication, because any bank without rudder is automatically uncoordinated",
-      "The heading indicator lagging the magnetic compass, because adverse yaw appears directly as a heading-system disagreement"
+      "The turn coordinator miniature airplane bank indication",
+      "The heading indicator lagging the magnetic compass"
     ],
     "correctIndex": 1,
     "explanation": "Uncoordinated yaw/sideslip is shown by the slip/skid indication and can also be felt physically.",
@@ -368,10 +368,10 @@
     "type": "scenario",
     "prompt": "A pilot intentionally holds opposite rudder and aileron on final to correct for a crosswind. What is this maneuver called?",
     "choices": [
-      "A skid, because any crossed-control condition puts the ball to the outside of the turn and is therefore a skid",
-      "A coordinated crab, because opposite controls align the nose with the runway while keeping both wings level",
+      "A skid",
+      "A coordinated crab",
       "A sideslip/cross-control technique",
-      "A forward slip, because opposite aileron and rudder always increases descent rate rather than correcting lateral drift"
+      "A forward slip"
     ],
     "correctIndex": 2,
     "explanation": "Opposite aileron and rudder can create a sideslip used to control drift and align the longitudinal axis with the runway.",
@@ -388,8 +388,8 @@
     "type": "scenario",
     "prompt": "Why does rudder effectiveness generally change with airspeed?",
     "choices": [
-      "Rudder effectiveness is mainly a function of engine RPM, so it changes because propeller slipstream grows or shrinks with airspeed",
-      "The rudder has essentially constant authority because its area and deflection limits do not change with speed",
+      "Rudder effectiveness is mainly a function of engine RPM, so it changes",
+      "The rudder has essentially constant authority",
       "Rudder force varies only with angle of sideslip; dynamic pressure affects the wing but not a vertical control surface",
       "Aerodynamic force on the rudder depends on airflow/dynamic pressure over the surface"
     ],
@@ -409,7 +409,7 @@
     "prompt": "A pilot makes a large abrupt control input at high airspeed. Why can control loads become dangerous even if the airplane does not stall?",
     "choices": [
       "Dynamic pressure is high, so large surface deflections can generate very large aerodynamic forces and structural loads",
-      "High speed reduces aerodynamic force on the controls because deflection changes the flow by a smaller percentage",
+      "High speed reduces aerodynamic force on the controls",
       "Structural loads are limited only by airplane weight; control-surface deflection cannot create an excessive load without a gust",
       "The airplane must stall before any large control input can create dangerous loads, regardless of speed above maneuvering speed"
     ],
@@ -448,7 +448,7 @@
     "type": "scenario",
     "prompt": "A preflight check finds a control surface moves opposite to the cockpit control input. What should the pilot do?",
     "choices": [
-      "Taxi slowly and test the controls again under airflow, because some linkages reverse direction only when the airplane is moving",
+      "Taxi slowly and test the controls again under airflow",
       "Use the remaining controls to verify that the airplane can still be maneuvered before deciding whether the discrepancy requires maintenance",
       "Do not fly; the control-system discrepancy must be corrected",
       "Complete the flight if control movement is full and free; opposite movement can be compensated with reversed cockpit inputs"

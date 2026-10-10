@@ -9,9 +9,9 @@
     "prompt": "A pilot wants to know the maximum demonstrated crosswind, approved weight limits, and emergency procedures for a specific airplane. What is the primary source?",
     "choices": [
       "The aircraft AFM/POH and its approved supplements",
-      "The current AIM, because it contains standardized limitations and emergency procedures for all certificated airplanes",
-      "The aircraft maintenance manual, because it is the controlling source for pilot operating limitations and performance",
-      "The type certificate data sheet alone, because it replaces the AFM/POH for all approved operating speeds and procedures"
+      "The current AIM",
+      "The aircraft maintenance manual",
+      "The type certificate data sheet alone"
     ],
     "correctIndex": 0,
     "explanation": "Aircraft-specific limitations, procedures, and performance information belong in the approved AFM/POH and supplements.",
@@ -48,10 +48,10 @@
     "type": "scenario",
     "prompt": "Which AFM/POH section is designed to be the first place to look for approved operating limitations?",
     "choices": [
-      "General, because the approved limitations are summarized only in the aircraft description and specifications",
-      "Performance, because any limit affecting speed, weight, or altitude is derived from performance data rather than the limitations section",
+      "General",
+      "Performance",
       "Limitations",
-      "Normal Procedures, because all speeds and weights used in routine flight are listed there"
+      "Normal Procedures"
     ],
     "correctIndex": 2,
     "explanation": "The standardized POH format places operating limitations in Section 2.",
@@ -68,9 +68,9 @@
     "type": "scenario",
     "prompt": "Which AFM/POH section is the primary source for immediate and expanded emergency procedures?",
     "choices": [
-      "Limitations, because prohibited actions and maximum values are the primary reference during an emergency",
-      "Normal Procedures, because emergency actions are variations of the normal checklist and are kept in one section",
-      "Performance, because emergency procedures are selected according to the predicted glide, climb, and landing performance",
+      "Limitations",
+      "Normal Procedures",
+      "Performance",
       "Emergency Procedures"
     ],
     "correctIndex": 3,
@@ -89,9 +89,9 @@
     "prompt": "A pilot is preparing for a normal cold start, taxi, run-up, takeoff, and landing. Which POH section is the normal primary reference?",
     "choices": [
       "Normal Procedures",
-      "Limitations, because start, taxi, and takeoff actions are operating limitations rather than procedures",
-      "Performance, because takeoff and landing actions are determined from charts before each flight",
-      "Emergency Procedures, because engine start and run-up are treated as abnormal until the airplane is airborne"
+      "Limitations",
+      "Performance",
+      "Emergency Procedures"
     ],
     "correctIndex": 0,
     "explanation": "Normal operating checklists and expanded procedures are found in the Normal Procedures section.",
@@ -108,10 +108,10 @@
     "type": "scenario",
     "prompt": "A pilot needs takeoff distance, climb rate, cruise, and landing performance for today’s conditions. Which POH section is most relevant?",
     "choices": [
-      "Normal Procedures, because the speeds used on the charts are incorporated into the checklists and make separate performance data unnecessary",
+      "Normal Procedures",
       "Performance",
-      "Limitations, because takeoff, climb, cruise, and landing numbers are mandatory operating limits",
-      "Weight and Balance, because all performance values can be derived from aircraft weight and CG without the performance section"
+      "Limitations",
+      "Weight and Balance"
     ],
     "correctIndex": 1,
     "explanation": "Aircraft performance charts/tables are in the Performance section.",
@@ -230,7 +230,7 @@
     "choices": [
       "An annual inspection guarantees airworthiness for twelve calendar months unless the pilot damages the aircraft",
       "Once the annual is current, other inspections and AD compliance are maintenance concerns that cannot affect dispatch legality",
-      "Current paperwork establishes airworthiness even if the pilot discovers a new defect, because maintenance has already returned the aircraft to service",
+      "Current paperwork establishes airworthiness even if the pilot discovers a new defect",
       "The aircraft may have developed defects, exceeded other inspection intervals, or become noncompliant after the annual"
     ],
     "correctIndex": 3,
@@ -331,7 +331,7 @@
       "Records show required inspections, AD compliance, maintenance entries, and status not visible during preflight",
       "The panel shows the current condition of all required systems, making logbook review useful mainly for resale or maintenance planning",
       "A current annual inspection entry is enough; individual AD and inspection records do not affect the pilot's airworthiness determination",
-      "Logbooks matter only when the aircraft has been modified, because routine inspection and maintenance status is carried on cockpit placards"
+      "Logbooks matter only when the aircraft has been modified"
     ],
     "correctIndex": 0,
     "explanation": "Airworthiness has both condition and records/compliance components.",
@@ -371,7 +371,7 @@
       "A checklist for any airplane in the same category/class is acceptable if the pilot knows the cockpit layout",
       "The manufacturer's newest checklist for the model should replace an older aircraft-specific checklist even if installed equipment differs",
       "Installed equipment, modifications, serial-number differences, and approved procedures can change required actions",
-      "Generic model checklists are preferable because they avoid differences created by optional equipment and local modifications"
+      "Generic model checklists are preferable"
     ],
     "correctIndex": 2,
     "explanation": "Aircraft-specific configuration and supplements can change normal and emergency procedures.",
@@ -388,7 +388,7 @@
     "type": "scenario",
     "prompt": "A pilot wants to calculate current usable load. Why must the current weight-and-balance/equipment information be used instead of factory brochure data?",
     "choices": [
-      "Factory brochure data remains valid because equipment changes affect empty weight but not useful load or loaded CG calculations",
+      "Factory brochure data remains valid",
       "Use the original type-certificate empty weight and add only occupants, baggage, and fuel; later avionics changes are too small to matter",
       "Current equipment data matters only for maximum gross weight; moment and empty CG remain fixed for the life of the airframe",
       "Equipment changes alter empty weight, moment, and useful load over the aircraft’s life"
@@ -469,7 +469,7 @@
     "prompt": "Why is the equipment list operationally useful beyond maintenance bookkeeping?",
     "choices": [
       "It lists only optional equipment for maintenance inventory; weights and arms are taken from the original factory empty-weight record",
-      "It identifies equipment but not configuration status, because installed changes are recorded only in maintenance logbooks",
+      "It identifies equipment but not configuration status",
       "It is useful only when calculating electrical load; loading calculations use occupant and fuel stations independent of installed equipment",
       "It identifies installed equipment and weights/moments, helping determine current configuration and loading data"
     ],
@@ -491,7 +491,7 @@
       "Check the approved AFM/POH limitations and markings, then distinguish mandatory limitations from advisory guidance",
       "Any speed printed in the POH is a limitation; recommended speeds appear only in training manuals and the AIM",
       "If a speed is marked on the instrument it is advisory, while speeds printed in normal procedures are mandatory limitations",
-      "Use the fastest value found among POH sections because performance recommendations take precedence over conservative limitation values"
+      "Use the fastest value found among POH sections"
     ],
     "correctIndex": 0,
     "explanation": "Aircraft documents identify approved limits, while other guidance may recommend techniques without changing legal limitations.",

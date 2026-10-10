@@ -9,9 +9,9 @@
     "prompt": "A pilot at altitude develops headache, euphoria, poor judgment, and increasing difficulty with simple tasks. What should be suspected first?",
     "choices": [
       "Hypoxia",
-      "Hyperventilation, because euphoria and poor judgment are caused by excessive carbon dioxide in the blood",
-      "Carbon monoxide exposure, because all altitude-related impairment is caused primarily by reduced hemoglobin capacity rather than low oxygen pressure",
-      "Decompression sickness, because headache and cognitive changes at altitude are the first sign of nitrogen bubbles in every unpressurized flight"
+      "Hyperventilation",
+      "Carbon monoxide exposure",
+      "Decompression sickness"
     ],
     "correctIndex": 0,
     "explanation": "Hypoxia often impairs judgment before the pilot fully recognizes the problem; symptoms can include headache, euphoria, visual changes, and poor coordination.",
@@ -88,10 +88,10 @@
     "type": "scenario",
     "prompt": "Carbon monoxide exposure is an example of which hypoxia mechanism?",
     "choices": [
-      "Hypemic hypoxia because hemoglobin’s oxygen-carrying capacity is reduced",
-      "Hypoxic hypoxia because the lungs receive too little oxygen partial pressure despite normal hemoglobin",
-      "Stagnant hypoxia because carbon monoxide slows blood flow through capillaries",
-      "Histotoxic hypoxia because carbon monoxide prevents tissue cells from chemically using oxygen that reaches them"
+      "Hypemic hypoxia",
+      "Hypoxic hypoxia",
+      "Stagnant hypoxia",
+      "Histotoxic hypoxia"
     ],
     "correctIndex": 0,
     "explanation": "Carbon monoxide binds strongly to hemoglobin and reduces the blood’s ability to carry oxygen.",
@@ -108,10 +108,10 @@
     "type": "scenario",
     "prompt": "A pilot with poor circulation from shock has oxygenated blood but inadequate blood flow to tissues. Which hypoxia type fits best?",
     "choices": [
-      "Hypoxic hypoxia because lung oxygen pressure is too low even though circulation is inadequate",
+      "Hypoxic hypoxia",
       "Stagnant hypoxia",
-      "Hypemic hypoxia because the blood contains too little hemoglobin to carry oxygen",
-      "Histotoxic hypoxia because shock prevents tissue cells from metabolizing available oxygen"
+      "Hypemic hypoxia",
+      "Histotoxic hypoxia"
     ],
     "correctIndex": 1,
     "explanation": "Stagnant hypoxia results when circulation is insufficient to deliver available oxygen effectively.",
@@ -128,10 +128,10 @@
     "type": "scenario",
     "prompt": "Alcohol can contribute to which hypoxia category by interfering with cells’ ability to use oxygen?",
     "choices": [
-      "Stagnant hypoxia because alcohol slows circulation and prevents oxygenated blood from reaching tissue",
-      "Hypoxic hypoxia because alcohol lowers cabin oxygen pressure through increased respiratory demand",
+      "Stagnant hypoxia",
+      "Hypoxic hypoxia",
       "Histotoxic hypoxia",
-      "Hypemic hypoxia because alcohol reduces the amount of hemoglobin available to bind oxygen"
+      "Hypemic hypoxia"
     ],
     "correctIndex": 2,
     "explanation": "Histotoxic hypoxia occurs when tissues cannot effectively use delivered oxygen; certain toxins and alcohol can contribute.",
@@ -148,9 +148,9 @@
     "type": "scenario",
     "prompt": "A pilot is anxious and breathing rapidly, then develops tingling, lightheadedness, and visual symptoms. What is a likely cause?",
     "choices": [
-      "Hypoxia only, because tingling and lightheadedness indicate inadequate oxygen rather than a breathing-rate problem",
-      "Carbon monoxide poisoning, because rapid breathing is the body's characteristic response to contaminated cabin air",
-      "Decompression sickness, because tingling after rapid breathing indicates nitrogen bubbles forming in the extremities",
+      "Hypoxia only",
+      "Carbon monoxide poisoning",
+      "Decompression sickness",
       "Hyperventilation"
     ],
     "correctIndex": 3,
@@ -188,7 +188,7 @@
     "type": "scenario",
     "prompt": "What is the recommended general response to suspected hyperventilation when oxygen is otherwise adequate?",
     "choices": [
-      "Descend immediately without changing breathing pattern, because altitude is the primary cause of hyperventilation symptoms",
+      "Descend immediately without changing breathing pattern",
       "Consciously slow and regulate breathing while reducing stress and workload; use oxygen if hypoxia cannot be ruled out",
       "Hold the breath repeatedly for long intervals until tingling stops, then resume normal breathing",
       "Breathe as deeply and rapidly as possible with supplemental oxygen so carbon dioxide can be expelled faster"
@@ -249,9 +249,9 @@
     "prompt": "A VFR pilot accidentally enters cloud and feels the airplane is turning even though the instruments show straight-and-level. What should the pilot trust?",
     "choices": [
       "Properly functioning flight instruments, not the vestibular sensation",
-      "The body sensation, because vestibular cues respond faster than gyroscopic instruments during an unexpected bank",
-      "Outside peripheral vision even when no natural horizon is visible, because visual sensation remains more reliable than instruments",
-      "The magnetic compass for bank direction and the altimeter for pitch, because attitude instruments are especially vulnerable in clouds"
+      "The body sensation",
+      "Outside peripheral vision even when no natural horizon is visible",
+      "The magnetic compass for bank direction and the altimeter for pitch"
     ],
     "correctIndex": 0,
     "explanation": "Without reliable visual references, the vestibular system can create powerful false sensations; instruments provide the dependable attitude reference.",
@@ -329,9 +329,9 @@
     "prompt": "A dark night approach is made over featureless terrain with few lights. Which illusion can cause the pilot to fly too low?",
     "choices": [
       "Black-hole approach illusion",
-      "Runway-width illusion, because a dark surrounding area makes the runway appear narrower than it really is",
-      "False-horizon illusion, because the runway lights blend with the horizon and make the airplane appear banked",
-      "Autokinesis, because isolated runway lights appear to move downward and lead the pilot to lower the approach"
+      "Runway-width illusion",
+      "False-horizon illusion",
+      "Autokinesis"
     ],
     "correctIndex": 0,
     "explanation": "Without normal peripheral visual cues, a pilot can perceive being high and descend below a safe glidepath.",
@@ -348,7 +348,7 @@
     "type": "scenario",
     "prompt": "A runway is much narrower than the pilot is used to. What visual illusion may occur on final?",
     "choices": [
-      "The pilot may perceive excess crosswind because the runway edges converge more rapidly than on a familiar runway",
+      "The pilot may perceive excess crosswind",
       "The pilot may perceive being higher than actual and fly a lower-than-normal approach",
       "The pilot may perceive being lower than actual and fly a higher-than-normal approach",
       "The pilot may perceive the runway as shorter, causing an earlier flare but no systematic glidepath error"
@@ -409,9 +409,9 @@
     "prompt": "What is autokinesis?",
     "choices": [
       "A stationary light viewed in darkness can appear to move after prolonged fixation",
-      "A moving light can appear stationary in darkness because peripheral vision suppresses motion cues",
+      "A moving light can appear stationary in darkness",
       "A bright light can appear farther away than a dim light, causing pilots to misjudge runway distance",
-      "Two stationary lights can appear to merge into one because rod vision has poor color discrimination"
+      "Two stationary lights can appear to merge into one"
     ],
     "correctIndex": 0,
     "explanation": "Without surrounding visual references, small involuntary eye movements can make a fixed light seem to move.",
@@ -448,7 +448,7 @@
     "type": "scenario",
     "prompt": "Why is off-center viewing useful at night?",
     "choices": [
-      "Peripheral viewing improves color identification at night because cones become more sensitive away from the center of vision",
+      "Peripheral viewing improves color identification at night",
       "Off-center viewing prevents dark adaptation from being lost when the pilot looks at illuminated instruments",
       "The retina’s rod cells, which are more sensitive in dim light, are concentrated away from the fovea",
       "The fovea contains the greatest concentration of rods, so looking slightly away places the image on more light-sensitive cone cells"
@@ -591,7 +591,7 @@
       "Rely on experience to distinguish harmless sensations from dangerous ones; conservative action is needed mainly when symptoms become severe enough to impair control",
       "Use a disciplined fitness check before flight, recognize early physiological/visual-disorientation symptoms, and take conservative action before impairment erodes the ability to decide",
       "Use physiological symptoms mainly after takeoff; preflight fitness can be inferred from whether the pilot meets medical-certificate requirements",
-      "If symptoms are mild and no regulation prohibits flight, continue while monitoring because early diversion can create additional workload and risk"
+      "If symptoms are mild and no regulation prohibits flight, continue while monitoring"
     ],
     "correctIndex": 1,
     "explanation": "Day-of-flight fitness and symptom recognition are continuous pilot responsibilities, regardless of certificate status.",

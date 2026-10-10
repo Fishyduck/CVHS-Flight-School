@@ -28,10 +28,10 @@
     "type": "scenario",
     "prompt": "A pilot notices lowering ceilings ahead and thinks, “I have already flown this far, so I should keep going.” Which decision error is most important to recognize?",
     "choices": [
-      "The pilot is showing anti-authority because continuing rejects the original weather forecast rather than an FAA rule",
+      "An anti-authority attitude toward established guidance and procedures",
       "A sunk-cost or continuation bias reinforced by external pressure",
-      "Plan-continuation bias is not involved because the pilot has new weather information; the issue is primarily impulsivity",
-      "The pilot is showing resignation because the flight has already progressed beyond the point where turning back is practical"
+      "An impulsive reaction to newly encountered weather information",
+      "A resignation attitude that makes turning back seem impractical"
     ],
     "correctIndex": 1,
     "explanation": "Past time or effort does not improve future weather. Good ADM reassesses the current situation and preserves safe alternatives.",
@@ -70,7 +70,7 @@
     "choices": [
       "Continue hand-flying while completing the entire reroute immediately so the navigation system matches the clearance as soon as possible",
       "Transfer control to the autopilot and begin programming without first confirming that the autopilot is correctly engaged and stable",
-      "Reject every reroute issued in turbulence because navigation programming should never be performed while airborne",
+      "Reject every reroute issued in turbulence",
       "Stabilize the airplane, manage workload, use available resources, and delay or simplify programming until it can be done safely"
     ],
     "correctIndex": 3,
@@ -108,10 +108,10 @@
     "type": "scenario",
     "prompt": "After evaluating a risk, a pilot decides to delay departure until a front passes. In the 3P model, this is primarily which step?",
     "choices": [
-      "Evaluate, because the pilot is comparing the new departure time with the original plan",
+      "Evaluate",
       "Perform",
-      "Perceive, because the pilot has noticed the weather system",
-      "Process, because delaying the flight is an evaluation of risk"
+      "Perceive",
+      "Process"
     ],
     "correctIndex": 1,
     "explanation": "Choosing and implementing a safer course of action is the Perform step.",
@@ -128,10 +128,10 @@
     "type": "scenario",
     "prompt": "A pilot is tempted to depart with a known maintenance discrepancy because “it will probably be fine.” Which part of the CARE checklist most directly challenges that rationalization?",
     "choices": [
-      "Reality only, because CARE is used to decide whether the discrepancy actually exists",
-      "Alternatives only, because any substitute transportation automatically makes the aircraft safe to dispatch",
+      "Reality only",
+      "Alternatives only",
       "Consequences and Reality",
-      "Alternatives and External Factors, because another airplane or schedule could remove the discrepancy"
+      "Alternatives and External Factors"
     ],
     "correctIndex": 2,
     "explanation": "CARE asks the pilot to examine Consequences, Alternatives, Reality, and External factors. “Probably fine” should trigger a realistic reassessment of the actual hazard and consequences.",
@@ -148,9 +148,9 @@
     "type": "scenario",
     "prompt": "A pilot recognizes a hazard that cannot be eliminated and chooses a route that keeps the airplane near suitable diversion airports. Under TEAM, what risk-control strategy is this?",
     "choices": [
-      "Accept, because the pilot still intends to complete the flight with the hazard present",
-      "Eliminate, because choosing a different route removes every consequence of the original hazard",
-      "Transfer, because diversion airports transfer responsibility for the flight to another pilot or facility",
+      "Accept",
+      "Eliminate",
+      "Transfer",
       "Mitigate"
     ],
     "correctIndex": 3,
@@ -188,10 +188,10 @@
     "type": "scenario",
     "prompt": "A pilot thinks, “I have flown in worse weather and nothing happened, so this will be fine.” Which hazardous attitude is most evident?",
     "choices": [
-      "Resignation, because the pilot assumes the weather outcome is already determined by prior experience",
+      "Resignation",
       "Invulnerability",
-      "Anti-authority, because the pilot is rejecting conservative guidance based on personal experience",
-      "Macho, because the pilot wants to demonstrate superior skill by continuing in poor weather"
+      "Anti-authority",
+      "Macho"
     ],
     "correctIndex": 1,
     "explanation": "Invulnerability is the belief that accidents happen to others rather than oneself; prior success does not eliminate current risk.",
@@ -208,10 +208,10 @@
     "type": "scenario",
     "prompt": "A pilot is behind schedule and makes a quick fuel decision without checking the numbers because “we need to go now.” Which hazardous attitude is most evident?",
     "choices": [
-      "Anti-authority, because the pilot is ignoring a formal fuel rule rather than failing to think through the decision",
-      "Invulnerability, because the pilot believes fuel planning errors happen only to other pilots",
+      "Anti-authority",
+      "Invulnerability",
       "Impulsivity",
-      "Macho, because the pilot is trying to prove the flight can be completed despite time pressure"
+      "Macho"
     ],
     "correctIndex": 2,
     "explanation": "Impulsivity is the urge to act immediately without adequate thought.",
@@ -228,9 +228,9 @@
     "type": "scenario",
     "prompt": "A pilot accepts a demanding approach mainly to prove capability to passengers. Which hazardous attitude is most evident?",
     "choices": [
-      "Invulnerability, because the pilot assumes an accident cannot occur on the approach",
-      "Anti-authority, because accepting the approach rejects the safer expectations of the passengers",
-      "Impulsivity, because the defining error is making the decision before gathering any weather or runway information",
+      "Invulnerability",
+      "Anti-authority",
+      "Impulsivity",
       "Macho"
     ],
     "correctIndex": 3,
@@ -249,9 +249,9 @@
     "prompt": "A pilot encounters a worsening situation and says, “There is nothing I can do now.” Which hazardous attitude is most evident?",
     "choices": [
       "Resignation",
-      "Invulnerability, because the pilot assumes the hazardous situation cannot cause harm",
-      "Impulsivity, because the pilot is acting too quickly rather than giving up on available actions",
-      "Anti-authority, because the pilot is rejecting guidance from ATC or the aircraft checklist"
+      "Invulnerability",
+      "Impulsivity",
+      "Anti-authority"
     ],
     "correctIndex": 0,
     "explanation": "Resignation is the tendency to believe outcomes are beyond one’s control; the antidote is to recognize that useful action is often possible.",
@@ -271,7 +271,7 @@
       "Reducing risk only until the flight becomes legal; additional personal margins are unnecessary once regulations are satisfied",
       "Reducing the likelihood or severity of hazards to an acceptable level while preserving alternatives",
       "Avoiding every flight that contains any identifiable hazard, even when the residual risk could be managed",
-      "Continuing whenever the probability of an accident appears low, because risk management focuses on likelihood rather than severity"
+      "Continuing whenever the probability of an accident appears low"
     ],
     "correctIndex": 1,
     "explanation": "Aviation always contains some risk. Risk management identifies hazards and reduces their probability or severity to an acceptable level.",
@@ -288,10 +288,10 @@
     "type": "scenario",
     "prompt": "A pilot discovers the destination runway is unexpectedly closed after departure. In the DECIDE model, recognizing that change is which step?",
     "choices": [
-      "Choose, because the pilot should immediately select the nearest alternate airport",
-      "Identify, because the pilot has already decided the desired outcome is to avoid the closed runway",
+      "Choose",
+      "Identify",
       "Detect",
-      "Estimate, because the pilot must determine whether the runway closure requires a change"
+      "Estimate"
     ],
     "correctIndex": 2,
     "explanation": "DECIDE begins by detecting that a change has occurred.",
@@ -331,7 +331,7 @@
       "Risk management is continuous and the outcome of a decision must be reevaluated",
       "A sound decision is complete once a safer alternate has been selected; continued monitoring is mainly an ATC function",
       "Reassessment is needed only when the diversion airport also becomes unavailable or the pilot declares an emergency",
-      "The original risk assessment remains controlling after a diversion because changing the plan has already reduced the dominant hazard"
+      "The original risk assessment remains controlling after a diversion"
     ],
     "correctIndex": 0,
     "explanation": "Conditions continue to change. Good ADM includes evaluating whether the chosen action is working and reassessing new hazards.",
@@ -348,10 +348,10 @@
     "type": "scenario",
     "prompt": "A passenger repeatedly pressures the pilot to continue because of hotel reservations. Under the 5P model, this pressure belongs most directly to which “P”?",
     "choices": [
-      "Programming, because changing the trip to satisfy the passenger requires replanning the navigation system",
+      "Programming",
       "Passengers",
-      "Plan, because the hotel reservation affects the destination and timing of the flight",
-      "Pilot, because the pressure changes the pilot's emotional state and therefore belongs entirely under personal fitness"
+      "Plan",
+      "Pilot"
     ],
     "correctIndex": 1,
     "explanation": "Passengers can create operational pressure and are specifically considered in the 5P check.",
@@ -369,7 +369,7 @@
     "prompt": "A pilot is flying a technically advanced aircraft but is unfamiliar with the avionics menu structure. Which conclusion best reflects SRM?",
     "choices": [
       "Automation unfamiliarity is mainly an equipment risk; it does not affect pilot workload if the GPS database is current",
-      "The pilot should depend more heavily on automation when unfamiliar with it because the system can compensate for limited procedural knowledge",
+      "The pilot should depend more heavily on automation when unfamiliar with it",
       "Unfamiliar automation can add workload and should lead to more conservative planning and earlier programming",
       "Advanced avionics always reduce workload, so unfamiliar menus are acceptable if the pilot programs them before the approach"
     ],
@@ -388,9 +388,9 @@
     "type": "scenario",
     "prompt": "A pilot has several safe alternatives but feels embarrassed about turning back. Which type of risk factor is most directly influencing the decision?",
     "choices": [
-      "Environment, because embarrassment is caused by other people and therefore belongs with outside operating conditions",
-      "Passengers, because all social pressure is classified under the passenger element of the 5P model",
-      "Plan, because the desire to avoid embarrassment is part of completing the planned route rather than an external influence",
+      "Environment",
+      "Passengers",
+      "Plan",
       "External pressure"
     ],
     "correctIndex": 3,
@@ -428,10 +428,10 @@
     "type": "scenario",
     "prompt": "A pilot is uncertain about a maintenance discrepancy and calls a mechanic or chief flight instructor before deciding. Under TEAM, which strategy is represented?",
     "choices": [
-      "Eliminate, because asking another person removes the hazard from the aircraft",
+      "Eliminate",
       "Transfer",
-      "Accept, because the pilot accepts that the discrepancy exists before seeking advice",
-      "Mitigate, because discussing the discrepancy reduces its mechanical severity"
+      "Accept",
+      "Mitigate"
     ],
     "correctIndex": 1,
     "explanation": "Transferring a risk decision means involving a person with appropriate expertise or authority when that improves the decision.",
@@ -491,7 +491,7 @@
       "Divert early to a suitable airport while choices remain plentiful",
       "Continue toward the destination until the fuel reserve reaches the legal minimum, then divert to the nearest airport",
       "Select the closest airport immediately even if weather, runway, services, or terrain make another nearby option safer",
-      "Continue as planned because having several alternates means the risk is controlled as long as one remains reachable"
+      "Continue as planned"
     ],
     "correctIndex": 0,
     "explanation": "Early action preserves time, fuel, airports, and weather alternatives. Waiting usually narrows options and raises risk.",
@@ -510,7 +510,7 @@
     "choices": [
       "Turn off the failed equipment immediately without confirming whether it supports any critical navigation, communication, or flight information",
       "Prioritize aircraft control and situational awareness before lower-priority troubleshooting",
-      "Complete the troubleshooting quickly because restoring avionics reduces workload for the remainder of the flight",
+      "Complete the troubleshooting quickly",
       "Continue diagnosing the problem while using the autopilot to hold altitude and heading, even if the pilot has not verified its operation"
     ],
     "correctIndex": 1,
@@ -550,7 +550,7 @@
     "choices": [
       "It strengthens commitment to the original plan by proving that alternatives have been considered and rejected in advance",
       "It reduces workload by allowing the pilot to select one preferred option before gathering additional information",
-      "It prevents sunk-cost bias because listing alternatives makes previous time and money irrelevant to every later decision",
+      "It prevents sunk-cost bias",
       "It counters confirmation bias by forcing consideration of evidence against the preferred plan"
     ],
     "correctIndex": 3,
@@ -570,7 +570,7 @@
     "choices": [
       "A favorable outcome does not validate the quality of the decision; the risk process should be reviewed independently of luck",
       "The safe outcome shows the risk estimate was probably conservative and the same choice is more defensible next time",
-      "The result should be weighted more heavily than the original information because real-world success is stronger evidence than a risk model",
+      "The result should be weighted more heavily than the original information",
       "The decision is validated if no rule was broken and no corrective action was required during the flight"
     ],
     "correctIndex": 0,

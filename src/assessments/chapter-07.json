@@ -31,7 +31,7 @@
       "The alternator powers only avionics; a separate engine-driven generator normally supplies the ignition system",
       "The magnetos provide ignition independently of the main electrical system",
       "The battery supplies enough ignition energy to the spark plugs even after the alternator stops charging",
-      "The engine continues because a mechanical fuel pump also generates the ignition spark independently of electricity"
+      "The engine continues"
     ],
     "correctIndex": 1,
     "explanation": "Engine-driven magnetos generate ignition energy independently, so a main electrical failure does not normally stop a conventional magneto-ignition engine.",
@@ -48,7 +48,7 @@
     "type": "scenario",
     "prompt": "A carbureted engine begins running rough with a gradual RPM loss in conditions favorable for carburetor icing. What is the most likely mechanism?",
     "choices": [
-      "Fuel freezes in the lines because carburetor temperature drops below the fuel's freezing point",
+      "Fuel freezes in the lines",
       "Induction icing increases airflow and leans the mixture until combustion becomes too weak to maintain RPM",
       "Ice restricts airflow in the carburetor and disturbs the fuel-air mixture",
       "Ice forms on the outside of the carburetor and mechanically prevents the throttle plate from moving"
@@ -69,7 +69,7 @@
     "prompt": "Why can carburetor ice form when outside air temperature is above freezing?",
     "choices": [
       "Carburetor pressure is higher than ambient, so compression heating can later be followed by rapid icing",
-      "Only high humidity matters; temperature can be well above freezing because ice forms from frozen fuel droplets rather than water",
+      "Only high humidity matters; temperature can be well above freezing",
       "The venturi and fuel vaporization can raise air temperature first, causing moisture to condense and freeze downstream",
       "Vaporization and pressure drop in the carburetor can lower internal temperature substantially below ambient"
     ],
@@ -208,7 +208,7 @@
     "type": "scenario",
     "prompt": "A pilot suspects detonation or excessive cylinder temperature in climb. Which general response reduces the condition?",
     "choices": [
-      "Close cowl flaps to reduce drag and richen only if RPM decreases, because excess cooling can worsen detonation",
+      "Close cowl flaps to reduce drag and richen only if RPM decreases",
       "Maintain the same power and airspeed; detonation normally clears on its own as cylinder temperature stabilizes",
       "Reduce engine stress according to the POH—such as lowering power/increasing cooling airflow and correcting mixture as applicable",
       "Increase power to shorten the time the engine spends at high temperature, then lean aggressively for cleaner combustion"
@@ -250,7 +250,7 @@
     "choices": [
       "A potentially serious lubrication-system problem requiring prompt action under the aircraft checklist",
       "A normal indication caused by rapid cooling; lower oil pressure and higher temperature often occur together after leveling off",
-      "A likely electrical-instrument problem because true oil pressure cannot fall while temperature rises",
+      "A likely electrical-instrument problem",
       "An indication that the oil is becoming less viscous but lubrication remains adequate as long as engine RPM is stable"
     ],
     "correctIndex": 0,
@@ -368,8 +368,8 @@
     "type": "scenario",
     "prompt": "An alternator fails at night. What is the key energy-management issue?",
     "choices": [
-      "Engine ignition will stop as soon as battery voltage falls because the magnetos depend on bus power for spark timing",
-      "Landing can be delayed if the engine remains smooth, because radios and lights draw power only when transmitting or illuminated",
+      "Engine ignition will stop as soon as battery voltage falls",
+      "Landing can be delayed if the engine remains smooth",
       "The battery becomes a finite source powering essential electrical loads, so load shedding and landing planning become important",
       "The battery will continue at full output until it is suddenly empty, so load shedding has little value before voltage drops to zero"
     ],
@@ -409,9 +409,9 @@
     "prompt": "Why is repeatedly resetting a circuit breaker generally unsafe unless the checklist specifically directs it?",
     "choices": [
       "A tripped breaker may indicate a fault; repeated resets can overheat wiring or feed a fire",
-      "A breaker should be reset repeatedly until it stays closed because each reset helps identify whether the fault is temporary",
+      "A breaker should be reset repeatedly until it stays closed",
       "A tripped breaker always means the connected equipment has failed open, so resetting cannot increase fire risk",
-      "Resetting is harmless below maximum bus voltage because circuit protection will immediately prevent any dangerous current"
+      "Resetting is harmless below maximum bus voltage"
     ],
     "correctIndex": 0,
     "explanation": "A breaker can trip because of a real electrical fault. Re-energizing the fault may worsen damage or fire risk.",
@@ -451,7 +451,7 @@
       "Starvation is caused only by vapor in fuel lines, while exhaustion includes any interruption from tank selection or pump failure",
       "The terms are interchangeable; both describe any engine stoppage caused by insufficient fuel flow",
       "Starvation means fuel is aboard but not reaching the engine; exhaustion means usable fuel has been consumed",
-      "Starvation means the tanks are empty; exhaustion means fuel remains but is unavailable because of system configuration"
+      "Starvation means the tanks are empty; exhaustion means fuel remains but is unavailable"
     ],
     "correctIndex": 2,
     "explanation": "The distinction matters during troubleshooting and prevention: one is delivery/configuration, the other is lack of usable fuel.",
@@ -511,7 +511,7 @@
       "Contaminants normally remain suspended in fuel, so sampling from low points is useful only immediately after refueling",
       "Water or contaminants can settle at low points and interrupt safe engine operation",
       "Sumping verifies the fuel grade by color only; water is lighter than avgas and normally floats above the sample point",
-      "Drain samples are mainly to measure fuel temperature because cold fuel can cause vapor lock after takeoff"
+      "Drain samples are mainly to measure fuel temperature"
     ],
     "correctIndex": 1,
     "explanation": "Fuel samples help detect water, sediment, and wrong fuel at system low points before they reach the engine.",
@@ -550,7 +550,7 @@
     "choices": [
       "Because the alternator and battery are not involved in ignition, all electrically powered equipment will continue normally as long as the engine runs",
       "An electrical failure is primarily a communication inconvenience; any flight-critical pump or instrument must have a mechanical backup by certification",
-      "The magnetos keep both the engine and avionics operating because their ignition energy is distributed through the aircraft electrical buses",
+      "The magnetos keep both the engine and avionics operating",
       "An electrical-system failure may leave the engine running while removing important instruments, pumps, lights, or avionics, so the checklist and system knowledge matter"
     ],
     "correctIndex": 3,
@@ -588,7 +588,7 @@
     "type": "scenario",
     "prompt": "What is the best operational summary of aircraft-systems knowledge?",
     "choices": [
-      "Focus on the engine because secondary systems rarely affect the ability to continue a VFR flight in a light airplane",
+      "Focus on the engine",
       "Know what each system needs to function, how failure will present, what indications confirm it, and what the POH directs you to do",
       "Memorize the name and location of every component; failure diagnosis can then be made without consulting the checklist",
       "Know which circuit breaker or switch controls each system so any abnormal indication can be corrected by cycling power until it clears"

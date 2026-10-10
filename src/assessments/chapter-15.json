@@ -9,7 +9,7 @@
     "prompt": "A VFR pilot plans to enter Class B airspace. What must happen before entry?",
     "choices": [
       "An explicit ATC clearance into the Class B must be received",
-      "Two-way radio communication with ATC and an assigned transponder code are sufficient; the word 'cleared' is not required",
+      "Two-way radio communication with ATC and an assigned transponder code are sufficient",
       "The pilot may enter after establishing radar contact if remaining VFR and below the Class B primary airport traffic flow",
       "A flight-following handoff to the Class B controller constitutes entry authorization even without an explicit Class B clearance"
     ],
@@ -108,10 +108,10 @@
     "type": "scenario",
     "prompt": "What is Class G airspace?",
     "choices": [
-      "A class of controlled airspace below Class E where radio communication is optional but ATC separation remains available",
+      "Controlled airspace with optional radio contact",
       "Uncontrolled airspace",
-      "Airspace in which ATC services are advisory but all VFR weather and equipment rules are identical to Class E",
-      "Airspace outside federal jurisdiction in which normal operating regulations do not apply"
+      "Advisory-only airspace with Class E weather rules",
+      "Airspace outside ATC radar coverage"
     ],
     "correctIndex": 1,
     "explanation": "Class G is airspace not designated as controlled airspace; VFR weather minima and services differ by altitude/time/location.",
@@ -129,7 +129,7 @@
     "prompt": "Why do VFR cloud-clearance and visibility requirements vary by airspace and altitude?",
     "choices": [
       "They are based primarily on terrain and obstacle density, so mountainous areas require greater cloud distances in every airspace class",
-      "They vary to account for airport runway length and traffic volume; altitude matters mainly because oxygen requirements also change",
+      "They vary to account for airport runway length and traffic volume; altitude matters mainly",
       "They provide different time-and-distance margins for see-and-avoid based on traffic environment and expected aircraft speeds",
       "They reflect whether ATC is providing radar service; aircraft with radar service may use reduced visibility and cloud clearances"
     ],
@@ -149,7 +149,7 @@
     "prompt": "A pilot is exactly at a cloud-clearance minimum but visibility is deteriorating and terrain is rising. Is continuing automatically a good decision?",
     "choices": [
       "Yes; once all regulatory weather minima are met, continuing is presumptively safe unless a specific hazard is prohibited by regulation",
-      "Yes if the pilot remains in controlled airspace and receives flight following, because terrain and traffic risks are then managed by ATC",
+      "Yes if the pilot remains in controlled airspace and receives flight following",
       "No only if visibility falls below the pilot's personal minimum; terrain and trend do not materially change risk while the legal minima are maintained",
       "No; regulatory minima are not personal safety margins, and terrain, proficiency, weather trend, and escape options must also be considered"
     ],
@@ -388,9 +388,9 @@
     "type": "scenario",
     "prompt": "A dashed blue line surrounds an airport on a sectional. What does it generally depict?",
     "choices": [
-      "A Class C surface area",
-      "A Class E surface area beginning at the surface",
-      "The lateral boundary of Class B airspace below its outer shelf",
+      "Class C surface area",
+      "Class E surface area",
+      "Class B lateral boundary",
       "Class D airspace"
     ],
     "correctIndex": 3,
@@ -409,9 +409,9 @@
     "prompt": "Solid blue concentric boundaries around a major airport generally depict what?",
     "choices": [
       "Class B airspace",
-      "Class C airspace surrounding a radar approach-control airport",
-      "A prohibited or restricted area boundary associated with a major metropolitan airport",
-      "A Mode C veil that requires transponder/ADS-B equipment but no Class B clearance"
+      "Class C airspace",
+      "Prohibited or restricted airspace",
+      "Mode C veil"
     ],
     "correctIndex": 0,
     "explanation": "Class B is charted with solid blue lines.",
@@ -428,10 +428,10 @@
     "type": "scenario",
     "prompt": "Solid magenta boundaries around an airport generally depict what?",
     "choices": [
-      "Class E airspace beginning at 700 feet AGL around an airport",
+      "Class E airspace at 700 feet AGL",
       "Class C airspace",
-      "Class B airspace around a major hub airport",
-      "Class D airspace around a towered airport"
+      "Class B airspace",
+      "Class D airspace"
     ],
     "correctIndex": 1,
     "explanation": "Class C is typically charted with solid magenta boundaries.",
@@ -449,7 +449,7 @@
     "prompt": "Why is knowing both airspace class and altitude essential before a VFR flight?",
     "choices": [
       "Altitude changes weather minima and oxygen rules but not communication, transponder, ADS-B, or airspace-entry requirements",
-      "Airspace altitude limits matter only to IFR pilots because VFR aircraft may remain clear of clouds anywhere within controlled airspace",
+      "Airspace altitude limits matter only to IFR pilots",
       "Communication/equipment requirements and weather minima can change when crossing a floor, ceiling, or time/altitude threshold",
       "Only the class matters; once it is identified on the chart, its communication and weather requirements are the same at every altitude"
     ],
@@ -490,7 +490,7 @@
     "choices": [
       "Special procedures, training, equipment, routing, or clearances may apply beyond ordinary class-of-airspace rules",
       "Ordinary VFR rules always control unless ATC specifically issues a clearance that mentions the special area by name",
-      "Special procedures apply only to IFR aircraft because VFR flight remains governed by see-and-avoid and standard class-of-airspace rules",
+      "Special procedures apply only to IFR aircraft",
       "The pilot may rely on GPS alerts to identify every special requirement; separate training or procedure review is unnecessary if the route is displayed as clear"
     ],
     "correctIndex": 0,
@@ -550,7 +550,7 @@
     "choices": [
       "ATC assumes responsibility for traffic avoidance once the aircraft is radar identified, while the pilot retains only terrain and weather responsibility",
       "Responsibility is shared equally; the pilot may rely on an ATC traffic call instead of visual separation if radar contact is maintained",
-      "The IFR aircraft have primary see-and-avoid responsibility because VFR traffic receiving advisories is not assigned a protected altitude",
+      "The IFR aircraft have primary see-and-avoid responsibility",
       "The pilot remains responsible for see-and-avoid even while receiving advisories"
     ],
     "correctIndex": 3,

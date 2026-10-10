@@ -9,8 +9,8 @@
     "prompt": "During a preflight inspection, a pilot finds a pronounced wrinkle in stressed fuselage skin near a structural attachment point. Why should this be treated seriously?",
     "choices": [
       "In semimonocoque construction, skin and internal members share structural loads, so deformation can indicate compromised load paths",
-      "Skin wrinkling is important mainly because it increases parasite drag; the internal structure normally carries the fuselage loads independently",
-      "A wrinkle near an attachment point is acceptable if no rivets are missing, because stressed skin is not part of the primary load path",
+      "Skin wrinkling is important mainly",
+      "A wrinkle near an attachment point is acceptable if no rivets are missing",
       "The wrinkle indicates only local paint or skin finish damage unless the fuselage frame itself is visibly cracked"
     ],
     "correctIndex": 0,
@@ -28,10 +28,10 @@
     "type": "scenario",
     "prompt": "A wing inspection reveals damage to a primary spanwise structural member. Which component is most likely involved?",
     "choices": [
-      "Bulkhead, because wing bending loads are carried primarily by transverse fuselage members",
+      "Bulkhead",
       "Spar",
-      "Rib, because ribs are the principal spanwise members that carry wing bending loads",
-      "Stringer, because stringers form the main wing beam from root to tip"
+      "Rib",
+      "Stringer"
     ],
     "correctIndex": 1,
     "explanation": "Wing spars are principal spanwise load-carrying members.",
@@ -70,7 +70,7 @@
     "choices": [
       "Compartment limits matter only for center of gravity; if total weight and CG are legal, the local structure cannot be overloaded",
       "Baggage limits are primarily intended to preserve cabin ventilation and emergency egress rather than structural strength",
-      "Local limits can be exceeded only when the airplane is above maximum gross weight, because structural certification uses total airplane load",
+      "Local limits can be exceeded only when the airplane is above maximum gross weight",
       "Local structure has design load limits, so a legal total weight can still overload a specific compartment or attachment area"
     ],
     "correctIndex": 3,
@@ -89,9 +89,9 @@
     "prompt": "An airplane experiences a strong upward gust. Which structural stress is the wing spar primarily designed to resist as lift bends the wings upward?",
     "choices": [
       "Bending",
-      "Compression only, because upward lift shortens the spar uniformly along its span",
-      "Torsion only, because lift twists the wing but does not create a major bending moment",
-      "Shear only, because the spar web carries vertical load while the spar caps are essentially unloaded in a gust"
+      "Compression only",
+      "Torsion only",
+      "Shear only"
     ],
     "correctIndex": 0,
     "explanation": "Lift loads create significant bending moments in the wing structure.",
@@ -108,10 +108,10 @@
     "type": "scenario",
     "prompt": "A control cable is pulled from both ends during operation. Which basic structural stress is acting in the cable?",
     "choices": [
-      "Torsion, because cable strands twist under load even when the primary force is axial",
+      "Torsion",
       "Tension",
-      "Compression, because both cable ends are being pulled toward the center of the cable",
-      "Shear, because tension cables transmit load by sliding adjacent strands past one another"
+      "Compression",
+      "Shear"
     ],
     "correctIndex": 1,
     "explanation": "A cable carrying a pulling load is primarily in tension.",
@@ -128,10 +128,10 @@
     "type": "scenario",
     "prompt": "A tubular landing-gear member is twisted about its long axis during an abnormal side load. Which stress best describes that loading?",
     "choices": [
-      "Compression, because the abnormal side load pushes the member toward the fuselage",
-      "Shear, because twisting about the long axis produces only sliding stress across one attachment plane",
+      "Compression",
+      "Shear",
       "Torsion",
-      "Bending, because any sideways force on a landing gear member is classified as a bending load"
+      "Bending"
     ],
     "correctIndex": 2,
     "explanation": "Twisting about a member’s longitudinal axis is torsion.",
@@ -148,9 +148,9 @@
     "type": "scenario",
     "prompt": "Two joined structural parts tend to slide past each other along their attachment plane. Which stress is most relevant?",
     "choices": [
-      "Tension, because the fasteners are pulled lengthwise as the parts move in opposite directions",
-      "Torsion, because the parts rotate relative to one another around the joint",
-      "Compression, because the adjoining surfaces press together while trying to slide",
+      "Tension",
+      "Torsion",
+      "Compression",
       "Shear"
     ],
     "correctIndex": 3,
@@ -188,7 +188,7 @@
     "type": "scenario",
     "prompt": "A composite surface is struck during ground handling but shows little external damage. Why may further inspection still be necessary?",
     "choices": [
-      "Internal delamination is mainly a cosmetic issue because the fibers, not the bonded layers, carry all structural loads",
+      "Internal delamination is mainly a cosmetic issue",
       "Composite structures can sustain hidden internal damage such as delamination",
       "Composite damage is normally visible as a permanent dent, so an undented surface can be returned to service after a tap check by the pilot",
       "Composite skins are flexible enough to absorb impact without hidden structural damage as long as the paint remains intact"
@@ -291,7 +291,7 @@
       "Hinge play affects only cockpit feel; aerodynamic control-surface position remains unchanged in flight",
       "Loose hinges are acceptable if the surface reaches full travel during the control check and no cable slack is visible",
       "Excessive looseness can alter control-surface movement and may indicate worn or damaged attachment hardware",
-      "A small amount of hinge play is desirable because it prevents control binding as aerodynamic loads increase"
+      "A small amount of hinge play is desirable"
     ],
     "correctIndex": 2,
     "explanation": "Control-surface hinges and attachments transmit aerodynamic loads and must operate within approved condition and limits.",
@@ -331,7 +331,7 @@
       "Its CG is behind the main gear, so inertia can amplify the turn into a ground loop",
       "The CG is ahead of the main gear, so inertia tends to rotate the nose back into the direction of travel",
       "The tailwheel creates a strong aerodynamic weather-vane force that grows faster than rudder effectiveness during rollout",
-      "The yaw grows mainly because differential braking shifts the aircraft CG laterally outside the landing-gear track"
+      "The yaw grows mainly"
     ],
     "correctIndex": 0,
     "explanation": "The CG-aft-of-main-gear geometry of conventional gear can make ground directional deviations dynamically unstable.",
@@ -428,7 +428,7 @@
     "type": "scenario",
     "prompt": "During turbulence, why is it important to remain within aircraft speed and load limitations even if no visible damage occurs?",
     "choices": [
-      "Turbulence loads are self-limiting because the wing will always stall before any structural limit can be exceeded at any airspeed",
+      "Turbulence loads are self-limiting",
       "Structural loads can exceed design limits before damage becomes obvious",
       "Visible damage always appears before the airframe reaches a certified load limit, so limitations are mainly for passenger comfort",
       "The published limitations protect only against permanent deformation; fatigue and hidden damage do not occur below those values"
@@ -570,7 +570,7 @@
     "choices": [
       "Pilots must recognize discrepancies during preflight and understand how loading and operation can stress the airframe",
       "Structural knowledge is mainly useful after an accident; normal preflight discrepancies can be left entirely to scheduled maintenance",
-      "Pilots need only know visible exterior parts because internal load paths and loading limits do not affect operational decisions",
+      "Pilots need only know visible exterior parts",
       "A mechanic's inspection transfers structural responsibility to maintenance until the next required inspection, so pilot structural knowledge adds little safety value"
     ],
     "correctIndex": 0,

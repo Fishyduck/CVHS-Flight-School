@@ -28,7 +28,7 @@
     "type": "scenario",
     "prompt": "A pilot flies from cool dense air into hot high-altitude conditions. What aerodynamic/engine consequence should be anticipated?",
     "choices": [
-      "Lower density reduces wing lift but increases normally aspirated engine power because there is less pumping resistance",
+      "Lower density reduces wing lift but increases normally aspirated engine power",
       "Lower air density reduces wing, propeller, and engine performance",
       "Lower density improves propeller efficiency and wing lift but reduces only engine cooling capacity",
       "Lower density reduces engine power but leaves wing and propeller performance unchanged at the same indicated airspeed"
@@ -68,9 +68,9 @@
     "type": "scenario",
     "prompt": "As airflow passes through the throat of a venturi and speeds up, what generally happens to static pressure?",
     "choices": [
-      "It increases because the faster air molecules strike the venturi wall with greater force",
-      "It remains constant because conservation of mass requires pressure to be the same at the inlet and throat",
-      "It first increases at the throat and then falls only after the airflow begins slowing in the diffuser",
+      "It increases",
+      "It remains constant",
+      "It increases and then decreases",
       "It decreases"
     ],
     "correctIndex": 3,
@@ -89,9 +89,9 @@
     "prompt": "A wing produces lift while deflecting airflow downward. Which principle helps explain the reaction force on the wing?",
     "choices": [
       "Newton’s third law",
-      "Newton’s first law, because airflow tends to remain attached to the wing unless another force acts",
-      "Newton’s second law only, because lift depends on mass flow but no equal-and-opposite reaction is involved",
-      "Bernoulli’s principle alone, because any downward momentum change is a consequence rather than part of the force balance"
+      "Newton’s first law",
+      "Newton’s second law only",
+      "Bernoulli’s principle alone"
     ],
     "correctIndex": 0,
     "explanation": "Changing the momentum of airflow downward produces an equal and opposite reaction on the wing.",
@@ -108,10 +108,10 @@
     "type": "scenario",
     "prompt": "A pilot raises the nose but the flight path initially continues nearly level. What happens to angle of attack?",
     "choices": [
-      "It increases only after the airplane begins climbing; until the flight path changes, angle of attack cannot change",
-      "It increases because the chord line rotates relative to the oncoming relative wind",
-      "It remains essentially unchanged because angle of attack depends on flight-path angle, not pitch attitude",
-      "It decreases because raising the nose moves the chord line closer to the relative wind in level flight"
+      "It increases only after the aircraft climbs",
+      "It increases",
+      "It remains essentially unchanged",
+      "It decreases"
     ],
     "correctIndex": 1,
     "explanation": "Angle of attack is the angle between the chord line and relative wind, not simply pitch attitude relative to the horizon.",
@@ -128,7 +128,7 @@
     "type": "scenario",
     "prompt": "An airplane is descending on a steady glide path with the nose slightly above the horizon. Which statement about relative wind is correct?",
     "choices": [
-      "Relative wind is horizontal in a steady glide because gravity, not airflow, causes the airplane to descend",
+      "Relative wind is horizontal in a steady glide",
       "Relative wind follows the flight path in the same direction as motion, so it approaches the wing from above the glide path",
       "Relative wind is opposite the flight path, so it approaches the wing from below the geometric horizon line",
       "Relative wind is opposite the airplane's pitch attitude, so it approaches from directly ahead along the longitudinal axis"
@@ -149,8 +149,8 @@
     "prompt": "Why can a symmetrical airfoil produce lift even though its upper and lower surfaces have equal geometric curvature?",
     "choices": [
       "A symmetrical airfoil can produce lift only by using a flap or other device to create geometric camber",
-      "Symmetrical airfoils produce lift because the upper surface still forces air to travel farther than the lower surface at zero angle of attack",
-      "A symmetrical airfoil produces positive lift at any angle because equal curvature creates a fixed pressure difference between the two surfaces",
+      "Symmetrical airfoils produce lift",
+      "A symmetrical airfoil produces positive lift at any angle",
       "A positive angle of attack changes the airflow and pressure/momentum distribution to create lift"
     ],
     "correctIndex": 3,
@@ -188,10 +188,10 @@
     "type": "calculation",
     "prompt": "If true airspeed doubles while density and configuration remain constant, how does dynamic pressure change?",
     "choices": [
-      "It remains unchanged because density and wing configuration have not changed",
+      "It remains unchanged",
       "It becomes four times as large",
-      "It doubles because dynamic pressure changes in direct proportion to velocity",
-      "It increases by a factor of eight because both mass flow and velocity double"
+      "It doubles",
+      "It increases by a factor of eight"
     ],
     "correctIndex": 1,
     "explanation": "Dynamic pressure varies with the square of velocity, so doubling speed produces four times the dynamic pressure.",
@@ -249,9 +249,9 @@
     "prompt": "At the same pressure altitude, which condition produces the lowest air density?",
     "choices": [
       "High temperature and high humidity",
-      "Low temperature and high humidity, because water vapor is heavier than dry air",
-      "High temperature and very dry air, because humidity has no effect on air density",
-      "Low temperature and low humidity, because colder dry air contains fewer molecules at the same pressure altitude"
+      "Low temperature and high humidity",
+      "High temperature and very dry air",
+      "Low temperature and low humidity"
     ],
     "correctIndex": 0,
     "explanation": "Higher temperature lowers density, and water vapor is less dense than dry air, so humidity also reduces density slightly.",
@@ -289,9 +289,9 @@
     "prompt": "A pilot increases wing angle of attack while remaining below the critical angle. What is the general aerodynamic effect?",
     "choices": [
       "Lift coefficient stays essentially constant until critical angle of attack, while only drag coefficient changes",
-      "Lift coefficient rises but induced-drag effects decrease because the stronger pressure difference weakens wingtip vortices",
+      "Lift coefficient rises but induced-drag effects decrease",
       "Lift coefficient generally increases, along with induced-drag effects",
-      "Lift coefficient generally decreases because the wing presents more frontal area and creates more parasite drag"
+      "Lift coefficient generally decreases"
     ],
     "correctIndex": 2,
     "explanation": "Below the critical angle, increasing angle of attack generally increases lift coefficient, while drag also changes.",
@@ -328,10 +328,10 @@
     "type": "scenario",
     "prompt": "A pilot increases airspeed while holding lift constant in level flight. What generally must happen to lift coefficient?",
     "choices": [
-      "It must decrease because higher dynamic pressure can produce the same lift with a lower coefficient",
-      "It must increase because more airflow requires a larger coefficient to keep total lift unchanged",
-      "It remains constant because level flight always requires the same lift regardless of airspeed",
-      "It must become negative because higher speed alone would otherwise force the airplane to climb"
+      "It must decrease",
+      "It must increase",
+      "It remains constant",
+      "It must become negative"
     ],
     "correctIndex": 0,
     "explanation": "For constant lift, increasing dynamic pressure requires a lower lift coefficient, normally achieved with lower angle of attack.",
@@ -350,7 +350,7 @@
     "choices": [
       "Increase angle of attack only after airspeed reaches the published stall speed; before that lift remains equal to weight automatically",
       "Increase angle of attack to maintain the required lift as dynamic pressure decreases",
-      "Decrease angle of attack because slower airflow remains attached only when the chord aligns more closely with the relative wind",
+      "Decrease angle of attack",
       "Hold the same angle of attack and increase only pitch attitude; lift coefficient does not need to change with speed"
     ],
     "correctIndex": 1,
@@ -371,7 +371,7 @@
       "It is the point where parasite drag acts, so its movement determines only yawing moment rather than pitch",
       "It remains at a fixed wing station for all angles of attack, providing a constant reference for calculating lift",
       "Its position represents where the resultant aerodynamic lift force acts and can shift with angle of attack, affecting pitching moments",
-      "It fixes the aircraft CG location because the center of pressure and CG must coincide in stable flight"
+      "It fixes the aircraft CG location"
     ],
     "correctIndex": 2,
     "explanation": "Movement of the resultant aerodynamic force location changes pitching moments and interacts with stability and control.",
@@ -428,7 +428,7 @@
     "type": "scenario",
     "prompt": "A pilot observes that indicated airspeed for a given aerodynamic condition changes much less with altitude than true airspeed. Which idea explains this?",
     "choices": [
-      "Indicated and true airspeed should remain equal at all altitudes unless wind changes, because both measure motion relative to the air",
+      "Indicated and true airspeed should remain equal at all altitudes unless wind changes",
       "Indicated airspeed is related to dynamic pressure sensed by the pitot-static system, while true airspeed accounts for actual air density",
       "Indicated airspeed is corrected for altitude automatically, while true airspeed is the raw pressure sensed by the pitot tube",
       "True airspeed is tied to dynamic pressure while indicated airspeed measures actual motion through the airmass independent of density"
@@ -468,9 +468,9 @@
     "type": "scenario",
     "prompt": "An airplane accelerates while thrust exceeds drag. Which Newtonian idea is most directly illustrated?",
     "choices": [
-      "Newton's first law: thrust maintains acceleration as long as it is applied, regardless of drag",
-      "Newton's third law: thrust and drag are equal-and-opposite forces on the same object, so acceleration results",
-      "Conservation of pressure: excess thrust raises pressure ahead of the airplane and that pressure change produces acceleration",
+      "Newton’s first law maintains acceleration with thrust",
+      "Newton’s third law makes thrust and drag cancel",
+      "Pressure conservation converts thrust into acceleration",
       "A net force produces acceleration"
     ],
     "correctIndex": 3,
@@ -489,7 +489,7 @@
     "prompt": "A propeller accelerates a mass of air rearward. Which reaction contributes to thrust?",
     "choices": [
       "The air exerts an equal and opposite forward force on the propeller",
-      "The propeller pulls itself forward because the rearward-moving air creates lower static pressure only on the back of each blade",
+      "The propeller pulls itself forward",
       "The engine's torque directly creates forward thrust; accelerating air rearward is a byproduct that does not affect the aircraft force",
       "The rearward air pushes on the tail, and the tail transmits an equal forward force through the fuselage to the propeller"
     ],

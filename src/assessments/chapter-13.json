@@ -9,9 +9,9 @@
     "prompt": "A pilot wants the latest routine surface observation at the destination. Which product is most directly relevant?",
     "choices": [
       "METAR",
-      "TAF, because terminal forecasts include the most recent observed wind, ceiling, and visibility at issuance",
-      "SPECI, because any current airport observation used for preflight planning is classified as a special report",
-      "PIREP, because pilot reports provide the most reliable surface observation when an airport has regular reporting"
+      "TAF",
+      "SPECI",
+      "PIREP"
     ],
     "correctIndex": 0,
     "explanation": "A METAR is a routine aviation surface weather observation.",
@@ -28,10 +28,10 @@
     "type": "scenario",
     "prompt": "A rapidly changing airport condition triggers an unscheduled observation. Which product should the pilot expect?",
     "choices": [
-      "AIRMET, because significant local changes at an airport are distributed as area advisories rather than observations",
+      "AIRMET",
       "SPECI",
-      "TAF amendment, because rapidly changing observed conditions are reported by modifying the terminal forecast",
-      "METAR correction, because unscheduled observations are issued only to correct errors in the routine report"
+      "TAF amendment",
+      "METAR correction"
     ],
     "correctIndex": 1,
     "explanation": "A SPECI is a special unscheduled surface observation issued when specified significant changes occur.",
@@ -48,10 +48,10 @@
     "type": "scenario",
     "prompt": "A pilot needs the expected ceiling, visibility, wind, and significant weather near a terminal several hours from now. Which product is designed for that?",
     "choices": [
-      "AIRMET, because ceilings, visibility, and surface wind are forecast for terminal areas through area advisories",
-      "Winds aloft forecast, because terminal ceiling and visibility are derived from the same forecast model as winds and temperatures",
+      "AIRMET",
+      "Winds aloft forecast",
       "TAF",
-      "METAR, because current observations are extrapolated to provide the expected terminal conditions several hours later"
+      "METAR"
     ],
     "correctIndex": 2,
     "explanation": "A Terminal Aerodrome Forecast provides expected meteorological conditions for the terminal area during its forecast period.",
@@ -70,7 +70,7 @@
     "choices": [
       "A TAF is a legally controlling forecast, so current METAR trends are useful only when conditions are already below the forecast values",
       "The TAF covers the entire route to and from the terminal, so broader products add information only about upper-air winds",
-      "Current METARs should be ignored when they conflict with a TAF because the forecast has a longer valid period and therefore more complete data",
+      "Current METARs should be ignored when they conflict with a TAF",
       "A TAF is one forecast for a limited terminal area and time; actual trends and surrounding hazards require multiple sources"
     ],
     "correctIndex": 3,
@@ -89,9 +89,9 @@
     "prompt": "A pilot encounters unforecast moderate turbulence and icing. Which report can directly help other pilots and forecasters?",
     "choices": [
       "PIREP",
-      "METAR, because moderate turbulence and icing encountered aloft should be added to the nearest airport observation",
-      "TAF, because unforecast conditions are reported by amending the destination forecast rather than by individual pilots",
-      "SIGMET, because a pilot who encounters a hazard issues a SIGMET directly over the radio for other aircraft"
+      "METAR",
+      "TAF",
+      "SIGMET"
     ],
     "correctIndex": 0,
     "explanation": "Pilot reports provide actual in-flight conditions such as turbulence, icing, cloud tops, and visibility.",
@@ -128,7 +128,7 @@
     "type": "scenario",
     "prompt": "An AIRMET is issued for moderate icing over a broad region. How should a light-aircraft pilot interpret it?",
     "choices": [
-      "As an advisory that matters mainly to turbine aircraft because light airplanes are normally excluded from AIRMET criteria",
+      "As an advisory that matters mainly to turbine aircraft",
       "As proof that moderate icing is occurring everywhere in the outlined area and at every altitude listed",
       "As an advisory for weather that can be hazardous, especially to light aircraft, requiring route/altitude/risk evaluation",
       "As a prohibition on VFR flight through the affected region whenever moderate icing is forecast"
@@ -148,9 +148,9 @@
     "type": "scenario",
     "prompt": "What distinguishes a SIGMET from an AIRMET at a high level?",
     "choices": [
-      "A SIGMET covers a smaller geographic area but is less significant than an AIRMET because it is more localized",
+      "A SIGMET covers a smaller geographic area but is less significant than an AIRMET",
       "A SIGMET is a forecast only for convective weather, while AIRMETs cover all nonconvective significant hazards",
-      "A SIGMET applies only to IFR aircraft because VFR pilots use AIRMETs for the same severe weather",
+      "A SIGMET applies only to IFR aircraft",
       "A SIGMET addresses significant weather potentially hazardous to all aircraft, generally more severe/significant than AIRMET criteria"
     ],
     "correctIndex": 3,
@@ -249,7 +249,7 @@
     "prompt": "Why can an area behind an intense radar echo be misleadingly blank?",
     "choices": [
       "Attenuation can prevent radar energy from penetrating heavy precipitation, creating a radar shadow",
-      "A radar shadow proves the air behind the cell is free of precipitation because the strongest echo has already reflected all hazardous energy",
+      "A radar shadow proves the air behind the cell is free of precipitation",
       "The blank area usually indicates the storm is weakening on its far side, making that portion a preferred route around the cell",
       "Attenuation affects airborne radar only; ground-based NEXRAD mosaics can always see through the most intense precipitation"
     ],
@@ -309,7 +309,7 @@
     "prompt": "When is an abbreviated briefing appropriate?",
     "choices": [
       "When no previous weather information has been obtained and the pilot wants a shorter version than a standard briefing",
-      "Whenever the flight is less than one hour long, because a full standard briefing would include unnecessary route data",
+      "Whenever the flight is less than one hour long",
       "Only after takeoff when the pilot needs weather updates by radio; preflight abbreviated briefings are not intended for route planning",
       "When the pilot needs specific additional information or an update to a previous briefing rather than a full briefing"
     ],
@@ -350,7 +350,7 @@
     "choices": [
       "Treat winds aloft as informational only; fuel planning should use still-air performance so later wind changes do not invalidate the calculation",
       "Selecting an altitude that balances wind, terrain, weather, performance, and fuel",
-      "Always select the altitude with the weakest headwind because wind alone determines the most efficient and safest cruise altitude",
+      "Always select the altitude with the weakest headwind",
       "Select the altitude with the strongest tailwind or weakest headwind even if it puts the flight closer to terrain or icing layers"
     ],
     "correctIndex": 1,
@@ -388,8 +388,8 @@
     "type": "scenario",
     "prompt": "A pilot sees temperature/dew-point values nearly equal in a METAR. What risk should be considered?",
     "choices": [
-      "Low humidity and likely improving visibility because a narrow spread means the air can absorb substantial additional moisture",
-      "Strong instability regardless of wind or cloud cover, because temperature and dew point close together indicate rapid convective heating",
+      "Low humidity and likely improving visibility",
+      "Strong instability regardless of wind or cloud cover",
       "A surface temperature inversion only; the spread does not provide useful information about possible saturation or fog",
       "High relative humidity with potential low cloud/fog if conditions cool further"
     ],
@@ -410,8 +410,8 @@
     "choices": [
       "Average wind alone can hide crosswind/gust changes that affect takeoff and landing control",
       "Only the steady wind direction matters for crosswind calculations; gusts affect passenger comfort rather than control margin",
-      "Use the highest gust as a direct headwind/tailwind correction but ignore directional variation because runway orientation is fixed",
-      "Average wind should be used for all takeoff and landing decisions because gusts are temporary and cannot be planned for"
+      "Use the highest gust as a direct headwind/tailwind correction but ignore directional variation",
+      "Average wind should be used for all takeoff and landing decisions"
     ],
     "correctIndex": 0,
     "explanation": "Wind variability and gusts change crosswind/headwind components and handling margins.",
@@ -428,7 +428,7 @@
     "type": "scenario",
     "prompt": "Why must a pilot understand the observation time in a METAR?",
     "choices": [
-      "A recent timestamp guarantees the report matches conditions at the runway because automated sensors sample continuously",
+      "A recent timestamp guarantees the report matches conditions at the runway",
       "Weather may have changed since the observation; age affects how representative the report is",
       "Observation time is mainly administrative; a METAR remains representative until the next routine report replaces it",
       "The time matters only for temperature and dew point; wind, visibility, and ceiling are considered current for the full observation hour"
@@ -448,7 +448,7 @@
     "type": "scenario",
     "prompt": "A TAF includes a temporary group for lower ceilings during part of the forecast period. How should a pilot treat that?",
     "choices": [
-      "Use the prevailing conditions only for legal and risk decisions because temporary conditions are not considered part of the forecast",
+      "Use the prevailing conditions only for legal and risk decisions",
       "Treat the temporary group as certain to occur for the entire stated window rather than as a forecast of intermittent conditions",
       "As a forecast possibility that must be included in risk planning, especially if it would cross personal or legal limits",
       "Ignore the temporary group unless it covers more than half the forecast period; TEMPO conditions are too brief to affect planning"
@@ -510,7 +510,7 @@
     "choices": [
       "Radar shows all clear-air turbulence even without precipitation, but cannot distinguish whether the motion is convective or mechanical",
       "Strong precipitation often correlates with convective hazards, but radar does not directly display every turbulent region or vertical current",
-      "No radar echo means no meaningful turbulence because convective vertical motion requires precipitation-sized particles",
+      "No radar echo means no meaningful turbulence",
       "Reflectivity directly measures vertical wind speed, so the color scale can be converted into a turbulence value"
     ],
     "correctIndex": 1,
@@ -528,7 +528,7 @@
     "type": "scenario",
     "prompt": "Why is product latency especially important near fast-moving thunderstorms?",
     "choices": [
-      "A cell's location may be old, but intensity and shape remain current because processing updates them using forecast motion",
+      "A cell's location may be old, but intensity and shape remain current",
       "Latency can be ignored if the pilot adds a fixed distance to the displayed echo; cell growth and decay are too slow to matter over a few minutes",
       "A cell can move, grow, or dissipate significantly during the delay between sensing and cockpit display",
       "Product latency matters mainly for slow-moving stratiform rain; fast thunderstorms are tracked continuously between radar scans"
@@ -548,7 +548,7 @@
     "type": "scenario",
     "prompt": "A pilot’s tablet loses weather-data service in flight. What is the correct mental model?",
     "choices": [
-      "Continue the flight using the last downloaded display because stored weather remains valid for the planned route until landing",
+      "Continue the flight using the last downloaded display",
       "Treat ATC traffic service as a complete replacement for data-link weather; controllers will provide all weather information needed for VFR flight",
       "Land at the nearest airport immediately whenever data-link service is lost, even if other weather information and safe options remain available",
       "The pilot must continue using available onboard/ATC/FSS resources and previously gathered information; data-link weather is a tool, not the sole safety system"
@@ -591,7 +591,7 @@
       "Focus on whether weather is legally VFR or IFR; product uncertainty and escape options matter mainly to instrument-rated pilots",
       "Know what each product observes or forecasts, how current it is, what it cannot tell you, and combine multiple sources into a continuously updated flight decision",
       "Memorize the coded formats so a pilot can decode every product quickly; latency and product limitations are secondary once decoded",
-      "Use the newest single product available because combining observations and forecasts creates contradictory information"
+      "Use the newest single product available"
     ],
     "correctIndex": 1,
     "explanation": "Safe weather use depends on product purpose, limitations, timing, and integration.",

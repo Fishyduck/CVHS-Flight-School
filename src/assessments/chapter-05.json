@@ -10,7 +10,7 @@
     "choices": [
       "Lift equals weight and thrust equals drag",
       "Lift must exceed weight by the same amount that thrust exceeds drag, creating zero net acceleration overall",
-      "Lift equals thrust and weight equals drag because opposite force pairs must balance in unaccelerated flight",
+      "Lift equals thrust and weight equals drag",
       "Lift is slightly greater than weight while thrust is slightly less than drag so the airplane can hold altitude at constant speed"
     ],
     "correctIndex": 0,
@@ -70,7 +70,7 @@
     "choices": [
       "Decrease angle of attack to prevent induced drag from rising as speed falls",
       "Hold angle of attack constant and add only power; level-flight lift remains constant automatically",
-      "Increase pitch attitude but keep angle of attack unchanged because lift depends primarily on attitude relative to the horizon",
+      "Increase pitch attitude but keep angle of attack unchanged",
       "Increase angle of attack to maintain lift, which also increases induced drag"
     ],
     "correctIndex": 3,
@@ -89,9 +89,9 @@
     "prompt": "At high speed in level flight, which drag component generally dominates?",
     "choices": [
       "Parasite drag",
-      "Induced drag, because producing lift at high dynamic pressure requires stronger wingtip vortices",
-      "Wave drag in every light airplane, because compressibility becomes the dominant effect whenever indicated airspeed is high",
-      "Skin-friction drag decreases with speed while induced drag increases, so induced drag dominates the high-speed region"
+      "Induced drag",
+      "Wave drag",
+      "Skin-friction drag"
     ],
     "correctIndex": 0,
     "explanation": "Parasite drag rises rapidly with speed, while induced drag is greatest at low speed/high lift coefficient.",
@@ -108,10 +108,10 @@
     "type": "scenario",
     "prompt": "At very low speed in level flight, which drag component generally becomes large?",
     "choices": [
-      "Wave drag, because low-speed flow separates from the wing in the same way as compressibility flow",
+      "Wave drag",
       "Induced drag",
-      "Parasite drag, because slower flight exposes the airplane to the airflow for a longer time",
-      "Profile drag alone, because wingtip vortices weaken as angle of attack rises"
+      "Parasite drag",
+      "Profile drag alone"
     ],
     "correctIndex": 1,
     "explanation": "Producing the required lift at low speed requires high angle of attack and lift coefficient, which increases induced drag.",
@@ -191,7 +191,7 @@
       "A stall occurs only when lift becomes less than weight; high-speed accelerated maneuvers cannot stall while lift is above weight",
       "A stall is caused by exceeding critical angle of attack, not by a particular airspeed or pitch attitude",
       "A stall is caused whenever indicated airspeed falls below the published 1-G stall speed, regardless of angle of attack",
-      "A stall requires a nose-high pitch attitude because the wing must be pointed above the horizon to separate airflow"
+      "A stall requires a nose-high pitch attitude"
     ],
     "correctIndex": 1,
     "explanation": "Critical angle of attack is the direct aerodynamic cause of a stall; high load factor or abrupt control inputs can reach it at higher airspeeds.",
@@ -209,9 +209,9 @@
     "prompt": "A pilot makes an abrupt pull-up at an airspeed well above the normal 1-G stall speed. What aerodynamic event can occur first?",
     "choices": [
       "Only a high-speed buffet can occur; the wing cannot stall until the airspeed decays to the 1-G stall speed",
-      "The airplane will necessarily enter a spin because any abrupt pull above 1-G stall speed creates autorotation",
+      "The airplane will necessarily enter a spin",
       "An accelerated stall if the increased load factor drives the wing beyond critical angle of attack",
-      "Structural failure must occur before a stall because airspeed is above the published stall speed"
+      "Structural failure must occur before a stall"
     ],
     "correctIndex": 2,
     "explanation": "Higher load factor requires greater lift and angle of attack, which can produce a stall at a higher airspeed.",
@@ -249,7 +249,7 @@
     "prompt": "A pilot encounters a sharp gust. Why does reducing to an appropriate turbulence penetration/maneuvering speed reduce structural risk?",
     "choices": [
       "It increases the likelihood the wing will stall before excessive aerodynamic load can be imposed by a full abrupt input or gust, within the assumptions of the speed",
-      "It guarantees the airplane cannot exceed any structural limit in turbulence because a stall always occurs first at or below VA",
+      "It guarantees the airplane cannot exceed any structural limit in turbulence",
       "It reduces gust loads mainly by lowering parasite drag; structural protection is unrelated to the stall/load-factor relationship",
       "It is the speed at which abrupt full control deflection is always safe regardless of weight, turbulence intensity, or manufacturer limitations"
     ],
@@ -288,8 +288,8 @@
     "type": "scenario",
     "prompt": "A light airplane is landing behind a larger airplane. Which strategy best reduces wake-vortex exposure?",
     "choices": [
-      "Cross the larger airplane's flight path at the same altitude shortly after it passes because wake vortices rise away from the runway",
-      "Aim for the larger airplane's touchdown point because the vortices dissipate immediately once the generating airplane is on the runway",
+      "Cross the larger airplane's flight path at the same altitude shortly after it passes",
+      "Aim for the larger airplane's touchdown point",
       "Stay at or above the larger airplane’s final approach path and land beyond its touchdown point when practical and safe",
       "Stay below the larger airplane's approach path and land before its touchdown point so the light airplane passes under the sinking vortices"
     ],
@@ -308,7 +308,7 @@
     "type": "scenario",
     "prompt": "Why does ground effect reduce induced drag near the surface?",
     "choices": [
-      "Ground effect increases dynamic pressure at the wing, so induced drag falls because the airplane is effectively flying at a higher airspeed",
+      "Ground effect increases dynamic pressure at the wing, so induced drag falls",
       "Ground effect reduces parasite drag by shielding the fuselage and landing gear from the relative wind",
       "The ground increases wing camber aerodynamically, raising lift coefficient without changing downwash or vortex strength",
       "The ground interferes with wingtip-vortex/downwash development, reducing induced angle and induced drag"
@@ -329,8 +329,8 @@
     "prompt": "What risk can occur if a pilot lifts off in ground effect at a high-density-altitude airport before the airplane has enough speed to climb out of ground effect?",
     "choices": [
       "The airplane may fly in ground effect but be unable to climb once induced drag increases outside it",
-      "The airplane will immediately stall on liftoff because indicated stall speed increases sharply when the wing leaves ground effect",
-      "The airplane may climb normally but accelerate poorly because parasite drag, rather than induced drag, increases outside ground effect",
+      "The airplane will immediately stall on liftoff",
+      "The airplane may climb normally but accelerate poorly",
       "Ground effect masks reduced engine power only; once airborne, wing lift is unchanged and climb performance depends solely on excess thrust"
     ],
     "correctIndex": 0,
@@ -448,10 +448,10 @@
     "type": "scenario",
     "prompt": "An airplane initially tends to return toward equilibrium after a disturbance but its oscillations grow with time. How should its stability be described?",
     "choices": [
-      "Neutral static stability and negative dynamic stability, because growing oscillations mean there is no initial restoring tendency",
-      "Positive static stability and positive dynamic stability, because any initial tendency toward equilibrium defines both forms of stability",
+      "Neutral static stability and negative dynamic stability",
+      "Positive static stability and positive dynamic stability",
       "Positive static stability but negative dynamic stability",
-      "Negative static stability and positive dynamic stability, because the initial response is toward equilibrium but the later motion diverges"
+      "Negative static stability and positive dynamic stability"
     ],
     "correctIndex": 2,
     "explanation": "The initial restoring tendency is positive static stability, but increasing oscillation amplitude indicates negative dynamic stability.",
@@ -508,10 +508,10 @@
     "type": "scenario",
     "prompt": "A pilot enters a coordinated level turn and then increases bank without increasing back pressure. What is the likely immediate flight-path tendency?",
     "choices": [
-      "The airplane will skid outward while remaining level because bank changes only turn coordination, not the vertical lift component",
-      "The airplane will begin descending because the vertical component of lift is reduced",
-      "The airplane will maintain altitude but turn more slowly because the horizontal component of lift increases",
-      "The airplane will climb because total lift rises automatically with bank even if angle of attack is unchanged"
+      "The airplane will skid outward while remaining level",
+      "The airplane will begin descending",
+      "The airplane will maintain altitude but turn more slowly",
+      "The airplane will climb"
     ],
     "correctIndex": 1,
     "explanation": "Banking tilts lift. Without increasing total lift, the vertical component becomes less than weight, causing a descent.",
@@ -548,9 +548,9 @@
     "type": "scenario",
     "prompt": "At a given true airspeed, what happens to rate of turn as bank angle increases in a coordinated level turn?",
     "choices": [
-      "Rate of turn decreases because more lift is used to support load factor rather than change direction",
-      "Rate of turn remains constant because a coordinated turn rate depends only on true airspeed",
-      "Rate of turn changes only if the pilot also changes power; bank by itself affects load factor but not directional rate",
+      "Rate of turn decreases",
+      "Rate of turn remains constant",
+      "Rate of turn changes only with power",
       "Rate of turn increases"
     ],
     "correctIndex": 3,
@@ -569,9 +569,9 @@
     "prompt": "A pilot wants the best glide distance in still air. Which aerodynamic condition is fundamentally being sought?",
     "choices": [
       "Maximum lift-to-drag ratio",
-      "Minimum sink speed, because staying aloft longer always produces the greatest horizontal distance",
-      "The speed for minimum parasite drag, because induced drag does not affect glide distance",
-      "The highest practical glide airspeed below VNE, because greater true airspeed always increases distance before touchdown"
+      "Minimum sink speed",
+      "The speed for minimum parasite drag",
+      "The highest practical glide airspeed below VNE"
     ],
     "correctIndex": 0,
     "explanation": "Best glide distance in still air is associated with the airplane’s maximum lift-to-drag ratio, subject to aircraft-specific guidance.",

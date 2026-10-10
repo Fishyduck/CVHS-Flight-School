@@ -28,10 +28,10 @@
     "type": "scenario",
     "prompt": "A clear, calm night follows a humid day. Which fog type is most likely near sunrise over inland terrain?",
     "choices": [
-      "Steam fog, because ground cooling causes evaporation into colder air immediately above the surface",
+      "Steam fog",
       "Radiation fog",
-      "Advection fog, because humid air is carried horizontally over the same surface during the night",
-      "Upslope fog, because cooling after sunset creates a weak pressure gradient that pushes air uphill"
+      "Advection fog",
+      "Upslope fog"
     ],
     "correctIndex": 1,
     "explanation": "Radiational cooling under clear skies and light wind can cool moist surface air to its dew point.",
@@ -48,10 +48,10 @@
     "type": "scenario",
     "prompt": "Moist air moves over a colder surface and is cooled to saturation while wind continues. Which fog type is most likely?",
     "choices": [
-      "Upslope fog, because horizontal wind over a cold surface forces the air to rise and cool adiabatically",
-      "Steam fog, because the cold surface adds moisture to the moving air until it becomes saturated",
+      "Upslope fog",
+      "Steam fog",
       "Advection fog",
-      "Radiation fog, because any cooling to saturation near the surface is caused primarily by terrestrial radiation"
+      "Radiation fog"
     ],
     "correctIndex": 2,
     "explanation": "Advection fog forms when moist air is transported over a colder surface and cooled to saturation.",
@@ -68,9 +68,9 @@
     "type": "scenario",
     "prompt": "Wind pushes moist air up rising terrain until it cools to saturation. Which process is producing the cloud/fog?",
     "choices": [
-      "Advection cooling, because terrain carries the moist air horizontally across progressively colder surfaces",
-      "Radiational cooling, because the terrain surface loses heat and cools the air without requiring vertical motion",
-      "Evaporative cooling, because pressure decreases on the windward slope and moisture evaporates into the parcel",
+      "Advection cooling",
+      "Radiational cooling",
+      "Evaporative cooling",
       "Upslope cooling"
     ],
     "correctIndex": 3,
@@ -188,10 +188,10 @@
     "type": "scenario",
     "prompt": "On final approach, the airplane first gains airspeed in a headwind increase, then encounters a downdraft and tailwind. What hazard pattern does this suggest?",
     "choices": [
-      "A sea-breeze transition, because surface heating can temporarily shift wind from headwind to tailwind during final approach",
+      "A sea-breeze transition",
       "Microburst/wind-shear encounter",
-      "Normal gust spread near a stable cold front, because headwind changes followed by tailwind are expected during frontal passage",
-      "A mountain-wave rotor, because wind direction reverses as the airplane crosses alternating updraft and downdraft zones"
+      "Normal gust spread near a stable cold front",
+      "A mountain-wave rotor"
     ],
     "correctIndex": 1,
     "explanation": "A microburst can create a headwind gain followed by downdraft and tailwind, rapidly reducing performance near the ground.",
@@ -209,7 +209,7 @@
     "prompt": "Stable air is most commonly associated with which conditions?",
     "choices": [
       "Clear air with strong thermals and gusty surface winds but little haze or fog",
-      "Narrow convective bands and rapidly changing wind because stable air favors vigorous vertical motion",
+      "Narrow convective bands and rapidly changing wind",
       "Stratiform clouds, smoother air, and potentially poor visibility in haze/fog",
       "Towering cumulus, frequent turbulence, and short intense showers with excellent mixing"
     ],
@@ -249,7 +249,7 @@
     "prompt": "What does a temperature inversion do to vertical mixing?",
     "choices": [
       "It increases atmospheric stability and tends to suppress vertical mixing",
-      "It decreases stability because warmer air above accelerates rising parcels upward through the inversion",
+      "It decreases stability",
       "It has little effect on stability; inversions change visibility but not vertical parcel motion",
       "It promotes strong vertical mixing by creating a steep temperature decrease with altitude"
     ],
@@ -288,8 +288,8 @@
     "type": "scenario",
     "prompt": "A cold front approaches warm, moist, unstable air. What weather pattern is most likely?",
     "choices": [
-      "Gradual clearing, weak winds, and stable air because cold air undercuts and removes the warm moist layer without convection",
-      "A broad region of radiation fog only, because rapidly moving cold air is too dense to support thunderstorm development",
+      "Gradual clearing, weak winds, and stable air",
+      "A broad region of radiation fog only",
       "Narrower band of more vigorous convection, gusty winds, and potentially thunderstorms",
       "Widespread layered clouds and light continuous precipitation extending far ahead of the front with little turbulence"
     ],
@@ -310,7 +310,7 @@
     "choices": [
       "A narrow line of thunderstorms immediately at the surface front with rapid clearing ahead of it",
       "Mostly clear weather ahead of the front followed by isolated showers only after warm air reaches the surface",
-      "Strong mechanical turbulence with little cloud because warm air descends over the colder surface and warms adiabatically",
+      "Strong mechanical turbulence with little cloud",
       "Widespread layered clouds and precipitation developing ahead of the surface front"
     ],
     "correctIndex": 3,
@@ -330,7 +330,7 @@
     "choices": [
       "Supercooled large droplets can spread before freezing, producing rapid clear-ice accumulation beyond protected areas",
       "It forms only a thin rough layer on leading edges and usually stops accumulating once the surface is coated",
-      "It is less serious than rime because transparent ice preserves the airfoil shape and can be seen through from the cockpit",
+      "It is less serious than rime",
       "It normally sheds itself as droplets freeze slowly, so the main concern is visibility rather than aerodynamic degradation"
     ],
     "correctIndex": 0,
@@ -348,10 +348,10 @@
     "type": "scenario",
     "prompt": "What atmospheric conditions are generally required for structural icing?",
     "choices": [
-      "Any cloud with liquid water can produce structural icing regardless of temperature because aerodynamic cooling always freezes the droplets",
+      "Any cloud with liquid water can produce structural icing regardless of temperature",
       "Visible moisture and aircraft surfaces at or below freezing temperature",
       "Visible moisture and outside-air temperature below 0°C are sufficient even if the aircraft surface remains above freezing",
-      "Subfreezing surface temperature alone; visible moisture is unnecessary because water vapor deposits directly as structural ice in most cases"
+      "Subfreezing surface temperature alone; visible moisture is unnecessary"
     ],
     "correctIndex": 1,
     "explanation": "Structural icing needs supercooled liquid water or suitable frozen/moisture conditions contacting a cold airframe.",
@@ -390,7 +390,7 @@
     "choices": [
       "A rough opaque deposit from small droplets that freeze immediately on impact",
       "A porous white deposit created only at temperatures well below −20°C where liquid water cannot exist",
-      "An ice type confined to propellers because large droplets are centrifuged off wing leading edges before freezing",
+      "An ice type confined to propellers",
       "Larger supercooled droplets spread before freezing, producing a harder, often transparent or translucent coating"
     ],
     "correctIndex": 3,
@@ -410,7 +410,7 @@
     "choices": [
       "It roughens the airfoil surface, disturbing airflow and reducing lift while increasing drag",
       "Thin frost adds negligible roughness; its main effect is the additional weight of the ice on the wing",
-      "Frost can be ignored if the wing's leading edge is clean because lift is generated mainly over the first few inches of chord",
+      "Frost can be ignored if the wing's leading edge is clean",
       "Frost generally raises maximum lift by energizing the boundary layer, although parasite drag may increase slightly"
     ],
     "correctIndex": 0,
@@ -469,7 +469,7 @@
     "prompt": "A pilot expects strong winds aloft near a region where isobars are tightly packed. Why?",
     "choices": [
       "Tightly packed isobars indicate weak pressure change over distance and therefore stronger Coriolis acceleration",
-      "Isobar spacing represents temperature gradient rather than pressure gradient, so strong winds are expected because of thermal mixing",
+      "Isobar spacing represents temperature gradient rather than pressure gradient, so strong winds are expected",
       "Closely spaced isobars show pressure changing rapidly with altitude, which strengthens vertical rather than horizontal wind",
       "Closely spaced isobars indicate a strong horizontal pressure gradient"
     ],
@@ -491,7 +491,7 @@
       "The apparent deflection of moving air caused by Earth’s rotation",
       "A real force caused by Earth's magnetic field pulling moving air to the right or left",
       "The deflection of wind toward lower pressure caused by surface friction",
-      "The tendency for moving air to curve because pressure decreases with altitude and parcels conserve energy"
+      "The tendency for moving air to curve"
     ],
     "correctIndex": 0,
     "explanation": "Earth’s rotation causes large-scale moving air to appear deflected relative to the surface.",

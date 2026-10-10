@@ -8,10 +8,10 @@
     "type": "scenario",
     "prompt": "The pitot opening becomes blocked but the drain hole remains open. What happens to the airspeed indicator?",
     "choices": [
-      "It drops toward zero because pitot pressure vents away while static pressure remains available",
-      "It freezes near the value shown when the blockage occurred because pressure is trapped in the pitot line",
-      "It behaves like an altimeter because static pressure changes while pitot pressure remains fixed",
-      "It reads progressively high in a climb and low in a descent because the open drain senses static pressure"
+      "It drops toward zero",
+      "It freezes near the value shown when the blockage occurred",
+      "It behaves like an altimeter",
+      "It reads progressively high in a climb and low in a descent"
     ],
     "correctIndex": 0,
     "explanation": "With the ram-pressure opening blocked and the drain open, pitot pressure is lost and the airspeed indicator cannot sense the required pressure difference.",
@@ -48,10 +48,10 @@
     "type": "scenario",
     "prompt": "The static port becomes blocked while the pitot system remains clear. Which instruments are directly affected?",
     "choices": [
-      "Airspeed indicator and altimeter only; the VSI uses an independent calibrated pressure source",
-      "Airspeed indicator and VSI only; the altimeter uses a sealed aneroid reference and does not require static pressure",
+      "Airspeed indicator and altimeter only",
+      "Airspeed indicator and VSI only",
       "Airspeed indicator, altimeter, and vertical speed indicator",
-      "Altimeter and VSI only; airspeed remains accurate because its pitot source is still open"
+      "Altimeter and VSI only; airspeed remains accurate"
     ],
     "correctIndex": 2,
     "explanation": "The ASI uses pitot and static pressure; the altimeter and VSI use static pressure.",
@@ -70,7 +70,7 @@
     "choices": [
       "It continues to indicate altitude changes but with an increasing time lag, similar to a VSI",
       "It begins indicating pressure altitude based on the trapped static pressure and current pitot pressure",
-      "It reads progressively higher in a climb and lower in a descent because the trapped pressure behaves like a pitot source",
+      "It reads progressively higher in a climb and lower in a descent",
       "It tends to remain at the altitude where static pressure became trapped"
     ],
     "correctIndex": 3,
@@ -89,9 +89,9 @@
     "prompt": "With a blocked static source, what happens to the VSI after the trapped pressure equalizes internally?",
     "choices": [
       "It tends toward zero even during a climb or descent",
-      "It continues indicating the initial climb or descent rate because static pressure is trapped at the blockage altitude",
+      "It continues indicating the initial climb or descent rate",
       "It reverses direction, showing a descent during a climb and a climb during a descent",
-      "It remains accurate because the calibrated leak supplies an alternate source of outside static pressure"
+      "It remains accurate"
     ],
     "correctIndex": 0,
     "explanation": "The VSI depends on changing static pressure and a calibrated leak; without ambient pressure changes entering the system, the differential decays toward zero.",
@@ -108,10 +108,10 @@
     "type": "scenario",
     "prompt": "A pilot flies from an area of high pressure to lower pressure without resetting the altimeter. Relative to indicated altitude, where is the airplane actually?",
     "choices": [
-      "The direction cannot be determined without outside temperature because pressure changes affect only density altitude, not true altitude",
+      "The direction cannot be determined without outside temperature",
       "Lower than indicated",
-      "Higher than indicated, because the altimeter still references the higher pressure setting from the departure area",
-      "At approximately the indicated altitude, because pressure-setting errors cancel as the airplane crosses pressure systems"
+      "Higher than indicated",
+      "At approximately the indicated altitude"
     ],
     "correctIndex": 1,
     "explanation": "From high pressure to low without resetting, true altitude is lower than indicated—the classic “high to low, look out below.”",
@@ -131,7 +131,7 @@
       "True altitude remains equal to indicated altitude as long as the local altimeter setting is correct",
       "The main risk is an indicated-air-speed error; temperature does not change the geometric height of pressure surfaces",
       "True altitude can be lower than indicated in the colder air",
-      "True altitude can be higher than indicated because colder, denser air compresses the pressure levels closer to sea level"
+      "True altitude can be higher than indicated"
     ],
     "correctIndex": 2,
     "explanation": "Cold-temperature conditions can place the aircraft lower than the indicated altitude derived from standard-atmosphere calibration.",
@@ -288,10 +288,10 @@
     "type": "scenario",
     "prompt": "The green arc primarily represents what?",
     "choices": [
-      "The caution range between VNO and VNE",
-      "The approved maneuvering range from VA to VNO for abrupt control inputs",
+      "Caution range",
+      "Maneuvering range",
       "Normal operating range",
-      "The flap operating range from VS0 to VFE"
+      "Flap operating range"
     ],
     "correctIndex": 2,
     "explanation": "The green arc generally extends from VS1 to VNO and denotes the normal operating range.",
@@ -331,7 +331,7 @@
       "Never-exceed speed VNE",
       "Maximum structural cruising speed VNO",
       "Maximum flap-extended speed VFE",
-      "Design maneuvering speed VA for the airplane at maximum gross weight"
+      "Design maneuvering speed VA"
     ],
     "correctIndex": 0,
     "explanation": "The red line marks the never-exceed speed.",
@@ -368,10 +368,10 @@
     "type": "scenario",
     "prompt": "What gyroscopic property allows an attitude indicator to provide a stable reference?",
     "choices": [
-      "Magnetic dip, which creates a stable reference to the Earth's field regardless of airplane motion",
-      "Pendulous-vane action alone, which keeps the gyro erect without relying on the spinning rotor's inertia",
+      "Magnetic dip",
+      "Pendulous-vane action",
       "Rigidity in space",
-      "Precession, which keeps a spinning rotor aligned with the airplane's pitch and bank axes"
+      "Precession"
     ],
     "correctIndex": 2,
     "explanation": "A rapidly spinning gyro tends to maintain its plane of rotation, providing a stable reference.",
@@ -511,7 +511,7 @@
       "Use the primary display unless a warning flag appears; conflicting performance indications are less reliable than attitude information",
       "Cross-check independent instruments and supporting performance indications to identify the failed source rather than trusting one display blindly",
       "Select whichever instrument agrees with the pilot's body sensations, then use the others only to confirm the trend",
-      "Assume the standby instrument is correct because independent instruments are certified not to share failure sources"
+      "Assume the standby instrument is correct"
     ],
     "correctIndex": 1,
     "explanation": "Instrument cross-check and redundancy are used to detect failures and maintain control.",
@@ -529,7 +529,7 @@
     "prompt": "Why can a glass-cockpit failure be especially hazardous if a pilot is not trained on reversionary or standby modes?",
     "choices": [
       "Integrated systems can share sensors or processing, but reversionary modes automatically identify every bad source for the pilot",
-      "A glass cockpit is more hazardous mainly because electronic attitude displays react more slowly than vacuum-driven gyros",
+      "A glass cockpit is more hazardous mainly",
       "A single display or data-source failure may remove several integrated indications at once, increasing workload",
       "Electronic displays fail only as complete screens, so the pilot may lose all flight information without any partial indications"
     ],
@@ -550,7 +550,7 @@
     "choices": [
       "Only altitude and vertical speed; airspeed uses pitot pressure and is independent of static-pressure accuracy",
       "Only airspeed and altitude; vertical speed comes from an accelerometer rather than pressure information",
-      "Heading, attitude, and altitude simultaneously because the air data computer supplies reference data to every flight display",
+      "Heading, attitude, and altitude simultaneously",
       "Altitude, vertical speed, and airspeed-related data"
     ],
     "correctIndex": 3,

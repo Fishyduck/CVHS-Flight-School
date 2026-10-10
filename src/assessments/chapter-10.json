@@ -148,7 +148,7 @@
     "type": "scenario",
     "prompt": "Why can an excessively forward CG create takeoff/landing problems?",
     "choices": [
-      "The elevator becomes too sensitive because a forward CG reduces the nose-down pitching moment",
+      "The elevator becomes too sensitive",
       "The airplane becomes longitudinally unstable, making rotation occur too early and flare inputs too powerful",
       "Forward CG mainly raises cruise drag; takeoff rotation and landing flare authority are unaffected if total weight is legal",
       "Greater tail force/elevator authority may be required to rotate or flare, and performance can be degraded"
@@ -168,10 +168,10 @@
     "type": "scenario",
     "prompt": "How does increasing aircraft weight generally affect stall speed?",
     "choices": [
-      "It increases stall speed because more lift is required at a given flight condition",
-      "It decreases because the heavier airplane has more inertia and resists changes in angle of attack",
-      "It stays the same because critical angle of attack is fixed for a given wing configuration",
-      "It changes only with CG position; gross weight changes the required lift but not the airspeed at which the wing stalls"
+      "It increases stall speed",
+      "It decreases stall speed",
+      "It leaves stall speed unchanged",
+      "It affects stall speed only if CG moves"
     ],
     "correctIndex": 0,
     "explanation": "Heavier weight requires greater lift, leading to a higher stall speed for the same configuration and load factor.",
@@ -188,9 +188,9 @@
     "type": "scenario",
     "prompt": "How does higher weight generally affect takeoff performance?",
     "choices": [
-      "Longer ground roll but improved climb once airborne because the additional weight increases momentum",
+      "Longer ground roll but improved climb once airborne",
       "Longer takeoff distance and reduced acceleration/climb performance",
-      "Shorter takeoff distance because the heavier airplane accelerates more steadily and is less affected by wind",
+      "Shorter takeoff distance",
       "No change in takeoff distance if the same indicated rotation speed is used"
     ],
     "correctIndex": 1,
@@ -209,9 +209,9 @@
     "prompt": "How does higher weight generally affect landing performance?",
     "choices": [
       "No significant change if the pilot maintains the same published approach speed regardless of weight",
-      "Shorter landing distance because greater weight increases tire friction more than it increases kinetic energy",
+      "Shorter landing distance",
       "Higher approach/stall speeds and longer landing distance, all else equal",
-      "Lower touchdown energy because a heavier airplane decelerates more slowly in the flare"
+      "Lower touchdown energy"
     ],
     "correctIndex": 2,
     "explanation": "Heavier weight increases required lift speed and kinetic energy that must be dissipated during landing.",
@@ -249,9 +249,9 @@
     "prompt": "Fuel is stored well aft of the current CG. As fuel is burned, which way will CG generally tend to move?",
     "choices": [
       "Forward",
-      "Aft, because removing aft weight shifts the remaining average arm farther aft",
-      "It remains unchanged because fuel weight leaves from a fixed tank rather than moving within the airplane",
-      "The direction cannot be predicted unless total airplane weight exceeds maximum gross"
+      "Aft",
+      "Unchanged",
+      "Indeterminate without total weight"
     ],
     "correctIndex": 0,
     "explanation": "Removing weight from aft of the CG reduces aft moment and tends to move the CG forward.",
@@ -268,10 +268,10 @@
     "type": "scenario",
     "prompt": "Fuel is stored well forward of the current CG. As fuel is burned, which way will CG generally tend to move?",
     "choices": [
-      "The CG moves toward the fuel tank as fuel is burned, so it moves farther forward",
+      "Forward toward the fuel tank",
       "Aft",
-      "Forward, because removing forward weight pulls the CG toward the datum",
-      "It remains unchanged because only movable payload can shift CG"
+      "Forward toward the datum",
+      "Unchanged"
     ],
     "correctIndex": 1,
     "explanation": "Removing a forward weight reduces forward moment and tends to shift CG aft.",
@@ -291,7 +291,7 @@
       "The aft seat creates a larger local structural load but the airplane CG changes by the same amount at any station",
       "The passenger affects CG only when seated aft of the existing CG; any load ahead of the CG produces zero moment",
       "The larger arm produces a larger moment and therefore a greater CG shift",
-      "The passenger's body weight changes with seat position because the farther-aft station is less supported by the wing"
+      "The passenger's body weight changes with seat position"
     ],
     "correctIndex": 2,
     "explanation": "Moment depends on both weight and arm, so the same weight creates more moment farther from the datum.",
@@ -329,9 +329,9 @@
     "prompt": "Why does unusable fuel normally remain part of empty-weight accounting rather than payload planning?",
     "choices": [
       "It is fuel that cannot be safely used in flight and is included according to the aircraft’s empty-weight definition",
-      "Unusable fuel is excluded from empty weight because it cannot be burned and therefore has no operational effect",
+      "Unusable fuel is excluded from empty weight",
       "Unusable fuel is treated as payload so the pilot can subtract it when calculating fuel reserve",
-      "Unusable fuel is ignored in weight-and-balance calculations because certification already includes it in the maximum gross weight margin"
+      "Unusable fuel is ignored in weight-and-balance calculations"
     ],
     "correctIndex": 0,
     "explanation": "The approved weight-and-balance data defines what is included in basic empty weight, including unusable fuel under standardized definitions.",
@@ -369,7 +369,7 @@
     "prompt": "Why can maximum ramp weight be higher than maximum takeoff weight?",
     "choices": [
       "It accounts for baggage or passengers expected to be unloaded before takeoff",
-      "It is higher mainly because the landing gear supports more weight on the ground than the wing can support in flight",
+      "It is higher mainly",
       "It can allow for fuel expected to be burned during start and taxi before takeoff",
       "It permits temporary loading above structural limits while the airplane is moving slowly on the ground"
     ],
@@ -411,7 +411,7 @@
       "Use the approved amount and location so both weight and CG limits remain satisfied and the ballast is properly secured",
       "Any heavy object may be used if it shifts the calculated CG inside limits; attachment method is secondary",
       "Ballast should be placed as far from the CG as possible to minimize the amount used, even if no approved station exists there",
-      "Once installed, ballast is not included in gross-weight calculations because its purpose is only to correct CG"
+      "Once installed, ballast is not included in gross-weight calculations"
     ],
     "correctIndex": 0,
     "explanation": "Ballast becomes part of the aircraft load and must be located, secured, and calculated using approved data.",
@@ -431,7 +431,7 @@
       "A load shift changes local structure but not CG unless the baggage crosses the aircraft datum",
       "If a load shifts in flight, the aircraft CG and local loads can change unexpectedly",
       "A shifting load changes moment only if it changes total aircraft weight; otherwise CG stays fixed",
-      "Securing baggage matters for occupant injury but does not affect aircraft loading because the baggage remains inside the fuselage"
+      "Securing baggage matters for occupant injury but does not affect aircraft loading"
     ],
     "correctIndex": 1,
     "explanation": "Load shift can change moment/CG and may create control problems in addition to injury or structural risk.",
@@ -489,7 +489,7 @@
     "prompt": "Why should pilots use current empty-weight and moment data after equipment changes?",
     "choices": [
       "Installing or removing equipment changes empty weight and moment, which changes every later loading calculation",
-      "Equipment changes alter useful load only; empty CG and moment remain unchanged because the datum is fixed",
+      "Equipment changes alter useful load only; empty CG and moment remain unchanged",
       "Original factory data remains valid if the airplane stays below maximum gross weight after the equipment change",
       "Only major alterations require updated loading data; avionics and interior changes can be ignored if each item weighs less than a specified threshold"
     ],
@@ -529,9 +529,9 @@
     "prompt": "Why can a forward CG increase fuel consumption or reduce performance?",
     "choices": [
       "A forward CG reduces induced drag by increasing longitudinal stability and allowing a lower angle of attack",
-      "Fuel consumption changes only because the airplane is heavier at a forward CG; the additional tail force has no aerodynamic penalty",
+      "Fuel consumption changes only",
       "More tail downforce may be required, so the wing must produce additional lift, increasing induced drag",
-      "A forward CG reduces the lift the wing must produce because the tail supplies additional upward force"
+      "A forward CG reduces the lift the wing must produce"
     ],
     "correctIndex": 2,
     "explanation": "A forward CG typically increases stabilizing tail force and the total lift the wing must produce, increasing drag.",
@@ -569,7 +569,7 @@
     "prompt": "A pilot uses a loading graph instead of arithmetic. What must still be true for the result to be valid?",
     "choices": [
       "The graph must be the correct approved data for that aircraft/configuration and all weights/stations must be entered accurately",
-      "Any loading graph for the make/model is acceptable because station arms are standardized across the fleet",
+      "Any loading graph for the make/model is acceptable",
       "Graphical methods automatically include equipment changes, so current empty-weight data is not needed",
       "A loading graph can be used without checking its envelope if each individual station load is below its placarded maximum"
     ],

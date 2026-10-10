@@ -31,7 +31,7 @@
       "A generic checklist for the same make and model controls unless the aircraft has a placard stating otherwise",
       "The airplane's approved limitations and operating information",
       "The flight-school checklist controls whenever it is more conservative than the airplane limitation",
-      "The instructor's preferred technique controls because the flight is being conducted for training"
+      "The instructor's preferred technique controls"
     ],
     "correctIndex": 1,
     "explanation": "Aircraft-specific approved limitations and operating information cannot be overridden by a local checklist or instructor preference.",
@@ -48,10 +48,10 @@
     "type": "scenario",
     "prompt": "During preflight planning, a pilot finds a current NOTAM closing the destination runway that is shown open on the sectional chart. What is the correct conclusion?",
     "choices": [
-      "The runway may be used if weather is VFR because NOTAMs are advisory unless ATC repeats them",
+      "The runway may be used if weather is VFR",
       "The pilot may disregard the NOTAM if the airport diagram still depicts the runway as open",
       "The NOTAM provides current time-sensitive information and must be considered",
-      "The sectional controls until its next chart cycle because it is the primary navigation document"
+      "The sectional controls until its next chart cycle"
     ],
     "correctIndex": 2,
     "explanation": "NOTAMs communicate time-critical aeronautical information that may temporarily supersede what appears on a chart or in other publications.",
@@ -68,9 +68,9 @@
     "type": "scenario",
     "prompt": "A student has passed the FAA knowledge test but has not received the required flight training or endorsements for solo flight. What privilege did the test result itself create?",
     "choices": [
-      "Passing the test authorizes solo flight once the student carries photo identification",
-      "Passing the test authorizes solo flight in the local practice area but not on cross-country flights",
-      "Passing the test substitutes for the pre-solo knowledge review but not the instructor's flight endorsement",
+      "Solo authorization after passing the knowledge test",
+      "Solo authorization within the local practice area",
+      "Solo authorization without a pre-solo knowledge review",
       "No solo-flight privilege by itself"
     ],
     "correctIndex": 3,
@@ -188,7 +188,7 @@
     "type": "scenario",
     "prompt": "A student wants to use a smartphone summary of regulations rather than checking the current regulation itself before a flight. What is the principal risk?",
     "choices": [
-      "A summary can be relied on for VFR operations because exceptions and revisions normally affect only commercial or IFR pilots",
+      "A summary can be relied on for VFR operations",
       "Summaries may omit conditions, exceptions, or changes that determine whether an operation is legal",
       "A reliable summary is legally equivalent to the regulation if it links to an FAA source and has a recent update date",
       "The main risk is only that the summary may use nonstandard terminology; the underlying legal requirement will remain the same"
@@ -208,10 +208,10 @@
     "type": "scenario",
     "prompt": "A pilot wants a concise source for basic ATC procedures, airport operations, and operating practices in the National Airspace System. Which source is most appropriate?",
     "choices": [
-      "Pilot's Operating Handbook, because aircraft operating procedures also establish national ATC practices",
-      "Advisory Circular 00-6, because Advisory Circulars replace the AIM for everyday National Airspace System procedures",
+      "Pilot's Operating Handbook",
+      "Advisory Circular 00-6",
       "Aeronautical Information Manual",
-      "Airman Certification Standards, because it contains the routine ATC and airport procedures pilots use after certification"
+      "Airman Certification Standards"
     ],
     "correctIndex": 2,
     "explanation": "The AIM is the FAA's basic information manual for operating in the National Airspace System, including ATC procedures and related operating information.",
@@ -271,7 +271,7 @@
       "It allows instructors to evaluate judgment without requiring the student to understand aircraft systems or regulations",
       "It requires the student to integrate knowledge, risk management, and decisions in realistic flight situations",
       "It replaces the need to learn underlying rules by training the student to recognize familiar situations",
-      "It mainly improves maneuver accuracy because scenarios provide more repetitions than isolated practice"
+      "It mainly improves maneuver accuracy"
     ],
     "correctIndex": 1,
     "explanation": "Scenario-based training develops the ability to apply knowledge and make decisions in realistic contexts rather than merely recall definitions.",
@@ -410,7 +410,7 @@
     "choices": [
       "Verify the operation using current authoritative FAA and aircraft-specific sources",
       "Follow the online procedure if it is newer than the printed POH, then report any difference to the instructor after the flight",
-      "Use the AIM for the procedure even if it conflicts with an approved aircraft limitation, because FAA publications outrank manufacturer documents",
+      "Use the AIM for the procedure even if it conflicts with an approved aircraft limitation",
       "Average the two procedures into a conservative technique if both appear reasonable and neither specifically prohibits the other"
     ],
     "correctIndex": 0,
