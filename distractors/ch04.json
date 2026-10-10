@@ -1,0 +1,152 @@
+[
+  [
+    "Air viscosity increases with altitude, so the wing must move faster to overcome the additional surface friction",
+    "Gravity becomes stronger with altitude, requiring more lift even though air density and dynamic pressure remain unchanged",
+    "The wing's geometric angle of attack decreases automatically with altitude, so true airspeed must increase to restore the same chord angle"
+  ],
+  [
+    "Lower density improves propeller efficiency and wing lift but reduces only engine cooling capacity",
+    "Lower density reduces engine power but leaves wing and propeller performance unchanged at the same indicated airspeed",
+    "Lower density reduces wing lift but increases normally aspirated engine power because there is less pumping resistance"
+  ],
+  [
+    "Frost mainly increases wing weight; airflow remains essentially unchanged until the added weight raises the stall speed",
+    "Surface contamination delays boundary-layer separation, increasing lift while also increasing parasite drag",
+    "Roughness affects only laminar-flow wings; ordinary training-airplane wings retain the same maximum lift when lightly contaminated"
+  ],
+  [
+    "It increases because the faster air molecules strike the venturi wall with greater force",
+    "It remains constant because conservation of mass requires pressure to be the same at the inlet and throat",
+    "It first increases at the throat and then falls only after the airflow begins slowing in the diffuser"
+  ],
+  [
+    "Newton\u2019s first law, because airflow tends to remain attached to the wing unless another force acts",
+    "Newton\u2019s second law only, because lift depends on mass flow but no equal-and-opposite reaction is involved",
+    "Bernoulli\u2019s principle alone, because any downward momentum change is a consequence rather than part of the force balance"
+  ],
+  [
+    "It remains essentially unchanged because angle of attack depends on flight-path angle, not pitch attitude",
+    "It decreases because raising the nose moves the chord line closer to the relative wind in level flight",
+    "It increases only after the airplane begins climbing; until the flight path changes, angle of attack cannot change"
+  ],
+  [
+    "Relative wind is opposite the airplane's pitch attitude, so it approaches from directly ahead along the longitudinal axis",
+    "Relative wind is horizontal in a steady glide because gravity, not airflow, causes the airplane to descend",
+    "Relative wind follows the flight path in the same direction as motion, so it approaches the wing from above the glide path"
+  ],
+  [
+    "A symmetrical airfoil can produce lift only by using a flap or other device to create geometric camber",
+    "Symmetrical airfoils produce lift because the upper surface still forces air to travel farther than the lower surface at zero angle of attack",
+    "A symmetrical airfoil produces positive lift at any angle because equal curvature creates a fixed pressure difference between the two surfaces"
+  ],
+  [
+    "A line tangent to the upper surface at maximum camber, used to measure local flow separation",
+    "A line from the leading edge through the center of pressure, used to define the lift vector",
+    "A line perpendicular to the relative wind, used as the reference for measuring pitch attitude"
+  ],
+  [
+    "It doubles because dynamic pressure changes in direct proportion to velocity",
+    "It increases by a factor of eight because both mass flow and velocity double",
+    "It remains unchanged because density and wing configuration have not changed"
+  ],
+  [
+    "Air molecules become heavier as altitude decreases, so pressure is greatest where molecular mass is highest",
+    "Temperature always decreases with altitude, and colder air directly creates higher pressure at lower levels",
+    "The Earth's magnetic field compresses the atmosphere near the surface, producing a larger static-pressure reading"
+  ],
+  [
+    "It predicts the exact atmosphere for any flight, so performance corrections are unnecessary when pressure altitude is known",
+    "It defines only a standard sea-level pressure; temperature and density must always be measured independently",
+    "It represents the most conservative atmospheric condition expected, so performance calculated from it is automatically safe in nonstandard weather"
+  ],
+  [
+    "Low temperature and high humidity, because water vapor is heavier than dry air",
+    "High temperature and very dry air, because humidity has no effect on air density",
+    "Low temperature and low humidity, because colder dry air contains fewer molecules at the same pressure altitude"
+  ],
+  [
+    "Water vapor is heavier than nitrogen and oxygen, increasing density but reducing oxygen available to the engine",
+    "Humidity increases viscosity enough to raise parasite drag even though air density is unchanged",
+    "Water vapor raises static pressure at a given pressure altitude, causing the airplane to indicate a lower airspeed than it actually has"
+  ],
+  [
+    "Lift coefficient generally decreases because the wing presents more frontal area and creates more parasite drag",
+    "Lift coefficient stays essentially constant until critical angle of attack, while only drag coefficient changes",
+    "Lift coefficient rises but induced-drag effects decrease because the stronger pressure difference weakens wingtip vortices"
+  ],
+  [
+    "Bernoulli explains subsonic lift while Newton applies only to propellers and jet exhaust",
+    "Newton explains lift on symmetrical airfoils while Bernoulli applies only to cambered airfoils",
+    "Bernoulli and Newton predict different lift forces, so pilots should use whichever model better matches the aircraft configuration"
+  ],
+  [
+    "It must increase because more airflow requires a larger coefficient to keep total lift unchanged",
+    "It remains constant because level flight always requires the same lift regardless of airspeed",
+    "It must become negative because higher speed alone would otherwise force the airplane to climb"
+  ],
+  [
+    "Decrease angle of attack because slower airflow remains attached only when the chord aligns more closely with the relative wind",
+    "Hold the same angle of attack and increase only pitch attitude; lift coefficient does not need to change with speed",
+    "Increase angle of attack only after airspeed reaches the published stall speed; before that lift remains equal to weight automatically"
+  ],
+  [
+    "It fixes the aircraft CG location because the center of pressure and CG must coincide in stable flight",
+    "It is the point where parasite drag acts, so its movement determines only yawing moment rather than pitch",
+    "It remains at a fixed wing station for all angles of attack, providing a constant reference for calculating lift"
+  ],
+  [
+    "Air at the surface moves at free-stream speed while viscosity slows only the outer edge of the flow",
+    "The boundary layer is a region of constant pressure and constant velocity created only when airflow becomes turbulent",
+    "Viscosity causes the entire airflow around the wing to slow uniformly, so there is no significant velocity gradient near the surface"
+  ],
+  [
+    "A rough leading edge increases turbulence in a way that normally delays separation and raises maximum lift",
+    "Leading-edge condition affects parasite drag but not the pressure distribution or stall behavior of the wing",
+    "Contamination near the leading edge matters mainly at high cruise speed; at approach speed the boundary layer is too slow to be affected"
+  ],
+  [
+    "Indicated airspeed is corrected for altitude automatically, while true airspeed is the raw pressure sensed by the pitot tube",
+    "True airspeed is tied to dynamic pressure while indicated airspeed measures actual motion through the airmass independent of density",
+    "Indicated and true airspeed should remain equal at all altitudes unless wind changes, because both measure motion relative to the air"
+  ],
+  [
+    "It shows why air can be treated as incompressible at all airplane speeds, eliminating the need to consider pressure changes",
+    "It allows pilots to calculate structural loads from material strength without considering airflow around the airplane",
+    "It explains why aerodynamic forces depend only on air temperature and not on the motion of the aircraft through the fluid"
+  ],
+  [
+    "Newton's first law: thrust maintains acceleration as long as it is applied, regardless of drag",
+    "Newton's third law: thrust and drag are equal-and-opposite forces on the same object, so acceleration results",
+    "Conservation of pressure: excess thrust raises pressure ahead of the airplane and that pressure change produces acceleration"
+  ],
+  [
+    "The propeller pulls itself forward because the rearward-moving air creates lower static pressure only on the back of each blade",
+    "The engine's torque directly creates forward thrust; accelerating air rearward is a byproduct that does not affect the aircraft force",
+    "The rearward air pushes on the tail, and the tail transmits an equal forward force through the fuselage to the propeller"
+  ],
+  [
+    "Pitch attitude determines stall first; angle of attack is mainly a convenient way to estimate pitch attitude during slow flight",
+    "A stall occurs when airspeed falls below the marked stall speed, while angle of attack only determines how abruptly the stall develops",
+    "Critical angle of attack applies only in level unaccelerated flight; in turns and climbs the airplane stalls according to load factor rather than angle of attack"
+  ],
+  [
+    "No; without a pilot control input the chord line cannot change, so angle of attack remains fixed until the aircraft pitches",
+    "No; a gust can change airspeed and load factor but angle of attack changes only with elevator movement",
+    "Yes, but only if the gust changes indicated airspeed enough to move the airplane below its published stall speed"
+  ],
+  [
+    "Indicated liftoff speed rises sharply with density altitude, but true airspeed and groundspeed remain nearly unchanged",
+    "The wing needs roughly the same groundspeed as at sea level, but the altimeter and engine instruments become less accurate",
+    "Only engine power is reduced; aerodynamic liftoff and climb performance are unchanged if the same indicated airspeed is maintained"
+  ],
+  [
+    "How pitch attitude alone determines lift, with density and velocity affecting only engine performance",
+    "How Bernoulli pressure creates lift independently of airflow momentum, while Newton's laws mainly explain thrust",
+    "How wing shape fixes a single lift value for each airplane, with pilot controls changing direction rather than magnitude"
+  ],
+  [
+    "Aerodynamic lift depends on groundspeed, so a stationary airplane cannot produce lift regardless of wind speed",
+    "A stationary airplane can experience relative airflow from wind, but wind-generated lift is impossible until the wheels begin moving over the ground",
+    "A strong headwind creates only drag while the airplane is on the ground; lift begins only after forward thrust produces positive groundspeed"
+  ]
+]

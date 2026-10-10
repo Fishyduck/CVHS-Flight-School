@@ -1,0 +1,152 @@
+[
+  [
+    "The drop shows the alternator is not supplying enough electrical power, but ignition is unaffected so takeoff can continue",
+    "An excessive drop confirms both magnetos are firing together; the higher drop is expected as the plugs warm during run-up",
+    "The magneto check is only a carburetor-icing check, so an RPM drop outside limits matters only in visible moisture"
+  ],
+  [
+    "The battery supplies enough ignition energy to the spark plugs even after the alternator stops charging",
+    "The engine continues because a mechanical fuel pump also generates the ignition spark independently of electricity",
+    "The alternator powers only avionics; a separate engine-driven generator normally supplies the ignition system"
+  ],
+  [
+    "Ice forms on the outside of the carburetor and mechanically prevents the throttle plate from moving",
+    "Fuel freezes in the lines because carburetor temperature drops below the fuel's freezing point",
+    "Induction icing increases airflow and leans the mixture until combustion becomes too weak to maintain RPM"
+  ],
+  [
+    "Carburetor pressure is higher than ambient, so compression heating can later be followed by rapid icing",
+    "Only high humidity matters; temperature can be well above freezing because ice forms from frozen fuel droplets rather than water",
+    "The venturi and fuel vaporization can raise air temperature first, causing moisture to condense and freeze downstream"
+  ],
+  [
+    "RPM should rise immediately because carburetor heat always increases available engine power while melting ice",
+    "No change should occur until all ice has melted; any additional roughness proves the problem was not carburetor ice",
+    "RPM normally increases at first because melting ice enriches the mixture, then decreases once warm unfiltered air enters"
+  ],
+  [
+    "Heated air contains more oxygen per unit volume, making the mixture excessively lean and reducing power",
+    "Carburetor heat closes a secondary throttle plate, reducing manifold pressure regardless of air temperature",
+    "Heated induction air increases density but reduces fuel vaporization, so combustion becomes less efficient"
+  ],
+  [
+    "Increased power because the rich mixture provides extra fuel needed to compensate for thin air",
+    "No meaningful power change; mixture ratio affects economy but not maximum-power output during takeoff",
+    "Higher cylinder temperature only; the engine develops the same power because throttle position determines airflow"
+  ],
+  [
+    "All normally aspirated piston engines use the same best-power mixture, so a universal EGT target can be applied to any airplane",
+    "Mixture should always remain full rich below a single standard density altitude, regardless of manufacturer guidance",
+    "Leaning technique depends only on altitude; fuel-injection versus carburetion and engine instrumentation do not change the procedure"
+  ],
+  [
+    "Ignition occurs before the spark due to a hot spot, starting combustion too early in the cycle",
+    "Normal flame propagation continues smoothly but at an excessively rich fuel-air ratio",
+    "The spark plug fires after top dead center, causing the entire charge to burn too slowly and overheat the exhaust valve"
+  ],
+  [
+    "The remaining unburned charge explodes after normal ignition has begun because pressure and temperature rise excessively",
+    "The mixture burns normally but at a rate too fast for the propeller governor to maintain selected RPM",
+    "A second spark from the opposite magneto fires after combustion starts, creating two normal flame fronts"
+  ],
+  [
+    "Increase power to shorten the time the engine spends at high temperature, then lean aggressively for cleaner combustion",
+    "Close cowl flaps to reduce drag and richen only if RPM decreases, because excess cooling can worsen detonation",
+    "Maintain the same power and airspeed; detonation normally clears on its own as cylinder temperature stabilizes"
+  ],
+  [
+    "Oil primarily seals the combustion chamber; cooling is provided almost entirely by external airflow over the cylinders",
+    "Oil carries heat only from the crankcase, while bearings and pistons are cooled directly by the fuel-air mixture",
+    "Oil reduces friction but should remain thermally insulated from hot components so viscosity does not change"
+  ],
+  [
+    "A normal indication caused by rapid cooling; lower oil pressure and higher temperature often occur together after leveling off",
+    "A likely electrical-instrument problem because true oil pressure cannot fall while temperature rises",
+    "An indication that the oil is becoming less viscous but lubrication remains adequate as long as engine RPM is stable"
+  ],
+  [
+    "It is mainly a comfort indication; cylinder temperatures affect cabin heat but not combustion or engine strength",
+    "Lower cylinder temperature always improves efficiency, so the indication is used only to prevent the engine from running too cool",
+    "Cylinder-head temperature matters only during leaning; detonation and preignition are controlled entirely by magneto timing"
+  ],
+  [
+    "Adjust engine oil flow to the propeller governor so selected RPM remains constant",
+    "Control induction-air temperature to prevent carburetor icing in climb and cruise",
+    "Change the exhaust back pressure to regulate engine power without moving the throttle"
+  ],
+  [
+    "Its blade angle automatically changes with RPM even though the pilot has no propeller control",
+    "A fixed blade angle is efficient for cruise but produces the same thrust and efficiency at every other airspeed",
+    "The propeller can be optimized for either climb or cruise by changing engine RPM alone, so the compromise is mainly noise"
+  ],
+  [
+    "Selected manifold pressure by varying blade angle while engine RPM changes with airspeed",
+    "Selected engine power by keeping blade angle fixed and adjusting throttle position automatically",
+    "Selected airspeed by changing blade angle until propeller thrust balances aircraft drag"
+  ],
+  [
+    "Both controls directly set RPM; the throttle is used for coarse RPM and propeller control for fine RPM",
+    "The propeller control selects engine torque while throttle controls blade angle through the governor",
+    "Throttle sets mixture strength at the intake while propeller control changes manifold pressure through blade pitch"
+  ],
+  [
+    "The battery will continue at full output until it is suddenly empty, so load shedding has little value before voltage drops to zero",
+    "Engine ignition will stop as soon as battery voltage falls because the magnetos depend on bus power for spark timing",
+    "Landing can be delayed if the engine remains smooth, because radios and lights draw power only when transmitting or illuminated"
+  ],
+  [
+    "Prevent the alternator from overcharging the battery by regulating system voltage during normal operation",
+    "Protect the battery from becoming completely discharged by disconnecting it when charge falls below a set value",
+    "Provide a convenient cockpit switch for equipment that the manufacturer expects the pilot to cycle repeatedly in flight"
+  ],
+  [
+    "A breaker should be reset repeatedly until it stays closed because each reset helps identify whether the fault is temporary",
+    "A tripped breaker always means the connected equipment has failed open, so resetting cannot increase fire risk",
+    "Resetting is harmless below maximum bus voltage because circuit protection will immediately prevent any dangerous current"
+  ],
+  [
+    "Fuel exhaustion, because the airplane's usable fuel supply has effectively been consumed even though another tank contains fuel",
+    "Vapor lock only, because selecting an empty tank cannot interrupt fuel flow if total fuel quantity is adequate",
+    "Mixture starvation, because the engine becomes too lean but fuel continues reaching the carburetor from the selected tank"
+  ],
+  [
+    "Starvation means the tanks are empty; exhaustion means fuel remains but is unavailable because of system configuration",
+    "Starvation is caused only by vapor in fuel lines, while exhaustion includes any interruption from tank selection or pump failure",
+    "The terms are interchangeable; both describe any engine stoppage caused by insufficient fuel flow"
+  ],
+  [
+    "They allow outside air into the tank only during refueling; in flight, the tank should remain sealed to maintain fuel pressure",
+    "They vent fuel vapor overboard to prevent an excessively rich engine mixture but do not affect liquid fuel flow",
+    "They pressurize the fuel tank above ambient so a gravity-feed system can operate even when the fuel level is below the engine"
+  ],
+  [
+    "Cockpit gauges are legally required to be exact only when the tanks are full, so visual checking replaces the gauges for dispatch",
+    "Fuel gauges measure total fuel mass but cannot show usable quantity, so visual checking is always more accurate in every airplane",
+    "Visual checking guarantees usable fuel quantity, making fuel records, selector position, and planned burn calculations unnecessary"
+  ],
+  [
+    "Sumping verifies the fuel grade by color only; water is lighter than avgas and normally floats above the sample point",
+    "Drain samples are mainly to measure fuel temperature because cold fuel can cause vapor lock after takeoff",
+    "Contaminants normally remain suspended in fuel, so sampling from low points is useful only immediately after refueling"
+  ],
+  [
+    "The percentage of oxygen in the atmosphere falls rapidly with altitude even though total pressure stays nearly constant",
+    "Air temperature decreases with altitude, making oxygen molecules too cold to pass efficiently into the bloodstream",
+    "Humidity increases with altitude and displaces oxygen from the lungs even though oxygen partial pressure remains the same"
+  ],
+  [
+    "Because the alternator and battery are not involved in ignition, all electrically powered equipment will continue normally as long as the engine runs",
+    "An electrical failure is primarily a communication inconvenience; any flight-critical pump or instrument must have a mechanical backup by certification",
+    "The magnetos keep both the engine and avionics operating because their ignition energy is distributed through the aircraft electrical buses"
+  ],
+  [
+    "Knowing the power source matters mainly for maintenance scheduling; cockpit failure indications and backup procedures are standardized",
+    "A system's actuation method affects only how quickly it operates, not what failures the pilot will see or how the checklist handles them",
+    "All these systems normally revert to gravity or airflow if their primary power source fails, so the exact architecture is not operationally important"
+  ],
+  [
+    "Memorize the name and location of every component; failure diagnosis can then be made without consulting the checklist",
+    "Know which circuit breaker or switch controls each system so any abnormal indication can be corrected by cycling power until it clears",
+    "Focus on the engine because secondary systems rarely affect the ability to continue a VFR flight in a light airplane"
+  ]
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "id": "CH03-V1-01",
+    "chapter": 3,
+    "topic": "Airframe structure",
+    "subtopic": "Semimonocoque construction",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "During a preflight inspection, a pilot finds a pronounced wrinkle in stressed fuselage skin near a structural attachment point. Why should this be treated seriously?",
+    "choices": [
+      "In semimonocoque construction, skin and internal members share structural loads, so deformation can indicate compromised load paths",
+      "Skin wrinkling is important mainly because it increases parasite drag; the internal structure normally carries the fuselage loads independently",
+      "A wrinkle near an attachment point is acceptable if no rivets are missing, because stressed skin is not part of the primary load path",
+      "The wrinkle indicates only local paint or skin finish damage unless the fuselage frame itself is visibly cracked"
+    ],
+    "correctIndex": 0,
+    "explanation": "In semimonocoque structures, stressed skin works with frames, bulkheads, and stringers to carry loads. Distortion can indicate structural damage.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Semimonocoque construction",
+    "learningObjective": "Apply Semimonocoque construction knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-01"
+  },
+  {
+    "id": "CH03-V1-02",
+    "chapter": 3,
+    "topic": "Wing structure",
+    "subtopic": "Wing spars",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A wing inspection reveals damage to a primary spanwise structural member. Which component is most likely involved?",
+    "choices": [
+      "Bulkhead, because wing bending loads are carried primarily by transverse fuselage members",
+      "Spar",
+      "Rib, because ribs are the principal spanwise members that carry wing bending loads",
+      "Stringer, because stringers form the main wing beam from root to tip"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wing spars are principal spanwise load-carrying members.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Wing spars",
+    "learningObjective": "Apply Wing spars knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-02"
+  },
+  {
+    "id": "CH03-V1-03",
+    "chapter": 3,
+    "topic": "Wing structure",
+    "subtopic": "Wing ribs",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why are wing ribs important even though the spars carry major bending loads?",
+    "choices": [
+      "They prevent torsion by acting as the wing's only longitudinal structural members",
+      "They serve mainly as attachment points for control cables and do not contribute meaningfully to load transfer",
+      "They establish the airfoil shape and transfer/distribute loads between skin and spars",
+      "They carry nearly all spanwise bending load while the spars mainly preserve the airfoil contour"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ribs help maintain airfoil geometry and distribute loads into the wing structure.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Wing ribs",
+    "learningObjective": "Apply Wing ribs knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-03"
+  },
+  {
+    "id": "CH03-V1-04",
+    "chapter": 3,
+    "topic": "Structural loads",
+    "subtopic": "Load distribution",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot loads baggage far behind the cabin. From a structural perspective, why must the pilot respect baggage-area limitations in addition to total aircraft weight?",
+    "choices": [
+      "Compartment limits matter only for center of gravity; if total weight and CG are legal, the local structure cannot be overloaded",
+      "Baggage limits are primarily intended to preserve cabin ventilation and emergency egress rather than structural strength",
+      "Local limits can be exceeded only when the airplane is above maximum gross weight, because structural certification uses total airplane load",
+      "Local structure has design load limits, so a legal total weight can still overload a specific compartment or attachment area"
+    ],
+    "correctIndex": 3,
+    "explanation": "Aircraft structures are designed for both total loads and local load distributions. Compartment and floor limits protect local structure.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Load distribution",
+    "learningObjective": "Apply Load distribution knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-04"
+  },
+  {
+    "id": "CH03-V1-05",
+    "chapter": 3,
+    "topic": "Structural loads",
+    "subtopic": "Bending",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "An airplane experiences a strong upward gust. Which structural stress is the wing spar primarily designed to resist as lift bends the wings upward?",
+    "choices": [
+      "Bending",
+      "Compression only, because upward lift shortens the spar uniformly along its span",
+      "Torsion only, because lift twists the wing but does not create a major bending moment",
+      "Shear only, because the spar web carries vertical load while the spar caps are essentially unloaded in a gust"
+    ],
+    "correctIndex": 0,
+    "explanation": "Lift loads create significant bending moments in the wing structure.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Bending",
+    "learningObjective": "Apply Bending knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-05"
+  },
+  {
+    "id": "CH03-V1-06",
+    "chapter": 3,
+    "topic": "Structural loads",
+    "subtopic": "Tension",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A control cable is pulled from both ends during operation. Which basic structural stress is acting in the cable?",
+    "choices": [
+      "Torsion, because cable strands twist under load even when the primary force is axial",
+      "Tension",
+      "Compression, because both cable ends are being pulled toward the center of the cable",
+      "Shear, because tension cables transmit load by sliding adjacent strands past one another"
+    ],
+    "correctIndex": 1,
+    "explanation": "A cable carrying a pulling load is primarily in tension.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Tension",
+    "learningObjective": "Apply Tension knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-06"
+  },
+  {
+    "id": "CH03-V1-07",
+    "chapter": 3,
+    "topic": "Structural loads",
+    "subtopic": "Torsion",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A tubular landing-gear member is twisted about its long axis during an abnormal side load. Which stress best describes that loading?",
+    "choices": [
+      "Compression, because the abnormal side load pushes the member toward the fuselage",
+      "Shear, because twisting about the long axis produces only sliding stress across one attachment plane",
+      "Torsion",
+      "Bending, because any sideways force on a landing gear member is classified as a bending load"
+    ],
+    "correctIndex": 2,
+    "explanation": "Twisting about a member’s longitudinal axis is torsion.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Torsion",
+    "learningObjective": "Apply Torsion knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-07"
+  },
+  {
+    "id": "CH03-V1-08",
+    "chapter": 3,
+    "topic": "Structural loads",
+    "subtopic": "Shear",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Two joined structural parts tend to slide past each other along their attachment plane. Which stress is most relevant?",
+    "choices": [
+      "Tension, because the fasteners are pulled lengthwise as the parts move in opposite directions",
+      "Torsion, because the parts rotate relative to one another around the joint",
+      "Compression, because the adjoining surfaces press together while trying to slide",
+      "Shear"
+    ],
+    "correctIndex": 3,
+    "explanation": "Shear acts when adjacent material tends to slide in opposite directions along a plane.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Shear",
+    "learningObjective": "Apply Shear knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-08"
+  },
+  {
+    "id": "CH03-V1-09",
+    "chapter": 3,
+    "topic": "Materials",
+    "subtopic": "Corrosion",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is corrosion on an aluminum airframe more than a cosmetic concern?",
+    "choices": [
+      "It can remove material and reduce the cross-sectional strength of structural members",
+      "Corrosion mainly roughens the surface and increases drag; structural strength is unchanged until a hole is visible",
+      "Aluminum oxide protects the underlying alloy, so corrosion is normally cosmetic unless it affects paint adhesion",
+      "Corrosion reduces strength only in steel hardware; aluminum skins and structural members are not significantly weakened by section loss"
+    ],
+    "correctIndex": 0,
+    "explanation": "Corrosion can reduce material thickness and strength, compromising the structure.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Corrosion",
+    "learningObjective": "Apply Corrosion knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-09"
+  },
+  {
+    "id": "CH03-V1-10",
+    "chapter": 3,
+    "topic": "Materials",
+    "subtopic": "Composite damage",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A composite surface is struck during ground handling but shows little external damage. Why may further inspection still be necessary?",
+    "choices": [
+      "Internal delamination is mainly a cosmetic issue because the fibers, not the bonded layers, carry all structural loads",
+      "Composite structures can sustain hidden internal damage such as delamination",
+      "Composite damage is normally visible as a permanent dent, so an undented surface can be returned to service after a tap check by the pilot",
+      "Composite skins are flexible enough to absorb impact without hidden structural damage as long as the paint remains intact"
+    ],
+    "correctIndex": 1,
+    "explanation": "Composite damage can be internal and difficult to see, so impact events may require inspection beyond the surface appearance.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Composite damage",
+    "learningObjective": "Apply Composite damage knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-10"
+  },
+  {
+    "id": "CH03-V1-11",
+    "chapter": 3,
+    "topic": "Airframe structure",
+    "subtopic": "Monocoque vs semimonocoque",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot compares monocoque and semimonocoque fuselages. What is the key structural difference?",
+    "choices": [
+      "Semimonocoque eliminates stressed skin and uses frames, longerons, and stringers as the complete load-carrying structure",
+      "Both use the same load path; the terms differ only in whether the fuselage cross-section is round or rectangular",
+      "Monocoque relies primarily on the stressed skin for loads; semimonocoque supplements stressed skin with internal members",
+      "Monocoque uses internal trusses to carry loads while semimonocoque relies on skin alone"
+    ],
+    "correctIndex": 2,
+    "explanation": "Monocoque construction depends mainly on the shell; semimonocoque combines stressed skin with frames, bulkheads, and stringers.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Monocoque vs semimonocoque",
+    "learningObjective": "Apply Monocoque vs semimonocoque knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-11"
+  },
+  {
+    "id": "CH03-V1-12",
+    "chapter": 3,
+    "topic": "Airworthiness",
+    "subtopic": "Damage assessment",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot sees a cracked wing fairing. Why should the pilot not assume it is harmless just because a fairing is generally non-primary structure?",
+    "choices": [
+      "Because any crack in a fairing automatically makes the aircraft unairworthy, regardless of location or approved repair criteria",
+      "Because fairings are primary load-carrying members and a crack directly reduces the airplane's certified maneuvering load factor",
+      "Because the crack may increase drag enough to exceed VNE even though adjacent structure and attachment hardware are unaffected",
+      "The damage must still be evaluated because it may indicate impact, loose parts, or adjacent structural damage"
+    ],
+    "correctIndex": 3,
+    "explanation": "Even non-primary components can create hazards or reveal underlying damage; airworthiness should be determined using proper maintenance procedures.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Damage assessment",
+    "learningObjective": "Apply Damage assessment knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-12"
+  },
+  {
+    "id": "CH03-V1-13",
+    "chapter": 3,
+    "topic": "Empennage",
+    "subtopic": "Horizontal stabilizer",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the primary aerodynamic/structural function of the horizontal stabilizer on a conventional tail airplane?",
+    "choices": [
+      "Contribute to longitudinal stability and provide the surface associated with pitch control",
+      "Produce most of the airplane's yaw stability and provide the mounting surface for the rudder",
+      "Carry the primary wing-bending loads into the fuselage and establish lateral stability",
+      "Provide only aerodynamic streamlining; pitch stability is produced by the elevator rather than the fixed horizontal surface"
+    ],
+    "correctIndex": 0,
+    "explanation": "The horizontal tail contributes to pitch stability about the lateral axis and carries the elevator or may itself move as a stabilator.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Horizontal stabilizer",
+    "learningObjective": "Apply Horizontal stabilizer knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-13"
+  },
+  {
+    "id": "CH03-V1-14",
+    "chapter": 3,
+    "topic": "Empennage",
+    "subtopic": "Vertical stabilizer",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the primary function of the vertical stabilizer?",
+    "choices": [
+      "Pitch control by carrying the elevator and balancing wing lift",
+      "Directional stability in yaw",
+      "Lateral stability in roll by resisting wing-drop disturbances",
+      "Longitudinal stability by producing a restoring pitching moment"
+    ],
+    "correctIndex": 1,
+    "explanation": "The vertical stabilizer provides directional stability about the vertical axis.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Vertical stabilizer",
+    "learningObjective": "Apply Vertical stabilizer knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-14"
+  },
+  {
+    "id": "CH03-V1-15",
+    "chapter": 3,
+    "topic": "Control surfaces",
+    "subtopic": "Hinges and attachments",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot notices play in a flight-control hinge during preflight. Why is this significant?",
+    "choices": [
+      "Hinge play affects only cockpit feel; aerodynamic control-surface position remains unchanged in flight",
+      "Loose hinges are acceptable if the surface reaches full travel during the control check and no cable slack is visible",
+      "Excessive looseness can alter control-surface movement and may indicate worn or damaged attachment hardware",
+      "A small amount of hinge play is desirable because it prevents control binding as aerodynamic loads increase"
+    ],
+    "correctIndex": 2,
+    "explanation": "Control-surface hinges and attachments transmit aerodynamic loads and must operate within approved condition and limits.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Hinges and attachments",
+    "learningObjective": "Apply Hinges and attachments knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-15"
+  },
+  {
+    "id": "CH03-V1-16",
+    "chapter": 3,
+    "topic": "Landing gear",
+    "subtopic": "Tricycle gear stability",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why does a tricycle landing-gear airplane generally resist ground looping better than a tailwheel airplane?",
+    "choices": [
+      "The CG is behind the main gear, so any yaw creates a restoring moment that straightens the airplane",
+      "The nosewheel steers the airplane aerodynamically and prevents a ground loop even after directional control is lost",
+      "The main gear is ahead of the CG, so braking automatically produces a stabilizing yawing moment",
+      "The center-of-gravity/gear geometry tends to provide more stable ground handling with the main gear behind the CG"
+    ],
+    "correctIndex": 3,
+    "explanation": "With tricycle gear, the CG is generally ahead of the main gear, which tends to resist rather than amplify a yaw on the ground.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Tricycle gear stability",
+    "learningObjective": "Apply Tricycle gear stability knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-16"
+  },
+  {
+    "id": "CH03-V1-17",
+    "chapter": 3,
+    "topic": "Landing gear",
+    "subtopic": "Tailwheel characteristics",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A tailwheel airplane begins yawing during rollout. Why can the yaw grow rapidly if not corrected?",
+    "choices": [
+      "Its CG is behind the main gear, so inertia can amplify the turn into a ground loop",
+      "The CG is ahead of the main gear, so inertia tends to rotate the nose back into the direction of travel",
+      "The tailwheel creates a strong aerodynamic weather-vane force that grows faster than rudder effectiveness during rollout",
+      "The yaw grows mainly because differential braking shifts the aircraft CG laterally outside the landing-gear track"
+    ],
+    "correctIndex": 0,
+    "explanation": "The CG-aft-of-main-gear geometry of conventional gear can make ground directional deviations dynamically unstable.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Tailwheel characteristics",
+    "learningObjective": "Apply Tailwheel characteristics knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-17"
+  },
+  {
+    "id": "CH03-V1-18",
+    "chapter": 3,
+    "topic": "Materials",
+    "subtopic": "Aluminum alloys",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why are aluminum alloys widely used in many light-aircraft structures?",
+    "choices": [
+      "They are selected mainly because aluminum remains equally strong at every temperature and can tolerate any field repair method",
+      "They provide a useful combination of strength, low weight, workability, and corrosion resistance when properly protected",
+      "They are heavier than steel but are used because aluminum does not experience fatigue or corrosion",
+      "They have lower strength-to-weight ratio than composites but require no protective treatment or inspection"
+    ],
+    "correctIndex": 1,
+    "explanation": "Aluminum alloys offer favorable strength-to-weight and manufacturing characteristics, though they still require corrosion and fatigue control.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Aluminum alloys",
+    "learningObjective": "Apply Aluminum alloys knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-18"
+  },
+  {
+    "id": "CH03-V1-19",
+    "chapter": 3,
+    "topic": "Materials",
+    "subtopic": "Composites",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why are composite materials attractive for aircraft structures?",
+    "choices": [
+      "They are heavier than equivalent metal structures but permit lower manufacturing cost and simpler repairs",
+      "Their fibers carry loads equally in every direction, so designers do not need to control fiber orientation or layup",
+      "They can provide high strength-to-weight ratios and be formed into efficient complex shapes",
+      "They are immune to impact damage and fatigue, so inspection requirements can be greatly reduced"
+    ],
+    "correctIndex": 2,
+    "explanation": "Composites can be light and strong and allow efficient shapes, but have their own inspection and damage concerns.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Composites",
+    "learningObjective": "Apply Composites knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-19"
+  },
+  {
+    "id": "CH03-V1-20",
+    "chapter": 3,
+    "topic": "Airframe structure",
+    "subtopic": "Bulkheads",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A mechanic explains that a bulkhead is damaged. What is the likely structural role of that component?",
+    "choices": [
+      "A longitudinal member running nose-to-tail that carries the same role as a stringer or longeron",
+      "A spanwise wing member that provides the principal resistance to wing bending",
+      "A removable skin panel whose primary purpose is aerodynamic contour rather than structural load distribution",
+      "A transverse fuselage member that helps maintain shape and carry/distribute loads"
+    ],
+    "correctIndex": 3,
+    "explanation": "Bulkheads are transverse fuselage structural members that help shape and strengthen the fuselage and carry concentrated loads.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Bulkheads",
+    "learningObjective": "Apply Bulkheads knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-20"
+  },
+  {
+    "id": "CH03-V1-21",
+    "chapter": 3,
+    "topic": "Airframe structure",
+    "subtopic": "Longitudinal members",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the function of stringers or longerons in a semimonocoque fuselage?",
+    "choices": [
+      "Provide longitudinal reinforcement and help carry/distribute loads",
+      "Provide transverse reinforcement and establish the fuselage cross-section at individual stations",
+      "Serve mainly as nonstructural guides for wiring and control cables along the fuselage",
+      "Replace the stressed skin as the primary load-carrying member in semimonocoque construction"
+    ],
+    "correctIndex": 0,
+    "explanation": "Longitudinal structural members reinforce the skin and frames and contribute to carrying fuselage loads.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Longitudinal members",
+    "learningObjective": "Apply Longitudinal members knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-21"
+  },
+  {
+    "id": "CH03-V1-22",
+    "chapter": 3,
+    "topic": "Structural loads",
+    "subtopic": "Load limits",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "During turbulence, why is it important to remain within aircraft speed and load limitations even if no visible damage occurs?",
+    "choices": [
+      "Turbulence loads are self-limiting because the wing will always stall before any structural limit can be exceeded at any airspeed",
+      "Structural loads can exceed design limits before damage becomes obvious",
+      "Visible damage always appears before the airframe reaches a certified load limit, so limitations are mainly for passenger comfort",
+      "The published limitations protect only against permanent deformation; fatigue and hidden damage do not occur below those values"
+    ],
+    "correctIndex": 1,
+    "explanation": "Aircraft certification establishes structural load limits. Excessive aerodynamic loads can cause permanent deformation or failure.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Load limits",
+    "learningObjective": "Apply Load limits knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-22"
+  },
+  {
+    "id": "CH03-V1-23",
+    "chapter": 3,
+    "topic": "Airworthiness",
+    "subtopic": "Fasteners",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot finds a missing inspection-panel fastener before flight. Why can a seemingly small fastener matter?",
+    "choices": [
+      "One missing fastener is acceptable if the remaining fasteners appear tight and the panel lies flush with the skin",
+      "The fastener matters only if it changes the airplane's empty weight enough to affect the weight-and-balance calculation",
+      "Fasteners can be part of a load path or prevent panels from opening into the airflow; the discrepancy requires proper evaluation",
+      "Inspection-panel fasteners are nonstructural by definition, so the only concern is losing the panel after takeoff"
+    ],
+    "correctIndex": 2,
+    "explanation": "Fasteners secure components and may transfer load. Missing hardware can affect structural integrity or create an aerodynamic hazard.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Fasteners",
+    "learningObjective": "Apply Fasteners knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-23"
+  },
+  {
+    "id": "CH03-V1-24",
+    "chapter": 3,
+    "topic": "Airframe structure",
+    "subtopic": "Frames and ribs",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Which description best distinguishes a fuselage frame from a wing rib?",
+    "choices": [
+      "A frame is primarily a longitudinal fuselage member; a rib is primarily a spanwise wing beam",
+      "A frame gives the wing its airfoil cross-section; a rib maintains the fuselage's transverse shape",
+      "Frames and ribs perform the same structural role, with different names used only for metal versus composite aircraft",
+      "A frame is primarily a transverse fuselage member; a rib primarily gives a wing its airfoil cross-section"
+    ],
+    "correctIndex": 3,
+    "explanation": "Frames and bulkheads shape/support fuselages; ribs shape and support wings and other airfoils.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Frames and ribs",
+    "learningObjective": "Apply Frames and ribs knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-24"
+  },
+  {
+    "id": "CH03-V1-25",
+    "chapter": 3,
+    "topic": "Airworthiness",
+    "subtopic": "Structural repairs",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why does an aircraft manufacturer specify approved repair methods rather than allowing any strong-looking patch?",
+    "choices": [
+      "Aircraft repairs must restore the intended load path, stiffness, aerodynamic contour, and material compatibility",
+      "Any repair that is stronger than the original material is acceptable even if stiffness or load distribution changes",
+      "A patch is acceptable if it restores exterior contour; internal load paths and material compatibility are maintenance concerns only after flight testing",
+      "Approved methods are intended mainly to preserve appearance and resale value; structural strength can be judged by material thickness alone"
+    ],
+    "correctIndex": 0,
+    "explanation": "A repair must fit the original structural design; excessive stiffness, poor load transfer, or incompatible materials can create new failure points.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Structural repairs",
+    "learningObjective": "Apply Structural repairs knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-25"
+  },
+  {
+    "id": "CH03-V1-26",
+    "chapter": 3,
+    "topic": "Airworthiness",
+    "subtopic": "Preflight structural inspection",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot sees oil-canning or unusual skin movement during a walkaround. What is the best response?",
+    "choices": [
+      "Treat it as cosmetic unless the POH lists oil-canning as a prohibited preflight condition",
+      "Treat it as a possible structural discrepancy and have it evaluated rather than assuming it is normal",
+      "Continue the flight if the movement disappears when the skin is pressed by hand and no rivet heads are missing",
+      "Compare it with the opposite side; if both skins move similarly, no further evaluation is needed"
+    ],
+    "correctIndex": 1,
+    "explanation": "Unexpected skin deformation can indicate damage, loosened structure, or buckling and deserves proper inspection.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Preflight structural inspection",
+    "learningObjective": "Apply Preflight structural inspection knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-26"
+  },
+  {
+    "id": "CH03-V1-27",
+    "chapter": 3,
+    "topic": "Control surfaces",
+    "subtopic": "Flutter prevention",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why are control surfaces often mass-balanced?",
+    "choices": [
+      "To make the controls lighter by reducing the hinge moment required from the pilot",
+      "To prevent adverse yaw by ensuring both ailerons have the same mass and therefore the same drag",
+      "To reduce the tendency for destructive aerodynamic flutter",
+      "To increase control-surface aerodynamic effectiveness at low speed by moving the center of pressure aft"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mass balancing helps prevent control-surface flutter by controlling inertial characteristics around the hinge line.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Flutter prevention",
+    "learningObjective": "Apply Flutter prevention knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-27"
+  },
+  {
+    "id": "CH03-V1-28",
+    "chapter": 3,
+    "topic": "Airworthiness",
+    "subtopic": "Alterations",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot adds an unapproved external accessory to the airframe. Why can this affect more than appearance?",
+    "choices": [
+      "External accessories affect drag only; if their weight is negligible, structural loads and approved configuration are unchanged",
+      "An accessory can be added without approval if it does not interfere with flight-control travel or block a required inspection panel",
+      "The main concern is radio interference; aerodynamic loads, vibration, and weight-and-balance effects are too small to matter on light aircraft",
+      "It may alter drag, loads, vibration, weight and balance, and approved configuration"
+    ],
+    "correctIndex": 3,
+    "explanation": "Changes to the aircraft configuration can affect structural and aerodynamic characteristics and must follow approved data and procedures.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Alterations",
+    "learningObjective": "Apply Alterations knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-28"
+  },
+  {
+    "id": "CH03-V1-29",
+    "chapter": 3,
+    "topic": "Airworthiness",
+    "subtopic": "Pilot structural awareness",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot asks why knowing basic structure matters if maintenance is performed by mechanics. What is the best answer?",
+    "choices": [
+      "Pilots must recognize discrepancies during preflight and understand how loading and operation can stress the airframe",
+      "Structural knowledge is mainly useful after an accident; normal preflight discrepancies can be left entirely to scheduled maintenance",
+      "Pilots need only know visible exterior parts because internal load paths and loading limits do not affect operational decisions",
+      "A mechanic's inspection transfers structural responsibility to maintenance until the next required inspection, so pilot structural knowledge adds little safety value"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pilots are responsible for determining whether the aircraft is in condition for safe flight and need enough structural knowledge to identify and respond to discrepancies.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Pilot structural awareness",
+    "learningObjective": "Apply Pilot structural awareness knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-29"
+  },
+  {
+    "id": "CH03-V1-30",
+    "chapter": 3,
+    "topic": "Airworthiness",
+    "subtopic": "Operational application",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the most useful operational takeaway from aircraft-construction knowledge?",
+    "choices": [
+      "Focus on which materials are strongest; if the strongest material is undamaged, loading and attachment details are secondary",
+      "Understand the major load paths and components well enough to avoid improper loading, recognize damage, and respect limitations",
+      "Memorize the names of major structural components so a pilot can describe them accurately to maintenance personnel",
+      "Know enough structure to make field repairs to skin, hinges, and fasteners when a mechanic is unavailable"
+    ],
+    "correctIndex": 1,
+    "explanation": "Structural knowledge supports safe preflight inspection, loading, operation, and communication with maintenance personnel.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 3 — Operational application",
+    "learningObjective": "Apply Operational application knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch03-30"
+  }
+]

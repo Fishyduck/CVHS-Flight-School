@@ -1,0 +1,152 @@
+[
+  [
+    "The current AIM, because it contains standardized limitations and emergency procedures for all certificated airplanes",
+    "The aircraft maintenance manual, because it is the controlling source for pilot operating limitations and performance",
+    "The type certificate data sheet alone, because it replaces the AFM/POH for all approved operating speeds and procedures"
+  ],
+  [
+    "Use the limitation remembered from the same model family if it is more conservative than the placard",
+    "Follow the flight-school checklist because standardized fleet procedures supersede individual-aircraft placards",
+    "Ignore the placard until maintenance verifies it, because placards are advisory unless the same limitation appears on the instrument panel"
+  ],
+  [
+    "Normal Procedures, because all speeds and weights used in routine flight are listed there",
+    "General, because the approved limitations are summarized only in the aircraft description and specifications",
+    "Performance, because any limit affecting speed, weight, or altitude is derived from performance data rather than the limitations section"
+  ],
+  [
+    "Limitations, because prohibited actions and maximum values are the primary reference during an emergency",
+    "Normal Procedures, because emergency actions are variations of the normal checklist and are kept in one section",
+    "Performance, because emergency procedures are selected according to the predicted glide, climb, and landing performance"
+  ],
+  [
+    "Limitations, because start, taxi, and takeoff actions are operating limitations rather than procedures",
+    "Performance, because takeoff and landing actions are determined from charts before each flight",
+    "Emergency Procedures, because engine start and run-up are treated as abnormal until the airplane is airborne"
+  ],
+  [
+    "Limitations, because takeoff, climb, cruise, and landing numbers are mandatory operating limits",
+    "Weight and Balance, because all performance values can be derived from aircraft weight and CG without the performance section",
+    "Normal Procedures, because the speeds used on the charts are incorporated into the checklists and make separate performance data unnecessary"
+  ],
+  [
+    "Supplements are maintenance records only; the original POH remains controlling even after approved equipment changes",
+    "A supplement matters only if the added equipment changes empty weight by more than one percent",
+    "Installed equipment procedures are controlled by the equipment manufacturer's user guide, which supersedes the airplane AFM/POH whenever they conflict"
+  ],
+  [
+    "Airworthiness certificate, Registration, Radio operator permit for every domestic flight, Operating handbook, and Weight certificate",
+    "Aircraft logbooks, Registration, Radio license, Operating limitations, and Weather briefing",
+    "Airworthiness certificate, Registration, Required inspections, Owner's manual, and Weight-and-balance worksheet"
+  ],
+  [
+    "The registration is needed only to prove ownership; the airplane remains legal to operate if the airworthiness certificate is aboard",
+    "A photocopy or digital image is always equivalent to the required registration document for domestic flight",
+    "Registration status matters only for international operations; within the United States the tail number and airworthiness certificate are sufficient"
+  ],
+  [
+    "It certifies that the aircraft will remain airworthy until its next annual inspection regardless of later condition or maintenance",
+    "It authorizes any aircraft of that make/model to fly as long as a certificated pilot is at the controls",
+    "It is the pilot's operating authority for the aircraft and substitutes for verifying maintenance, inspections, and condition before each flight"
+  ],
+  [
+    "An annual inspection can temporarily supersede the AD until the next inspection cycle if the airplane remains in good condition",
+    "The pilot may fly to maintenance under normal operating privileges if the AD is overdue but no defect is visible",
+    "The AD is advisory unless it is specifically reproduced in the POH limitations section for that serial number"
+  ],
+  [
+    "An annual inspection guarantees airworthiness for twelve calendar months unless the pilot damages the aircraft",
+    "Once the annual is current, other inspections and AD compliance are maintenance concerns that cannot affect dispatch legality",
+    "Current paperwork establishes airworthiness even if the pilot discovers a new defect, because maintenance has already returned the aircraft to service"
+  ],
+  [
+    "Use the annual-inspection date only; passenger-for-hire use changes pilot qualifications but not aircraft inspection requirements",
+    "Apply the shortest inspection interval the pilot remembers from any commercial operation to ensure a conservative result",
+    "Assume the flight school's maintenance schedule applies to all passenger-carrying operations unless the POH states another interval"
+  ],
+  [
+    "If the landing light is not needed in daylight, the pilot may simply switch it off and note the item after landing",
+    "If the airplane has another exterior light, the inoperative landing light is automatically redundant and may be ignored",
+    "Determine only whether 91.205 requires the light for day VFR; type design, KOEL, ADs, and other operating requirements do not affect the decision"
+  ],
+  [
+    "An MEL is a pilot-created list of equipment considered nonessential for a particular trip and can be changed before each flight",
+    "An MEL waives the requirement to consider type design, maintenance procedures, or operating limitations for listed items",
+    "An MEL is the same as a manufacturer's equipment list; any item marked optional may be inoperative without additional procedures"
+  ],
+  [
+    "Any item not listed in 91.205 may be left inoperative after the pilot places an INOP sticker on it",
+    "The pilot may defer an item if the aircraft can be flown safely, even when the item is required by the type design or an AD",
+    "The rule permits pilot judgment to replace maintenance action as long as the inoperative item is not needed for the planned weather"
+  ],
+  [
+    "The panel shows the current condition of all required systems, making logbook review useful mainly for resale or maintenance planning",
+    "A current annual inspection entry is enough; individual AD and inspection records do not affect the pilot's airworthiness determination",
+    "Logbooks matter only when the aircraft has been modified, because routine inspection and maintenance status is carried on cockpit placards"
+  ],
+  [
+    "Yes, if the annual or 100-hour inspection is current and the leak is not visible from the cockpit",
+    "Yes, if usable fuel remaining is sufficient for the planned flight plus reserve and the leak rate appears slow",
+    "Only if the POH does not list fuel leakage as an explicit prohibited condition; otherwise paperwork controls the decision"
+  ],
+  [
+    "Generic model checklists are preferable because they avoid differences created by optional equipment and local modifications",
+    "A checklist for any airplane in the same category/class is acceptable if the pilot knows the cockpit layout",
+    "The manufacturer's newest checklist for the model should replace an older aircraft-specific checklist even if installed equipment differs"
+  ],
+  [
+    "Factory brochure data remains valid because equipment changes affect empty weight but not useful load or loaded CG calculations",
+    "Use the original type-certificate empty weight and add only occupants, baggage, and fuel; later avionics changes are too small to matter",
+    "Current equipment data matters only for maximum gross weight; moment and empty CG remain fixed for the life of the airframe"
+  ],
+  [
+    "The maintenance procedures and inspection intervals that every aircraft of the model must use in service",
+    "A list of optional installed equipment and the current weight-and-balance data for one individual aircraft",
+    "The pilot certification privileges and training endorsements required to operate that aircraft category and class"
+  ],
+  [
+    "STC documents matter only to mechanics; once an alteration is installed, the original POH always remains unchanged for the pilot",
+    "An STC changes ownership or registration status but cannot change airplane limitations, procedures, or loading data",
+    "STC paperwork is needed only until the next annual inspection, after which the alteration is incorporated automatically into the original type certificate"
+  ],
+  [
+    "A placard is optional if the same information can be found somewhere in the POH before flight",
+    "Unreadable placards matter only during practical tests; pilots may rely on memory for limitations they already know",
+    "Instrument markings always duplicate required placards, so an unreadable cockpit placard cannot affect legal or safe operation"
+  ],
+  [
+    "It lists only optional equipment for maintenance inventory; weights and arms are taken from the original factory empty-weight record",
+    "It identifies equipment but not configuration status, because installed changes are recorded only in maintenance logbooks",
+    "It is useful only when calculating electrical load; loading calculations use occupant and fuel stations independent of installed equipment"
+  ],
+  [
+    "Any speed printed in the POH is a limitation; recommended speeds appear only in training manuals and the AIM",
+    "If a speed is marked on the instrument it is advisory, while speeds printed in normal procedures are mandatory limitations",
+    "Use the fastest value found among POH sections because performance recommendations take precedence over conservative limitation values"
+  ],
+  [
+    "Operating limitations are advisory unless written as a placard; instrument markings are reference aids rather than approved limitations",
+    "Placards and markings are legally meaningful only when the original AFM/POH is not carried in the airplane",
+    "A pilot may exceed a placarded or marked limit if the POH performance section shows adequate margin for the current conditions"
+  ],
+  [
+    "Use the avionics manufacturer's quick-reference card only; approved supplements are required mainly for maintenance installation",
+    "Verify only that the new avionics database is current; weight-and-balance and airplane procedures are unaffected by panel equipment",
+    "Review the original POH and ignore later supplements unless the flight will be conducted IFR, where avionics approval becomes legally relevant"
+  ],
+  [
+    "If the item seems nonessential, depart and ask maintenance to verify legality after the flight",
+    "Use the most conservative rule-of-thumb from a training guide rather than delaying the flight for aircraft-specific research",
+    "Assume it is required whenever uncertain and permanently remove it before flight without consulting approved maintenance data"
+  ],
+  [
+    "Confirm only that the most recent annual inspection is current; maintenance personnel are solely responsible for all other airworthiness items",
+    "Verify required paperwork and compliance, but the PIC may rely on the last maintenance release for present condition without conducting a preflight",
+    "Airworthiness is established by the certificate aboard the airplane; the PIC's primary responsibility is only to remain within operating limitations after takeoff"
+  ],
+  [
+    "Memorize the ARROW documents and inspection acronyms; operational limitations can be handled from memory once training is complete",
+    "Use the POH for normal flight and maintenance records only after a defect occurs; inoperative-equipment decisions can be based on whether the item seems necessary",
+    "Treat any installed item as legally required unless it appears on an MEL, so there is no need to analyze type design, regulations, ADs, or kind of operation"
+  ]
+]

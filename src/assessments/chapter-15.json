@@ -1,0 +1,602 @@
+[
+  {
+    "id": "CH15-V1-01",
+    "chapter": 15,
+    "topic": "Controlled airspace",
+    "subtopic": "Class B entry",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A VFR pilot plans to enter Class B airspace. What must happen before entry?",
+    "choices": [
+      "An explicit ATC clearance into the Class B must be received",
+      "Two-way radio communication with ATC and an assigned transponder code are sufficient; the word 'cleared' is not required",
+      "The pilot may enter after establishing radar contact if remaining VFR and below the Class B primary airport traffic flow",
+      "A flight-following handoff to the Class B controller constitutes entry authorization even without an explicit Class B clearance"
+    ],
+    "correctIndex": 0,
+    "explanation": "Class B entry requires an ATC clearance, not merely establishment of communications.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Class B entry",
+    "learningObjective": "Apply Class B entry knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-01"
+  },
+  {
+    "id": "CH15-V1-02",
+    "chapter": 15,
+    "topic": "Controlled airspace",
+    "subtopic": "Class C communications",
+    "difficulty": "advanced",
+    "type": "scenario",
+    "prompt": "A pilot calls a Class C approach facility with the aircraft callsign. ATC replies, “Aircraft calling, standby,” without using the callsign. Has two-way radio communication for Class C entry been established?",
+    "choices": [
+      "No, because Class C requires an explicit entry clearance using the words 'cleared into Class Charlie' rather than just two-way communication",
+      "No; ATC must respond using the aircraft callsign or an abbreviated form that clearly identifies the aircraft",
+      "Yes; any ATC response to the transmission establishes the required communication even without the callsign",
+      "Yes, if the pilot has already been assigned a discrete transponder code and is receiving radar traffic advisories"
+    ],
+    "correctIndex": 1,
+    "explanation": "For Class C/D entry, communication is considered established when ATC acknowledges the specific aircraft by callsign.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Class C communications",
+    "learningObjective": "Apply Class C communications knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-02"
+  },
+  {
+    "id": "CH15-V1-03",
+    "chapter": 15,
+    "topic": "Controlled airspace",
+    "subtopic": "Class D communications",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot approaching Class D calls the tower and hears, “Cessna 123AB, standby.” May the pilot continue into Class D, assuming no contrary instruction?",
+    "choices": [
+      "No; 'standby' means communication has not been established until the controller gives a traffic or sequencing instruction",
+      "Yes only if the airplane has already been assigned a discrete transponder code by approach control",
+      "Yes; the tower has responded using the callsign, establishing two-way communications, though the pilot must still comply with ATC instructions",
+      "No; Class D requires an explicit airspace-entry clearance separate from landing or pattern instructions"
+    ],
+    "correctIndex": 2,
+    "explanation": "Class D normally requires establishing two-way radio communication before entry; a callsign acknowledgment satisfies that communication requirement.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Class D communications",
+    "learningObjective": "Apply Class D communications knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-03"
+  },
+  {
+    "id": "CH15-V1-04",
+    "chapter": 15,
+    "topic": "Controlled airspace",
+    "subtopic": "Class A",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is Class A airspace in the contiguous United States primarily intended for?",
+    "choices": [
+      "VFR and IFR operations above 18,000 MSL with a Class A clearance when the pilot can maintain VMC",
+      "High-altitude controlled operations where VFR is permitted with two-way radio communication and Mode C equipment",
+      "Special-use operations above the transition altitude; ordinary IFR traffic remains in Class E unless entering Class B or C",
+      "High-altitude controlled operations conducted under IFR"
+    ],
+    "correctIndex": 3,
+    "explanation": "Class A generally begins at 18,000 feet MSL and is an IFR-only operating environment under the applicable rules.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Class A",
+    "learningObjective": "Apply Class A knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-04"
+  },
+  {
+    "id": "CH15-V1-05",
+    "chapter": 15,
+    "topic": "Controlled airspace",
+    "subtopic": "Class E",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot flying VFR sees that controlled airspace above is Class E. What does “Class E” mean?",
+    "choices": [
+      "Controlled airspace that is not Class A, B, C, or D",
+      "Controlled airspace used only for IFR aircraft; VFR flights in the same volume are considered to be operating in Class G",
+      "Airspace surrounding airports with an operating tower but without enough traffic to qualify for Class D",
+      "Airspace where ATC exercises positive separation of all aircraft and therefore requires an explicit clearance for VFR entry"
+    ],
+    "correctIndex": 0,
+    "explanation": "Class E is controlled airspace of various configurations not designated A–D.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Class E",
+    "learningObjective": "Apply Class E knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-05"
+  },
+  {
+    "id": "CH15-V1-06",
+    "chapter": 15,
+    "topic": "Uncontrolled airspace",
+    "subtopic": "Class G",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is Class G airspace?",
+    "choices": [
+      "A class of controlled airspace below Class E where radio communication is optional but ATC separation remains available",
+      "Uncontrolled airspace",
+      "Airspace in which ATC services are advisory but all VFR weather and equipment rules are identical to Class E",
+      "Airspace outside federal jurisdiction in which normal operating regulations do not apply"
+    ],
+    "correctIndex": 1,
+    "explanation": "Class G is airspace not designated as controlled airspace; VFR weather minima and services differ by altitude/time/location.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Class G",
+    "learningObjective": "Apply Class G knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-06"
+  },
+  {
+    "id": "CH15-V1-07",
+    "chapter": 15,
+    "topic": "VFR weather minima",
+    "subtopic": "Purpose",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why do VFR cloud-clearance and visibility requirements vary by airspace and altitude?",
+    "choices": [
+      "They are based primarily on terrain and obstacle density, so mountainous areas require greater cloud distances in every airspace class",
+      "They vary to account for airport runway length and traffic volume; altitude matters mainly because oxygen requirements also change",
+      "They provide different time-and-distance margins for see-and-avoid based on traffic environment and expected aircraft speeds",
+      "They reflect whether ATC is providing radar service; aircraft with radar service may use reduced visibility and cloud clearances"
+    ],
+    "correctIndex": 2,
+    "explanation": "Weather minima support visibility, reaction time, and separation from IFR traffic emerging from clouds in different operating environments.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Purpose",
+    "learningObjective": "Apply Purpose knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-07"
+  },
+  {
+    "id": "CH15-V1-08",
+    "chapter": 15,
+    "topic": "VFR weather minima",
+    "subtopic": "Legal versus safe",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot is exactly at a cloud-clearance minimum but visibility is deteriorating and terrain is rising. Is continuing automatically a good decision?",
+    "choices": [
+      "Yes; once all regulatory weather minima are met, continuing is presumptively safe unless a specific hazard is prohibited by regulation",
+      "Yes if the pilot remains in controlled airspace and receives flight following, because terrain and traffic risks are then managed by ATC",
+      "No only if visibility falls below the pilot's personal minimum; terrain and trend do not materially change risk while the legal minima are maintained",
+      "No; regulatory minima are not personal safety margins, and terrain, proficiency, weather trend, and escape options must also be considered"
+    ],
+    "correctIndex": 3,
+    "explanation": "Legal minima are thresholds, not a complete risk assessment.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Legal versus safe",
+    "learningObjective": "Apply Legal versus safe knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-08"
+  },
+  {
+    "id": "CH15-V1-09",
+    "chapter": 15,
+    "topic": "Controlled airspace",
+    "subtopic": "Class B shelves",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is the lateral “shelf” structure of Class B important to VFR pilots?",
+    "choices": [
+      "Different floors exist at different distances from the primary airport, so a pilot can be outside or underneath Class B depending on altitude and position",
+      "The shelf means Class B entry rules apply laterally but not vertically, so a pilot beneath it may climb into the airspace without a clearance",
+      "Every shelf has the same floor, allowing pilots to memorize one standard altitude around all Class B airports",
+      "A Class B shelf changes only equipment requirements; communication and clearance requirements remain the same below and inside the shelf"
+    ],
+    "correctIndex": 0,
+    "explanation": "Class B is individually tailored with surface areas and shelves; pilots must interpret charted floors/ceilings.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Class B shelves",
+    "learningObjective": "Apply Class B shelves knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-09"
+  },
+  {
+    "id": "CH15-V1-10",
+    "chapter": 15,
+    "topic": "Controlled airspace",
+    "subtopic": "Airspace layering",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A VFR pilot remains below a Class B shelf. What must the pilot still consider?",
+    "choices": [
+      "The shelf floor only; terrain and other airspace are already accounted for in the Class B design and need no separate review",
+      "Other airspace, transponder/ADS-B requirements, cloud clearance, terrain, and local procedures can still apply",
+      "Nothing associated with Class B; being below a shelf also removes nearby Mode C/ADS-B and special-flight-rule requirements",
+      "Only the Class B ceiling and lateral boundary; weather minima and equipment are determined solely by the airspace actually entered"
+    ],
+    "correctIndex": 1,
+    "explanation": "Avoiding one airspace boundary does not eliminate other regulatory or operational requirements.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Airspace layering",
+    "learningObjective": "Apply Airspace layering knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-10"
+  },
+  {
+    "id": "CH15-V1-11",
+    "chapter": 15,
+    "topic": "Special use airspace",
+    "subtopic": "Prohibited area",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is a prohibited area?",
+    "choices": [
+      "Airspace containing hazardous military activity that may be transited when inactive without specific permission",
+      "Airspace closed to nonparticipating traffic only during published activation times, otherwise treated as Class E",
+      "Airspace within which flight is prohibited for security or national-welfare reasons unless specifically authorized",
+      "Airspace that may be entered VFR after establishing two-way communication with the controlling agency"
+    ],
+    "correctIndex": 2,
+    "explanation": "Prohibited areas bar flight for specified reasons except as authorized.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Prohibited area",
+    "learningObjective": "Apply Prohibited area knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-11"
+  },
+  {
+    "id": "CH15-V1-12",
+    "chapter": 15,
+    "topic": "Special use airspace",
+    "subtopic": "Restricted area",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is a restricted area?",
+    "choices": [
+      "Airspace from which all nonparticipating aircraft are permanently excluded, the same practical effect as a prohibited area",
+      "A charted area with unusually high training traffic where pilots may enter freely but should exercise added vigilance",
+      "A time-limited flight restriction issued by NOTAM around events, disasters, or VIP movements",
+      "Airspace containing unusual, often invisible hazards where flight is subject to restrictions when active"
+    ],
+    "correctIndex": 3,
+    "explanation": "Restricted areas can contain artillery, missiles, or other hazards and require status/authorization considerations.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Restricted area",
+    "learningObjective": "Apply Restricted area knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-12"
+  },
+  {
+    "id": "CH15-V1-13",
+    "chapter": 15,
+    "topic": "Special use airspace",
+    "subtopic": "MOA",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A VFR pilot’s route crosses a military operations area (MOA). What is the correct general approach?",
+    "choices": [
+      "Determine its status and exercise extreme caution; VFR flight is not automatically prohibited, but high-speed military activity may be present",
+      "Treat the MOA as closed whenever active; VFR aircraft may enter only after receiving a specific ATC clearance",
+      "Ignore activation status because military aircraft operating in an MOA must remain separated from all VFR traffic",
+      "Enter only when receiving VFR flight following, because radar service transfers collision-avoidance responsibility to ATC"
+    ],
+    "correctIndex": 0,
+    "explanation": "MOAs separate certain military training from IFR traffic and alert VFR pilots to potentially hazardous activity; VFR entry is generally not prohibited by the MOA designation itself.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — MOA",
+    "learningObjective": "Apply MOA knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-13"
+  },
+  {
+    "id": "CH15-V1-14",
+    "chapter": 15,
+    "topic": "Special use airspace",
+    "subtopic": "Alert area",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the purpose of an alert area?",
+    "choices": [
+      "Identify a region where hazardous activities occur over water beyond the coast and may endanger nonparticipating aircraft",
+      "Warn pilots of a high volume of pilot training or unusual aerial activity, with all participants sharing collision-avoidance responsibility",
+      "Separate high-speed military aircraft from civil traffic by prohibiting VFR entry while the area is active",
+      "Protect a sensitive ground site by requiring ATC authorization before flight through the depicted area"
+    ],
+    "correctIndex": 1,
+    "explanation": "Alert areas advise of concentrated or unusual flight activity rather than imposing a general prohibition.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Alert area",
+    "learningObjective": "Apply Alert area knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-14"
+  },
+  {
+    "id": "CH15-V1-15",
+    "chapter": 15,
+    "topic": "Special use airspace",
+    "subtopic": "Warning area",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is a warning area?",
+    "choices": [
+      "An advisory area around airports with unusually high student traffic but no restrictions on participating activities",
+      "A temporary area established by NOTAM around hazards such as fires or disasters rather than a permanently charted special-use area",
+      "Airspace of defined dimensions extending from three nautical miles outward from the U.S. coast that contains activity potentially hazardous to nonparticipating aircraft",
+      "Airspace over land in which artillery or aerial gunnery makes entry legally prohibited whenever the area is active"
+    ],
+    "correctIndex": 2,
+    "explanation": "A warning area extends from three nautical miles outward from the U.S. coast and contains activity that may be hazardous to nonparticipating aircraft; its purpose is to warn pilots of the potential danger.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Warning area",
+    "learningObjective": "Apply Warning area knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-15"
+  },
+  {
+    "id": "CH15-V1-16",
+    "chapter": 15,
+    "topic": "Other airspace",
+    "subtopic": "TFR",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is a Temporary Flight Restriction (TFR)?",
+    "choices": [
+      "A permanent special-use airspace area that closes whenever the controlling agency activates it",
+      "An advisory that recommends avoiding an area but does not impose flight restrictions on VFR aircraft",
+      "A charted Class E area whose base and ceiling temporarily change to protect special events or emergency response",
+      "A time-limited restriction on flight in a defined area for specified reasons published through NOTAMs"
+    ],
+    "correctIndex": 3,
+    "explanation": "TFRs establish temporary flight restrictions for events such as security, disasters, space operations, or other specified purposes.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — TFR",
+    "learningObjective": "Apply TFR knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-16"
+  },
+  {
+    "id": "CH15-V1-17",
+    "chapter": 15,
+    "topic": "Other airspace",
+    "subtopic": "TFR currency",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why must pilots check current NOTAMs for TFRs even when using a current sectional chart?",
+    "choices": [
+      "TFRs can be created or changed after the chart was published",
+      "Sectional charts depict all TFRs that will be effective during the chart cycle, so NOTAM checking matters only for last-minute changes on the departure day",
+      "A current GPS database automatically incorporates every active TFR, making separate NOTAM review unnecessary when moving-map airspace alerts are enabled",
+      "TFRs are published only for IFR traffic, but checking them helps VFR pilots anticipate areas of increased ATC workload"
+    ],
+    "correctIndex": 0,
+    "explanation": "Time-sensitive airspace restrictions are distributed via NOTAM systems rather than waiting for chart publication cycles.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — TFR currency",
+    "learningObjective": "Apply TFR currency knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-17"
+  },
+  {
+    "id": "CH15-V1-18",
+    "chapter": 15,
+    "topic": "Controlled airspace",
+    "subtopic": "Class E floor",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot sees a magenta vignette indicating Class E begins at 700 feet AGL. What is the operational significance below 700 feet, assuming no other controlled airspace?",
+    "choices": [
+      "The area below is Class G only during daytime; at night the Class E floor automatically lowers to the surface",
+      "The airspace below is generally Class G, with different VFR minima/services than Class E",
+      "The area below is Class E to the surface but uses Class G weather minima until 700 feet AGL",
+      "The area below is Class D whenever the airport has a runway longer than a specified length, even without a tower"
+    ],
+    "correctIndex": 1,
+    "explanation": "A 700-foot Class E transition area leaves Class G below until the Class E floor.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Class E floor",
+    "learningObjective": "Apply Class E floor knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-18"
+  },
+  {
+    "id": "CH15-V1-19",
+    "chapter": 15,
+    "topic": "Controlled airspace",
+    "subtopic": "Class E surface area",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A dashed magenta line surrounds an airport on a sectional. What does it generally depict?",
+    "choices": [
+      "A Class D surface area whose tower may be part-time and changes to Class E when the tower closes",
+      "A special VFR corridor through controlled airspace around the airport",
+      "Class E airspace beginning at the surface",
+      "A Class C surface area whose base begins at the surface and whose shelf is shown by solid magenta lines"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dashed magenta boundaries identify Class E surface areas designated for an airport.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Class E surface area",
+    "learningObjective": "Apply Class E surface area knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-19"
+  },
+  {
+    "id": "CH15-V1-20",
+    "chapter": 15,
+    "topic": "Controlled airspace",
+    "subtopic": "Class D charting",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A dashed blue line surrounds an airport on a sectional. What does it generally depict?",
+    "choices": [
+      "A Class C surface area",
+      "A Class E surface area beginning at the surface",
+      "The lateral boundary of Class B airspace below its outer shelf",
+      "Class D airspace"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dashed blue lines depict Class D surface areas.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Class D charting",
+    "learningObjective": "Apply Class D charting knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-20"
+  },
+  {
+    "id": "CH15-V1-21",
+    "chapter": 15,
+    "topic": "Controlled airspace",
+    "subtopic": "Class B charting",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Solid blue concentric boundaries around a major airport generally depict what?",
+    "choices": [
+      "Class B airspace",
+      "Class C airspace surrounding a radar approach-control airport",
+      "A prohibited or restricted area boundary associated with a major metropolitan airport",
+      "A Mode C veil that requires transponder/ADS-B equipment but no Class B clearance"
+    ],
+    "correctIndex": 0,
+    "explanation": "Class B is charted with solid blue lines.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Class B charting",
+    "learningObjective": "Apply Class B charting knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-21"
+  },
+  {
+    "id": "CH15-V1-22",
+    "chapter": 15,
+    "topic": "Controlled airspace",
+    "subtopic": "Class C charting",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Solid magenta boundaries around an airport generally depict what?",
+    "choices": [
+      "Class E airspace beginning at 700 feet AGL around an airport",
+      "Class C airspace",
+      "Class B airspace around a major hub airport",
+      "Class D airspace around a towered airport"
+    ],
+    "correctIndex": 1,
+    "explanation": "Class C is typically charted with solid magenta boundaries.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Class C charting",
+    "learningObjective": "Apply Class C charting knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-22"
+  },
+  {
+    "id": "CH15-V1-23",
+    "chapter": 15,
+    "topic": "Airspace planning",
+    "subtopic": "Three-dimensional airspace",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is knowing both airspace class and altitude essential before a VFR flight?",
+    "choices": [
+      "Altitude changes weather minima and oxygen rules but not communication, transponder, ADS-B, or airspace-entry requirements",
+      "Airspace altitude limits matter only to IFR pilots because VFR aircraft may remain clear of clouds anywhere within controlled airspace",
+      "Communication/equipment requirements and weather minima can change when crossing a floor, ceiling, or time/altitude threshold",
+      "Only the class matters; once it is identified on the chart, its communication and weather requirements are the same at every altitude"
+    ],
+    "correctIndex": 2,
+    "explanation": "Airspace is three-dimensional; a route can cross multiple classes and floors even while following the same ground track.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Three-dimensional airspace",
+    "learningObjective": "Apply Three-dimensional airspace knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-23"
+  },
+  {
+    "id": "CH15-V1-24",
+    "chapter": 15,
+    "topic": "Airspace planning",
+    "subtopic": "Moving-map limitations",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot is flying near the edge of controlled airspace using GPS. Why should the pilot still cross-check the sectional and position carefully?",
+    "choices": [
+      "Moving-map GPS provides the legally controlling airspace boundary, while the sectional is useful mainly as a backup if the display fails",
+      "If the GPS database is current, lateral position alone determines legality; shelf floors and ceilings are automatically protected by alerts",
+      "Cross-checking matters only near Class B; Class C, D, and E boundaries are large enough that normal GPS error cannot create an inadvertent entry",
+      "GPS can show position, but the pilot must understand the charted boundary, altitude limits, database currency, and navigation accuracy"
+    ],
+    "correctIndex": 3,
+    "explanation": "Navigation equipment does not replace understanding or compliance with charted airspace.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Moving-map limitations",
+    "learningObjective": "Apply Moving-map limitations knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-24"
+  },
+  {
+    "id": "CH15-V1-25",
+    "chapter": 15,
+    "topic": "Other airspace",
+    "subtopic": "Special flight rules",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot plans to transit a Special Flight Rules Area or other specially regulated area. What should be assumed?",
+    "choices": [
+      "Special procedures, training, equipment, routing, or clearances may apply beyond ordinary class-of-airspace rules",
+      "Ordinary VFR rules always control unless ATC specifically issues a clearance that mentions the special area by name",
+      "Special procedures apply only to IFR aircraft because VFR flight remains governed by see-and-avoid and standard class-of-airspace rules",
+      "The pilot may rely on GPS alerts to identify every special requirement; separate training or procedure review is unnecessary if the route is displayed as clear"
+    ],
+    "correctIndex": 0,
+    "explanation": "Some areas have special regulatory procedures that must be reviewed in current FAA sources.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Special flight rules",
+    "learningObjective": "Apply Special flight rules knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-25"
+  },
+  {
+    "id": "CH15-V1-26",
+    "chapter": 15,
+    "topic": "Airspace concepts",
+    "subtopic": "Controlled versus uncontrolled",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the practical difference between controlled and uncontrolled airspace for a VFR pilot?",
+    "choices": [
+      "The only practical difference is which agency provides flight following; weather minima and equipment rules are otherwise identical",
+      "Controlled airspace has defined ATC services and regulatory structure, but VFR pilots still retain see-and-avoid responsibilities; uncontrolled Class G has different service/minimum structures",
+      "Controlled airspace means VFR pilots are separated from every other aircraft by ATC; Class G means pilots receive no regulatory protections",
+      "All controlled airspace requires a clearance before VFR entry, while Class G never requires radio communication or weather minima"
+    ],
+    "correctIndex": 1,
+    "explanation": "“Controlled” does not mean ATC provides separation between all VFR aircraft; requirements and services vary by class.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Controlled versus uncontrolled",
+    "learningObjective": "Apply Controlled versus uncontrolled knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-26"
+  },
+  {
+    "id": "CH15-V1-27",
+    "chapter": 15,
+    "topic": "ATC services",
+    "subtopic": "Flight following versus clearance",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot receives VFR flight following while outside Class B. Does that service itself authorize entry into Class B?",
+    "choices": [
+      "Yes, if the controller is providing traffic advisories and does not tell the pilot to remain outside Class B",
+      "No only if the pilot plans to land at the primary Class B airport; overflight beneath a shelf may continue into the surface area with flight following",
+      "No; a specific Class B clearance is still required",
+      "Yes; a discrete transponder code and radar identification are equivalent to a Class B clearance"
+    ],
+    "correctIndex": 2,
+    "explanation": "Radar advisory service and Class B entry clearance are distinct.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Flight following versus clearance",
+    "learningObjective": "Apply Flight following versus clearance knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-27"
+  },
+  {
+    "id": "CH15-V1-28",
+    "chapter": 15,
+    "topic": "ATC services",
+    "subtopic": "See and avoid",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot is receiving radar traffic advisories in Class E. Who remains responsible for avoiding other VFR traffic?",
+    "choices": [
+      "ATC assumes responsibility for traffic avoidance once the aircraft is radar identified, while the pilot retains only terrain and weather responsibility",
+      "Responsibility is shared equally; the pilot may rely on an ATC traffic call instead of visual separation if radar contact is maintained",
+      "The IFR aircraft have primary see-and-avoid responsibility because VFR traffic receiving advisories is not assigned a protected altitude",
+      "The pilot remains responsible for see-and-avoid even while receiving advisories"
+    ],
+    "correctIndex": 3,
+    "explanation": "Advisories supplement, rather than replace, the pilot’s visual collision-avoidance responsibility in VMC.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — See and avoid",
+    "learningObjective": "Apply See and avoid knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-28"
+  },
+  {
+    "id": "CH15-V1-29",
+    "chapter": 15,
+    "topic": "VFR weather minima",
+    "subtopic": "Context dependence",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why should pilots avoid memorizing one set of VFR weather minima without context?",
+    "choices": [
+      "The applicable values depend on airspace class, altitude, day/night in some Class G cases, and specific operating rules",
+      "Because every airspace class has one fixed set of minima, but those values change annually with chart revisions",
+      "Because visibility and cloud clearance depend mainly on aircraft category and performance rather than on airspace or altitude",
+      "Because the same numeric minima apply everywhere below 10,000 MSL; memorizing one set becomes unsafe only above that altitude"
+    ],
+    "correctIndex": 0,
+    "explanation": "VFR minima are conditional; pilots must identify the actual airspace and altitude/time situation.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Context dependence",
+    "learningObjective": "Apply Context dependence knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-29"
+  },
+  {
+    "id": "CH15-V1-30",
+    "chapter": 15,
+    "topic": "Airspace planning",
+    "subtopic": "Operational synthesis",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the best operational summary of airspace knowledge?",
+    "choices": [
+      "Plan the route in two dimensions; vertical shelves and floors matter mainly for IFR altitude selection rather than VFR airspace compliance",
+      "Before flight, trace the route in three dimensions, identify every class/special-use/TFR boundary, and know the communication, equipment, weather, and clearance requirements before reaching it",
+      "Use the moving map as the primary authority, then contact ATC only if an alert appears before a boundary crossing",
+      "Identify only controlled-airspace boundaries; special-use and TFR areas can be handled tactically after departure using flight following"
+    ],
+    "correctIndex": 1,
+    "explanation": "Safe airspace operation requires preflight planning plus continuous positional and altitude awareness.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 15 — Operational synthesis",
+    "learningObjective": "Apply Operational synthesis knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch15-30"
+  }
+]

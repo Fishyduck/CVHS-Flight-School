@@ -1,0 +1,152 @@
+[
+  [
+    "Hyperventilation, because euphoria and poor judgment are caused by excessive carbon dioxide in the blood",
+    "Carbon monoxide exposure, because all altitude-related impairment is caused primarily by reduced hemoglobin capacity rather than low oxygen pressure",
+    "Decompression sickness, because headache and cognitive changes at altitude are the first sign of nitrogen bubbles in every unpressurized flight"
+  ],
+  [
+    "Slow breathing into a bag to raise carbon dioxide while maintaining altitude until the symptoms resolve",
+    "Increase workload and physical movement to stimulate circulation, then continue if the symptoms improve",
+    "Remain at altitude and drink water; hypoxia symptoms usually improve once the pilot acclimatizes over several minutes"
+  ],
+  [
+    "Symptoms are always painful enough to distract the pilot, so the main danger is loss of aircraft control rather than recognition",
+    "Hypoxia affects motor skill but usually leaves judgment intact, causing the pilot to underestimate only physical fatigue",
+    "The body automatically increases breathing enough to compensate, so pilots mainly need to watch for instrument errors rather than subjective symptoms"
+  ],
+  [
+    "A lower percentage of oxygen in the atmosphere while total atmospheric pressure remains nearly constant",
+    "A decrease in hemoglobin concentration caused directly by lower barometric pressure",
+    "Reduced circulation to the tissues even though oxygen partial pressure and hemoglobin loading remain normal"
+  ],
+  [
+    "Hypoxic hypoxia because the lungs receive too little oxygen partial pressure despite normal hemoglobin",
+    "Stagnant hypoxia because carbon monoxide slows blood flow through capillaries",
+    "Histotoxic hypoxia because carbon monoxide prevents tissue cells from chemically using oxygen that reaches them"
+  ],
+  [
+    "Hypemic hypoxia because the blood contains too little hemoglobin to carry oxygen",
+    "Histotoxic hypoxia because shock prevents tissue cells from metabolizing available oxygen",
+    "Hypoxic hypoxia because lung oxygen pressure is too low even though circulation is inadequate"
+  ],
+  [
+    "Hypemic hypoxia because alcohol reduces the amount of hemoglobin available to bind oxygen",
+    "Stagnant hypoxia because alcohol slows circulation and prevents oxygenated blood from reaching tissue",
+    "Hypoxic hypoxia because alcohol lowers cabin oxygen pressure through increased respiratory demand"
+  ],
+  [
+    "Hypoxia only, because tingling and lightheadedness indicate inadequate oxygen rather than a breathing-rate problem",
+    "Carbon monoxide poisoning, because rapid breathing is the body's characteristic response to contaminated cabin air",
+    "Decompression sickness, because tingling after rapid breathing indicates nitrogen bubbles forming in the extremities"
+  ],
+  [
+    "Both conditions reduce hemoglobin's oxygen-carrying capacity through the same physiological mechanism",
+    "Both always improve with slower breathing, so distinguishing between them is unnecessary before taking action",
+    "Both produce identical pulse-oximeter readings, making cockpit symptoms the only possible way to tell them apart"
+  ],
+  [
+    "Hold the breath repeatedly for long intervals until tingling stops, then resume normal breathing",
+    "Breathe as deeply and rapidly as possible with supplemental oxygen so carbon dioxide can be expelled faster",
+    "Descend immediately without changing breathing pattern, because altitude is the primary cause of hyperventilation symptoms"
+  ],
+  [
+    "It has a strong odor only after dangerous concentrations are reached, so early exposure can be mistaken for normal exhaust smell",
+    "It causes immediate nausea and eye irritation but little cognitive impairment, allowing the pilot to recognize it reliably",
+    "It is visible as a light haze in the cabin, but darkness and red cockpit lighting can make the haze difficult to see"
+  ],
+  [
+    "Open the cabin heat fully to dilute exhaust gases with warmer airflow and continue to the nearest planned destination",
+    "Turn off fresh-air ventilation to keep contaminated outside air from entering, then descend while monitoring symptoms",
+    "Continue if a cockpit CO detector has not alarmed; symptoms alone are too nonspecific to justify changing the flight"
+  ],
+  [
+    "The body sensation, because vestibular cues respond faster than gyroscopic instruments during an unexpected bank",
+    "Outside peripheral vision even when no natural horizon is visible, because visual sensation remains more reliable than instruments",
+    "The magnetic compass for bank direction and the altimeter for pitch, because attitude instruments are especially vulnerable in clouds"
+  ],
+  [
+    "A rapid roll into a bank overstimulates the semicircular canals, making the continuing turn feel stronger than it is",
+    "A constant-rate turn eventually feels level, and rolling out then feels like a turn in the same direction as the original bank",
+    "An abrupt pitch change stimulates the otolith organs, making the pilot perceive a false bank opposite the actual turn"
+  ],
+  [
+    "A stalled autorotation that develops when the pilot pulls back while turning in cloud",
+    "A low-speed descending turn caused by insufficient elevator back pressure while the wings remain nearly level",
+    "A series of alternating climbing and descending turns created by overcorrecting the attitude indicator"
+  ],
+  [
+    "A graveyard spiral occurs only under IFR; a spin can occur in VMC, so the difference is primarily the visual environment",
+    "A graveyard spiral is a stalled condition on both wings, while a spin stalls only the inside wing",
+    "A graveyard spiral is normally a low-airspeed maneuver, while a spin accelerates to high airspeed as the nose drops"
+  ],
+  [
+    "Runway-width illusion, because a dark surrounding area makes the runway appear narrower than it really is",
+    "False-horizon illusion, because the runway lights blend with the horizon and make the airplane appear banked",
+    "Autokinesis, because isolated runway lights appear to move downward and lead the pilot to lower the approach"
+  ],
+  [
+    "The pilot may perceive being lower than actual and fly a higher-than-normal approach",
+    "The pilot may perceive the runway as shorter, causing an earlier flare but no systematic glidepath error",
+    "The pilot may perceive excess crosswind because the runway edges converge more rapidly than on a familiar runway"
+  ],
+  [
+    "The pilot may perceive being higher than actual and fly a lower-than-normal approach",
+    "The pilot may perceive the runway as longer but remain on the normal glidepath if airspeed is correct",
+    "The pilot may perceive less crosswind and therefore use too little drift correction without changing vertical path"
+  ],
+  [
+    "A real sloping cloud deck that the attitude indicator automatically follows, causing a display error",
+    "A horizon line displaced by magnetic variation, causing the pilot to align the wings with an incorrect compass reference",
+    "A light pattern that changes apparent airspeed rather than attitude, causing the pilot to pitch for an incorrect approach speed"
+  ],
+  [
+    "A moving light can appear stationary in darkness because peripheral vision suppresses motion cues",
+    "A bright light can appear farther away than a dim light, causing pilots to misjudge runway distance",
+    "Two stationary lights can appear to merge into one because rod vision has poor color discrimination"
+  ],
+  [
+    "Staring makes rod cells more sensitive and exaggerates apparent movement; looking directly away eliminates the illusion completely",
+    "A stationary light becomes a false horizon only when viewed continuously, so scanning prevents bank illusion but not position error",
+    "Changing fixation helps distinguish real movement from apparent movement and also supports the broader night scanning needed to detect traffic"
+  ],
+  [
+    "The fovea contains the greatest concentration of rods, so looking slightly away places the image on more light-sensitive cone cells",
+    "Peripheral viewing improves color identification at night because cones become more sensitive away from the center of vision",
+    "Off-center viewing prevents dark adaptation from being lost when the pilot looks at illuminated instruments"
+  ],
+  [
+    "Bright light improves rod sensitivity but temporarily reduces cone color vision, so outside objects become dimmer only in color",
+    "Dark adaptation is lost only if the pilot looks directly at white light; bright red or green displays cannot affect night vision",
+    "Cockpit lighting affects pupil size but not retinal adaptation, so dimming instruments mainly reduces windshield reflections rather than visual sensitivity"
+  ],
+  [
+    "Instrument condition, Maintenance, Systems, Airspace, Fuel, and Equipment needed for dispatch",
+    "Illness, Medical certificate, Sleep, Alcohol, Food, and External pressure factors",
+    "Illness, Medication, Stress, Altitude, Fatigue, and Experience factors, with emotion evaluated separately"
+  ],
+  [
+    "Fly if the package is labeled non-drowsy; over-the-counter drugs are designed for normal activities and need no aviation-specific review",
+    "Take a ground dose once, and if no symptoms appear within an hour the medication can be assumed safe for flight",
+    "Use the medication if the underlying illness is mild; the illness itself is a greater aviation concern than medication side effects"
+  ],
+  [
+    "Fatigue mainly reduces physical strength; well-practiced cognitive tasks and judgment remain stable until the pilot feels sleepy",
+    "Adrenaline from a demanding flight restores normal attention and reaction time, making fatigue most important during low-workload cruise",
+    "Fatigue effects are obvious to the person experiencing them, so self-assessment becomes more accurate as fatigue increases"
+  ],
+  [
+    "Residual nitrogen expands only if cabin altitude exceeds 18,000 feet, so normal light-airplane altitudes create little concern",
+    "The main hazard is oxygen toxicity from breathing compressed gas during the dive rather than pressure reduction after surfacing",
+    "Flying soon after diving increases ear-block risk only; decompression sickness is unrelated to later reductions in atmospheric pressure"
+  ],
+  [
+    "Ambient pressure falls during descent, trapping expanding gas that pushes inward on the eardrum or sinus",
+    "Congestion increases oxygen absorption in the ear and sinus cavities, producing pain as oxygen partial pressure rises",
+    "The pain is mainly caused by temperature cooling in the ear as the airplane descends into denser air, not pressure equalization"
+  ],
+  [
+    "Use physiological symptoms mainly after takeoff; preflight fitness can be inferred from whether the pilot meets medical-certificate requirements",
+    "If symptoms are mild and no regulation prohibits flight, continue while monitoring because early diversion can create additional workload and risk",
+    "Rely on experience to distinguish harmless sensations from dangerous ones; conservative action is needed mainly when symptoms become severe enough to impair control"
+  ]
+]

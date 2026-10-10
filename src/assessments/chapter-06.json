@@ -1,0 +1,602 @@
+[
+  {
+    "id": "CH06-V1-01",
+    "chapter": 6,
+    "topic": "Primary controls",
+    "subtopic": "Ailerons and adverse yaw",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot rolls right with conventional ailerons. What coordinated control input is normally required to counter adverse yaw?",
+    "choices": [
+      "Right rudder as needed",
+      "Left rudder as needed, because the down-going aileron on the left wing creates less drag",
+      "No rudder; coordinated turns are established with aileron first and rudder is used only to correct a skid after the bank is set",
+      "Right rudder only after the desired bank is reached; using it during roll-in would create excessive proverse yaw"
+    ],
+    "correctIndex": 0,
+    "explanation": "The down-going aileron on the rising wing generally creates more drag, tending to yaw opposite the roll. Coordinated rudder counters that adverse yaw.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Ailerons and adverse yaw",
+    "learningObjective": "Apply Ailerons and adverse yaw knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-01"
+  },
+  {
+    "id": "CH06-V1-02",
+    "chapter": 6,
+    "topic": "Primary controls",
+    "subtopic": "Aileron operation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot moves the control wheel left. Which initial control-surface response should occur in a conventional aileron system?",
+    "choices": [
+      "Left aileron rises while the right remains neutral; roll is produced by drag rather than differential lift",
+      "Left aileron rises and right aileron lowers",
+      "Left aileron lowers and right aileron rises, increasing lift on the left wing to roll left",
+      "Both ailerons rise together, reducing total lift so the airplane can roll without pitching"
+    ],
+    "correctIndex": 1,
+    "explanation": "Raising the left aileron reduces lift on the left wing while lowering the right increases lift on the right, producing a left roll.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Aileron operation",
+    "learningObjective": "Apply Aileron operation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-02"
+  },
+  {
+    "id": "CH06-V1-03",
+    "chapter": 6,
+    "topic": "Primary controls",
+    "subtopic": "Elevator operation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot pulls aft on the yoke of a conventional-tail airplane. What control-surface action normally initiates the pitch-up?",
+    "choices": [
+      "Elevator trailing edge moves up, reducing downward tail force so the nose rises as the tail lifts",
+      "Horizontal stabilizer incidence changes automatically while the elevator remains neutral",
+      "Elevator trailing edge moves up, increasing downward force on the tail",
+      "Elevator trailing edge moves down, increasing downward tail force and pitching the nose up"
+    ],
+    "correctIndex": 2,
+    "explanation": "Up elevator changes tail force so the tail moves down and the nose pitches up about the lateral axis.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Elevator operation",
+    "learningObjective": "Apply Elevator operation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-03"
+  },
+  {
+    "id": "CH06-V1-04",
+    "chapter": 6,
+    "topic": "Primary controls",
+    "subtopic": "Rudder operation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot presses the right rudder pedal. What is the primary aircraft response?",
+    "choices": [
+      "Roll to the right about the longitudinal axis, because rudder deflection changes lift on the vertical tail",
+      "Yaw to the left about the vertical axis because the rudder moves the tail in the same direction as the pedal",
+      "Pitch down about the lateral axis because the vertical tail force acts behind the center of gravity",
+      "Yaw to the right about the vertical axis"
+    ],
+    "correctIndex": 3,
+    "explanation": "Rudder deflection changes side force on the vertical tail and controls yaw about the vertical axis.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Rudder operation",
+    "learningObjective": "Apply Rudder operation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-04"
+  },
+  {
+    "id": "CH06-V1-05",
+    "chapter": 6,
+    "topic": "Control coordination",
+    "subtopic": "Coupled axes",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why should a pilot think of pitch, roll, and yaw as coupled rather than independent?",
+    "choices": [
+      "A control input can create secondary aerodynamic effects, so coordinated flight often requires more than one control",
+      "Each primary control acts about only one axis; any secondary motion indicates incorrect rigging or pilot overcontrol",
+      "Coupling matters mainly in aerobatics; at normal training-bank angles aileron, elevator, and rudder effects can be treated independently",
+      "Secondary effects occur only at high speed, so coordinated control is unnecessary during slow flight and landing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Aileron drag, propeller effects, sideslip, and changing lift vectors couple the axes; pilots coordinate inputs to achieve the intended flight path.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Coupled axes",
+    "learningObjective": "Apply Coupled axes knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-05"
+  },
+  {
+    "id": "CH06-V1-06",
+    "chapter": 6,
+    "topic": "Trim systems",
+    "subtopic": "Proper trim use",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot holds steady aft pressure in a climb. What is the proper use of trim?",
+    "choices": [
+      "Trim to eliminate control pressure before establishing the target airspeed, because trim determines the airplane's pitch attitude more precisely than elevator",
+      "Adjust trim to relieve the sustained control force after establishing the desired attitude and airspeed",
+      "Use trim first to establish the climb attitude, then use elevator only for small corrections around the trimmed position",
+      "Continue holding the force and leave trim neutral so the pilot can feel the exact aerodynamic load throughout the climb"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trim relieves sustained control pressure after the pilot establishes the desired flight condition with the primary controls.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Proper trim use",
+    "learningObjective": "Apply Proper trim use knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-06"
+  },
+  {
+    "id": "CH06-V1-07",
+    "chapter": 6,
+    "topic": "Trim systems",
+    "subtopic": "Retrimming",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "The pilot changes power and airspeed after trimming. Why may retrimming be necessary?",
+    "choices": [
+      "Retrimming is needed only after configuration changes such as flap extension; power and airspeed alone do not alter trim requirements",
+      "Trim changes are required mainly to correct control-system friction, so a previously smooth airplane should not need retrimming in a new flight condition",
+      "Aerodynamic forces on the control surfaces change with speed, power, and configuration",
+      "Trim setting should remain valid because trim balances the airplane's center of gravity rather than aerodynamic forces"
+    ],
+    "correctIndex": 2,
+    "explanation": "A new flight condition changes control forces and often requires a new trim setting to relieve pressure.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Retrimming",
+    "learningObjective": "Apply Retrimming knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-07"
+  },
+  {
+    "id": "CH06-V1-08",
+    "chapter": 6,
+    "topic": "Trim systems",
+    "subtopic": "Trim limitations",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the key operational danger of trying to fly the airplane with trim instead of the primary flight controls?",
+    "choices": [
+      "Trim is a more precise pitch control than the elevator, so using it primarily can cause the pilot to make corrections too slowly",
+      "Trim changes the aircraft center of gravity; excessive use can move the CG outside its approved envelope",
+      "Trim is structurally weaker than the elevator and may fail if used repeatedly to change pitch attitude",
+      "Trim responds indirectly and can create large out-of-trim forces; primary controls should establish attitude while trim relieves pressure"
+    ],
+    "correctIndex": 3,
+    "explanation": "Trim is a workload-reduction device, not the normal primary means of maneuvering.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Trim limitations",
+    "learningObjective": "Apply Trim limitations knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-08"
+  },
+  {
+    "id": "CH06-V1-09",
+    "chapter": 6,
+    "topic": "Alternative controls",
+    "subtopic": "Stabilator",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A stabilator differs from a conventional elevator because what moves?",
+    "choices": [
+      "The entire horizontal tail surface pivots",
+      "Only the trailing-edge elevator portion moves; the fixed stabilizer pivots to provide trim",
+      "The vertical stabilizer and elevator move together as one surface to control both pitch and yaw",
+      "The entire horizontal tail pivots only for trim, while a separate elevator provides all normal pitch control"
+    ],
+    "correctIndex": 0,
+    "explanation": "A stabilator is an all-moving horizontal tail surface that provides pitch control.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Stabilator",
+    "learningObjective": "Apply Stabilator knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-09"
+  },
+  {
+    "id": "CH06-V1-10",
+    "chapter": 6,
+    "topic": "Alternative controls",
+    "subtopic": "Antiservo tab",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is an antiservo tab commonly used with a stabilator?",
+    "choices": [
+      "It moves with the stabilator primarily to increase lift on the tail, with no meaningful effect on control feel",
+      "It moves with the stabilator to increase control force and reduce over-sensitivity, and may also provide trim",
+      "It moves opposite the stabilator to reduce hinge force and make pitch control more sensitive",
+      "It remains fixed during stabilator movement and functions only as a ground-adjustable trim tab"
+    ],
+    "correctIndex": 1,
+    "explanation": "Because stabilators can be very sensitive, antiservo tabs increase the pilot force required and can provide trim.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Antiservo tab",
+    "learningObjective": "Apply Antiservo tab knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-10"
+  },
+  {
+    "id": "CH06-V1-11",
+    "chapter": 6,
+    "topic": "Secondary controls",
+    "subtopic": "Flaps",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the primary aerodynamic effect of extending trailing-edge flaps for landing?",
+    "choices": [
+      "Reduce lift coefficient and increase drag, requiring a higher angle of attack and higher approach speed",
+      "Increase wing area without materially changing lift or drag coefficient, so the main effect is only lower wing loading",
+      "Increase lift coefficient and drag, allowing lower approach speed/steeper descent within limits",
+      "Increase lift coefficient while reducing drag, producing a flatter glide at the same approach speed"
+    ],
+    "correctIndex": 2,
+    "explanation": "Flaps change wing camber and often effective area, increasing lift and drag.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Flaps",
+    "learningObjective": "Apply Flaps knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-11"
+  },
+  {
+    "id": "CH06-V1-12",
+    "chapter": 6,
+    "topic": "Secondary controls",
+    "subtopic": "Flap limitations",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot extends flaps at an airspeed above the published flap operating limit. Why is this unsafe?",
+    "choices": [
+      "The airplane may exceed its structural load factor because flap extension increases wing bending but not flap loads",
+      "The primary risk is an accelerated stall because extending flaps above VFE raises stall speed sharply",
+      "Flap limits protect only the motor or handle mechanism; aerodynamic loads on the flap surfaces are unchanged with speed",
+      "Aerodynamic loads on the flap system may exceed design limits"
+    ],
+    "correctIndex": 3,
+    "explanation": "Flap speed limitations protect the flap structure and mechanism from excessive aerodynamic loading.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Flap limitations",
+    "learningObjective": "Apply Flap limitations knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-12"
+  },
+  {
+    "id": "CH06-V1-13",
+    "chapter": 6,
+    "topic": "Secondary controls",
+    "subtopic": "Flap retraction",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot retracts flaps abruptly immediately after takeoff while only slightly above stall speed. What is the main aerodynamic risk?",
+    "choices": [
+      "The sudden loss of flap-produced lift can cause the airplane to settle or stall if speed/angle of attack margin is inadequate",
+      "The airplane will pitch up and climb because retraction removes flap drag faster than it reduces lift",
+      "The stall margin improves immediately because clean-wing stall speed is always lower than the flaps-extended stall speed",
+      "The main risk is overspeeding the flaps during retraction; lift remains nearly constant until they are fully up"
+    ],
+    "correctIndex": 0,
+    "explanation": "Flap retraction reduces lift coefficient and can increase stall speed; it should be performed according to the aircraft procedure with adequate airspeed and climb margin.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Flap retraction",
+    "learningObjective": "Apply Flap retraction knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-13"
+  },
+  {
+    "id": "CH06-V1-14",
+    "chapter": 6,
+    "topic": "Secondary controls",
+    "subtopic": "Spoilers",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What do spoilers primarily do when deployed?",
+    "choices": [
+      "Reduce drag while leaving lift nearly unchanged, allowing the airplane to accelerate without adding power",
+      "Reduce lift and usually increase drag",
+      "Increase lift and reduce drag so the airplane can descend at a lower power setting",
+      "Increase lift and drag together, functioning much like landing flaps"
+    ],
+    "correctIndex": 1,
+    "explanation": "Spoilers disturb airflow over the wing, reducing lift and adding drag.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Spoilers",
+    "learningObjective": "Apply Spoilers knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-14"
+  },
+  {
+    "id": "CH06-V1-15",
+    "chapter": 6,
+    "topic": "Secondary controls",
+    "subtopic": "Spoiler effects",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot deploys speed brakes/spoilers during descent. What should the pilot anticipate?",
+    "choices": [
+      "A predictable nose-up pitch always occurs because spoiler deployment moves the center of lift forward",
+      "A predictable nose-down pitch always occurs, so elevator compensation can be applied before deployment without reference to the aircraft manual",
+      "A change in lift/drag and possibly pitch that may require attitude or power adjustment",
+      "Only drag changes; spoilers do not meaningfully affect lift or pitch unless deployed asymmetrically"
+    ],
+    "correctIndex": 2,
+    "explanation": "Lift-reducing/drag-producing devices change the airplane’s aerodynamic balance and may require compensation.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Spoiler effects",
+    "learningObjective": "Apply Spoiler effects knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-15"
+  },
+  {
+    "id": "CH06-V1-16",
+    "chapter": 6,
+    "topic": "Aileron design",
+    "subtopic": "Differential ailerons",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What feature of differential ailerons helps reduce adverse yaw?",
+    "choices": [
+      "The down-going aileron deflects more, increasing lift enough to overcome the yaw from its additional drag",
+      "Both ailerons deflect the same amount, but the up-going surface is larger and therefore creates more drag",
+      "Differential ailerons eliminate adverse yaw by coupling the rudder mechanically to the control wheel rather than by changing aileron geometry",
+      "The up-going aileron deflects more than the down-going aileron, increasing drag on the descending wing relative to a symmetric system"
+    ],
+    "correctIndex": 3,
+    "explanation": "Differential deflection is designed to reduce the drag imbalance that causes adverse yaw.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Differential ailerons",
+    "learningObjective": "Apply Differential ailerons knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-16"
+  },
+  {
+    "id": "CH06-V1-17",
+    "chapter": 6,
+    "topic": "Aileron design",
+    "subtopic": "Frise ailerons",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "How do Frise-type ailerons help reduce adverse yaw?",
+    "choices": [
+      "The leading edge of the up-going aileron projects into the airflow, increasing drag on that wing",
+      "The leading edge of the down-going aileron projects into the airflow, increasing drag on the rising wing",
+      "The up-going aileron retracts fully into the wing, reducing drag on the descending wing",
+      "The aileron nose projects into the airflow primarily to increase lift, while drag remains symmetric between the wings"
+    ],
+    "correctIndex": 0,
+    "explanation": "A Frise aileron adds drag on the wing with the up-going aileron, helping offset adverse yaw.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Frise ailerons",
+    "learningObjective": "Apply Frise ailerons knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-17"
+  },
+  {
+    "id": "CH06-V1-18",
+    "chapter": 6,
+    "topic": "Control coordination",
+    "subtopic": "Slip and skid",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot enters a steep turn using aileron only and no rudder. What cockpit indication would most clearly reveal uncoordinated flight?",
+    "choices": [
+      "The altimeter momentarily changing, because a skid produces a static-pressure error proportional to lateral acceleration",
+      "The slip/skid indicator displaced from center",
+      "The turn coordinator miniature airplane bank indication, because any bank without rudder is automatically uncoordinated",
+      "The heading indicator lagging the magnetic compass, because adverse yaw appears directly as a heading-system disagreement"
+    ],
+    "correctIndex": 1,
+    "explanation": "Uncoordinated yaw/sideslip is shown by the slip/skid indication and can also be felt physically.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Slip and skid",
+    "learningObjective": "Apply Slip and skid knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-18"
+  },
+  {
+    "id": "CH06-V1-19",
+    "chapter": 6,
+    "topic": "Control coordination",
+    "subtopic": "Sideslip",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot intentionally holds opposite rudder and aileron on final to correct for a crosswind. What is this maneuver called?",
+    "choices": [
+      "A skid, because any crossed-control condition puts the ball to the outside of the turn and is therefore a skid",
+      "A coordinated crab, because opposite controls align the nose with the runway while keeping both wings level",
+      "A sideslip/cross-control technique",
+      "A forward slip, because opposite aileron and rudder always increases descent rate rather than correcting lateral drift"
+    ],
+    "correctIndex": 2,
+    "explanation": "Opposite aileron and rudder can create a sideslip used to control drift and align the longitudinal axis with the runway.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Sideslip",
+    "learningObjective": "Apply Sideslip knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-19"
+  },
+  {
+    "id": "CH06-V1-20",
+    "chapter": 6,
+    "topic": "Primary controls",
+    "subtopic": "Control effectiveness",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why does rudder effectiveness generally change with airspeed?",
+    "choices": [
+      "Rudder effectiveness is mainly a function of engine RPM, so it changes because propeller slipstream grows or shrinks with airspeed",
+      "The rudder has essentially constant authority because its area and deflection limits do not change with speed",
+      "Rudder force varies only with angle of sideslip; dynamic pressure affects the wing but not a vertical control surface",
+      "Aerodynamic force on the rudder depends on airflow/dynamic pressure over the surface"
+    ],
+    "correctIndex": 3,
+    "explanation": "Control-surface aerodynamic authority varies with airflow, among other factors.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Control effectiveness",
+    "learningObjective": "Apply Control effectiveness knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-20"
+  },
+  {
+    "id": "CH06-V1-21",
+    "chapter": 6,
+    "topic": "Control forces",
+    "subtopic": "High-speed control inputs",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot makes a large abrupt control input at high airspeed. Why can control loads become dangerous even if the airplane does not stall?",
+    "choices": [
+      "Dynamic pressure is high, so large surface deflections can generate very large aerodynamic forces and structural loads",
+      "High speed reduces aerodynamic force on the controls because deflection changes the flow by a smaller percentage",
+      "Structural loads are limited only by airplane weight; control-surface deflection cannot create an excessive load without a gust",
+      "The airplane must stall before any large control input can create dangerous loads, regardless of speed above maneuvering speed"
+    ],
+    "correctIndex": 0,
+    "explanation": "Control effectiveness and loads increase with dynamic pressure; abrupt inputs can overstress the airplane outside appropriate limits.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — High-speed control inputs",
+    "learningObjective": "Apply High-speed control inputs knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-21"
+  },
+  {
+    "id": "CH06-V1-22",
+    "chapter": 6,
+    "topic": "Control systems",
+    "subtopic": "Control stops",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why are mechanical stops used in many flight-control systems?",
+    "choices": [
+      "Limit cockpit-control travel mainly for ergonomic reasons; aerodynamic surfaces can continue farther through flexible linkages",
+      "Limit control-surface travel to approved ranges",
+      "Create a tactile detent so the pilot knows when the control reaches neutral",
+      "Prevent flutter by keeping each control surface exactly aligned with the fixed surface in flight"
+    ],
+    "correctIndex": 1,
+    "explanation": "Stops prevent surface movement beyond the designed/approved deflection range.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Control stops",
+    "learningObjective": "Apply Control stops knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-22"
+  },
+  {
+    "id": "CH06-V1-23",
+    "chapter": 6,
+    "topic": "Control systems",
+    "subtopic": "Preflight control check",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A preflight check finds a control surface moves opposite to the cockpit control input. What should the pilot do?",
+    "choices": [
+      "Taxi slowly and test the controls again under airflow, because some linkages reverse direction only when the airplane is moving",
+      "Use the remaining controls to verify that the airplane can still be maneuvered before deciding whether the discrepancy requires maintenance",
+      "Do not fly; the control-system discrepancy must be corrected",
+      "Complete the flight if control movement is full and free; opposite movement can be compensated with reversed cockpit inputs"
+    ],
+    "correctIndex": 2,
+    "explanation": "Correct control direction and freedom of movement are fundamental preflight checks; reversed rigging can be catastrophic.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Preflight control check",
+    "learningObjective": "Apply Preflight control check knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-23"
+  },
+  {
+    "id": "CH06-V1-24",
+    "chapter": 6,
+    "topic": "Control systems",
+    "subtopic": "Control freedom",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot feels binding or unusual resistance during a full and free control check. What is the correct interpretation?",
+    "choices": [
+      "Continue if the control reaches each stop; binding is acceptable as long as full travel is available",
+      "Lubricate or exercise the cockpit control until it loosens, then depart if the resistance decreases",
+      "Compare resistance with the opposite control direction; symmetrical resistance indicates normal cable tension and needs no further action",
+      "Treat it as a control-system discrepancy and resolve it before flight"
+    ],
+    "correctIndex": 3,
+    "explanation": "Controls must move freely and correctly through the required range; binding can indicate obstruction, damage, or misrigging.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Control freedom",
+    "learningObjective": "Apply Control freedom knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-24"
+  },
+  {
+    "id": "CH06-V1-25",
+    "chapter": 6,
+    "topic": "Tabs",
+    "subtopic": "Balance tab",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the primary benefit of a balance tab?",
+    "choices": [
+      "It uses aerodynamic force on a small tab to reduce the pilot force required to move the main control surface",
+      "It increases the aerodynamic force required to move the main surface, preventing overcontrol",
+      "It moves the aircraft center of pressure so the control surface stays neutral without pilot input",
+      "It supplies trim only; unlike a trim tab, a balance tab has no effect on the force needed to move the primary surface"
+    ],
+    "correctIndex": 0,
+    "explanation": "A balance tab moves in a way that assists movement of the primary surface and reduces control force.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Balance tab",
+    "learningObjective": "Apply Balance tab knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-25"
+  },
+  {
+    "id": "CH06-V1-26",
+    "chapter": 6,
+    "topic": "Tabs",
+    "subtopic": "Servo tab",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "How does a servo tab differ from a conventional trim tab?",
+    "choices": [
+      "A servo tab is fixed on the ground and bends the airflow enough to correct a persistent yaw or roll tendency",
+      "Pilot input moves the servo tab and aerodynamic force on the tab moves the primary control surface",
+      "A servo tab is positioned by a trim wheel to hold the main surface at a selected deflection after the pilot releases the controls",
+      "A servo tab moves in the same direction as the main surface to increase hinge force and improve control feel"
+    ],
+    "correctIndex": 1,
+    "explanation": "Servo tabs use aerodynamic force to move or assist the main control surface; trim tabs primarily relieve steady control pressure.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Servo tab",
+    "learningObjective": "Apply Servo tab knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-26"
+  },
+  {
+    "id": "CH06-V1-27",
+    "chapter": 6,
+    "topic": "Secondary controls",
+    "subtopic": "Takeoff configuration",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is correct flap, trim, and control configuration important before takeoff?",
+    "choices": [
+      "Incorrect trim matters mainly after liftoff, while flap configuration can be corrected safely during the takeoff roll at any speed",
+      "A configuration error changes control forces but not lift or drag enough to prevent takeoff if the airplane is below maximum weight",
+      "Improper configuration can change lift, drag, control forces, and takeoff performance enough to prevent safe liftoff or climb",
+      "Configuration changes affect only takeoff distance; once the airplane is moving, primary controls can compensate for any flap or trim setting"
+    ],
+    "correctIndex": 2,
+    "explanation": "Takeoff configuration directly affects pitch forces, lift/drag, stall margin, and performance.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Takeoff configuration",
+    "learningObjective": "Apply Takeoff configuration knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-27"
+  },
+  {
+    "id": "CH06-V1-28",
+    "chapter": 6,
+    "topic": "Trim systems",
+    "subtopic": "Runaway trim",
+    "difficulty": "advanced",
+    "type": "scenario",
+    "prompt": "A pilot experiences a runaway electric pitch trim. What is the fundamental aerodynamic concern?",
+    "choices": [
+      "A runaway trim changes the center of gravity, potentially moving it outside limits faster than the pilot can correct",
+      "Electric trim can disconnect the elevator mechanically, leaving no primary pitch control even if the pilot holds the yoke",
+      "The trim tab may detach from the control surface due to continuous motor operation, which is the primary hazard rather than pitch force",
+      "The trim system can drive the airplane toward large sustained control forces or an undesired pitch tendency, requiring prompt aircraft-specific corrective action"
+    ],
+    "correctIndex": 3,
+    "explanation": "Runaway trim can create large out-of-trim forces. Pilots must know and follow the aircraft-specific procedure while maintaining control.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Runaway trim",
+    "learningObjective": "Apply Runaway trim knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-28"
+  },
+  {
+    "id": "CH06-V1-29",
+    "chapter": 6,
+    "topic": "Control systems",
+    "subtopic": "Aircraft-specific controls",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why should pilots learn the exact flight-control system of each airplane instead of relying only on generic knowledge?",
+    "choices": [
+      "Control linkages, tabs, trim, flap systems, autopilots, and limitations vary by aircraft, so aircraft-specific procedures and failure modes matter",
+      "All light airplanes use the same basic cable-and-pulley architecture, so generic control knowledge is sufficient until complex-airplane training",
+      "Differences matter mainly to maintenance personnel; the pilot's cockpit inputs and failure responses are standardized across certificated airplanes",
+      "Aircraft-specific knowledge is needed only for secondary controls such as flaps; primary control failures are handled the same way in every airplane"
+    ],
+    "correctIndex": 0,
+    "explanation": "Basic principles transfer, but implementation and procedures are aircraft specific.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Aircraft-specific controls",
+    "learningObjective": "Apply Aircraft-specific controls knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-29"
+  },
+  {
+    "id": "CH06-V1-30",
+    "chapter": 6,
+    "topic": "Control coordination",
+    "subtopic": "Operational synthesis",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the best operational summary of flight controls?",
+    "choices": [
+      "Secondary controls determine attitude while primary controls relieve pressure and trim the airplane for the selected configuration",
+      "Primary controls command attitude about the three axes, while coordinated use, trim, and secondary controls shape the flight path and workload within aircraft limitations",
+      "Primary controls change the flight path directly while trim changes the center of gravity and secondary controls mainly alter engine power",
+      "Aileron, elevator, and rudder each control one independent axis, so coordinated flight is achieved by selecting the correct single control for each maneuver"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pilots use coordinated primary controls to set attitude and flight path, then power, trim, and secondary controls to manage performance and workload.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 6 — Operational synthesis",
+    "learningObjective": "Apply Operational synthesis knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch06-30"
+  }
+]

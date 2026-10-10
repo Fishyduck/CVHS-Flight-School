@@ -1,0 +1,602 @@
+[
+  {
+    "id": "CH08-V1-01",
+    "chapter": 8,
+    "topic": "Pitot-static",
+    "subtopic": "Blocked pitot",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "The pitot opening becomes blocked but the drain hole remains open. What happens to the airspeed indicator?",
+    "choices": [
+      "It drops toward zero because pitot pressure vents away while static pressure remains available",
+      "It freezes near the value shown when the blockage occurred because pressure is trapped in the pitot line",
+      "It behaves like an altimeter because static pressure changes while pitot pressure remains fixed",
+      "It reads progressively high in a climb and low in a descent because the open drain senses static pressure"
+    ],
+    "correctIndex": 0,
+    "explanation": "With the ram-pressure opening blocked and the drain open, pitot pressure is lost and the airspeed indicator cannot sense the required pressure difference.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Blocked pitot",
+    "learningObjective": "Apply Blocked pitot knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-01"
+  },
+  {
+    "id": "CH08-V1-02",
+    "chapter": 8,
+    "topic": "Pitot-static",
+    "subtopic": "Fully blocked pitot",
+    "difficulty": "advanced",
+    "type": "scenario",
+    "prompt": "The pitot opening and drain hole both become blocked while the static source remains clear. During a climb, how will the airspeed indicator tend to behave?",
+    "choices": [
+      "It drops toward zero because blocking both pitot openings prevents total pressure from remaining in the line",
+      "It may increase like an altimeter because trapped pitot pressure is compared with decreasing static pressure",
+      "It remains fixed at the airspeed shown when both openings became blocked, regardless of altitude change",
+      "It decreases during a climb because trapped pitot pressure becomes lower relative to the outside static pressure"
+    ],
+    "correctIndex": 1,
+    "explanation": "With pitot pressure trapped, a decrease in static pressure during climb increases the sensed differential and can produce an erroneously rising airspeed indication.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Fully blocked pitot",
+    "learningObjective": "Apply Fully blocked pitot knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-02"
+  },
+  {
+    "id": "CH08-V1-03",
+    "chapter": 8,
+    "topic": "Pitot-static",
+    "subtopic": "Blocked static source",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "The static port becomes blocked while the pitot system remains clear. Which instruments are directly affected?",
+    "choices": [
+      "Airspeed indicator and altimeter only; the VSI uses an independent calibrated pressure source",
+      "Airspeed indicator and VSI only; the altimeter uses a sealed aneroid reference and does not require static pressure",
+      "Airspeed indicator, altimeter, and vertical speed indicator",
+      "Altimeter and VSI only; airspeed remains accurate because its pitot source is still open"
+    ],
+    "correctIndex": 2,
+    "explanation": "The ASI uses pitot and static pressure; the altimeter and VSI use static pressure.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Blocked static source",
+    "learningObjective": "Apply Blocked static source knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-03"
+  },
+  {
+    "id": "CH08-V1-04",
+    "chapter": 8,
+    "topic": "Pitot-static",
+    "subtopic": "Blocked static — altimeter",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "With a blocked static source, what happens to the altimeter once the blockage occurs?",
+    "choices": [
+      "It continues to indicate altitude changes but with an increasing time lag, similar to a VSI",
+      "It begins indicating pressure altitude based on the trapped static pressure and current pitot pressure",
+      "It reads progressively higher in a climb and lower in a descent because the trapped pressure behaves like a pitot source",
+      "It tends to remain at the altitude where static pressure became trapped"
+    ],
+    "correctIndex": 3,
+    "explanation": "The altimeter cannot sense subsequent ambient pressure changes when static pressure is trapped.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Blocked static — altimeter",
+    "learningObjective": "Apply Blocked static — altimeter knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-04"
+  },
+  {
+    "id": "CH08-V1-05",
+    "chapter": 8,
+    "topic": "Pitot-static",
+    "subtopic": "Blocked static — VSI",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "With a blocked static source, what happens to the VSI after the trapped pressure equalizes internally?",
+    "choices": [
+      "It tends toward zero even during a climb or descent",
+      "It continues indicating the initial climb or descent rate because static pressure is trapped at the blockage altitude",
+      "It reverses direction, showing a descent during a climb and a climb during a descent",
+      "It remains accurate because the calibrated leak supplies an alternate source of outside static pressure"
+    ],
+    "correctIndex": 0,
+    "explanation": "The VSI depends on changing static pressure and a calibrated leak; without ambient pressure changes entering the system, the differential decays toward zero.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Blocked static — VSI",
+    "learningObjective": "Apply Blocked static — VSI knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-05"
+  },
+  {
+    "id": "CH08-V1-06",
+    "chapter": 8,
+    "topic": "Altimeter",
+    "subtopic": "Pressure error",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot flies from an area of high pressure to lower pressure without resetting the altimeter. Relative to indicated altitude, where is the airplane actually?",
+    "choices": [
+      "The direction cannot be determined without outside temperature because pressure changes affect only density altitude, not true altitude",
+      "Lower than indicated",
+      "Higher than indicated, because the altimeter still references the higher pressure setting from the departure area",
+      "At approximately the indicated altitude, because pressure-setting errors cancel as the airplane crosses pressure systems"
+    ],
+    "correctIndex": 1,
+    "explanation": "From high pressure to low without resetting, true altitude is lower than indicated—the classic “high to low, look out below.”",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Pressure error",
+    "learningObjective": "Apply Pressure error knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-06"
+  },
+  {
+    "id": "CH08-V1-07",
+    "chapter": 8,
+    "topic": "Altimeter",
+    "subtopic": "Temperature error",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot flies from warm air into much colder air while maintaining the same indicated altitude. What is the terrain-clearance risk?",
+    "choices": [
+      "True altitude remains equal to indicated altitude as long as the local altimeter setting is correct",
+      "The main risk is an indicated-air-speed error; temperature does not change the geometric height of pressure surfaces",
+      "True altitude can be lower than indicated in the colder air",
+      "True altitude can be higher than indicated because colder, denser air compresses the pressure levels closer to sea level"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cold-temperature conditions can place the aircraft lower than the indicated altitude derived from standard-atmosphere calibration.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Temperature error",
+    "learningObjective": "Apply Temperature error knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-07"
+  },
+  {
+    "id": "CH08-V1-08",
+    "chapter": 8,
+    "topic": "Altimeter",
+    "subtopic": "Types of altitude",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What does indicated altitude mean?",
+    "choices": [
+      "The airplane's actual vertical distance above mean sea level after corrections for pressure and temperature",
+      "The altitude above the standard 29.92-inch pressure datum used for performance calculations",
+      "The height of the airplane above the terrain directly beneath it at the moment of observation",
+      "Altitude read directly from the altimeter when set to the current altimeter setting"
+    ],
+    "correctIndex": 3,
+    "explanation": "Indicated altitude is the direct altimeter reading with the current local pressure setting applied.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Types of altitude",
+    "learningObjective": "Apply Types of altitude knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-08"
+  },
+  {
+    "id": "CH08-V1-09",
+    "chapter": 8,
+    "topic": "Altimeter",
+    "subtopic": "Pressure altitude",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is pressure altitude?",
+    "choices": [
+      "Altitude indicated when the altimeter is set to the standard datum of 29.92 inHg",
+      "The actual vertical distance above mean sea level after correcting indicated altitude for temperature and instrument error",
+      "Pressure altitude corrected for nonstandard temperature so it reflects the density experienced by the airplane",
+      "The height above the surface obtained by subtracting local terrain elevation from indicated altitude"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pressure altitude is referenced to the standard pressure plane and is used in performance/density-altitude calculations.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Pressure altitude",
+    "learningObjective": "Apply Pressure altitude knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-09"
+  },
+  {
+    "id": "CH08-V1-10",
+    "chapter": 8,
+    "topic": "Altimeter",
+    "subtopic": "Density altitude",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is density altitude?",
+    "choices": [
+      "Absolute altitude corrected for pressure changes, representing height above ground in standard-atmosphere conditions",
+      "Pressure altitude corrected for nonstandard temperature, representing air-density effects on performance",
+      "True altitude corrected for humidity and wind so it reflects the airplane's actual height above the runway",
+      "Indicated altitude corrected only for the current altimeter setting, used mainly for terrain and obstacle clearance"
+    ],
+    "correctIndex": 1,
+    "explanation": "Density altitude expresses the density of the air as an equivalent altitude in the standard atmosphere and is directly relevant to aircraft performance.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Density altitude",
+    "learningObjective": "Apply Density altitude knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-10"
+  },
+  {
+    "id": "CH08-V1-11",
+    "chapter": 8,
+    "topic": "Airspeed",
+    "subtopic": "ASI principle",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is the airspeed indicator able to measure aerodynamic speed without directly measuring distance traveled?",
+    "choices": [
+      "It compares pitot pressure with a sealed standard-atmosphere reference rather than outside static pressure",
+      "It senses ram-air temperature and static pressure, then computes speed from air density without using total pressure",
+      "It measures the difference between pitot total pressure and static pressure, which is related to dynamic pressure",
+      "It measures the rate at which static pressure changes and converts that directly into indicated airspeed"
+    ],
+    "correctIndex": 2,
+    "explanation": "The ASI converts pressure differential into an indicated speed calibrated to aerodynamic dynamic pressure.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — ASI principle",
+    "learningObjective": "Apply ASI principle knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-11"
+  },
+  {
+    "id": "CH08-V1-12",
+    "chapter": 8,
+    "topic": "Airspeed",
+    "subtopic": "CAS",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is calibrated airspeed?",
+    "choices": [
+      "Indicated airspeed corrected for pressure altitude and nonstandard temperature",
+      "True airspeed corrected for wind so it represents speed over the ground in still-air equivalent conditions",
+      "Equivalent airspeed corrected for compressibility and density so it equals the reading seen on the airspeed indicator",
+      "Indicated airspeed corrected for installation and instrument error"
+    ],
+    "correctIndex": 3,
+    "explanation": "CAS corrects IAS for position/installation and instrument error.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — CAS",
+    "learningObjective": "Apply CAS knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-12"
+  },
+  {
+    "id": "CH08-V1-13",
+    "chapter": 8,
+    "topic": "Airspeed",
+    "subtopic": "IAS versus TAS",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "At higher altitude, why is true airspeed generally greater than indicated airspeed for the same indicated value?",
+    "choices": [
+      "Lower air density requires a higher actual velocity to produce the same dynamic pressure",
+      "Indicated airspeed rises with altitude while true airspeed remains nearly constant because the pitot tube senses less static pressure",
+      "True airspeed is greater because the airplane must create the same lift coefficient at a higher angle of attack rather than because of density",
+      "The two speeds differ mainly because the altimeter setting changes with altitude; at a constant setting IAS and TAS remain nearly equal"
+    ],
+    "correctIndex": 0,
+    "explanation": "IAS reflects dynamic pressure; lower density requires greater true velocity to create the same dynamic pressure.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — IAS versus TAS",
+    "learningObjective": "Apply IAS versus TAS knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-13"
+  },
+  {
+    "id": "CH08-V1-14",
+    "chapter": 8,
+    "topic": "Airspeed markings",
+    "subtopic": "White arc",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "The white arc on a conventional airspeed indicator primarily identifies what range?",
+    "choices": [
+      "The range from VS0 to VX that identifies speeds approved for takeoff and initial climb with partial flaps",
+      "Flap operating range from VSO to VFE",
+      "The range from VS1 to VNO in which the airplane may be operated normally with flaps retracted",
+      "The range from VNO to VNE in which operation is permitted only in smooth air and with caution"
+    ],
+    "correctIndex": 1,
+    "explanation": "The white arc is the flap operating range.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — White arc",
+    "learningObjective": "Apply White arc knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-14"
+  },
+  {
+    "id": "CH08-V1-15",
+    "chapter": 8,
+    "topic": "Airspeed markings",
+    "subtopic": "Green arc",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "The green arc primarily represents what?",
+    "choices": [
+      "The caution range between VNO and VNE",
+      "The approved maneuvering range from VA to VNO for abrupt control inputs",
+      "Normal operating range",
+      "The flap operating range from VS0 to VFE"
+    ],
+    "correctIndex": 2,
+    "explanation": "The green arc generally extends from VS1 to VNO and denotes the normal operating range.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Green arc",
+    "learningObjective": "Apply Green arc knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-15"
+  },
+  {
+    "id": "CH08-V1-16",
+    "chapter": 8,
+    "topic": "Airspeed markings",
+    "subtopic": "Yellow arc",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What does the yellow arc signify?",
+    "choices": [
+      "The normal operating range for routine cruise and maneuvering below VNO",
+      "The flap operating range in which any approved flap setting may be selected",
+      "The prohibited range above VNE where operation is permitted only for flight test",
+      "Caution range to be used only in smooth air and with caution"
+    ],
+    "correctIndex": 3,
+    "explanation": "The yellow arc is a caution range between VNO and VNE on conventional markings.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Yellow arc",
+    "learningObjective": "Apply Yellow arc knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-16"
+  },
+  {
+    "id": "CH08-V1-17",
+    "chapter": 8,
+    "topic": "Airspeed markings",
+    "subtopic": "VNE",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What does the red radial line on the airspeed indicator indicate?",
+    "choices": [
+      "Never-exceed speed VNE",
+      "Maximum structural cruising speed VNO",
+      "Maximum flap-extended speed VFE",
+      "Design maneuvering speed VA for the airplane at maximum gross weight"
+    ],
+    "correctIndex": 0,
+    "explanation": "The red line marks the never-exceed speed.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — VNE",
+    "learningObjective": "Apply VNE knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-17"
+  },
+  {
+    "id": "CH08-V1-18",
+    "chapter": 8,
+    "topic": "Vertical speed",
+    "subtopic": "VSI operation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot levels off after a steady climb. Why does the VSI briefly lag before settling at zero?",
+    "choices": [
+      "The altimeter-setting mechanism shares the same pointer shaft, and barometric changes momentarily drive the VSI after level-off",
+      "The VSI uses a calibrated leak/restricted flow, so pressure inside the case changes with a time delay",
+      "The diaphragm receives pitot pressure through a restricted line, delaying the indication as airspeed changes",
+      "The VSI gyro requires time to precess after the airplane stops climbing, so the needle settles gradually"
+    ],
+    "correctIndex": 1,
+    "explanation": "The VSI senses the rate of static-pressure change through a calibrated restriction, which creates inherent lag.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — VSI operation",
+    "learningObjective": "Apply VSI operation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-18"
+  },
+  {
+    "id": "CH08-V1-19",
+    "chapter": 8,
+    "topic": "Gyroscopic instruments",
+    "subtopic": "Rigidity in space",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What gyroscopic property allows an attitude indicator to provide a stable reference?",
+    "choices": [
+      "Magnetic dip, which creates a stable reference to the Earth's field regardless of airplane motion",
+      "Pendulous-vane action alone, which keeps the gyro erect without relying on the spinning rotor's inertia",
+      "Rigidity in space",
+      "Precession, which keeps a spinning rotor aligned with the airplane's pitch and bank axes"
+    ],
+    "correctIndex": 2,
+    "explanation": "A rapidly spinning gyro tends to maintain its plane of rotation, providing a stable reference.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Rigidity in space",
+    "learningObjective": "Apply Rigidity in space knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-19"
+  },
+  {
+    "id": "CH08-V1-20",
+    "chapter": 8,
+    "topic": "Gyroscopic instruments",
+    "subtopic": "Precession",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is gyroscopic precession?",
+    "choices": [
+      "A force applied to a spinning gyro acts immediately at the exact point of application, while the case moves 90 degrees later",
+      "A gyro gradually aligns itself with magnetic north as friction slows the rotor, creating an apparent 90-degree heading error",
+      "A spinning gyro resists any applied force completely until rotor speed falls below the instrument's operating range",
+      "A force applied to a spinning gyro is manifested approximately 90° later in the direction of rotation"
+    ],
+    "correctIndex": 3,
+    "explanation": "Precession describes the characteristic response of a spinning gyro to an applied force.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Precession",
+    "learningObjective": "Apply Precession knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-20"
+  },
+  {
+    "id": "CH08-V1-21",
+    "chapter": 8,
+    "topic": "Gyroscopic instruments",
+    "subtopic": "Heading-indicator drift",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why must many conventional heading indicators be periodically realigned with the magnetic compass?",
+    "choices": [
+      "Gyro friction and precession cause heading-indicator drift over time",
+      "Magnetic variation changes as the airplane travels, causing the heading indicator to drift even though its gyro remains fixed to north",
+      "The heading indicator is intentionally slaved to the pitot-static system and must be reset when pressure altitude changes",
+      "Earth-rate precession alone produces a standardized drift that is corrected by resetting exactly once each hour"
+    ],
+    "correctIndex": 0,
+    "explanation": "Conventional directional gyros drift and require periodic comparison/realignment with the magnetic compass.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Heading-indicator drift",
+    "learningObjective": "Apply Heading-indicator drift knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-21"
+  },
+  {
+    "id": "CH08-V1-22",
+    "chapter": 8,
+    "topic": "Magnetic compass",
+    "subtopic": "Turning errors",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot is turning from a northerly heading in the Northern Hemisphere using only the magnetic compass. Why can the compass initially indicate misleading turn behavior?",
+    "choices": [
+      "Compass deviation from aircraft electrical equipment increases during turns and temporarily reverses the indicated direction",
+      "Magnetic dip produces turning errors that vary with heading and latitude",
+      "The compass initially turns in the correct direction but overshoots only when rolling out on north or south headings",
+      "Acceleration error rather than turning error dominates on north/south headings, causing the compass to show a false climb or descent"
+    ],
+    "correctIndex": 1,
+    "explanation": "Magnetic dip and compass construction cause northerly/southerly turning errors in addition to acceleration errors.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Turning errors",
+    "learningObjective": "Apply Turning errors knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-22"
+  },
+  {
+    "id": "CH08-V1-23",
+    "chapter": 8,
+    "topic": "Magnetic compass",
+    "subtopic": "Acceleration error",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "During acceleration on an east or west heading in the Northern Hemisphere, what compass error should the pilot anticipate?",
+    "choices": [
+      "An apparent turn toward north during both acceleration and deceleration, with only the amount of error changing",
+      "No acceleration/deceleration error on east or west headings; those headings are affected only by turning error",
+      "An apparent turn toward north; deceleration produces an apparent turn toward south",
+      "An apparent turn toward south during acceleration and toward north during deceleration"
+    ],
+    "correctIndex": 2,
+    "explanation": "The mnemonic ANDS describes acceleration north, deceleration south for east/west headings in the Northern Hemisphere.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Acceleration error",
+    "learningObjective": "Apply Acceleration error knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-23"
+  },
+  {
+    "id": "CH08-V1-24",
+    "chapter": 8,
+    "topic": "Magnetic compass",
+    "subtopic": "Variation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is magnetic variation?",
+    "choices": [
+      "The angle between the aircraft's magnetic compass and its electrically driven heading indicator",
+      "The difference between magnetic north and compass north caused by magnetic fields within the aircraft",
+      "The correction between pressure altitude and true altitude caused by geographic changes in the Earth's magnetic field",
+      "The angular difference between true north and magnetic north at a location"
+    ],
+    "correctIndex": 3,
+    "explanation": "Variation is a geographic difference between the true and magnetic meridians.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Variation",
+    "learningObjective": "Apply Variation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-24"
+  },
+  {
+    "id": "CH08-V1-25",
+    "chapter": 8,
+    "topic": "Magnetic compass",
+    "subtopic": "Deviation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is compass deviation?",
+    "choices": [
+      "Compass error caused by magnetic fields in the aircraft",
+      "The angular difference between true north and magnetic north at the aircraft's geographic position",
+      "The change in magnetic variation that occurs when the airplane accelerates or turns",
+      "Gyroscopic drift between the heading indicator and magnetic compass caused by friction in the gyro bearings"
+    ],
+    "correctIndex": 0,
+    "explanation": "Deviation is aircraft-specific magnetic interference and is accounted for using the compass correction card.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Deviation",
+    "learningObjective": "Apply Deviation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-25"
+  },
+  {
+    "id": "CH08-V1-26",
+    "chapter": 8,
+    "topic": "Electronic displays",
+    "subtopic": "Instrument cross-check",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot sees conflicting attitude information between the primary display and standby instrument. What is the correct conceptual response?",
+    "choices": [
+      "Use the primary display unless a warning flag appears; conflicting performance indications are less reliable than attitude information",
+      "Cross-check independent instruments and supporting performance indications to identify the failed source rather than trusting one display blindly",
+      "Select whichever instrument agrees with the pilot's body sensations, then use the others only to confirm the trend",
+      "Assume the standby instrument is correct because independent instruments are certified not to share failure sources"
+    ],
+    "correctIndex": 1,
+    "explanation": "Instrument cross-check and redundancy are used to detect failures and maintain control.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Instrument cross-check",
+    "learningObjective": "Apply Instrument cross-check knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-26"
+  },
+  {
+    "id": "CH08-V1-27",
+    "chapter": 8,
+    "topic": "Electronic displays",
+    "subtopic": "Display failures",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why can a glass-cockpit failure be especially hazardous if a pilot is not trained on reversionary or standby modes?",
+    "choices": [
+      "Integrated systems can share sensors or processing, but reversionary modes automatically identify every bad source for the pilot",
+      "A glass cockpit is more hazardous mainly because electronic attitude displays react more slowly than vacuum-driven gyros",
+      "A single display or data-source failure may remove several integrated indications at once, increasing workload",
+      "Electronic displays fail only as complete screens, so the pilot may lose all flight information without any partial indications"
+    ],
+    "correctIndex": 2,
+    "explanation": "Integrated systems can concentrate information and failure effects; pilots need aircraft-specific knowledge of backup sources and reversion.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Display failures",
+    "learningObjective": "Apply Display failures knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-27"
+  },
+  {
+    "id": "CH08-V1-28",
+    "chapter": 8,
+    "topic": "Electronic displays",
+    "subtopic": "Shared data sources",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "An air data computer receives erroneous static pressure. Which displayed values may be affected simultaneously?",
+    "choices": [
+      "Only altitude and vertical speed; airspeed uses pitot pressure and is independent of static-pressure accuracy",
+      "Only airspeed and altitude; vertical speed comes from an accelerometer rather than pressure information",
+      "Heading, attitude, and altitude simultaneously because the air data computer supplies reference data to every flight display",
+      "Altitude, vertical speed, and airspeed-related data"
+    ],
+    "correctIndex": 3,
+    "explanation": "Air-data systems derive multiple flight parameters from shared pitot/static/temperature inputs, so one sensor error can affect several indications.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Shared data sources",
+    "learningObjective": "Apply Shared data sources knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-28"
+  },
+  {
+    "id": "CH08-V1-29",
+    "chapter": 8,
+    "topic": "Instrument scan",
+    "subtopic": "Cross-check",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is “trust but verify” a useful instrument-flight habit even in VFR operations?",
+    "choices": [
+      "No single instrument should replace outside references and cross-check; unusual indications should be compared with independent cues",
+      "Use outside references only if every instrument agrees; disagreement between instruments usually indicates visual illusion rather than failure",
+      "Choose the instrument with the most stable indication and ignore the others until the discrepancy resolves",
+      "Use GPS groundspeed and track as the primary substitute for attitude, altitude, and airspeed whenever conventional indications conflict"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cross-check helps detect instrument failures and prevents fixation, while outside visual references remain primary when appropriate in VMC.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Cross-check",
+    "learningObjective": "Apply Cross-check knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-29"
+  },
+  {
+    "id": "CH08-V1-30",
+    "chapter": 8,
+    "topic": "Instrument scan",
+    "subtopic": "Operational synthesis",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the best operational summary of flight-instrument knowledge?",
+    "choices": [
+      "Use integrated electronic indications as primary truth and treat standby instruments only as emergency backups after a complete display failure",
+      "Understand each instrument’s data source, normal behavior, errors, and failure indications so conflicting information can be recognized and managed",
+      "Memorize the normal instrument scan and assume an abnormal indication is a failed instrument unless an annunciation says otherwise",
+      "Know the color markings and instrument locations; pressure sources and failure modes are mainly maintenance knowledge"
+    ],
+    "correctIndex": 1,
+    "explanation": "Practical instrument knowledge is about sources, limitations, cross-check, and failure recognition.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 8 — Operational synthesis",
+    "learningObjective": "Apply Operational synthesis knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch08-30"
+  }
+]

@@ -373,3 +373,15 @@ footer p { max-width: 700px; margin: 0; text-align: right; line-height: 1.45; }
   .brand { padding: .35rem .25rem 1.85rem; }
   .sidebar-logo { max-width: 184px; }
 }
+
+/* Standardized assessment history */
+.score-log { margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--line); }
+.score-log > summary { cursor: pointer; list-style-position: outside; color: var(--muted); font-size: .66rem; font-weight: 800; letter-spacing: .08em; line-height: 1.4; }
+.score-log[open] > summary { margin-bottom: .45rem; }
+.history-attempt-button { width: 100%; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: .5rem; padding: .55rem 0; border: 0; border-bottom: 1px solid #edf1f3; background: transparent; color: #365769; text-align: left; cursor: pointer; font: inherit; }
+.history-attempt-button b { color: var(--blue); }
+.history-attempt-button span { min-width: 0; color: var(--muted); font-size: .72rem; line-height: 1.25; }
+.history-attempt-button em { color: var(--blue); font-size: .7rem; font-style: normal; font-weight: 800; }
+.history-attempt-button:hover em { text-decoration: underline; }
+.reflection-result p + p { margin-top: .75rem; }
+@media (max-width: 480px) { .history-attempt-button { grid-template-columns: auto 1fr; } .history-attempt-button em { grid-column: 2; } }

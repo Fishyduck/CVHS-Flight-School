@@ -1,0 +1,602 @@
+[
+  {
+    "id": "CH09-V1-01",
+    "chapter": 9,
+    "topic": "AFM/POH",
+    "subtopic": "Aircraft-specific information",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot wants to know the maximum demonstrated crosswind, approved weight limits, and emergency procedures for a specific airplane. What is the primary source?",
+    "choices": [
+      "The aircraft AFM/POH and its approved supplements",
+      "The current AIM, because it contains standardized limitations and emergency procedures for all certificated airplanes",
+      "The aircraft maintenance manual, because it is the controlling source for pilot operating limitations and performance",
+      "The type certificate data sheet alone, because it replaces the AFM/POH for all approved operating speeds and procedures"
+    ],
+    "correctIndex": 0,
+    "explanation": "Aircraft-specific limitations, procedures, and performance information belong in the approved AFM/POH and supplements.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Aircraft-specific information",
+    "learningObjective": "Apply Aircraft-specific information knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-01"
+  },
+  {
+    "id": "CH09-V1-02",
+    "chapter": 9,
+    "topic": "AFM/POH",
+    "subtopic": "Limitations",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot finds a placard in the cockpit that conflicts with a remembered limitation from another aircraft of the same model family. What should the pilot do?",
+    "choices": [
+      "Ignore the placard until maintenance verifies it, because placards are advisory unless the same limitation appears on the instrument panel",
+      "Follow and verify the limitation applicable to the specific aircraft; placards and approved documents are part of its operating limitations",
+      "Use the limitation remembered from the same model family if it is more conservative than the placard",
+      "Follow the flight-school checklist because standardized fleet procedures supersede individual-aircraft placards"
+    ],
+    "correctIndex": 1,
+    "explanation": "Limitations can vary with serial number, equipment, modification, or supplement. The specific aircraft’s approved information controls.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Limitations",
+    "learningObjective": "Apply Limitations knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-02"
+  },
+  {
+    "id": "CH09-V1-03",
+    "chapter": 9,
+    "topic": "AFM/POH",
+    "subtopic": "POH sections",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Which AFM/POH section is designed to be the first place to look for approved operating limitations?",
+    "choices": [
+      "General, because the approved limitations are summarized only in the aircraft description and specifications",
+      "Performance, because any limit affecting speed, weight, or altitude is derived from performance data rather than the limitations section",
+      "Limitations",
+      "Normal Procedures, because all speeds and weights used in routine flight are listed there"
+    ],
+    "correctIndex": 2,
+    "explanation": "The standardized POH format places operating limitations in Section 2.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — POH sections",
+    "learningObjective": "Apply POH sections knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-03"
+  },
+  {
+    "id": "CH09-V1-04",
+    "chapter": 9,
+    "topic": "AFM/POH",
+    "subtopic": "POH emergency section",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Which AFM/POH section is the primary source for immediate and expanded emergency procedures?",
+    "choices": [
+      "Limitations, because prohibited actions and maximum values are the primary reference during an emergency",
+      "Normal Procedures, because emergency actions are variations of the normal checklist and are kept in one section",
+      "Performance, because emergency procedures are selected according to the predicted glide, climb, and landing performance",
+      "Emergency Procedures"
+    ],
+    "correctIndex": 3,
+    "explanation": "Emergency procedures are organized in Section 3 of the standardized format.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — POH emergency section",
+    "learningObjective": "Apply POH emergency section knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-04"
+  },
+  {
+    "id": "CH09-V1-05",
+    "chapter": 9,
+    "topic": "AFM/POH",
+    "subtopic": "POH normal procedures",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot is preparing for a normal cold start, taxi, run-up, takeoff, and landing. Which POH section is the normal primary reference?",
+    "choices": [
+      "Normal Procedures",
+      "Limitations, because start, taxi, and takeoff actions are operating limitations rather than procedures",
+      "Performance, because takeoff and landing actions are determined from charts before each flight",
+      "Emergency Procedures, because engine start and run-up are treated as abnormal until the airplane is airborne"
+    ],
+    "correctIndex": 0,
+    "explanation": "Normal operating checklists and expanded procedures are found in the Normal Procedures section.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — POH normal procedures",
+    "learningObjective": "Apply POH normal procedures knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-05"
+  },
+  {
+    "id": "CH09-V1-06",
+    "chapter": 9,
+    "topic": "AFM/POH",
+    "subtopic": "POH performance",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot needs takeoff distance, climb rate, cruise, and landing performance for today’s conditions. Which POH section is most relevant?",
+    "choices": [
+      "Normal Procedures, because the speeds used on the charts are incorporated into the checklists and make separate performance data unnecessary",
+      "Performance",
+      "Limitations, because takeoff, climb, cruise, and landing numbers are mandatory operating limits",
+      "Weight and Balance, because all performance values can be derived from aircraft weight and CG without the performance section"
+    ],
+    "correctIndex": 1,
+    "explanation": "Aircraft performance charts/tables are in the Performance section.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — POH performance",
+    "learningObjective": "Apply POH performance knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-06"
+  },
+  {
+    "id": "CH09-V1-07",
+    "chapter": 9,
+    "topic": "AFM/POH",
+    "subtopic": "Supplements",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why must a pilot review aircraft supplements when installed equipment has been added?",
+    "choices": [
+      "A supplement matters only if the added equipment changes empty weight by more than one percent",
+      "Installed equipment procedures are controlled by the equipment manufacturer's user guide, which supersedes the airplane AFM/POH whenever they conflict",
+      "A supplement can introduce new limitations, procedures, and performance information that become part of the operating information for that configuration",
+      "Supplements are maintenance records only; the original POH remains controlling even after approved equipment changes"
+    ],
+    "correctIndex": 2,
+    "explanation": "Approved equipment and modifications can require supplemental limitations and procedures.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Supplements",
+    "learningObjective": "Apply Supplements knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-07"
+  },
+  {
+    "id": "CH09-V1-08",
+    "chapter": 9,
+    "topic": "Required documents",
+    "subtopic": "ARROW",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Which documents are commonly remembered by the acronym ARROW for an airplane operation?",
+    "choices": [
+      "Airworthiness certificate, Registration, Radio operator permit for every domestic flight, Operating handbook, and Weight certificate",
+      "Aircraft logbooks, Registration, Radio license, Operating limitations, and Weather briefing",
+      "Airworthiness certificate, Registration, Required inspections, Owner's manual, and Weight-and-balance worksheet",
+      "Airworthiness certificate, Registration certificate, Radio station license when required internationally, Operating limitations, Weight and balance data"
+    ],
+    "correctIndex": 3,
+    "explanation": "ARROW is a common memory aid for aircraft documents/information required aboard or available as applicable; exact requirements depend on the operation.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — ARROW",
+    "learningObjective": "Apply ARROW knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-08"
+  },
+  {
+    "id": "CH09-V1-09",
+    "chapter": 9,
+    "topic": "Required documents",
+    "subtopic": "Registration",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot discovers the aircraft registration certificate is missing before flight. Why can this be more than an administrative issue?",
+    "choices": [
+      "Required aircraft documents are part of legal operation; the discrepancy must be resolved before flight",
+      "The registration is needed only to prove ownership; the airplane remains legal to operate if the airworthiness certificate is aboard",
+      "A photocopy or digital image is always equivalent to the required registration document for domestic flight",
+      "Registration status matters only for international operations; within the United States the tail number and airworthiness certificate are sufficient"
+    ],
+    "correctIndex": 0,
+    "explanation": "Aircraft registration is one of the required aircraft documents under applicable rules.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Registration",
+    "learningObjective": "Apply Registration knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-09"
+  },
+  {
+    "id": "CH09-V1-10",
+    "chapter": 9,
+    "topic": "Required documents",
+    "subtopic": "Airworthiness certificate",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the practical purpose of an aircraft airworthiness certificate?",
+    "choices": [
+      "It is the pilot's operating authority for the aircraft and substitutes for verifying maintenance, inspections, and condition before each flight",
+      "It indicates the aircraft was found to conform to its type design/approved condition at issuance and is authorized for operation when maintained and operated as required",
+      "It certifies that the aircraft will remain airworthy until its next annual inspection regardless of later condition or maintenance",
+      "It authorizes any aircraft of that make/model to fly as long as a certificated pilot is at the controls"
+    ],
+    "correctIndex": 1,
+    "explanation": "The certificate is part of the aircraft’s legal status, but continued airworthiness depends on maintenance, condition, and compliance.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Airworthiness certificate",
+    "learningObjective": "Apply Airworthiness certificate knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-10"
+  },
+  {
+    "id": "CH09-V1-11",
+    "chapter": 9,
+    "topic": "Maintenance records",
+    "subtopic": "Airworthiness Directives",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot sees that an Airworthiness Directive applies to the aircraft and its compliance time has passed. What is the correct conclusion?",
+    "choices": [
+      "The pilot may fly to maintenance under normal operating privileges if the AD is overdue but no defect is visible",
+      "The AD is advisory unless it is specifically reproduced in the POH limitations section for that serial number",
+      "The aircraft may not be airworthy until the applicable AD requirement is complied with",
+      "An annual inspection can temporarily supersede the AD until the next inspection cycle if the airplane remains in good condition"
+    ],
+    "correctIndex": 2,
+    "explanation": "Airworthiness Directives are legally enforceable requirements for correcting unsafe conditions.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Airworthiness Directives",
+    "learningObjective": "Apply Airworthiness Directives knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-11"
+  },
+  {
+    "id": "CH09-V1-12",
+    "chapter": 9,
+    "topic": "Maintenance records",
+    "subtopic": "Continued airworthiness",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why does a current annual inspection not by itself guarantee an aircraft is airworthy today?",
+    "choices": [
+      "An annual inspection guarantees airworthiness for twelve calendar months unless the pilot damages the aircraft",
+      "Once the annual is current, other inspections and AD compliance are maintenance concerns that cannot affect dispatch legality",
+      "Current paperwork establishes airworthiness even if the pilot discovers a new defect, because maintenance has already returned the aircraft to service",
+      "The aircraft may have developed defects, exceeded other inspection intervals, or become noncompliant after the annual"
+    ],
+    "correctIndex": 3,
+    "explanation": "Airworthiness is a continuing condition; both required inspections and present condition/compliance matter.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Continued airworthiness",
+    "learningObjective": "Apply Continued airworthiness knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-12"
+  },
+  {
+    "id": "CH09-V1-13",
+    "chapter": 9,
+    "topic": "Maintenance records",
+    "subtopic": "Inspection requirements",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "An airplane used to carry passengers for hire has additional inspection requirements compared with many private operations. What should the pilot do rather than assume one interval applies?",
+    "choices": [
+      "Determine the inspections required for the specific operation and aircraft under current regulations and maintenance program",
+      "Use the annual-inspection date only; passenger-for-hire use changes pilot qualifications but not aircraft inspection requirements",
+      "Apply the shortest inspection interval the pilot remembers from any commercial operation to ensure a conservative result",
+      "Assume the flight school's maintenance schedule applies to all passenger-carrying operations unless the POH states another interval"
+    ],
+    "correctIndex": 0,
+    "explanation": "Inspection requirements depend on operation and equipment; pilots must verify the applicable program and dates.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Inspection requirements",
+    "learningObjective": "Apply Inspection requirements knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-13"
+  },
+  {
+    "id": "CH09-V1-14",
+    "chapter": 9,
+    "topic": "Inoperative equipment",
+    "subtopic": "Decision process",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot finds an inoperative landing light before a daytime local flight. What is the correct decision process?",
+    "choices": [
+      "Determine only whether 91.205 requires the light for day VFR; type design, KOEL, ADs, and other operating requirements do not affect the decision",
+      "Determine whether the equipment is required by regulation, the aircraft type design/equipment list/KOEL, an AD, or the operation, then follow the authorized inoperative-equipment procedure",
+      "If the landing light is not needed in daylight, the pilot may simply switch it off and note the item after landing",
+      "If the airplane has another exterior light, the inoperative landing light is automatically redundant and may be ignored"
+    ],
+    "correctIndex": 1,
+    "explanation": "Inoperative equipment must be evaluated against all applicable requirements, then deactivated/removed/placarded and recorded as required.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Decision process",
+    "learningObjective": "Apply Decision process knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-14"
+  },
+  {
+    "id": "CH09-V1-15",
+    "chapter": 9,
+    "topic": "Inoperative equipment",
+    "subtopic": "MEL concept",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is a Minimum Equipment List (MEL), when specifically authorized for an aircraft/operation, different from simply deciding an item is unnecessary?",
+    "choices": [
+      "An MEL waives the requirement to consider type design, maintenance procedures, or operating limitations for listed items",
+      "An MEL is the same as a manufacturer's equipment list; any item marked optional may be inoperative without additional procedures",
+      "An MEL is an approved method that specifies conditions and procedures under which listed equipment may be inoperative",
+      "An MEL is a pilot-created list of equipment considered nonessential for a particular trip and can be changed before each flight"
+    ],
+    "correctIndex": 2,
+    "explanation": "An MEL provides approved relief with conditions; it is not a blanket permission to ignore failed equipment.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — MEL concept",
+    "learningObjective": "Apply MEL concept knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-15"
+  },
+  {
+    "id": "CH09-V1-16",
+    "chapter": 9,
+    "topic": "Inoperative equipment",
+    "subtopic": "91.213 concept",
+    "difficulty": "advanced",
+    "type": "scenario",
+    "prompt": "A pilot wants to use 14 CFR 91.213(d) for an inoperative item on an aircraft without an MEL. What is the key concept?",
+    "choices": [
+      "Any item not listed in 91.205 may be left inoperative after the pilot places an INOP sticker on it",
+      "The pilot may defer an item if the aircraft can be flown safely, even when the item is required by the type design or an AD",
+      "The rule permits pilot judgment to replace maintenance action as long as the inoperative item is not needed for the planned weather",
+      "The pilot must systematically determine the item is not required by the applicable rules, certification basis, equipment list/KOEL, ADs, or kind of operation, then have it properly handled"
+    ],
+    "correctIndex": 3,
+    "explanation": "The no-MEL process still requires a structured legality and safety determination plus proper deactivation/removal and documentation.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — 91.213 concept",
+    "learningObjective": "Apply 91.213 concept knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-16"
+  },
+  {
+    "id": "CH09-V1-17",
+    "chapter": 9,
+    "topic": "Maintenance records",
+    "subtopic": "Logbook review",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why should pilots review maintenance logbooks when determining airworthiness rather than looking only at the panel?",
+    "choices": [
+      "Records show required inspections, AD compliance, maintenance entries, and status not visible during preflight",
+      "The panel shows the current condition of all required systems, making logbook review useful mainly for resale or maintenance planning",
+      "A current annual inspection entry is enough; individual AD and inspection records do not affect the pilot's airworthiness determination",
+      "Logbooks matter only when the aircraft has been modified, because routine inspection and maintenance status is carried on cockpit placards"
+    ],
+    "correctIndex": 0,
+    "explanation": "Airworthiness has both condition and records/compliance components.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Logbook review",
+    "learningObjective": "Apply Logbook review knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-17"
+  },
+  {
+    "id": "CH09-V1-18",
+    "chapter": 9,
+    "topic": "Airworthiness",
+    "subtopic": "Condition for safe operation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A required inspection was signed off, but the pilot finds a fuel leak during preflight. Is the aircraft airworthy for flight?",
+    "choices": [
+      "Only if the POH does not list fuel leakage as an explicit prohibited condition; otherwise paperwork controls the decision",
+      "No; current condition for safe operation is required in addition to paperwork",
+      "Yes, if the annual or 100-hour inspection is current and the leak is not visible from the cockpit",
+      "Yes, if usable fuel remaining is sufficient for the planned flight plus reserve and the leak rate appears slow"
+    ],
+    "correctIndex": 1,
+    "explanation": "A pilot may not knowingly operate an aircraft that is not in condition for safe operation simply because records are current.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Condition for safe operation",
+    "learningObjective": "Apply Condition for safe operation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-18"
+  },
+  {
+    "id": "CH09-V1-19",
+    "chapter": 9,
+    "topic": "AFM/POH",
+    "subtopic": "Aircraft-specific checklist",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the most important reason to use the checklist for the exact aircraft rather than a generic model checklist?",
+    "choices": [
+      "A checklist for any airplane in the same category/class is acceptable if the pilot knows the cockpit layout",
+      "The manufacturer's newest checklist for the model should replace an older aircraft-specific checklist even if installed equipment differs",
+      "Installed equipment, modifications, serial-number differences, and approved procedures can change required actions",
+      "Generic model checklists are preferable because they avoid differences created by optional equipment and local modifications"
+    ],
+    "correctIndex": 2,
+    "explanation": "Aircraft-specific configuration and supplements can change normal and emergency procedures.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Aircraft-specific checklist",
+    "learningObjective": "Apply Aircraft-specific checklist knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-19"
+  },
+  {
+    "id": "CH09-V1-20",
+    "chapter": 9,
+    "topic": "Weight and balance documents",
+    "subtopic": "Current equipment list",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot wants to calculate current usable load. Why must the current weight-and-balance/equipment information be used instead of factory brochure data?",
+    "choices": [
+      "Factory brochure data remains valid because equipment changes affect empty weight but not useful load or loaded CG calculations",
+      "Use the original type-certificate empty weight and add only occupants, baggage, and fuel; later avionics changes are too small to matter",
+      "Current equipment data matters only for maximum gross weight; moment and empty CG remain fixed for the life of the airframe",
+      "Equipment changes alter empty weight, moment, and useful load over the aircraft’s life"
+    ],
+    "correctIndex": 3,
+    "explanation": "The current aircraft empty-weight and equipment data reflect the actual configuration.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Current equipment list",
+    "learningObjective": "Apply Current equipment list knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-20"
+  },
+  {
+    "id": "CH09-V1-21",
+    "chapter": 9,
+    "topic": "Certification documents",
+    "subtopic": "TCDS",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What does a Type Certificate Data Sheet (TCDS) primarily describe?",
+    "choices": [
+      "Approved type-design data and limitations for the aircraft/engine/propeller type",
+      "The maintenance procedures and inspection intervals that every aircraft of the model must use in service",
+      "A list of optional installed equipment and the current weight-and-balance data for one individual aircraft",
+      "The pilot certification privileges and training endorsements required to operate that aircraft category and class"
+    ],
+    "correctIndex": 0,
+    "explanation": "A TCDS is an FAA document containing key certification data for a product type.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — TCDS",
+    "learningObjective": "Apply TCDS knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-21"
+  },
+  {
+    "id": "CH09-V1-22",
+    "chapter": 9,
+    "topic": "Certification documents",
+    "subtopic": "STC",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why can Supplemental Type Certificate (STC) paperwork matter to a pilot?",
+    "choices": [
+      "STC paperwork is needed only until the next annual inspection, after which the alteration is incorporated automatically into the original type certificate",
+      "An approved alteration can change configuration, limitations, procedures, or performance and may require a flight-manual supplement",
+      "STC documents matter only to mechanics; once an alteration is installed, the original POH always remains unchanged for the pilot",
+      "An STC changes ownership or registration status but cannot change airplane limitations, procedures, or loading data"
+    ],
+    "correctIndex": 1,
+    "explanation": "STCs approve major design changes and can introduce operating information the pilot must know.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — STC",
+    "learningObjective": "Apply STC knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-22"
+  },
+  {
+    "id": "CH09-V1-23",
+    "chapter": 9,
+    "topic": "Required documents",
+    "subtopic": "Placards",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot notices a required placard is unreadable. Why should that be corrected?",
+    "choices": [
+      "Unreadable placards matter only during practical tests; pilots may rely on memory for limitations they already know",
+      "Instrument markings always duplicate required placards, so an unreadable cockpit placard cannot affect legal or safe operation",
+      "Placards can communicate approved limitations or required operating information and are part of the aircraft’s required configuration",
+      "A placard is optional if the same information can be found somewhere in the POH before flight"
+    ],
+    "correctIndex": 2,
+    "explanation": "Required markings and placards convey operating limitations and may be required for airworthiness.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Placards",
+    "learningObjective": "Apply Placards knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-23"
+  },
+  {
+    "id": "CH09-V1-24",
+    "chapter": 9,
+    "topic": "Weight and balance documents",
+    "subtopic": "Equipment list",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is the equipment list operationally useful beyond maintenance bookkeeping?",
+    "choices": [
+      "It lists only optional equipment for maintenance inventory; weights and arms are taken from the original factory empty-weight record",
+      "It identifies equipment but not configuration status, because installed changes are recorded only in maintenance logbooks",
+      "It is useful only when calculating electrical load; loading calculations use occupant and fuel stations independent of installed equipment",
+      "It identifies installed equipment and weights/moments, helping determine current configuration and loading data"
+    ],
+    "correctIndex": 3,
+    "explanation": "Equipment records support weight and balance and confirm installed configuration.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Equipment list",
+    "learningObjective": "Apply Equipment list knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-24"
+  },
+  {
+    "id": "CH09-V1-25",
+    "chapter": 9,
+    "topic": "AFM/POH",
+    "subtopic": "Limitations versus guidance",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot wants to know whether a particular speed is a limitation or merely a recommended technique. What is the best approach?",
+    "choices": [
+      "Check the approved AFM/POH limitations and markings, then distinguish mandatory limitations from advisory guidance",
+      "Any speed printed in the POH is a limitation; recommended speeds appear only in training manuals and the AIM",
+      "If a speed is marked on the instrument it is advisory, while speeds printed in normal procedures are mandatory limitations",
+      "Use the fastest value found among POH sections because performance recommendations take precedence over conservative limitation values"
+    ],
+    "correctIndex": 0,
+    "explanation": "Aircraft documents identify approved limits, while other guidance may recommend techniques without changing legal limitations.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Limitations versus guidance",
+    "learningObjective": "Apply Limitations versus guidance knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-25"
+  },
+  {
+    "id": "CH09-V1-26",
+    "chapter": 9,
+    "topic": "Required documents",
+    "subtopic": "Operating limitations",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why are operating limitations considered part of the aircraft’s required documentation even when displayed as placards or instrument markings?",
+    "choices": [
+      "A pilot may exceed a placarded or marked limit if the POH performance section shows adequate margin for the current conditions",
+      "They communicate approved boundaries needed to operate the aircraft safely and legally",
+      "Operating limitations are advisory unless written as a placard; instrument markings are reference aids rather than approved limitations",
+      "Placards and markings are legally meaningful only when the original AFM/POH is not carried in the airplane"
+    ],
+    "correctIndex": 1,
+    "explanation": "Operating limitations may be contained in the AFM/POH, markings, and placards and are essential to approved operation.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Operating limitations",
+    "learningObjective": "Apply Operating limitations knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-26"
+  },
+  {
+    "id": "CH09-V1-27",
+    "chapter": 9,
+    "topic": "Certification documents",
+    "subtopic": "Post-modification documents",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot borrows an aircraft that has recently received a major avionics upgrade. What document check should be added to the normal review?",
+    "choices": [
+      "Verify only that the new avionics database is current; weight-and-balance and airplane procedures are unaffected by panel equipment",
+      "Review the original POH and ignore later supplements unless the flight will be conducted IFR, where avionics approval becomes legally relevant",
+      "Look for applicable approved flight-manual supplements and revised weight-and-balance/equipment data",
+      "Use the avionics manufacturer's quick-reference card only; approved supplements are required mainly for maintenance installation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Major equipment changes can affect procedures, limitations, and weight/balance and often add supplements.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Post-modification documents",
+    "learningObjective": "Apply Post-modification documents knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-27"
+  },
+  {
+    "id": "CH09-V1-28",
+    "chapter": 9,
+    "topic": "Inoperative equipment",
+    "subtopic": "Conservative airworthiness decision",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "If a pilot is unsure whether an inoperative item is legally deferrable, what is the safest course?",
+    "choices": [
+      "If the item seems nonessential, depart and ask maintenance to verify legality after the flight",
+      "Use the most conservative rule-of-thumb from a training guide rather than delaying the flight for aircraft-specific research",
+      "Assume it is required whenever uncertain and permanently remove it before flight without consulting approved maintenance data",
+      "Stop and verify using the aircraft documents, current regulations, and qualified maintenance/operational guidance rather than guessing"
+    ],
+    "correctIndex": 3,
+    "explanation": "Airworthiness decisions should be based on the applicable approved and regulatory requirements, not assumption.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Conservative airworthiness decision",
+    "learningObjective": "Apply Conservative airworthiness decision knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-28"
+  },
+  {
+    "id": "CH09-V1-29",
+    "chapter": 9,
+    "topic": "Airworthiness",
+    "subtopic": "PIC airworthiness responsibility",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the central airworthiness responsibility of the PIC before flight?",
+    "choices": [
+      "Determine that required documents/inspections/compliance are in order and that the aircraft is in condition for safe operation",
+      "Confirm only that the most recent annual inspection is current; maintenance personnel are solely responsible for all other airworthiness items",
+      "Verify required paperwork and compliance, but the PIC may rely on the last maintenance release for present condition without conducting a preflight",
+      "Airworthiness is established by the certificate aboard the airplane; the PIC's primary responsibility is only to remain within operating limitations after takeoff"
+    ],
+    "correctIndex": 0,
+    "explanation": "The PIC has an operational responsibility to ensure the aircraft is legally and physically airworthy for the intended flight.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — PIC airworthiness responsibility",
+    "learningObjective": "Apply PIC airworthiness responsibility knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-29"
+  },
+  {
+    "id": "CH09-V1-30",
+    "chapter": 9,
+    "topic": "Airworthiness",
+    "subtopic": "Operational synthesis",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the best operational summary of Chapter 9 knowledge?",
+    "choices": [
+      "Treat any installed item as legally required unless it appears on an MEL, so there is no need to analyze type design, regulations, ADs, or kind of operation",
+      "Know where the aircraft’s binding limitations and procedures live, how to verify inspection/compliance status, and how to make a disciplined inoperative-equipment decision",
+      "Memorize the ARROW documents and inspection acronyms; operational limitations can be handled from memory once training is complete",
+      "Use the POH for normal flight and maintenance records only after a defect occurs; inoperative-equipment decisions can be based on whether the item seems necessary"
+    ],
+    "correctIndex": 1,
+    "explanation": "The practical goal is to connect aircraft documents and maintenance status to a defensible go/no-go airworthiness decision.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 9 — Operational synthesis",
+    "learningObjective": "Apply Operational synthesis knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch09-30"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  [
+    "Two-way radio communication with ATC and an assigned transponder code are sufficient; the word 'cleared' is not required",
+    "The pilot may enter after establishing radar contact if remaining VFR and below the Class B primary airport traffic flow",
+    "A flight-following handoff to the Class B controller constitutes entry authorization even without an explicit Class B clearance"
+  ],
+  [
+    "Yes; any ATC response to the transmission establishes the required communication even without the callsign",
+    "Yes, if the pilot has already been assigned a discrete transponder code and is receiving radar traffic advisories",
+    "No, because Class C requires an explicit entry clearance using the words 'cleared into Class Charlie' rather than just two-way communication"
+  ],
+  [
+    "No; Class D requires an explicit airspace-entry clearance separate from landing or pattern instructions",
+    "No; 'standby' means communication has not been established until the controller gives a traffic or sequencing instruction",
+    "Yes only if the airplane has already been assigned a discrete transponder code by approach control"
+  ],
+  [
+    "VFR and IFR operations above 18,000 MSL with a Class A clearance when the pilot can maintain VMC",
+    "High-altitude controlled operations where VFR is permitted with two-way radio communication and Mode C equipment",
+    "Special-use operations above the transition altitude; ordinary IFR traffic remains in Class E unless entering Class B or C"
+  ],
+  [
+    "Controlled airspace used only for IFR aircraft; VFR flights in the same volume are considered to be operating in Class G",
+    "Airspace surrounding airports with an operating tower but without enough traffic to qualify for Class D",
+    "Airspace where ATC exercises positive separation of all aircraft and therefore requires an explicit clearance for VFR entry"
+  ],
+  [
+    "Airspace in which ATC services are advisory but all VFR weather and equipment rules are identical to Class E",
+    "Airspace outside federal jurisdiction in which normal operating regulations do not apply",
+    "A class of controlled airspace below Class E where radio communication is optional but ATC separation remains available"
+  ],
+  [
+    "They reflect whether ATC is providing radar service; aircraft with radar service may use reduced visibility and cloud clearances",
+    "They are based primarily on terrain and obstacle density, so mountainous areas require greater cloud distances in every airspace class",
+    "They vary to account for airport runway length and traffic volume; altitude matters mainly because oxygen requirements also change"
+  ],
+  [
+    "Yes; once all regulatory weather minima are met, continuing is presumptively safe unless a specific hazard is prohibited by regulation",
+    "Yes if the pilot remains in controlled airspace and receives flight following, because terrain and traffic risks are then managed by ATC",
+    "No only if visibility falls below the pilot's personal minimum; terrain and trend do not materially change risk while the legal minima are maintained"
+  ],
+  [
+    "The shelf means Class B entry rules apply laterally but not vertically, so a pilot beneath it may climb into the airspace without a clearance",
+    "Every shelf has the same floor, allowing pilots to memorize one standard altitude around all Class B airports",
+    "A Class B shelf changes only equipment requirements; communication and clearance requirements remain the same below and inside the shelf"
+  ],
+  [
+    "Nothing associated with Class B; being below a shelf also removes nearby Mode C/ADS-B and special-flight-rule requirements",
+    "Only the Class B ceiling and lateral boundary; weather minima and equipment are determined solely by the airspace actually entered",
+    "The shelf floor only; terrain and other airspace are already accounted for in the Class B design and need no separate review"
+  ],
+  [
+    "Airspace that may be entered VFR after establishing two-way communication with the controlling agency",
+    "Airspace containing hazardous military activity that may be transited when inactive without specific permission",
+    "Airspace closed to nonparticipating traffic only during published activation times, otherwise treated as Class E"
+  ],
+  [
+    "Airspace from which all nonparticipating aircraft are permanently excluded, the same practical effect as a prohibited area",
+    "A charted area with unusually high training traffic where pilots may enter freely but should exercise added vigilance",
+    "A time-limited flight restriction issued by NOTAM around events, disasters, or VIP movements"
+  ],
+  [
+    "Treat the MOA as closed whenever active; VFR aircraft may enter only after receiving a specific ATC clearance",
+    "Ignore activation status because military aircraft operating in an MOA must remain separated from all VFR traffic",
+    "Enter only when receiving VFR flight following, because radar service transfers collision-avoidance responsibility to ATC"
+  ],
+  [
+    "Separate high-speed military aircraft from civil traffic by prohibiting VFR entry while the area is active",
+    "Protect a sensitive ground site by requiring ATC authorization before flight through the depicted area",
+    "Identify a region where hazardous activities occur over water beyond the coast and may endanger nonparticipating aircraft"
+  ],
+  [
+    "Airspace over land in which artillery or aerial gunnery makes entry legally prohibited whenever the area is active",
+    "An advisory area around airports with unusually high student traffic but no restrictions on participating activities",
+    "A temporary area established by NOTAM around hazards such as fires or disasters rather than a permanently charted special-use area"
+  ],
+  [
+    "A permanent special-use airspace area that closes whenever the controlling agency activates it",
+    "An advisory that recommends avoiding an area but does not impose flight restrictions on VFR aircraft",
+    "A charted Class E area whose base and ceiling temporarily change to protect special events or emergency response"
+  ],
+  [
+    "Sectional charts depict all TFRs that will be effective during the chart cycle, so NOTAM checking matters only for last-minute changes on the departure day",
+    "A current GPS database automatically incorporates every active TFR, making separate NOTAM review unnecessary when moving-map airspace alerts are enabled",
+    "TFRs are published only for IFR traffic, but checking them helps VFR pilots anticipate areas of increased ATC workload"
+  ],
+  [
+    "The area below is Class E to the surface but uses Class G weather minima until 700 feet AGL",
+    "The area below is Class D whenever the airport has a runway longer than a specified length, even without a tower",
+    "The area below is Class G only during daytime; at night the Class E floor automatically lowers to the surface"
+  ],
+  [
+    "A Class C surface area whose base begins at the surface and whose shelf is shown by solid magenta lines",
+    "A Class D surface area whose tower may be part-time and changes to Class E when the tower closes",
+    "A special VFR corridor through controlled airspace around the airport"
+  ],
+  [
+    "A Class C surface area",
+    "A Class E surface area beginning at the surface",
+    "The lateral boundary of Class B airspace below its outer shelf"
+  ],
+  [
+    "Class C airspace surrounding a radar approach-control airport",
+    "A prohibited or restricted area boundary associated with a major metropolitan airport",
+    "A Mode C veil that requires transponder/ADS-B equipment but no Class B clearance"
+  ],
+  [
+    "Class B airspace around a major hub airport",
+    "Class D airspace around a towered airport",
+    "Class E airspace beginning at 700 feet AGL around an airport"
+  ],
+  [
+    "Only the class matters; once it is identified on the chart, its communication and weather requirements are the same at every altitude",
+    "Altitude changes weather minima and oxygen rules but not communication, transponder, ADS-B, or airspace-entry requirements",
+    "Airspace altitude limits matter only to IFR pilots because VFR aircraft may remain clear of clouds anywhere within controlled airspace"
+  ],
+  [
+    "Moving-map GPS provides the legally controlling airspace boundary, while the sectional is useful mainly as a backup if the display fails",
+    "If the GPS database is current, lateral position alone determines legality; shelf floors and ceilings are automatically protected by alerts",
+    "Cross-checking matters only near Class B; Class C, D, and E boundaries are large enough that normal GPS error cannot create an inadvertent entry"
+  ],
+  [
+    "Ordinary VFR rules always control unless ATC specifically issues a clearance that mentions the special area by name",
+    "Special procedures apply only to IFR aircraft because VFR flight remains governed by see-and-avoid and standard class-of-airspace rules",
+    "The pilot may rely on GPS alerts to identify every special requirement; separate training or procedure review is unnecessary if the route is displayed as clear"
+  ],
+  [
+    "Controlled airspace means VFR pilots are separated from every other aircraft by ATC; Class G means pilots receive no regulatory protections",
+    "All controlled airspace requires a clearance before VFR entry, while Class G never requires radio communication or weather minima",
+    "The only practical difference is which agency provides flight following; weather minima and equipment rules are otherwise identical"
+  ],
+  [
+    "Yes; a discrete transponder code and radar identification are equivalent to a Class B clearance",
+    "Yes, if the controller is providing traffic advisories and does not tell the pilot to remain outside Class B",
+    "No only if the pilot plans to land at the primary Class B airport; overflight beneath a shelf may continue into the surface area with flight following"
+  ],
+  [
+    "ATC assumes responsibility for traffic avoidance once the aircraft is radar identified, while the pilot retains only terrain and weather responsibility",
+    "Responsibility is shared equally; the pilot may rely on an ATC traffic call instead of visual separation if radar contact is maintained",
+    "The IFR aircraft have primary see-and-avoid responsibility because VFR traffic receiving advisories is not assigned a protected altitude"
+  ],
+  [
+    "Because every airspace class has one fixed set of minima, but those values change annually with chart revisions",
+    "Because visibility and cloud clearance depend mainly on aircraft category and performance rather than on airspace or altitude",
+    "Because the same numeric minima apply everywhere below 10,000 MSL; memorizing one set becomes unsafe only above that altitude"
+  ],
+  [
+    "Use the moving map as the primary authority, then contact ATC only if an alert appears before a boundary crossing",
+    "Identify only controlled-airspace boundaries; special-use and TFR areas can be handled tactically after departure using flight following",
+    "Plan the route in two dimensions; vertical shelves and floors matter mainly for IFR altitude selection rather than VFR airspace compliance"
+  ]
+]

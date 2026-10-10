@@ -1,0 +1,602 @@
+[
+  {
+    "id": "CH14-V1-01",
+    "chapter": 14,
+    "topic": "Traffic patterns",
+    "subtopic": "Pattern direction",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot approaches a nontowered airport with no published special pattern. What pattern direction should normally be expected?",
+    "choices": [
+      "Left traffic unless markings, charted information, or other published procedures indicate otherwise",
+      "Right traffic unless the windsock or segmented circle indicates that left traffic would create a tailwind on base",
+      "Enter whichever pattern direction provides the shortest route from the pilot's arrival heading when no tower is operating",
+      "Use left traffic only if another aircraft is already established; otherwise either direction is acceptable at a nontowered airport"
+    ],
+    "correctIndex": 0,
+    "explanation": "Standard traffic patterns use left turns unless right traffic or another procedure is specified.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Pattern direction",
+    "learningObjective": "Apply Pattern direction knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-01"
+  },
+  {
+    "id": "CH14-V1-02",
+    "chapter": 14,
+    "topic": "Traffic patterns",
+    "subtopic": "Predictability",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why should a pilot avoid entering a nontowered traffic pattern in a way that disrupts established traffic?",
+    "choices": [
+      "A nonstandard entry is acceptable whenever it keeps the arriving airplane outside the pattern until within one mile of the runway",
+      "Predictable pattern geometry helps pilots see, sequence, and avoid one another when no controller separates traffic",
+      "Established traffic has priority only after turning final, so alternate entries are acceptable if the pilot broadcasts intentions",
+      "Pattern geometry is advisory at nontowered airports; collision avoidance depends primarily on radio sequencing rather than predictable flight paths"
+    ],
+    "correctIndex": 1,
+    "explanation": "Consistency and predictability are central to collision avoidance at nontowered airports.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Predictability",
+    "learningObjective": "Apply Predictability knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-02"
+  },
+  {
+    "id": "CH14-V1-03",
+    "chapter": 14,
+    "topic": "Nontowered operations",
+    "subtopic": "See and avoid",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot hears no radio calls at a nontowered airport. What should the pilot conclude?",
+    "choices": [
+      "Only ultralights or helicopters could be present without radio calls; certificated airplanes must announce in the pattern",
+      "The pilot may enter directly onto final because lack of radio traffic eliminates the need to sequence with unseen aircraft",
+      "The pattern may still contain aircraft without radios or with radio problems, so visual scanning remains essential",
+      "The traffic pattern is empty because aircraft without radios are prohibited from using public-use airports"
+    ],
+    "correctIndex": 2,
+    "explanation": "Radio use improves awareness but does not replace see-and-avoid or guarantee all traffic is transmitting.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — See and avoid",
+    "learningObjective": "Apply See and avoid knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-03"
+  },
+  {
+    "id": "CH14-V1-04",
+    "chapter": 14,
+    "topic": "Runways",
+    "subtopic": "Runway numbering",
+    "difficulty": "application",
+    "type": "calculation",
+    "prompt": "Runway 27 is aligned approximately with what magnetic direction?",
+    "choices": [
+      "Approximately 027° magnetic",
+      "Approximately 090° magnetic",
+      "Approximately 360° magnetic",
+      "270°"
+    ],
+    "correctIndex": 3,
+    "explanation": "Runway numbers represent magnetic direction rounded to the nearest ten degrees with the last zero omitted.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Runway numbering",
+    "learningObjective": "Apply Runway numbering knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-04"
+  },
+  {
+    "id": "CH14-V1-05",
+    "chapter": 14,
+    "topic": "Runways",
+    "subtopic": "Magnetic runway numbers",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A runway designation changes from 17 to 18 after years of magnetic variation. Why can this happen?",
+    "choices": [
+      "Runway numbers are based on magnetic direction, which changes over time",
+      "Runway numbers are based on true direction and change when magnetic variation alters the difference between true and magnetic north",
+      "Runway numbers change when airport elevation or runway slope changes the compass indication during takeoff",
+      "The number is based on prevailing wind direction, so it is renumbered when long-term wind patterns shift"
+    ],
+    "correctIndex": 0,
+    "explanation": "Earth’s magnetic field changes, so the rounded magnetic runway designation can eventually require revision.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Magnetic runway numbers",
+    "learningObjective": "Apply Magnetic runway numbers knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-05"
+  },
+  {
+    "id": "CH14-V1-06",
+    "chapter": 14,
+    "topic": "Airport signs",
+    "subtopic": "Mandatory signs",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot sees a red sign with white inscription “15-33.” What type of sign is this?",
+    "choices": [
+      "An information sign giving the runway's magnetic headings but not imposing a hold or clearance requirement",
+      "A mandatory instruction sign associated with a runway/critical area",
+      "A location sign showing the airplane is on the intersection of Runways 15 and 33",
+      "A direction sign pointing toward Runways 15 and 33 from the present taxiway"
+    ],
+    "correctIndex": 1,
+    "explanation": "Red background with white inscription denotes mandatory instruction.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Mandatory signs",
+    "learningObjective": "Apply Mandatory signs knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-06"
+  },
+  {
+    "id": "CH14-V1-07",
+    "chapter": 14,
+    "topic": "Airport signs",
+    "subtopic": "Location signs",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot sees a black sign with yellow inscription “A.” What does it generally indicate?",
+    "choices": [
+      "The airplane is approaching Taxiway A but has not yet entered it; black/yellow signs are always direction signs",
+      "Taxiway A is closed to aircraft and the black background indicates the pilot must request ATC permission before entering",
+      "The taxiway on which the aircraft is currently located",
+      "Taxiway A is ahead in the direction indicated by the sign, and the airplane is on another unnamed taxiway"
+    ],
+    "correctIndex": 2,
+    "explanation": "Black background with yellow inscription is a location sign.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Location signs",
+    "learningObjective": "Apply Location signs knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-07"
+  },
+  {
+    "id": "CH14-V1-08",
+    "chapter": 14,
+    "topic": "Airport signs",
+    "subtopic": "Direction signs",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot sees a yellow sign with black inscription and an arrow pointing right toward “B.” What does it mean?",
+    "choices": [
+      "The airplane is currently on Taxiway B, and the arrow shows the direction the taxiway itself runs",
+      "Taxiway B intersects from the right only after crossing the next runway holding position",
+      "Taxiway B is a runway-exit route to the right, so the sign applies only after landing rather than during normal taxi",
+      "Taxiway B is in the indicated direction"
+    ],
+    "correctIndex": 3,
+    "explanation": "Yellow background/black inscription with arrow is a direction sign.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Direction signs",
+    "learningObjective": "Apply Direction signs knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-08"
+  },
+  {
+    "id": "CH14-V1-09",
+    "chapter": 14,
+    "topic": "Airport markings",
+    "subtopic": "Runway hold marking",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "At a runway holding-position marking, which side contains two solid yellow lines and two dashed yellow lines?",
+    "choices": [
+      "The protected/runway side is beyond the dashed lines; an aircraft approaching from the taxiway side normally encounters the solid lines first",
+      "The dashed lines are on the taxiway side and should be encountered first when approaching a runway from a taxiway",
+      "The solid and dashed sides have no directional meaning; the marking only identifies the runway centerline area",
+      "An aircraft may cross the solid lines without clearance but must stop before crossing the dashed lines into the runway safety area"
+    ],
+    "correctIndex": 0,
+    "explanation": "When approaching a runway from a taxiway, pilots normally see the solid lines first and must not cross without appropriate authorization at a towered airport.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Runway hold marking",
+    "learningObjective": "Apply Runway hold marking knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-09"
+  },
+  {
+    "id": "CH14-V1-10",
+    "chapter": 14,
+    "topic": "Taxi operations",
+    "subtopic": "Runway crossing clearance",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A towered-airport pilot receives “Taxi to Runway 20 via Alpha, Bravo” without an explicit runway-crossing clearance. May the pilot cross an intervening runway?",
+    "choices": [
+      "No only if the intervening runway is active; an inactive runway may be crossed under a normal taxi instruction without explicit clearance",
+      "No; runway crossings require an explicit clearance",
+      "Yes, because a taxi clearance naming the departure runway includes authority to cross any runway along the assigned route",
+      "Yes, unless ATC specifically says 'hold short'; crossing authority is implied when a runway is not named in the taxi clearance"
+    ],
+    "correctIndex": 1,
+    "explanation": "Modern taxi clearances require explicit authorization to cross a runway.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Runway crossing clearance",
+    "learningObjective": "Apply Runway crossing clearance knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-10"
+  },
+  {
+    "id": "CH14-V1-11",
+    "chapter": 14,
+    "topic": "Taxi operations",
+    "subtopic": "Clarification",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot is unsure whether an ATC taxi instruction is understood correctly. What is the best action?",
+    "choices": [
+      "Follow the airport diagram to the most likely route and request clarification after reaching the next hold-short point",
+      "Repeat the instruction as best as possible and proceed if no other aircraft is visible, because stopping can obstruct taxi traffic",
+      "Stop or maintain a safe position and ask ATC for clarification before proceeding",
+      "Continue slowly while reading back the part that is understood; ATC will correct any mistake before a conflict develops"
+    ],
+    "correctIndex": 2,
+    "explanation": "Uncertainty should be resolved before movement into a protected area; guessing is a runway-incursion hazard.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Clarification",
+    "learningObjective": "Apply Clarification knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-11"
+  },
+  {
+    "id": "CH14-V1-12",
+    "chapter": 14,
+    "topic": "Taxi operations",
+    "subtopic": "Unable",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "ATC issues a taxi instruction the pilot cannot safely comply with because of aircraft limitations. What should the pilot say?",
+    "choices": [
+      "Accept the clearance and comply as closely as possible; aircraft limitations do not override an ATC movement instruction",
+      "Read back the clearance correctly and then deviate as necessary without further transmission if safety requires",
+      "State 'standby' and continue taxiing while deciding; 'unable' is reserved for airborne clearances rather than surface movement",
+      "“Unable” and explain/request an alternative as needed"
+    ],
+    "correctIndex": 3,
+    "explanation": "The PIC must not accept an unsafe instruction; “unable” clearly communicates the need for an alternative.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Unable",
+    "learningObjective": "Apply Unable knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-12"
+  },
+  {
+    "id": "CH14-V1-13",
+    "chapter": 14,
+    "topic": "Taxi operations",
+    "subtopic": "Airport diagram",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is an airport diagram useful before taxi at an unfamiliar towered airport?",
+    "choices": [
+      "It allows the pilot to pre-brief the route, runways, hot spots, and likely hold-short points before workload rises",
+      "It provides legal taxi clearance information and can replace ATC instructions if the expected route differs from the controller's route",
+      "It shows only runway dimensions; taxiway names, hot spots, and hold points are found exclusively in the Chart Supplement",
+      "It is useful mainly after landing because departure taxi routes can be assumed from the runway assigned in the ATIS"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pre-taxi route planning reduces heads-down time and confusion during surface movement.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Airport diagram",
+    "learningObjective": "Apply Airport diagram knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-13"
+  },
+  {
+    "id": "CH14-V1-14",
+    "chapter": 14,
+    "topic": "Runway safety",
+    "subtopic": "Runway incursion",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is a runway incursion?",
+    "choices": [
+      "Any pilot deviation involving a taxiway, regardless of whether the protected runway area is entered",
+      "Incorrect presence of an aircraft, vehicle, or person on the protected area of a surface designated for landing and takeoff",
+      "Any loss of separation between two aircraft anywhere on an airport surface, including ramp and parking areas",
+      "Any time an airplane crosses a runway centerline without first making a radio transmission, even at a nontowered airport"
+    ],
+    "correctIndex": 1,
+    "explanation": "The definition focuses on unauthorized/incorrect presence on a runway protected area.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Runway incursion",
+    "learningObjective": "Apply Runway incursion knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-14"
+  },
+  {
+    "id": "CH14-V1-15",
+    "chapter": 14,
+    "topic": "Runway safety",
+    "subtopic": "Incursion response",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot accidentally crosses a hold-short line without clearance. What should the pilot do?",
+    "choices": [
+      "Reverse immediately back across the hold line if no traffic is visible so the original clearance boundary is restored",
+      "Stop on the runway centerline and wait silently for ATC to notice the incursion and issue corrective instructions",
+      "Stop if safe and immediately advise ATC truthfully so the conflict can be managed",
+      "Continue across to clear the runway area, then advise ATC once the airplane is safely on the opposite side"
+    ],
+    "correctIndex": 2,
+    "explanation": "Prompt communication allows ATC and other pilots to respond to the incursion.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Incursion response",
+    "learningObjective": "Apply Incursion response knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-15"
+  },
+  {
+    "id": "CH14-V1-16",
+    "chapter": 14,
+    "topic": "Airport markings",
+    "subtopic": "Runway centerline",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What do runway centerline lights or markings primarily help a pilot do?",
+    "choices": [
+      "Indicate the maximum usable pavement width for landing and help judge crosswind component",
+      "Show the touchdown-zone aiming point and tell the pilot where to begin the landing flare",
+      "Identify the runway magnetic heading so the pilot can confirm compass alignment without using runway numbers",
+      "Maintain alignment with the runway center"
+    ],
+    "correctIndex": 3,
+    "explanation": "Centerline cues support runway alignment during takeoff/landing and reduced visibility.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Runway centerline",
+    "learningObjective": "Apply Runway centerline knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-16"
+  },
+  {
+    "id": "CH14-V1-17",
+    "chapter": 14,
+    "topic": "Runways",
+    "subtopic": "Displaced threshold",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What does a displaced threshold mean for landing?",
+    "choices": [
+      "Landing touchdown is not authorized before the displaced threshold in the direction of displacement, though the pavement may be usable for certain other operations",
+      "The pavement before the threshold may never be used by aircraft moving in that direction, including taxi and takeoff",
+      "Landing may occur before the displaced threshold if the pilot can clear all obstacles and touches down on pavement markings",
+      "The displaced threshold applies only at night; during daylight the full pavement length is available for normal landing touchdown"
+    ],
+    "correctIndex": 0,
+    "explanation": "A displaced threshold changes the portion available for landing from that direction; other uses depend on markings and published information.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Displaced threshold",
+    "learningObjective": "Apply Displaced threshold knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-17"
+  },
+  {
+    "id": "CH14-V1-18",
+    "chapter": 14,
+    "topic": "Airport lighting",
+    "subtopic": "REIL",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the purpose of runway end identifier lights (REIL)?",
+    "choices": [
+      "Identify a closed or temporarily unusable runway end with synchronized flashing lights",
+      "Rapidly identify the approach end of a runway",
+      "Show the visual glidepath angle by changing color as the airplane moves above or below the desired path",
+      "Mark the far end of the runway so the pilot can judge remaining landing distance at night"
+    ],
+    "correctIndex": 1,
+    "explanation": "REILs are synchronized flashing lights near the runway threshold that aid runway identification.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — REIL",
+    "learningObjective": "Apply REIL knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-18"
+  },
+  {
+    "id": "CH14-V1-19",
+    "chapter": 14,
+    "topic": "Airport lighting",
+    "subtopic": "PAPI",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What does a PAPI provide?",
+    "choices": [
+      "Indicate only whether the runway is open or closed based on light color",
+      "Show wind direction relative to the runway through a white/red light combination",
+      "Visual indication of the aircraft’s position relative to the desired glidepath",
+      "Provide runway alignment and lateral-centerline guidance but no vertical glidepath information"
+    ],
+    "correctIndex": 2,
+    "explanation": "PAPI uses color combinations to show whether the airplane is above, on, or below the visual glidepath.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — PAPI",
+    "learningObjective": "Apply PAPI knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-19"
+  },
+  {
+    "id": "CH14-V1-20",
+    "chapter": 14,
+    "topic": "Airport lighting",
+    "subtopic": "PAPI interpretation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A PAPI shows all red lights. What does that mean?",
+    "choices": [
+      "The airplane is well above the glidepath",
+      "The airplane is approximately on the glidepath but approaching the lower tolerance",
+      "The lights indicate a runway-crossing conflict rather than vertical position",
+      "The aircraft is well below the glidepath"
+    ],
+    "correctIndex": 3,
+    "explanation": "On a standard PAPI, more red indicates lower relative to glidepath; all red is well below.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — PAPI interpretation",
+    "learningObjective": "Apply PAPI interpretation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-20"
+  },
+  {
+    "id": "CH14-V1-21",
+    "chapter": 14,
+    "topic": "Airport lighting",
+    "subtopic": "PAPI interpretation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A PAPI shows two white and two red lights. What does that indicate?",
+    "choices": [
+      "Approximately on the glidepath",
+      "The airplane is slightly below the glidepath and should climb until three white lights appear",
+      "The airplane is slightly above the glidepath and should descend until one white light remains",
+      "The airplane is on the runway centerline; PAPI color balance indicates lateral rather than vertical alignment"
+    ],
+    "correctIndex": 0,
+    "explanation": "Two white and two red is the standard on-slope indication.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — PAPI interpretation",
+    "learningObjective": "Apply PAPI interpretation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-21"
+  },
+  {
+    "id": "CH14-V1-22",
+    "chapter": 14,
+    "topic": "Airport lighting",
+    "subtopic": "Beacon",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the purpose of an airport rotating beacon?",
+    "choices": [
+      "Signal that the control tower is operating; the beacon is extinguished whenever the airport becomes nontowered",
+      "Help identify the location/type of a lighted airport at night and sometimes during reduced visibility",
+      "Identify the active runway direction by rotating toward the runway receiving traffic",
+      "Provide a visual wind-direction indicator for pilots who cannot see the windsock at night"
+    ],
+    "correctIndex": 1,
+    "explanation": "Airport beacons aid visual identification; light color combinations can indicate airport type.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Beacon",
+    "learningObjective": "Apply Beacon knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-22"
+  },
+  {
+    "id": "CH14-V1-23",
+    "chapter": 14,
+    "topic": "Airport indicators",
+    "subtopic": "Windsock",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A windsock is fully extended across the runway direction. What operational information is most important?",
+    "choices": [
+      "It shows wind direction but not useful relative strength; a fully extended sock has the same meaning as a lightly extended one",
+      "It is aligned to the magnetic runway heading rather than the wind, so extension indicates turbulence intensity only",
+      "It shows approximate wind direction and relative strength, alerting the pilot to a potentially significant crosswind",
+      "It gives exact wind speed and direction, so a crosswind calculation can be made without using AWOS or ATIS"
+    ],
+    "correctIndex": 2,
+    "explanation": "A windsock is an approximate visual wind indicator useful for runway selection and crosswind awareness.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Windsock",
+    "learningObjective": "Apply Windsock knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-23"
+  },
+  {
+    "id": "CH14-V1-24",
+    "chapter": 14,
+    "topic": "Airport communications",
+    "subtopic": "ATIS/AWOS",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why should a pilot listen to ATIS/AWOS before entering a busy airport environment when available?",
+    "choices": [
+      "ATIS/AWOS replaces the need to monitor tower or CTAF because it contains current traffic and clearance information",
+      "The information is primarily for filing flight plans; pilots should wait to obtain runway and weather conditions directly from the controller",
+      "It is reliable for the entire flight once copied before departure, so a new code or observation need not be checked on return",
+      "It provides current routine airport/weather information and reduces frequency congestion, allowing the pilot to prepare before contacting ATC"
+    ],
+    "correctIndex": 3,
+    "explanation": "Automated/broadcast information helps pilots obtain weather, runway, and operational details before radio workload increases.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — ATIS/AWOS",
+    "learningObjective": "Apply ATIS/AWOS knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-24"
+  },
+  {
+    "id": "CH14-V1-25",
+    "chapter": 14,
+    "topic": "Runway safety",
+    "subtopic": "Hold-short discipline",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot reads back a hold-short instruction incorrectly and the controller does not immediately notice. What remains the pilot’s responsibility?",
+    "choices": [
+      "Do not enter the runway unless the clearance is understood; ask for clarification if uncertain",
+      "The readback transfers responsibility to the controller; if it was not corrected, the pilot may act on the clearance as understood",
+      "Proceed if the runway appears clear visually, because the controller's failure to correct the readback constitutes implied approval",
+      "Hold-short instructions need not be understood word-for-word if the assigned taxi route on the airport diagram is clear"
+    ],
+    "correctIndex": 0,
+    "explanation": "Runway entry requires clear authorization and pilot understanding; readback is not a substitute for comprehension.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Hold-short discipline",
+    "learningObjective": "Apply Hold-short discipline knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-25"
+  },
+  {
+    "id": "CH14-V1-26",
+    "chapter": 14,
+    "topic": "Airport markings",
+    "subtopic": "Closed runway",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "At night, a pilot sees an illuminated large “X” at the runway end. What does it indicate?",
+    "choices": [
+      "The runway is closed only to large aircraft; light airplanes may use it if no barricades are present",
+      "The runway is closed",
+      "The runway is available only for takeoff, not landing",
+      "The threshold has been displaced and landing must begin beyond the X"
+    ],
+    "correctIndex": 1,
+    "explanation": "An “X” is the standard closed-runway marking/lighting indication.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Closed runway",
+    "learningObjective": "Apply Closed runway knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-26"
+  },
+  {
+    "id": "CH14-V1-27",
+    "chapter": 14,
+    "topic": "Taxi operations",
+    "subtopic": "Heads-down distraction",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why should a pilot avoid heads-down programming while taxiing?",
+    "choices": [
+      "Heads-down time is acceptable on straight taxiways; runway incursions occur mainly during turns and complex intersections",
+      "The main risk is missing an ATC frequency change; position awareness can be restored quickly from the airport diagram after programming",
+      "Taxi is a high-risk surface-navigation phase; distraction increases the chance of wrong turns, runway incursions, or collisions",
+      "Taxi speed is too low for meaningful collision risk, so programming is acceptable as long as the airplane stays near the centerline"
+    ],
+    "correctIndex": 2,
+    "explanation": "Surface movement demands outside visual attention and route awareness; programming should be done while stopped when possible.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Heads-down distraction",
+    "learningObjective": "Apply Heads-down distraction knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-27"
+  },
+  {
+    "id": "CH14-V1-28",
+    "chapter": 14,
+    "topic": "Taxi operations",
+    "subtopic": "Lost on airport",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot is approaching a runway at a complex airport and becomes uncertain of position. What is the safest action?",
+    "choices": [
+      "Continue at minimum taxi speed until a recognizable sign is reached; stopping can create more risk than temporary uncertainty",
+      "Turn toward the nearest visible runway so the pilot can use its number to regain position before contacting ATC",
+      "Follow another aircraft moving toward the same general part of the airport, then request clarification once the route becomes obvious",
+      "Stop in a safe location if possible and request progressive taxi or clarification"
+    ],
+    "correctIndex": 3,
+    "explanation": "Stopping before compounding the error preserves options; ATC can provide progressive taxi instructions.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Lost on airport",
+    "learningObjective": "Apply Lost on airport knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-28"
+  },
+  {
+    "id": "CH14-V1-29",
+    "chapter": 14,
+    "topic": "Runway safety",
+    "subtopic": "Runway verification",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the best defense against runway confusion during departure?",
+    "choices": [
+      "Brief the assigned runway, taxi route, runway signs/markings, expected heading, and verify the runway before takeoff",
+      "Rely on the runway number visible ahead; taxi signs and expected heading are unnecessary once ATC assigns a runway",
+      "Confirm the runway only after beginning the takeoff roll, when the heading indicator provides the most accurate alignment cue",
+      "Use GPS moving-map runway depiction as the primary confirmation because painted markings and signs can be difficult to see at night"
+    ],
+    "correctIndex": 0,
+    "explanation": "A pre-takeoff runway verification using signage, heading, and clearance prevents wrong-surface departures.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Runway verification",
+    "learningObjective": "Apply Runway verification knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-29"
+  },
+  {
+    "id": "CH14-V1-30",
+    "chapter": 14,
+    "topic": "Airport operations",
+    "subtopic": "Operational synthesis",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the best operational summary of airport operations?",
+    "choices": [
+      "Keep moving whenever possible because stopping on a taxiway creates congestion; uncertainty should be resolved while taxiing slowly rather than from a stationary position",
+      "Plan the surface route, understand signs/markings/lights, maintain situational awareness and radio discipline, and never cross or enter a runway without clear authorization when required",
+      "Memorize all airport signs and lights; once their meanings are known, route briefing and radio readbacks add little safety value",
+      "At towered airports, follow clearances exactly and allow ATC to manage runway-conflict awareness; at nontowered airports, rely mainly on CTAF calls"
+    ],
+    "correctIndex": 1,
+    "explanation": "Safe airport operation combines visual knowledge, planning, communication, and disciplined runway-protection habits.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 14 — Operational synthesis",
+    "learningObjective": "Apply Operational synthesis knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch14-30"
+  }
+]

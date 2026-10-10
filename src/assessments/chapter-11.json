@@ -1,0 +1,602 @@
+[
+  {
+    "id": "CH11-V1-01",
+    "chapter": 11,
+    "topic": "Density altitude",
+    "subtopic": "High-density-altitude performance",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A normally aspirated airplane is departing a high-elevation airport on a hot afternoon. What combined performance change should the pilot expect?",
+    "choices": [
+      "Longer takeoff roll and reduced climb because high density altitude reduces engine, propeller, and wing performance",
+      "Shorter takeoff roll but reduced climb, because thin air lowers drag enough to improve acceleration while reducing engine power",
+      "Longer takeoff roll but improved climb, because higher true airspeed at liftoff increases excess lift after becoming airborne",
+      "Little change in takeoff or climb if indicated liftoff and climb speeds are maintained, because the wing responds to indicated airspeed"
+    ],
+    "correctIndex": 0,
+    "explanation": "High density altitude means low air density. A normally aspirated engine develops less power, the propeller produces less thrust, and the wing needs greater true airspeed for a given indicated aerodynamic speed.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — High-density-altitude performance",
+    "learningObjective": "Apply High-density-altitude performance knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-01"
+  },
+  {
+    "id": "CH11-V1-02",
+    "chapter": 11,
+    "topic": "Density altitude",
+    "subtopic": "Temperature effect",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Pressure altitude is 5,000 feet and the temperature is far above standard. Compared with 5,000 feet pressure altitude on a standard day, density altitude will be what?",
+    "choices": [
+      "The same as field elevation if the altimeter is set to the current local pressure before takeoff",
+      "Higher than 5,000 feet",
+      "Lower than 5,000 feet because warm air expands and lowers the effective altitude seen by the airplane",
+      "Approximately 5,000 feet because pressure altitude already accounts for temperature departures from standard"
+    ],
+    "correctIndex": 1,
+    "explanation": "Warmer-than-standard air is less dense, so density altitude rises above pressure altitude.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Temperature effect",
+    "learningObjective": "Apply Temperature effect knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-02"
+  },
+  {
+    "id": "CH11-V1-03",
+    "chapter": 11,
+    "topic": "Takeoff performance",
+    "subtopic": "Headwind",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A strong headwind exists for takeoff. What happens to the ground distance needed to reach a given liftoff airspeed, all else equal?",
+    "choices": [
+      "It remains unchanged because takeoff distance depends on indicated airspeed rather than groundspeed",
+      "It decreases only after liftoff; the ground roll is unchanged because the wheels measure speed over the runway",
+      "It generally decreases because the required airspeed is reached at a lower groundspeed",
+      "It generally increases because a headwind adds to the groundspeed needed to reach liftoff IAS"
+    ],
+    "correctIndex": 2,
+    "explanation": "A headwind reduces the groundspeed corresponding to a given airspeed, usually shortening ground roll.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Headwind",
+    "learningObjective": "Apply Headwind knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-03"
+  },
+  {
+    "id": "CH11-V1-04",
+    "chapter": 11,
+    "topic": "Landing performance",
+    "subtopic": "Tailwind",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A tailwind exists for landing. Why is landing distance normally increased?",
+    "choices": [
+      "The same airspeed produces lower groundspeed in a tailwind, so braking starts at a lower kinetic energy",
+      "Tailwind affects only the approach angle; touchdown groundspeed and kinetic energy depend only on indicated airspeed",
+      "Landing roll may decrease because a tailwind reduces the aerodynamic drag acting opposite the airplane's motion over the ground",
+      "For the same airspeed, groundspeed is higher, increasing kinetic energy and runway distance"
+    ],
+    "correctIndex": 3,
+    "explanation": "A tailwind raises touchdown groundspeed and kinetic energy, increasing distance and reducing safety margin.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Tailwind",
+    "learningObjective": "Apply Tailwind knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-04"
+  },
+  {
+    "id": "CH11-V1-05",
+    "chapter": 11,
+    "topic": "Takeoff and landing",
+    "subtopic": "Wind sensitivity",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why can even a modest tailwind percentage produce a disproportionately large increase in takeoff or landing distance?",
+    "choices": [
+      "Groundspeed and kinetic energy effects are nonlinear, and performance charts often show substantial penalties",
+      "Because airspeed indicators over-read in a tailwind, causing the pilot to carry excess indicated speed on final",
+      "Because tailwind reduces airplane weight on the landing gear, lowering braking friction more than it changes groundspeed",
+      "Because the wind changes stall speed directly in proportion to its velocity, forcing a much higher indicated touchdown speed"
+    ],
+    "correctIndex": 0,
+    "explanation": "Performance penalties can grow quickly because energy varies with the square of speed and acceleration/deceleration margins are affected.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Wind sensitivity",
+    "learningObjective": "Apply Wind sensitivity knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-05"
+  },
+  {
+    "id": "CH11-V1-06",
+    "chapter": 11,
+    "topic": "Takeoff performance",
+    "subtopic": "Runway slope",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A runway slopes uphill in the takeoff direction. What general performance effect should the pilot expect?",
+    "choices": [
+      "Longer takeoff roll only if the runway is also at high density altitude; slope alone is already included in indicated airspeed",
+      "Longer takeoff roll because the airplane must accelerate against the uphill component of weight",
+      "Shorter takeoff roll because gravity helps keep the airplane on the runway and increases tire traction for acceleration",
+      "No meaningful change until the airplane is airborne, because runway slope affects only climb angle relative to the horizon"
+    ],
+    "correctIndex": 1,
+    "explanation": "An upslope opposes acceleration and generally increases takeoff distance.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Runway slope",
+    "learningObjective": "Apply Runway slope knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-06"
+  },
+  {
+    "id": "CH11-V1-07",
+    "chapter": 11,
+    "topic": "Takeoff and landing",
+    "subtopic": "Runway surface",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A runway is wet or contaminated. Why must dry-runway performance numbers not be assumed to apply?",
+    "choices": [
+      "Surface condition affects directional control but not takeoff or landing distance once the airplane is above taxi speed",
+      "Published dry-runway values may be used unchanged if the pilot adds ten percent to indicated takeoff and approach speeds",
+      "Reduced tire friction and other surface effects can increase takeoff/landing distance and may require specific data or conservative margins",
+      "Wet pavement normally improves acceleration by reducing rolling friction, so only landing distance needs correction"
+    ],
+    "correctIndex": 2,
+    "explanation": "Surface condition can materially affect acceleration, braking, and directional control; aircraft-specific data and limitations should be used.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Runway surface",
+    "learningObjective": "Apply Runway surface knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-07"
+  },
+  {
+    "id": "CH11-V1-08",
+    "chapter": 11,
+    "topic": "Climb performance",
+    "subtopic": "Vy",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What speed gives the greatest altitude gain per unit of time under the stated aircraft conditions?",
+    "choices": [
+      "Vx, because best angle of climb also produces the maximum vertical speed in feet per minute",
+      "Best glide speed, because minimum drag leaves the greatest excess power available for climb",
+      "VA, because maneuvering speed provides the highest usable angle of attack without exceeding structural limits",
+      "Vy"
+    ],
+    "correctIndex": 3,
+    "explanation": "Vy is best rate of climb speed: maximum altitude gained per unit time.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Vy",
+    "learningObjective": "Apply Vy knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-08"
+  },
+  {
+    "id": "CH11-V1-09",
+    "chapter": 11,
+    "topic": "Climb performance",
+    "subtopic": "Vx",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What speed gives the greatest altitude gain per unit of horizontal distance?",
+    "choices": [
+      "Vx",
+      "Vy, because best rate also produces the greatest altitude gain for each mile traveled",
+      "Best glide speed, because maximum lift-to-drag ratio creates the steepest climb path",
+      "VFE, because flap operating limit provides the highest lift coefficient and therefore the greatest climb angle"
+    ],
+    "correctIndex": 0,
+    "explanation": "Vx is best angle of climb speed: maximum altitude gain per unit horizontal distance.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Vx",
+    "learningObjective": "Apply Vx knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-09"
+  },
+  {
+    "id": "CH11-V1-10",
+    "chapter": 11,
+    "topic": "Climb performance",
+    "subtopic": "Vx and Vy with altitude",
+    "difficulty": "advanced",
+    "type": "scenario",
+    "prompt": "Why does the relationship between Vx and Vy change with altitude?",
+    "choices": [
+      "Vx decreases while Vy increases with altitude in indicated airspeed, causing them to move farther apart",
+      "Available excess thrust and power change with altitude, altering the speeds for best angle and best rate",
+      "Vx and Vy remain fixed indicated speeds at all altitudes because they are based only on wing aerodynamics",
+      "Both speeds decrease at the same rate with altitude, so their separation remains constant until the ceiling"
+    ],
+    "correctIndex": 1,
+    "explanation": "Climb performance depends on excess thrust/power, which changes with air density and engine/propeller performance.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Vx and Vy with altitude",
+    "learningObjective": "Apply Vx and Vy with altitude knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-10"
+  },
+  {
+    "id": "CH11-V1-11",
+    "chapter": 11,
+    "topic": "Climb performance",
+    "subtopic": "Absolute ceiling",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "At the absolute ceiling, what is the airplane’s maximum steady rate of climb?",
+    "choices": [
+      "The same rate of climb as at service ceiling because the two ceilings differ only by certification terminology",
+      "A small positive rate determined by the aircraft's maximum glide ratio and propeller efficiency",
+      "Zero",
+      "The minimum positive climb rate specified for service ceiling, typically still enough to clear obstacles"
+    ],
+    "correctIndex": 2,
+    "explanation": "At the absolute ceiling, maximum excess power is zero, so no steady climb is possible.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Absolute ceiling",
+    "learningObjective": "Apply Absolute ceiling knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-11"
+  },
+  {
+    "id": "CH11-V1-12",
+    "chapter": 11,
+    "topic": "Climb performance",
+    "subtopic": "Service ceiling",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is service ceiling?",
+    "choices": [
+      "The highest altitude at which the engine can still produce rated takeoff power",
+      "The altitude where the airplane can no longer maintain indicated airspeed in level flight",
+      "The altitude at which cabin pressure or supplemental oxygen limits further climb",
+      "The altitude at which maximum climb rate has decreased to a specified small value defined for the aircraft/category"
+    ],
+    "correctIndex": 3,
+    "explanation": "Service ceiling is a performance definition based on a specified residual climb rate, distinct from absolute ceiling.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Service ceiling",
+    "learningObjective": "Apply Service ceiling knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-12"
+  },
+  {
+    "id": "CH11-V1-13",
+    "chapter": 11,
+    "topic": "Range and endurance",
+    "subtopic": "Range",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot wants maximum distance from a given amount of fuel in still air. What performance objective is being optimized?",
+    "choices": [
+      "Range",
+      "Endurance, because remaining airborne longer also guarantees the greatest still-air distance",
+      "Maximum groundspeed, because covering distance faster always uses less fuel per mile",
+      "Minimum sink, because the condition that minimizes altitude loss in a glide also minimizes fuel per mile in powered flight"
+    ],
+    "correctIndex": 0,
+    "explanation": "Maximum range seeks the greatest distance per unit fuel.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Range",
+    "learningObjective": "Apply Range knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-13"
+  },
+  {
+    "id": "CH11-V1-14",
+    "chapter": 11,
+    "topic": "Range and endurance",
+    "subtopic": "Endurance",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot wants to remain airborne as long as possible with the available fuel. What objective is being optimized?",
+    "choices": [
+      "Best glide, because maximum lift-to-drag ratio is always the same condition as minimum fuel flow in powered flight",
+      "Endurance",
+      "Range, because flying the greatest distance for the fuel necessarily keeps the airplane airborne the longest",
+      "Maximum cruise power, because a higher airspeed reduces the time during which fuel is consumed"
+    ],
+    "correctIndex": 1,
+    "explanation": "Maximum endurance seeks maximum time aloft, not maximum distance.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Endurance",
+    "learningObjective": "Apply Endurance knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-14"
+  },
+  {
+    "id": "CH11-V1-15",
+    "chapter": 11,
+    "topic": "Range and endurance",
+    "subtopic": "Range versus endurance",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why are maximum range and maximum endurance normally achieved at different operating conditions?",
+    "choices": [
+      "Endurance requires the highest practical airspeed while range requires the lowest, because time and distance goals are exact opposites",
+      "Maximum range is found at minimum fuel flow, while maximum endurance is found at the best lift-to-drag ratio regardless of engine type",
+      "The condition that minimizes fuel used per distance is not generally identical to the condition that minimizes fuel used per unit time",
+      "They are normally the same; any difference is caused only by wind rather than airplane aerodynamics or engine efficiency"
+    ],
+    "correctIndex": 2,
+    "explanation": "Range and endurance optimize different quantities and therefore can require different speeds/power settings.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Range versus endurance",
+    "learningObjective": "Apply Range versus endurance knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-15"
+  },
+  {
+    "id": "CH11-V1-16",
+    "chapter": 11,
+    "topic": "Performance charts",
+    "subtopic": "Interpolation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "An aircraft performance chart requires pressure altitude and temperature. Why is interpolation sometimes necessary?",
+    "choices": [
+      "Interpolation is a safety margin added whenever the chart value falls between runway lengths rather than atmospheric inputs",
+      "Published charts apply only at the labeled points; values between them cannot be estimated and require choosing the next worse complete row",
+      "Interpolation corrects for pilot technique and airplane condition, which are not included in the performance chart itself",
+      "Actual conditions often fall between published chart values, so a proportional estimate is needed within the chart’s intended method"
+    ],
+    "correctIndex": 3,
+    "explanation": "Published performance data often uses discrete values; interpolation estimates between them when appropriate.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Interpolation",
+    "learningObjective": "Apply Interpolation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-16"
+  },
+  {
+    "id": "CH11-V1-17",
+    "chapter": 11,
+    "topic": "Performance charts",
+    "subtopic": "Interpolation",
+    "difficulty": "advanced",
+    "type": "calculation",
+    "prompt": "A takeoff chart gives 1,200 ft at 20 °C and 1,400 ft at 30 °C for the same other conditions. Using simple linear interpolation, what is the estimate at 25 °C?",
+    "choices": [
+      "1,300 ft",
+      "1,250 ft",
+      "1,350 ft",
+      "1,600 ft"
+    ],
+    "correctIndex": 0,
+    "explanation": "25 °C is halfway between 20 and 30 °C, so a linear interpolation halfway between 1,200 and 1,400 gives 1,300 ft.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Interpolation",
+    "learningObjective": "Apply Interpolation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-17"
+  },
+  {
+    "id": "CH11-V1-18",
+    "chapter": 11,
+    "topic": "Performance charts",
+    "subtopic": "Aircraft-specific data",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why should a pilot use the aircraft’s approved performance data rather than a generic rule of thumb when runway margin is limited?",
+    "choices": [
+      "Use whichever data source predicts the shortest distance, then add a personal safety factor to account for the difference",
+      "Performance varies with aircraft, engine, propeller, weight, configuration, and conditions, and approved data accounts for the tested configuration",
+      "Generic rules of thumb are normally more conservative than POH data and should replace approved charts when runway is short",
+      "Approved data is necessary mainly for legal compliance; a pilot with experience in the airplane may use remembered typical performance instead"
+    ],
+    "correctIndex": 1,
+    "explanation": "Aircraft-specific charts are based on the type/configuration and stated conditions; generic estimates can miss important factors.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Aircraft-specific data",
+    "learningObjective": "Apply Aircraft-specific data knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-18"
+  },
+  {
+    "id": "CH11-V1-19",
+    "chapter": 11,
+    "topic": "Performance charts",
+    "subtopic": "Chart assumptions",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A performance chart assumes a paved, level, dry runway and proper technique. What should the pilot do if the actual runway is grass and wet?",
+    "choices": [
+      "Subtract a grass correction because softer surfaces reduce tire slip and improve propeller loading",
+      "Use the chart unchanged if wind is calm, because runway surface and wind corrections are interchangeable performance factors",
+      "Use applicable aircraft data or corrections and add conservative margins rather than applying the dry paved value unchanged",
+      "Apply the dry paved value because grass and moisture affect braking but not takeoff acceleration"
+    ],
+    "correctIndex": 2,
+    "explanation": "Chart assumptions matter. Deviating from them can significantly change performance.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Chart assumptions",
+    "learningObjective": "Apply Chart assumptions knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-19"
+  },
+  {
+    "id": "CH11-V1-20",
+    "chapter": 11,
+    "topic": "Weight effects",
+    "subtopic": "Climb performance",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "How does increased weight generally affect climb performance?",
+    "choices": [
+      "It improves climb because the heavier airplane's greater inertia carries more energy into the climb after liftoff",
+      "Climb rate is unchanged if Vy is maintained; only the pitch attitude required for that airspeed changes",
+      "It reduces climb angle but can improve rate of climb because the engine produces the same power at a higher angle of attack",
+      "It reduces climb performance because more lift and power are required, leaving less excess power for climb"
+    ],
+    "correctIndex": 3,
+    "explanation": "Higher weight increases required lift/drag and the power needed to maintain flight, reducing excess power available for climb.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Climb performance",
+    "learningObjective": "Apply Climb performance knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-20"
+  },
+  {
+    "id": "CH11-V1-21",
+    "chapter": 11,
+    "topic": "Weight effects",
+    "subtopic": "Takeoff distance",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "How does increased weight generally affect takeoff distance?",
+    "choices": [
+      "It increases takeoff distance",
+      "It decreases distance because more weight increases tire traction and propeller loading during the ground roll",
+      "Distance remains the same if rotation is delayed to the heavier-weight stall speed",
+      "It affects liftoff speed but not acceleration, so only obstacle-clearance distance changes rather than ground roll"
+    ],
+    "correctIndex": 0,
+    "explanation": "Heavier aircraft require more energy and higher lift speed, generally increasing takeoff distance.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Takeoff distance",
+    "learningObjective": "Apply Takeoff distance knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-21"
+  },
+  {
+    "id": "CH11-V1-22",
+    "chapter": 11,
+    "topic": "Weight effects",
+    "subtopic": "Landing distance",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "How does increased weight generally affect landing distance?",
+    "choices": [
+      "It increases only the airborne portion of landing distance; once on the runway greater weight improves deceleration enough to offset the energy",
+      "It increases landing distance because approach/touchdown speed and energy increase",
+      "It decreases distance because higher weight increases wheel braking force in direct proportion to kinetic energy",
+      "It has little effect if the same approach speed is flown, because brakes dissipate energy at the same rate"
+    ],
+    "correctIndex": 1,
+    "explanation": "More weight means more kinetic energy to dissipate and generally higher reference speeds.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Landing distance",
+    "learningObjective": "Apply Landing distance knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-22"
+  },
+  {
+    "id": "CH11-V1-23",
+    "chapter": 11,
+    "topic": "Performance planning",
+    "subtopic": "Safety margin",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot calculates a short-field takeoff that barely fits the available runway using book numbers. What is the strongest safety concern?",
+    "choices": [
+      "The pilot should use the book value as a guaranteed maximum distance if weight and weather inputs are entered correctly",
+      "A precise calculation removes the need for extra margin; technique and engine condition are accounted for in the approved performance tables",
+      "Published numbers assume specified technique/conditions and contain no guarantee for pilot technique, engine condition, surface, gusts, or measurement error, so meaningful margin is needed",
+      "Book numbers already include a certification safety factor, so a result inside the runway length provides an adequate operational margin"
+    ],
+    "correctIndex": 2,
+    "explanation": "Performance planning should include realistic margins because actual conditions and technique may differ from test conditions.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Safety margin",
+    "learningObjective": "Apply Safety margin knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-23"
+  },
+  {
+    "id": "CH11-V1-24",
+    "chapter": 11,
+    "topic": "Density altitude",
+    "subtopic": "Humidity",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why does high humidity slightly increase density altitude?",
+    "choices": [
+      "Water vapor is heavier than dry air and increases pressure altitude even though actual density rises",
+      "Humidity changes indicated airspeed calibration but not the actual density of the air used by the wing and propeller",
+      "Humidity lowers density altitude because moist air cools more efficiently and therefore increases engine power",
+      "Water vapor is less dense than the dry-air molecules it replaces, reducing air density"
+    ],
+    "correctIndex": 3,
+    "explanation": "At the same pressure and temperature, moist air is slightly less dense than dry air.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Humidity",
+    "learningObjective": "Apply Humidity knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-24"
+  },
+  {
+    "id": "CH11-V1-25",
+    "chapter": 11,
+    "topic": "Density altitude",
+    "subtopic": "Post-liftoff climb",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "An airplane lifts off normally at high density altitude but climbs poorly. Why is that possible?",
+    "choices": [
+      "Liftoff only demonstrates enough lift at that instant; reduced engine thrust/power and high true airspeed can still leave little excess performance for climb",
+      "Liftoff proves the airplane has enough excess power to climb, so poor climb afterward usually indicates an instrument error",
+      "High density altitude raises indicated stall speed after leaving ground effect even though engine power remains normal",
+      "The airplane can lift off because ground effect increases engine power; once clear of the runway that engine benefit disappears"
+    ],
+    "correctIndex": 0,
+    "explanation": "High density altitude degrades both takeoff and climb; leaving ground effect can reveal inadequate excess power.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Post-liftoff climb",
+    "learningObjective": "Apply Post-liftoff climb knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-25"
+  },
+  {
+    "id": "CH11-V1-26",
+    "chapter": 11,
+    "topic": "Density altitude",
+    "subtopic": "IAS and TAS",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the relationship between indicated airspeed and true airspeed at high density altitude for the same aerodynamic lift condition?",
+    "choices": [
+      "Indicated airspeed becomes higher than true airspeed because the pitot system senses a larger pressure ratio at altitude",
+      "True airspeed is higher for approximately the same indicated airspeed",
+      "True airspeed is lower because thin air requires fewer molecules to move past the wing for a given indicated value",
+      "True and indicated airspeed remain approximately equal because the same lift condition fixes both velocities"
+    ],
+    "correctIndex": 1,
+    "explanation": "A given indicated airspeed corresponds to a given dynamic pressure; lower density requires greater true velocity.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — IAS and TAS",
+    "learningObjective": "Apply IAS and TAS knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-26"
+  },
+  {
+    "id": "CH11-V1-27",
+    "chapter": 11,
+    "topic": "Takeoff performance",
+    "subtopic": "True airspeed effect",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why can a higher true airspeed at liftoff increase takeoff ground roll?",
+    "choices": [
+      "Ground roll grows only because engine power is lower; the true/groundspeed needed for a given IAS does not change with density",
+      "Higher true airspeed reduces groundspeed in still air because the airplane moves through fewer air molecules per second",
+      "The airplane must accelerate to a higher groundspeed to reach the required aerodynamic airspeed, especially with little headwind",
+      "Higher true airspeed always means higher indicated airspeed, so the airplane must accelerate to a higher IAS before liftoff"
+    ],
+    "correctIndex": 2,
+    "explanation": "At low density, the required dynamic pressure occurs at greater true/groundspeed, requiring more acceleration distance.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — True airspeed effect",
+    "learningObjective": "Apply True airspeed effect knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-27"
+  },
+  {
+    "id": "CH11-V1-28",
+    "chapter": 11,
+    "topic": "Performance charts",
+    "subtopic": "Weight interpolation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot uses a climb chart based on maximum gross weight, but the airplane is substantially lighter. What general conclusion is safest?",
+    "choices": [
+      "Scale every published distance directly by the ratio of actual weight to maximum gross weight even if the POH provides no such method",
+      "Assume the maximum-gross chart is invalid for any lighter weight and use a generic performance calculator instead",
+      "Replace the POH value with the airplane's typical observed climb performance because lighter weight guarantees better results",
+      "Actual performance may be better, but the pilot should use approved chart methods rather than invent an unapproved correction"
+    ],
+    "correctIndex": 3,
+    "explanation": "Weight affects performance, but pilots should use the manufacturer’s approved data and interpolation/corrections when available.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Weight interpolation",
+    "learningObjective": "Apply Weight interpolation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-28"
+  },
+  {
+    "id": "CH11-V1-29",
+    "chapter": 11,
+    "topic": "Performance planning",
+    "subtopic": "Preflight calculation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why should pilots calculate performance before departure instead of relying on how the airplane “usually feels”?",
+    "choices": [
+      "Small changes in density altitude, weight, wind, runway, and obstacles can combine to erase familiar margins",
+      "Past experience is more representative than performance charts because it includes the actual airplane, engine, and pilot technique",
+      "If each factor remains within a familiar range, their combined effect will be no worse than the largest individual change",
+      "Performance planning matters mainly at high-elevation airports; at familiar low-altitude airports the airplane's usual feel is a reliable margin"
+    ],
+    "correctIndex": 0,
+    "explanation": "Performance is highly condition dependent; preflight calculation reveals risks that are not obvious from habit.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Preflight calculation",
+    "learningObjective": "Apply Preflight calculation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-29"
+  },
+  {
+    "id": "CH11-V1-30",
+    "chapter": 11,
+    "topic": "Performance planning",
+    "subtopic": "Operational synthesis",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the best operational summary of aircraft performance knowledge?",
+    "choices": [
+      "Calculate the shortest expected distance from favorable assumptions, then rely on pilot technique to absorb adverse differences during the actual takeoff",
+      "Translate today’s weight, runway, wind, temperature, pressure, surface, and obstacles into aircraft-specific takeoff, climb, cruise, and landing margins before committing to the flight",
+      "Use density altitude as the only planning number; once it is known, weight, wind, surface, and obstacles are already incorporated",
+      "Use published takeoff and landing speeds only; distance and climb margins can be judged visually once the airplane is on the runway"
+    ],
+    "correctIndex": 1,
+    "explanation": "Performance planning is the disciplined application of aircraft-specific data to actual conditions with conservative margin.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 11 — Operational synthesis",
+    "learningObjective": "Apply Operational synthesis knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch11-30"
+  }
+]

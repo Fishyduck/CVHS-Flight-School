@@ -1,0 +1,602 @@
+[
+  {
+    "id": "CH16-V1-01",
+    "chapter": 16,
+    "topic": "Navigation methods",
+    "subtopic": "Pilotage",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot navigates by matching lakes, highways, and towns outside the window to a sectional chart. Which navigation method is being used?",
+    "choices": [
+      "Pilotage",
+      "Dead reckoning, because the pilot is estimating position from outside references rather than electronic navigation",
+      "Radio navigation, because sectionals depict features that can be used as signals for position fixing",
+      "Celestial navigation, because lakes and towns provide fixed references relative to the horizon"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pilotage is navigation by reference to visible landmarks.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Pilotage",
+    "learningObjective": "Apply Pilotage knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-01"
+  },
+  {
+    "id": "CH16-V1-02",
+    "chapter": 16,
+    "topic": "Navigation methods",
+    "subtopic": "Dead reckoning",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot computes heading, groundspeed, time, and distance from a known position without relying on visible landmarks. Which method is being used?",
+    "choices": [
+      "Position fixing, because any estimate made without landmarks is considered a direct geographic fix rather than dead reckoning",
+      "Dead reckoning",
+      "Pilotage, because heading and elapsed time are visual references to the aircraft's motion over the ground",
+      "Radio navigation, because groundspeed calculations require information from a navigation receiver"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dead reckoning uses known position plus direction, time, speed, and wind calculations.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Dead reckoning",
+    "learningObjective": "Apply Dead reckoning knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-02"
+  },
+  {
+    "id": "CH16-V1-03",
+    "chapter": 16,
+    "topic": "Navigation methods",
+    "subtopic": "Cross-checking",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is it safer to combine pilotage, dead reckoning, and electronic navigation rather than rely on a single source?",
+    "choices": [
+      "Electronic navigation is inherently more accurate, so pilotage and dead reckoning are useful only if the GPS fails completely",
+      "Using several methods allows the pilot to average conflicting positions, which is more accurate than identifying which source is wrong",
+      "Independent methods cross-check one another and provide backup if visibility, equipment, or data fails",
+      "Combining methods eliminates cumulative error because any two independent navigation methods must agree on exact position"
+    ],
+    "correctIndex": 2,
+    "explanation": "Redundancy improves situational awareness and helps detect errors before they become large.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Cross-checking",
+    "learningObjective": "Apply Cross-checking knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-03"
+  },
+  {
+    "id": "CH16-V1-04",
+    "chapter": 16,
+    "topic": "Flight planning",
+    "subtopic": "Checkpoints",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What makes a good VFR checkpoint?",
+    "choices": [
+      "A feature directly on the route that is large enough to see, even if several similar features exist nearby",
+      "A feature as far from the route as practical so the pilot can detect drift before reaching it",
+      "A small unique feature chosen at long intervals so each checkpoint produces a more precise groundspeed calculation",
+      "A prominent, unique feature near the route that is easy to identify from the air"
+    ],
+    "correctIndex": 3,
+    "explanation": "Useful checkpoints should be distinctive, visible, and spaced to support timely position verification.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Checkpoints",
+    "learningObjective": "Apply Checkpoints knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-04"
+  },
+  {
+    "id": "CH16-V1-05",
+    "chapter": 16,
+    "topic": "Wind correction",
+    "subtopic": "Wind correction angle",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot’s true course is 090° and wind pushes the airplane south of course. What general heading correction is required?",
+    "choices": [
+      "Crab into the wind, toward the north of the desired course",
+      "Crab south of the desired course so the airplane's nose points into the direction of drift",
+      "Maintain 090° heading and allow the course to curve north once the crosswind component decreases",
+      "Use a heading correction toward the south only after the airplane has crossed north of the desired course"
+    ],
+    "correctIndex": 0,
+    "explanation": "A wind-correction angle points the aircraft into the crosswind so the resultant ground track follows the desired course.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Wind correction angle",
+    "learningObjective": "Apply Wind correction angle knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-05"
+  },
+  {
+    "id": "CH16-V1-06",
+    "chapter": 16,
+    "topic": "Navigation concepts",
+    "subtopic": "Heading versus course",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the difference between heading and course?",
+    "choices": [
+      "Course is always measured from magnetic north while heading is always measured from true north",
+      "Heading is where the nose points; course is the intended or actual path over the Earth",
+      "Heading is the track over the Earth; course is the direction the nose points through the airmass",
+      "Heading and course are identical in all flight-planning calculations; only wind direction creates a separate track value"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wind can make the aircraft’s heading differ from its ground track/course.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Heading versus course",
+    "learningObjective": "Apply Heading versus course knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-06"
+  },
+  {
+    "id": "CH16-V1-07",
+    "chapter": 16,
+    "topic": "Navigation concepts",
+    "subtopic": "Groundspeed",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is groundspeed?",
+    "choices": [
+      "The indicated airspeed corrected for density and temperature",
+      "The component of true airspeed along the aircraft's heading after correcting only for magnetic variation",
+      "The aircraft’s speed relative to the Earth’s surface",
+      "The aircraft's speed relative to the surrounding airmass"
+    ],
+    "correctIndex": 2,
+    "explanation": "Groundspeed is the rate of movement over the ground and is the result of true airspeed plus the wind vector.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Groundspeed",
+    "learningObjective": "Apply Groundspeed knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-07"
+  },
+  {
+    "id": "CH16-V1-08",
+    "chapter": 16,
+    "topic": "Wind correction",
+    "subtopic": "Groundspeed",
+    "difficulty": "advanced",
+    "type": "calculation",
+    "prompt": "A 120-knot true-airspeed airplane has a 20-knot direct headwind. Ignoring other effects, what is groundspeed?",
+    "choices": [
+      "120 knots, because a direct headwind changes track but not speed over the ground",
+      "140 knots, because the wind vector adds to the aircraft's motion relative to the Earth",
+      "80 knots, because both true airspeed and headwind must be corrected once for the outbound leg and once for the return leg",
+      "100 knots"
+    ],
+    "correctIndex": 3,
+    "explanation": "A direct 20-knot headwind subtracts from 120-knot TAS, giving approximately 100-knot groundspeed.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Groundspeed",
+    "learningObjective": "Apply Groundspeed knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-08"
+  },
+  {
+    "id": "CH16-V1-09",
+    "chapter": 16,
+    "topic": "Flight planning",
+    "subtopic": "Time-distance",
+    "difficulty": "advanced",
+    "type": "calculation",
+    "prompt": "At 100 knots groundspeed, approximately how far does an airplane travel in 18 minutes?",
+    "choices": [
+      "30 NM",
+      "18 NM",
+      "36 NM",
+      "55 NM"
+    ],
+    "correctIndex": 0,
+    "explanation": "18 minutes is 0.3 hour; 100 × 0.3 = 30 NM.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Time-distance",
+    "learningObjective": "Apply Time-distance knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-09"
+  },
+  {
+    "id": "CH16-V1-10",
+    "chapter": 16,
+    "topic": "Flight planning",
+    "subtopic": "ETE",
+    "difficulty": "advanced",
+    "type": "calculation",
+    "prompt": "An airplane must fly 150 NM at a planned groundspeed of 100 knots. What is estimated time en route?",
+    "choices": [
+      "2 hours 30 minutes",
+      "1 hour 30 minutes",
+      "1 hour 15 minutes",
+      "1 hour 45 minutes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Time = distance ÷ groundspeed = 150/100 = 1.5 hours.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — ETE",
+    "learningObjective": "Apply ETE knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-10"
+  },
+  {
+    "id": "CH16-V1-11",
+    "chapter": 16,
+    "topic": "Flight planning",
+    "subtopic": "Fuel calculation",
+    "difficulty": "advanced",
+    "type": "calculation",
+    "prompt": "The airplane burns 9 gallons per hour and planned ETE is 2.0 hours. Before adding reserve/taxi allowances, how much cruise fuel is required?",
+    "choices": [
+      "13.5 gallons",
+      "27 gallons",
+      "18 gallons",
+      "9 gallons"
+    ],
+    "correctIndex": 2,
+    "explanation": "Fuel = burn rate × time = 9 × 2 = 18 gallons.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Fuel calculation",
+    "learningObjective": "Apply Fuel calculation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-11"
+  },
+  {
+    "id": "CH16-V1-12",
+    "chapter": 16,
+    "topic": "Flight planning",
+    "subtopic": "In-flight replanning",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why should actual groundspeed and fuel burn be compared with the flight plan after departure?",
+    "choices": [
+      "The preflight groundspeed is legally controlling for fuel reserve, so actual values matter mainly for arrival-time accuracy",
+      "Only ETA should be updated; fuel burn in gallons per hour is independent of wind and therefore reserve cannot change",
+      "Actual groundspeed should be compared only after half the route is completed so short-term wind variation does not cause unnecessary diversion",
+      "Unexpected wind or performance differences can change ETA and fuel reserve, requiring an early update or diversion"
+    ],
+    "correctIndex": 3,
+    "explanation": "A flight plan is a prediction; in-flight checks detect deviations while alternatives remain available.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — In-flight replanning",
+    "learningObjective": "Apply In-flight replanning knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-12"
+  },
+  {
+    "id": "CH16-V1-13",
+    "chapter": 16,
+    "topic": "Navigation concepts",
+    "subtopic": "True course",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is true course?",
+    "choices": [
+      "The intended direction of flight measured from true north",
+      "The direction the airplane's nose is pointed relative to true north",
+      "The actual ground track measured from magnetic north after all wind correction",
+      "The magnetic heading corrected for compass deviation but not for variation"
+    ],
+    "correctIndex": 0,
+    "explanation": "True course is referenced to true north and is converted through variation/wind corrections to a usable heading.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — True course",
+    "learningObjective": "Apply True course knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-13"
+  },
+  {
+    "id": "CH16-V1-14",
+    "chapter": 16,
+    "topic": "Navigation concepts",
+    "subtopic": "Variation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What correction converts between true and magnetic directions?",
+    "choices": [
+      "Pressure-altitude correction",
+      "Magnetic variation",
+      "Compass deviation",
+      "Wind correction angle"
+    ],
+    "correctIndex": 1,
+    "explanation": "Variation is the angular difference between true north and magnetic north at a geographic location.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Variation",
+    "learningObjective": "Apply Variation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-14"
+  },
+  {
+    "id": "CH16-V1-15",
+    "chapter": 16,
+    "topic": "Navigation concepts",
+    "subtopic": "Deviation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What correction accounts for magnetic error caused by the airplane itself?",
+    "choices": [
+      "Wind correction angle",
+      "True-to-magnetic conversion",
+      "Compass deviation",
+      "Magnetic variation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Deviation is aircraft-specific compass error caused by onboard magnetic/electrical influences.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Deviation",
+    "learningObjective": "Apply Deviation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-15"
+  },
+  {
+    "id": "CH16-V1-16",
+    "chapter": 16,
+    "topic": "Aeronautical charts",
+    "subtopic": "Sectional chart",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is a current sectional chart important even when using GPS?",
+    "choices": [
+      "GPS provides airspace and terrain authority whenever the database is current, so the sectional is mainly a backup for electrical failure",
+      "The sectional is useful only where GPS reception is weak; moving-map databases contain the same information with greater precision",
+      "GPS position makes pilotage unnecessary, so chart use can be limited to finding airport frequencies after an in-flight diversion",
+      "It depicts airspace, obstacles, airports, frequencies, terrain, and charted information the pilot must understand independently of the navigator"
+    ],
+    "correctIndex": 3,
+    "explanation": "Electronic position is only one part of navigation; pilots still need current aeronautical context and should verify database/current information.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Sectional chart",
+    "learningObjective": "Apply Sectional chart knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-16"
+  },
+  {
+    "id": "CH16-V1-17",
+    "chapter": 16,
+    "topic": "Flight planning",
+    "subtopic": "Chart Supplement",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the practical purpose of the Chart Supplement during cross-country planning?",
+    "choices": [
+      "Obtain airport/facility details such as runway data, frequencies, services, remarks, and procedures not fully shown on the sectional",
+      "Obtain only fuel prices and operating hours; runway and frequency information is more current on the sectional",
+      "Determine en route magnetic variation and terrain elevations; airport details are intentionally omitted to avoid duplication",
+      "Use it mainly for weather observations; runway, lighting, and remarks are provided only through NOTAMs and airport websites"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Chart Supplement provides detailed facility information that complements charts and current NOTAMs.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Chart Supplement",
+    "learningObjective": "Apply Chart Supplement knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-17"
+  },
+  {
+    "id": "CH16-V1-18",
+    "chapter": 16,
+    "topic": "Flight planning",
+    "subtopic": "Checkpoint spacing",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot selects checkpoints 50 miles apart in hazy terrain with few landmarks. What planning weakness does this create?",
+    "choices": [
+      "Checkpoint spacing matters only for dead reckoning; with a sectional available, pilotage errors do not accumulate between visual fixes",
+      "Position errors may grow too large between verifications; closer or more distinctive checkpoints/backup navigation may be needed",
+      "Long spacing improves accuracy because small heading errors have more time to produce an easily measured displacement",
+      "Haze makes distant checkpoints easier to identify against the horizon, so the main issue is calculating enough fuel between them"
+    ],
+    "correctIndex": 1,
+    "explanation": "Checkpoint choice should support timely position awareness under expected visibility and terrain conditions.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Checkpoint spacing",
+    "learningObjective": "Apply Checkpoint spacing knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-18"
+  },
+  {
+    "id": "CH16-V1-19",
+    "chapter": 16,
+    "topic": "Dead reckoning",
+    "subtopic": "1-in-60 rule",
+    "difficulty": "advanced",
+    "type": "calculation",
+    "prompt": "A pilot is 5 NM off course after flying 30 NM and still has 60 NM to go. Using the 1-in-60 concept, approximately how large is the track error so far?",
+    "choices": [
+      "About 15°",
+      "About 20°",
+      "About 10°",
+      "About 5°"
+    ],
+    "correctIndex": 2,
+    "explanation": "A displacement of 1 NM after 60 NM is about 1°. Five miles off after 30 NM is roughly 5/30 × 60 ≈ 10°.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — 1-in-60 rule",
+    "learningObjective": "Apply 1-in-60 rule knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-19"
+  },
+  {
+    "id": "CH16-V1-20",
+    "chapter": 16,
+    "topic": "Dead reckoning",
+    "subtopic": "Course correction",
+    "difficulty": "advanced",
+    "type": "scenario",
+    "prompt": "Using the situation of being 5 NM off course after 30 NM with 60 NM remaining, why must a pilot correct by more than the original track-error angle to regain course?",
+    "choices": [
+      "The pilot should correct only by the original track-error angle; any greater correction will overshoot the course",
+      "The added correction compensates for magnetic variation, while the original track error corrects wind drift",
+      "A larger correction is needed because groundspeed decreases as the airplane turns back toward course, not because an intercept angle is required",
+      "The pilot must both stop further divergence and intercept back to the desired course over the remaining distance"
+    ],
+    "correctIndex": 3,
+    "explanation": "A closing angle is needed in addition to the correction that would merely parallel the desired course.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Course correction",
+    "learningObjective": "Apply Course correction knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-20"
+  },
+  {
+    "id": "CH16-V1-21",
+    "chapter": 16,
+    "topic": "Radio navigation",
+    "subtopic": "VOR radial",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What does a VOR radial represent?",
+    "choices": [
+      "A magnetic course extending outward FROM the VOR station",
+      "A magnetic course extending toward the VOR station",
+      "A true bearing from the airplane to the VOR station",
+      "Any selected OBS course that centers the CDI, regardless of TO/FROM indication"
+    ],
+    "correctIndex": 0,
+    "explanation": "VOR radials are defined outward from the station and are referenced to magnetic north at the station.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — VOR radial",
+    "learningObjective": "Apply VOR radial knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-21"
+  },
+  {
+    "id": "CH16-V1-22",
+    "chapter": 16,
+    "topic": "Radio navigation",
+    "subtopic": "VOR interpretation",
+    "difficulty": "advanced",
+    "type": "scenario",
+    "prompt": "A CDI centers with a FROM indication and 090 selected. What position relationship is indicated, assuming a valid VOR signal?",
+    "choices": [
+      "The aircraft position cannot be inferred from a centered CDI unless distance-measuring equipment is also available",
+      "The aircraft is on or near the 090 radial from the station",
+      "The aircraft is on or near the 270 radial because 090 selected with FROM points to the reciprocal side of the station",
+      "The aircraft is on a 090 course toward the station and therefore lies generally west of it"
+    ],
+    "correctIndex": 1,
+    "explanation": "With 090 selected and FROM, the centered course corresponds to the 090 radial. The aircraft heading can be different.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — VOR interpretation",
+    "learningObjective": "Apply VOR interpretation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-22"
+  },
+  {
+    "id": "CH16-V1-23",
+    "chapter": 16,
+    "topic": "Radio navigation",
+    "subtopic": "VOR TO indication",
+    "difficulty": "advanced",
+    "type": "scenario",
+    "prompt": "A CDI centers with a TO indication and 090 selected. What course would take the aircraft toward the station if wind were ignored?",
+    "choices": [
+      "090° magnetic course away from the station",
+      "The selected course gives only radial identity; a TO indication cannot be used to determine an inbound course",
+      "090° magnetic course toward the station",
+      "270° magnetic course toward the station"
+    ],
+    "correctIndex": 2,
+    "explanation": "A centered 090 course with TO indicates the selected 090 course leads to the station; the reciprocal radial is associated with the aircraft position.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — VOR TO indication",
+    "learningObjective": "Apply VOR TO indication knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-23"
+  },
+  {
+    "id": "CH16-V1-24",
+    "chapter": 16,
+    "topic": "Radio navigation",
+    "subtopic": "VOR station passage",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why can a VOR indication become unreliable near station passage?",
+    "choices": [
+      "The VOR signal becomes stronger over the station and can drive the CDI hard to one side, creating a false off-course indication",
+      "The station changes from magnetic to true bearing at passage, temporarily invalidating the selected OBS course",
+      "DME slant-range error causes every VOR receiver to lose directional information directly over the facility",
+      "The angular geometry changes rapidly and the cone of confusion can produce unstable indications"
+    ],
+    "correctIndex": 3,
+    "explanation": "Near/over the station, course/radial indications can swing rapidly as the aircraft passes through the cone of confusion.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — VOR station passage",
+    "learningObjective": "Apply VOR station passage knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-24"
+  },
+  {
+    "id": "CH16-V1-25",
+    "chapter": 16,
+    "topic": "Radio navigation",
+    "subtopic": "VOR accuracy",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why should a pilot verify VOR receiver accuracy when required before IFR use and also understand its limitations for VFR navigation?",
+    "choices": [
+      "Navigation receivers can have error or fail; confidence in the equipment depends on proper checks and cross-checking",
+      "A VOR used only for VFR flight must meet the same logged accuracy-check interval as IFR, so the purpose is regulatory rather than operational",
+      "VOR receiver accuracy matters only near the edge of service volume; a centered CDI close to the station proves the receiver is functioning correctly",
+      "Cross-checking is unnecessary when the station identification is received because a correct Morse-code identifier confirms CDI calibration"
+    ],
+    "correctIndex": 0,
+    "explanation": "Navigation equipment is not infallible; approved checks and cross-validation support reliable use.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — VOR accuracy",
+    "learningObjective": "Apply VOR accuracy knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-25"
+  },
+  {
+    "id": "CH16-V1-26",
+    "chapter": 16,
+    "topic": "GPS",
+    "subtopic": "GPS strengths",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is a major strength of GPS navigation?",
+    "choices": [
+      "GPS provides heading through the airmass rather than ground track, making it a complete replacement for wind-correction calculations",
+      "Continuous precise position and course information independent of nearby ground stations within system/receiver limits",
+      "GPS is independent of receiver database currency, satellite geometry, and antenna condition once a position fix is established",
+      "GPS directly accounts for terrain, restricted airspace, and weather when computing a direct-to course, so route validation is minimal"
+    ],
+    "correctIndex": 1,
+    "explanation": "GPS provides highly accurate satellite-derived position/navigation, but safe use still requires current databases, integrity awareness, and pilot cross-check.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — GPS strengths",
+    "learningObjective": "Apply GPS strengths knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-26"
+  },
+  {
+    "id": "CH16-V1-27",
+    "chapter": 16,
+    "topic": "GPS",
+    "subtopic": "Automation trap",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why can blindly following a magenta GPS line be unsafe?",
+    "choices": [
+      "A direct GPS course automatically avoids charted terrain and controlled airspace but may not account for temporary weather",
+      "If the waypoint name is correct, route validation is unnecessary because database waypoints uniquely define safe flight paths",
+      "The programmed route may be wrong or may intersect terrain, airspace, weather, or an unsuitable waypoint; the pilot must validate it against the flight plan and current conditions",
+      "The magenta line is always the shortest legal VFR route, so the main risk is only failure to maintain the displayed course accurately"
+    ],
+    "correctIndex": 2,
+    "explanation": "Automation can accurately fly an incorrect plan; pilots must verify route, data, and context.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Automation trap",
+    "learningObjective": "Apply Automation trap knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-27"
+  },
+  {
+    "id": "CH16-V1-28",
+    "chapter": 16,
+    "topic": "GPS",
+    "subtopic": "Direct-to",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What does “direct-to” navigation change compared with the original planned route?",
+    "choices": [
+      "It preserves every intermediate waypoint and route segment but changes the heading needed to reach each one from the present position",
+      "It changes only the displayed bearing pointer; the active flight-plan leg and airspace/terrain exposure remain the same",
+      "It creates a new course but keeps the original fuel, time, and checkpoint assumptions valid because destination distance is unchanged",
+      "It creates a new course from present position to the selected waypoint, which may bypass planned checkpoints or airspace/terrain margins"
+    ],
+    "correctIndex": 3,
+    "explanation": "Direct-to simplifies routing but can invalidate the assumptions and checkpoints of the original plan.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Direct-to",
+    "learningObjective": "Apply Direct-to knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-28"
+  },
+  {
+    "id": "CH16-V1-29",
+    "chapter": 16,
+    "topic": "Navigation methods",
+    "subtopic": "GPS failure",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot loses GPS during a VFR cross-country. What preparation most improves resilience?",
+    "choices": [
+      "Maintain chart awareness, headings, checkpoints, time/fuel estimates, and the ability to use pilotage/dead reckoning or other available navigation",
+      "Rely on the last GPS position and maintain the displayed heading until reception returns; dead reckoning adds more error than a frozen electronic position",
+      "Climb until GPS reception returns, because line-of-sight to satellites is the primary limitation on light-aircraft GPS at normal VFR altitudes",
+      "Immediately navigate direct to the nearest airport using the magnetic compass alone, regardless of terrain, airspace, fuel, or known position"
+    ],
+    "correctIndex": 0,
+    "explanation": "Navigation redundancy and continuous position awareness prevent a single equipment failure from becoming an emergency.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — GPS failure",
+    "learningObjective": "Apply GPS failure knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-29"
+  },
+  {
+    "id": "CH16-V1-30",
+    "chapter": 16,
+    "topic": "Flight planning",
+    "subtopic": "Operational synthesis",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the best operational summary of VFR navigation?",
+    "choices": [
+      "Base fuel and time on true airspeed only; wind effects can be corrected tactically with heading changes without materially affecting reserve",
+      "Plan the route, wind, fuel, time, airspace, terrain, and checkpoints; then continuously compare actual position/performance with the plan and replan early when they diverge",
+      "Program the electronic route correctly before takeoff and then follow it precisely; rechecking groundspeed and fuel is unnecessary unless the GPS issues an alert",
+      "Use pilotage for position and GPS for backup, but avoid changing a flight plan once airborne because recalculation increases workload and error risk"
+    ],
+    "correctIndex": 1,
+    "explanation": "Safe navigation is a continuous closed-loop process: plan, fly, verify, and update.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 16 — Operational synthesis",
+    "learningObjective": "Apply Operational synthesis knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch16-30"
+  }
+]

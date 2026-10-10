@@ -1,0 +1,152 @@
+[
+  [
+    "Because the weather is legal, depart but reduce altitude to stay below the haze and reassess only if visibility drops below minimums",
+    "Focus on the weather and terrain first; pilot experience and schedule pressure should be considered only if conditions become marginal",
+    "Cancel only if one individual PAVE category exceeds a regulatory limit; several moderate risks do not need to be combined"
+  ],
+  [
+    "Plan-continuation bias is not involved because the pilot has new weather information; the issue is primarily impulsivity",
+    "The pilot is showing resignation because the flight has already progressed beyond the point where turning back is practical",
+    "The pilot is showing anti-authority because continuing rejects the original weather forecast rather than an FAA rule"
+  ],
+  [
+    "Invulnerability \u2014 it could happen to me",
+    "Macho \u2014 taking chances is foolish",
+    "Impulsivity \u2014 not so fast; think first"
+  ],
+  [
+    "Continue hand-flying while completing the entire reroute immediately so the navigation system matches the clearance as soon as possible",
+    "Transfer control to the autopilot and begin programming without first confirming that the autopilot is correctly engaged and stable",
+    "Reject every reroute issued in turbulence because navigation programming should never be performed while airborne"
+  ],
+  [
+    "Identifying that thunderstorms exist somewhere along or near the route",
+    "Selecting and carrying out the first avoidance maneuver that comes to mind",
+    "Recording the hazard on a checklist so it can be reviewed after landing"
+  ],
+  [
+    "Perceive, because the pilot has noticed the weather system",
+    "Process, because delaying the flight is an evaluation of risk",
+    "Evaluate, because the pilot is comparing the new departure time with the original plan"
+  ],
+  [
+    "Alternatives and External Factors, because another airplane or schedule could remove the discrepancy",
+    "Reality only, because CARE is used to decide whether the discrepancy actually exists",
+    "Alternatives only, because any substitute transportation automatically makes the aircraft safe to dispatch"
+  ],
+  [
+    "Accept, because the pilot still intends to complete the flight with the hazard present",
+    "Eliminate, because choosing a different route removes every consequence of the original hazard",
+    "Transfer, because diversion airports transfer responsibility for the flight to another pilot or facility"
+  ],
+  [
+    "Good aircraft and weather offset moderate pilot risks, so the combined PAVE assessment remains favorable",
+    "Pilot condition matters mainly for IFR flights; in VFR, visual references reduce the effect of illness or medication",
+    "The flight is acceptable if each symptom alone seems minor and no regulation specifically prohibits the medication"
+  ],
+  [
+    "Anti-authority, because the pilot is rejecting conservative guidance based on personal experience",
+    "Macho, because the pilot wants to demonstrate superior skill by continuing in poor weather",
+    "Resignation, because the pilot assumes the weather outcome is already determined by prior experience"
+  ],
+  [
+    "Macho, because the pilot is trying to prove the flight can be completed despite time pressure",
+    "Anti-authority, because the pilot is ignoring a formal fuel rule rather than failing to think through the decision",
+    "Invulnerability, because the pilot believes fuel planning errors happen only to other pilots"
+  ],
+  [
+    "Invulnerability, because the pilot assumes an accident cannot occur on the approach",
+    "Anti-authority, because accepting the approach rejects the safer expectations of the passengers",
+    "Impulsivity, because the defining error is making the decision before gathering any weather or runway information"
+  ],
+  [
+    "Invulnerability, because the pilot assumes the hazardous situation cannot cause harm",
+    "Impulsivity, because the pilot is acting too quickly rather than giving up on available actions",
+    "Anti-authority, because the pilot is rejecting guidance from ATC or the aircraft checklist"
+  ],
+  [
+    "Avoiding every flight that contains any identifiable hazard, even when the residual risk could be managed",
+    "Continuing whenever the probability of an accident appears low, because risk management focuses on likelihood rather than severity",
+    "Reducing risk only until the flight becomes legal; additional personal margins are unnecessary once regulations are satisfied"
+  ],
+  [
+    "Estimate, because the pilot must determine whether the runway closure requires a change",
+    "Choose, because the pilot should immediately select the nearest alternate airport",
+    "Identify, because the pilot has already decided the desired outcome is to avoid the closed runway"
+  ],
+  [
+    "Choose the safest available action first, then determine whether a reaction was actually necessary",
+    "Identify a single action the pilot prefers, then estimate whether its consequences are acceptable",
+    "Do the selected action immediately so the pilot can evaluate the result before considering other alternatives"
+  ],
+  [
+    "A sound decision is complete once a safer alternate has been selected; continued monitoring is mainly an ATC function",
+    "Reassessment is needed only when the diversion airport also becomes unavailable or the pilot declares an emergency",
+    "The original risk assessment remains controlling after a diversion because changing the plan has already reduced the dominant hazard"
+  ],
+  [
+    "Plan, because the hotel reservation affects the destination and timing of the flight",
+    "Pilot, because the pressure changes the pilot's emotional state and therefore belongs entirely under personal fitness",
+    "Programming, because changing the trip to satisfy the passenger requires replanning the navigation system"
+  ],
+  [
+    "Advanced avionics always reduce workload, so unfamiliar menus are acceptable if the pilot programs them before the approach",
+    "Automation unfamiliarity is mainly an equipment risk; it does not affect pilot workload if the GPS database is current",
+    "The pilot should depend more heavily on automation when unfamiliar with it because the system can compensate for limited procedural knowledge"
+  ],
+  [
+    "Environment, because embarrassment is caused by other people and therefore belongs with outside operating conditions",
+    "Passengers, because all social pressure is classified under the passenger element of the 5P model",
+    "Plan, because the desire to avoid embarrassment is part of completing the planned route rather than an external influence"
+  ],
+  [
+    "A more detailed preflight worksheet; once every hazard is scored numerically, in-flight reassessment is unnecessary",
+    "A second pilot signature before departure confirming that the original risk score was acceptable",
+    "A requirement to cancel if any single risk score changes after takeoff, rather than reconsidering the total situation"
+  ],
+  [
+    "Accept, because the pilot accepts that the discrepancy exists before seeking advice",
+    "Mitigate, because discussing the discrepancy reduces its mechanical severity",
+    "Eliminate, because asking another person removes the hazard from the aircraft"
+  ],
+  [
+    "A flight is safe whenever all regulations are satisfied; personal minimums are useful only during training",
+    "Legal requirements already incorporate pilot proficiency and aircraft condition, so additional risk assessment mainly addresses passenger comfort",
+    "A flight that is not prohibited is presumptively safe unless weather or maintenance crosses a published regulatory threshold"
+  ],
+  [
+    "Personal minimums should be raised or lowered in flight to match the pilot's confidence and the urgency of the trip",
+    "Preselected minimums are most useful as goals to approach closely; exceeding them slightly can be justified if the trend looks stable",
+    "Personal minimums replace regulatory minima for that pilot, so a violation of a personal limit has the same legal effect as breaking a regulation"
+  ],
+  [
+    "Continue toward the destination until the fuel reserve reaches the legal minimum, then divert to the nearest airport",
+    "Select the closest airport immediately even if weather, runway, services, or terrain make another nearby option safer",
+    "Continue as planned because having several alternates means the risk is controlled as long as one remains reachable"
+  ],
+  [
+    "Complete the troubleshooting quickly because restoring avionics reduces workload for the remainder of the flight",
+    "Continue diagnosing the problem while using the autopilot to hold altitude and heading, even if the pilot has not verified its operation",
+    "Turn off the failed equipment immediately without confirming whether it supports any critical navigation, communication, or flight information"
+  ],
+  [
+    "ATC instructions transfer responsibility for terrain and weather avoidance to the controller once radar contact is established",
+    "A pilot should comply unless the instruction would violate a regulation; personal weather concerns alone are not enough to refuse",
+    "The safest response is to leave the frequency and deviate without advising ATC so the pilot is no longer constrained by the instruction"
+  ],
+  [
+    "It strengthens commitment to the original plan by proving that alternatives have been considered and rejected in advance",
+    "It reduces workload by allowing the pilot to select one preferred option before gathering additional information",
+    "It prevents sunk-cost bias because listing alternatives makes previous time and money irrelevant to every later decision"
+  ],
+  [
+    "The safe outcome shows the risk estimate was probably conservative and the same choice is more defensible next time",
+    "The result should be weighted more heavily than the original information because real-world success is stronger evidence than a risk model",
+    "The decision is validated if no rule was broken and no corrective action was required during the flight"
+  ],
+  [
+    "It is primarily an intuitive skill developed through experience; formal models are mainly for student pilots who lack judgment",
+    "It means selecting the option with the lowest numerical risk score before departure and then adhering to that plan unless an emergency occurs",
+    "It is the ability to recognize when a regulation permits an operation and then use pilot skill to manage any remaining uncertainty"
+  ]
+]

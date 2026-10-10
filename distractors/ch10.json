@@ -1,0 +1,152 @@
+[
+  [
+    "Yes, because maximum gross weight is the primary structural limit and CG is advisory when the airplane is below gross",
+    "Yes, if the aft-CG exceedance is less than one inch and no baggage-compartment limit is exceeded",
+    "Only if the pilot compensates with additional nose-down trim; trim can restore the stability lost by an aft CG"
+  ],
+  [
+    "Weight \u00f7 arm",
+    "Arm \u00f7 weight",
+    "Weight + arm"
+  ],
+  [
+    "60.0 in",
+    "80.0 in",
+    "192.0 in"
+  ],
+  [
+    "The point at which the aircraft's total weight is assumed to act",
+    "The geometric center of the wing chord used to measure aerodynamic moment",
+    "The aft limit of the approved CG envelope from which baggage arms are measured"
+  ],
+  [
+    "2,000 lb-in",
+    "10,000 lb-in",
+    "150 lb-in"
+  ],
+  [
+    "Forward, because moving the item aft increases total arm but decreases total moment",
+    "It does not move because total aircraft weight is unchanged",
+    "Aft only if the item crosses the original CG; otherwise the loaded CG stays fixed"
+  ],
+  [
+    "An aft CG increases the tail-down force required, making the restoring pitching moment stronger",
+    "An aft CG increases the distance between CG and tail, so longitudinal stability increases while elevator force becomes lighter",
+    "CG location affects stall speed and performance but not static longitudinal stability as long as it remains within the envelope"
+  ],
+  [
+    "The elevator becomes too sensitive because a forward CG reduces the nose-down pitching moment",
+    "The airplane becomes longitudinally unstable, making rotation occur too early and flare inputs too powerful",
+    "Forward CG mainly raises cruise drag; takeoff rotation and landing flare authority are unaffected if total weight is legal"
+  ],
+  [
+    "It decreases because the heavier airplane has more inertia and resists changes in angle of attack",
+    "It stays the same because critical angle of attack is fixed for a given wing configuration",
+    "It changes only with CG position; gross weight changes the required lift but not the airspeed at which the wing stalls"
+  ],
+  [
+    "Shorter takeoff distance because the heavier airplane accelerates more steadily and is less affected by wind",
+    "No change in takeoff distance if the same indicated rotation speed is used",
+    "Longer ground roll but improved climb once airborne because the additional weight increases momentum"
+  ],
+  [
+    "Lower touchdown energy because a heavier airplane decelerates more slowly in the flare",
+    "No significant change if the pilot maintains the same published approach speed regardless of weight",
+    "Shorter landing distance because greater weight increases tire friction more than it increases kinetic energy"
+  ],
+  [
+    "Fuel burn changes only total weight; CG cannot move because the tank arm is fixed",
+    "CG changes only if more than half of the usable fuel is burned",
+    "Fuel burn always moves CG forward because airplane fuel tanks are necessarily aft of the datum"
+  ],
+  [
+    "Aft, because removing aft weight shifts the remaining average arm farther aft",
+    "It remains unchanged because fuel weight leaves from a fixed tank rather than moving within the airplane",
+    "The direction cannot be predicted unless total airplane weight exceeds maximum gross"
+  ],
+  [
+    "Forward, because removing forward weight pulls the CG toward the datum",
+    "It remains unchanged because only movable payload can shift CG",
+    "The CG moves toward the fuel tank as fuel is burned, so it moves farther forward"
+  ],
+  [
+    "The passenger's body weight changes with seat position because the farther-aft station is less supported by the wing",
+    "The aft seat creates a larger local structural load but the airplane CG changes by the same amount at any station",
+    "The passenger affects CG only when seated aft of the existing CG; any load ahead of the CG produces zero moment"
+  ],
+  [
+    "Basic empty weight plus unusable fuel and full oil, representing what remains after payload is removed",
+    "The maximum amount of baggage permitted by the cabin and baggage-compartment placards",
+    "The difference between maximum takeoff weight and zero-fuel weight, available only for usable fuel"
+  ],
+  [
+    "Unusable fuel is excluded from empty weight because it cannot be burned and therefore has no operational effect",
+    "Unusable fuel is treated as payload so the pilot can subtract it when calculating fuel reserve",
+    "Unusable fuel is ignored in weight-and-balance calculations because certification already includes it in the maximum gross weight margin"
+  ],
+  [
+    "Yes, because weight limit exceedance is acceptable if the CG is well inside the envelope",
+    "Yes, if the excess weight will be burned off as fuel before the airplane reaches climb altitude",
+    "It is acceptable at ramp but not takeoff whenever the value exceeds maximum takeoff weight; maximum ramp weight is never a separate limit"
+  ],
+  [
+    "It permits temporary loading above structural limits while the airplane is moving slowly on the ground",
+    "It accounts for baggage or passengers expected to be unloaded before takeoff",
+    "It is higher mainly because the landing gear supports more weight on the ground than the wing can support in flight"
+  ],
+  [
+    "Move an existing load from a forward station to an aft station",
+    "Burn fuel from a tank located forward of the current CG",
+    "Move a load closer to the current CG without changing which side of the CG it is on"
+  ],
+  [
+    "Any heavy object may be used if it shifts the calculated CG inside limits; attachment method is secondary",
+    "Ballast should be placed as far from the CG as possible to minimize the amount used, even if no approved station exists there",
+    "Once installed, ballast is not included in gross-weight calculations because its purpose is only to correct CG"
+  ],
+  [
+    "A shifting load changes moment only if it changes total aircraft weight; otherwise CG stays fixed",
+    "Securing baggage matters for occupant injury but does not affect aircraft loading because the baggage remains inside the fuselage",
+    "A load shift changes local structure but not CG unless the baggage crosses the aircraft datum"
+  ],
+  [
+    "It decreases by 600 lb-in",
+    "It increases by 1,500 lb-in",
+    "It increases by 60 lb-in"
+  ],
+  [
+    "2 inches",
+    "10 inches",
+    "200 inches"
+  ],
+  [
+    "Equipment changes alter useful load only; empty CG and moment remain unchanged because the datum is fixed",
+    "Original factory data remains valid if the airplane stays below maximum gross weight after the equipment change",
+    "Only major alterations require updated loading data; avionics and interior changes can be ignored if each item weighs less than a specified threshold"
+  ],
+  [
+    "Stability improves as the CG moves aft, so the main concern is higher elevator control force",
+    "Only baggage-compartment structural limits matter; moving passengers in flight does not change certified CG limits",
+    "Aft movement matters only if total weight also increases; redistributing existing weight cannot make a legal airplane exceed its CG envelope"
+  ],
+  [
+    "A forward CG reduces the lift the wing must produce because the tail supplies additional upward force",
+    "A forward CG reduces induced drag by increasing longitudinal stability and allowing a lower angle of attack",
+    "Fuel consumption changes only because the airplane is heavier at a forward CG; the additional tail force has no aerodynamic penalty"
+  ],
+  [
+    "An aft CG increases nose-down recovery tendency, which can lead to an overly steep dive after the stall",
+    "The primary hazard is that stall speed becomes too high; pitch stability and spin recovery are largely unchanged",
+    "Aft CG affects only elevator feel before the stall; after the wing stalls the CG location no longer influences recovery"
+  ],
+  [
+    "Any loading graph for the make/model is acceptable because station arms are standardized across the fleet",
+    "Graphical methods automatically include equipment changes, so current empty-weight data is not needed",
+    "A loading graph can be used without checking its envelope if each individual station load is below its placarded maximum"
+  ],
+  [
+    "Verify maximum gross weight only; if the total is legal, the manufacturer has already ensured every possible CG is safe",
+    "Calculate takeoff CG only; fuel burn and passenger movement cannot shift CG enough to matter during a normal flight",
+    "Keep CG near the center of the envelope by feel and trim response; detailed calculations are needed only when operating near maximum gross weight"
+  ]
+]

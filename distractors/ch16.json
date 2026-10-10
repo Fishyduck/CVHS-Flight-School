@@ -1,0 +1,152 @@
+[
+  [
+    "Dead reckoning, because the pilot is estimating position from outside references rather than electronic navigation",
+    "Radio navigation, because sectionals depict features that can be used as signals for position fixing",
+    "Celestial navigation, because lakes and towns provide fixed references relative to the horizon"
+  ],
+  [
+    "Pilotage, because heading and elapsed time are visual references to the aircraft's motion over the ground",
+    "Radio navigation, because groundspeed calculations require information from a navigation receiver",
+    "Position fixing, because any estimate made without landmarks is considered a direct geographic fix rather than dead reckoning"
+  ],
+  [
+    "Combining methods eliminates cumulative error because any two independent navigation methods must agree on exact position",
+    "Electronic navigation is inherently more accurate, so pilotage and dead reckoning are useful only if the GPS fails completely",
+    "Using several methods allows the pilot to average conflicting positions, which is more accurate than identifying which source is wrong"
+  ],
+  [
+    "A feature directly on the route that is large enough to see, even if several similar features exist nearby",
+    "A feature as far from the route as practical so the pilot can detect drift before reaching it",
+    "A small unique feature chosen at long intervals so each checkpoint produces a more precise groundspeed calculation"
+  ],
+  [
+    "Crab south of the desired course so the airplane's nose points into the direction of drift",
+    "Maintain 090\u00b0 heading and allow the course to curve north once the crosswind component decreases",
+    "Use a heading correction toward the south only after the airplane has crossed north of the desired course"
+  ],
+  [
+    "Heading is the track over the Earth; course is the direction the nose points through the airmass",
+    "Heading and course are identical in all flight-planning calculations; only wind direction creates a separate track value",
+    "Course is always measured from magnetic north while heading is always measured from true north"
+  ],
+  [
+    "The aircraft's speed relative to the surrounding airmass",
+    "The indicated airspeed corrected for density and temperature",
+    "The component of true airspeed along the aircraft's heading after correcting only for magnetic variation"
+  ],
+  [
+    "120 knots, because a direct headwind changes track but not speed over the ground",
+    "140 knots, because the wind vector adds to the aircraft's motion relative to the Earth",
+    "80 knots, because both true airspeed and headwind must be corrected once for the outbound leg and once for the return leg"
+  ],
+  [
+    "18 NM",
+    "36 NM",
+    "55 NM"
+  ],
+  [
+    "1 hour 15 minutes",
+    "1 hour 45 minutes",
+    "2 hours 30 minutes"
+  ],
+  [
+    "9 gallons",
+    "13.5 gallons",
+    "27 gallons"
+  ],
+  [
+    "The preflight groundspeed is legally controlling for fuel reserve, so actual values matter mainly for arrival-time accuracy",
+    "Only ETA should be updated; fuel burn in gallons per hour is independent of wind and therefore reserve cannot change",
+    "Actual groundspeed should be compared only after half the route is completed so short-term wind variation does not cause unnecessary diversion"
+  ],
+  [
+    "The direction the airplane's nose is pointed relative to true north",
+    "The actual ground track measured from magnetic north after all wind correction",
+    "The magnetic heading corrected for compass deviation but not for variation"
+  ],
+  [
+    "Compass deviation",
+    "Wind correction angle",
+    "Pressure-altitude correction"
+  ],
+  [
+    "Magnetic variation",
+    "Wind correction angle",
+    "True-to-magnetic conversion"
+  ],
+  [
+    "GPS provides airspace and terrain authority whenever the database is current, so the sectional is mainly a backup for electrical failure",
+    "The sectional is useful only where GPS reception is weak; moving-map databases contain the same information with greater precision",
+    "GPS position makes pilotage unnecessary, so chart use can be limited to finding airport frequencies after an in-flight diversion"
+  ],
+  [
+    "Obtain only fuel prices and operating hours; runway and frequency information is more current on the sectional",
+    "Determine en route magnetic variation and terrain elevations; airport details are intentionally omitted to avoid duplication",
+    "Use it mainly for weather observations; runway, lighting, and remarks are provided only through NOTAMs and airport websites"
+  ],
+  [
+    "Long spacing improves accuracy because small heading errors have more time to produce an easily measured displacement",
+    "Haze makes distant checkpoints easier to identify against the horizon, so the main issue is calculating enough fuel between them",
+    "Checkpoint spacing matters only for dead reckoning; with a sectional available, pilotage errors do not accumulate between visual fixes"
+  ],
+  [
+    "About 5\u00b0",
+    "About 15\u00b0",
+    "About 20\u00b0"
+  ],
+  [
+    "The pilot should correct only by the original track-error angle; any greater correction will overshoot the course",
+    "The added correction compensates for magnetic variation, while the original track error corrects wind drift",
+    "A larger correction is needed because groundspeed decreases as the airplane turns back toward course, not because an intercept angle is required"
+  ],
+  [
+    "A magnetic course extending toward the VOR station",
+    "A true bearing from the airplane to the VOR station",
+    "Any selected OBS course that centers the CDI, regardless of TO/FROM indication"
+  ],
+  [
+    "The aircraft is on or near the 270 radial because 090 selected with FROM points to the reciprocal side of the station",
+    "The aircraft is on a 090 course toward the station and therefore lies generally west of it",
+    "The aircraft position cannot be inferred from a centered CDI unless distance-measuring equipment is also available"
+  ],
+  [
+    "270\u00b0 magnetic course toward the station",
+    "090\u00b0 magnetic course away from the station",
+    "The selected course gives only radial identity; a TO indication cannot be used to determine an inbound course"
+  ],
+  [
+    "The VOR signal becomes stronger over the station and can drive the CDI hard to one side, creating a false off-course indication",
+    "The station changes from magnetic to true bearing at passage, temporarily invalidating the selected OBS course",
+    "DME slant-range error causes every VOR receiver to lose directional information directly over the facility"
+  ],
+  [
+    "A VOR used only for VFR flight must meet the same logged accuracy-check interval as IFR, so the purpose is regulatory rather than operational",
+    "VOR receiver accuracy matters only near the edge of service volume; a centered CDI close to the station proves the receiver is functioning correctly",
+    "Cross-checking is unnecessary when the station identification is received because a correct Morse-code identifier confirms CDI calibration"
+  ],
+  [
+    "GPS is independent of receiver database currency, satellite geometry, and antenna condition once a position fix is established",
+    "GPS directly accounts for terrain, restricted airspace, and weather when computing a direct-to course, so route validation is minimal",
+    "GPS provides heading through the airmass rather than ground track, making it a complete replacement for wind-correction calculations"
+  ],
+  [
+    "The magenta line is always the shortest legal VFR route, so the main risk is only failure to maintain the displayed course accurately",
+    "A direct GPS course automatically avoids charted terrain and controlled airspace but may not account for temporary weather",
+    "If the waypoint name is correct, route validation is unnecessary because database waypoints uniquely define safe flight paths"
+  ],
+  [
+    "It preserves every intermediate waypoint and route segment but changes the heading needed to reach each one from the present position",
+    "It changes only the displayed bearing pointer; the active flight-plan leg and airspace/terrain exposure remain the same",
+    "It creates a new course but keeps the original fuel, time, and checkpoint assumptions valid because destination distance is unchanged"
+  ],
+  [
+    "Rely on the last GPS position and maintain the displayed heading until reception returns; dead reckoning adds more error than a frozen electronic position",
+    "Climb until GPS reception returns, because line-of-sight to satellites is the primary limitation on light-aircraft GPS at normal VFR altitudes",
+    "Immediately navigate direct to the nearest airport using the magnetic compass alone, regardless of terrain, airspace, fuel, or known position"
+  ],
+  [
+    "Program the electronic route correctly before takeoff and then follow it precisely; rechecking groundspeed and fuel is unnecessary unless the GPS issues an alert",
+    "Use pilotage for position and GPS for backup, but avoid changing a flight plan once airborne because recalculation increases workload and error risk",
+    "Base fuel and time on true airspeed only; wind effects can be corrected tactically with heading changes without materially affecting reserve"
+  ]
+]

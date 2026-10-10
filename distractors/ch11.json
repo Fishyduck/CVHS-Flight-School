@@ -1,0 +1,152 @@
+[
+  [
+    "Shorter takeoff roll but reduced climb, because thin air lowers drag enough to improve acceleration while reducing engine power",
+    "Longer takeoff roll but improved climb, because higher true airspeed at liftoff increases excess lift after becoming airborne",
+    "Little change in takeoff or climb if indicated liftoff and climb speeds are maintained, because the wing responds to indicated airspeed"
+  ],
+  [
+    "Lower than 5,000 feet because warm air expands and lowers the effective altitude seen by the airplane",
+    "Approximately 5,000 feet because pressure altitude already accounts for temperature departures from standard",
+    "The same as field elevation if the altimeter is set to the current local pressure before takeoff"
+  ],
+  [
+    "It generally increases because a headwind adds to the groundspeed needed to reach liftoff IAS",
+    "It remains unchanged because takeoff distance depends on indicated airspeed rather than groundspeed",
+    "It decreases only after liftoff; the ground roll is unchanged because the wheels measure speed over the runway"
+  ],
+  [
+    "The same airspeed produces lower groundspeed in a tailwind, so braking starts at a lower kinetic energy",
+    "Tailwind affects only the approach angle; touchdown groundspeed and kinetic energy depend only on indicated airspeed",
+    "Landing roll may decrease because a tailwind reduces the aerodynamic drag acting opposite the airplane's motion over the ground"
+  ],
+  [
+    "Because airspeed indicators over-read in a tailwind, causing the pilot to carry excess indicated speed on final",
+    "Because tailwind reduces airplane weight on the landing gear, lowering braking friction more than it changes groundspeed",
+    "Because the wind changes stall speed directly in proportion to its velocity, forcing a much higher indicated touchdown speed"
+  ],
+  [
+    "Shorter takeoff roll because gravity helps keep the airplane on the runway and increases tire traction for acceleration",
+    "No meaningful change until the airplane is airborne, because runway slope affects only climb angle relative to the horizon",
+    "Longer takeoff roll only if the runway is also at high density altitude; slope alone is already included in indicated airspeed"
+  ],
+  [
+    "Wet pavement normally improves acceleration by reducing rolling friction, so only landing distance needs correction",
+    "Surface condition affects directional control but not takeoff or landing distance once the airplane is above taxi speed",
+    "Published dry-runway values may be used unchanged if the pilot adds ten percent to indicated takeoff and approach speeds"
+  ],
+  [
+    "Vx, because best angle of climb also produces the maximum vertical speed in feet per minute",
+    "Best glide speed, because minimum drag leaves the greatest excess power available for climb",
+    "VA, because maneuvering speed provides the highest usable angle of attack without exceeding structural limits"
+  ],
+  [
+    "Vy, because best rate also produces the greatest altitude gain for each mile traveled",
+    "Best glide speed, because maximum lift-to-drag ratio creates the steepest climb path",
+    "VFE, because flap operating limit provides the highest lift coefficient and therefore the greatest climb angle"
+  ],
+  [
+    "Vx and Vy remain fixed indicated speeds at all altitudes because they are based only on wing aerodynamics",
+    "Both speeds decrease at the same rate with altitude, so their separation remains constant until the ceiling",
+    "Vx decreases while Vy increases with altitude in indicated airspeed, causing them to move farther apart"
+  ],
+  [
+    "The minimum positive climb rate specified for service ceiling, typically still enough to clear obstacles",
+    "The same rate of climb as at service ceiling because the two ceilings differ only by certification terminology",
+    "A small positive rate determined by the aircraft's maximum glide ratio and propeller efficiency"
+  ],
+  [
+    "The highest altitude at which the engine can still produce rated takeoff power",
+    "The altitude where the airplane can no longer maintain indicated airspeed in level flight",
+    "The altitude at which cabin pressure or supplemental oxygen limits further climb"
+  ],
+  [
+    "Endurance, because remaining airborne longer also guarantees the greatest still-air distance",
+    "Maximum groundspeed, because covering distance faster always uses less fuel per mile",
+    "Minimum sink, because the condition that minimizes altitude loss in a glide also minimizes fuel per mile in powered flight"
+  ],
+  [
+    "Range, because flying the greatest distance for the fuel necessarily keeps the airplane airborne the longest",
+    "Maximum cruise power, because a higher airspeed reduces the time during which fuel is consumed",
+    "Best glide, because maximum lift-to-drag ratio is always the same condition as minimum fuel flow in powered flight"
+  ],
+  [
+    "They are normally the same; any difference is caused only by wind rather than airplane aerodynamics or engine efficiency",
+    "Endurance requires the highest practical airspeed while range requires the lowest, because time and distance goals are exact opposites",
+    "Maximum range is found at minimum fuel flow, while maximum endurance is found at the best lift-to-drag ratio regardless of engine type"
+  ],
+  [
+    "Interpolation is a safety margin added whenever the chart value falls between runway lengths rather than atmospheric inputs",
+    "Published charts apply only at the labeled points; values between them cannot be estimated and require choosing the next worse complete row",
+    "Interpolation corrects for pilot technique and airplane condition, which are not included in the performance chart itself"
+  ],
+  [
+    "1,250 ft",
+    "1,350 ft",
+    "1,600 ft"
+  ],
+  [
+    "Generic rules of thumb are normally more conservative than POH data and should replace approved charts when runway is short",
+    "Approved data is necessary mainly for legal compliance; a pilot with experience in the airplane may use remembered typical performance instead",
+    "Use whichever data source predicts the shortest distance, then add a personal safety factor to account for the difference"
+  ],
+  [
+    "Apply the dry paved value because grass and moisture affect braking but not takeoff acceleration",
+    "Subtract a grass correction because softer surfaces reduce tire slip and improve propeller loading",
+    "Use the chart unchanged if wind is calm, because runway surface and wind corrections are interchangeable performance factors"
+  ],
+  [
+    "It improves climb because the heavier airplane's greater inertia carries more energy into the climb after liftoff",
+    "Climb rate is unchanged if Vy is maintained; only the pitch attitude required for that airspeed changes",
+    "It reduces climb angle but can improve rate of climb because the engine produces the same power at a higher angle of attack"
+  ],
+  [
+    "It decreases distance because more weight increases tire traction and propeller loading during the ground roll",
+    "Distance remains the same if rotation is delayed to the heavier-weight stall speed",
+    "It affects liftoff speed but not acceleration, so only obstacle-clearance distance changes rather than ground roll"
+  ],
+  [
+    "It decreases distance because higher weight increases wheel braking force in direct proportion to kinetic energy",
+    "It has little effect if the same approach speed is flown, because brakes dissipate energy at the same rate",
+    "It increases only the airborne portion of landing distance; once on the runway greater weight improves deceleration enough to offset the energy"
+  ],
+  [
+    "Book numbers already include a certification safety factor, so a result inside the runway length provides an adequate operational margin",
+    "The pilot should use the book value as a guaranteed maximum distance if weight and weather inputs are entered correctly",
+    "A precise calculation removes the need for extra margin; technique and engine condition are accounted for in the approved performance tables"
+  ],
+  [
+    "Water vapor is heavier than dry air and increases pressure altitude even though actual density rises",
+    "Humidity changes indicated airspeed calibration but not the actual density of the air used by the wing and propeller",
+    "Humidity lowers density altitude because moist air cools more efficiently and therefore increases engine power"
+  ],
+  [
+    "Liftoff proves the airplane has enough excess power to climb, so poor climb afterward usually indicates an instrument error",
+    "High density altitude raises indicated stall speed after leaving ground effect even though engine power remains normal",
+    "The airplane can lift off because ground effect increases engine power; once clear of the runway that engine benefit disappears"
+  ],
+  [
+    "True airspeed is lower because thin air requires fewer molecules to move past the wing for a given indicated value",
+    "True and indicated airspeed remain approximately equal because the same lift condition fixes both velocities",
+    "Indicated airspeed becomes higher than true airspeed because the pitot system senses a larger pressure ratio at altitude"
+  ],
+  [
+    "Higher true airspeed always means higher indicated airspeed, so the airplane must accelerate to a higher IAS before liftoff",
+    "Ground roll grows only because engine power is lower; the true/groundspeed needed for a given IAS does not change with density",
+    "Higher true airspeed reduces groundspeed in still air because the airplane moves through fewer air molecules per second"
+  ],
+  [
+    "Scale every published distance directly by the ratio of actual weight to maximum gross weight even if the POH provides no such method",
+    "Assume the maximum-gross chart is invalid for any lighter weight and use a generic performance calculator instead",
+    "Replace the POH value with the airplane's typical observed climb performance because lighter weight guarantees better results"
+  ],
+  [
+    "Past experience is more representative than performance charts because it includes the actual airplane, engine, and pilot technique",
+    "If each factor remains within a familiar range, their combined effect will be no worse than the largest individual change",
+    "Performance planning matters mainly at high-elevation airports; at familiar low-altitude airports the airplane's usual feel is a reliable margin"
+  ],
+  [
+    "Use density altitude as the only planning number; once it is known, weight, wind, surface, and obstacles are already incorporated",
+    "Use published takeoff and landing speeds only; distance and climb margins can be judged visually once the airplane is on the runway",
+    "Calculate the shortest expected distance from favorable assumptions, then rely on pilot technique to absorb adverse differences during the actual takeoff"
+  ]
+]

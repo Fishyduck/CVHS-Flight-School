@@ -1,0 +1,602 @@
+[
+  {
+    "id": "CH02-V1-01",
+    "chapter": 2,
+    "topic": "Risk management",
+    "subtopic": "PAVE checklist",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A VFR pilot has planned a mountain cross-country. The weather is legal but hazy, the pilot has little mountain experience, and an important meeting creates pressure to arrive. Which risk-management action best addresses the whole situation?",
+    "choices": [
+      "Evaluate pilot, aircraft, environment, and external pressures together and choose a safer alternative if the combined risk is unacceptable",
+      "Because the weather is legal, depart but reduce altitude to stay below the haze and reassess only if visibility drops below minimums",
+      "Focus on the weather and terrain first; pilot experience and schedule pressure should be considered only if conditions become marginal",
+      "Cancel only if one individual PAVE category exceeds a regulatory limit; several moderate risks do not need to be combined"
+    ],
+    "correctIndex": 0,
+    "explanation": "The PAVE framework is designed to consider interacting risks. Legal weather does not make the total risk acceptable when experience, terrain, visibility, and external pressure combine.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — PAVE checklist",
+    "learningObjective": "Apply PAVE checklist knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-01"
+  },
+  {
+    "id": "CH02-V1-02",
+    "chapter": 2,
+    "topic": "ADM",
+    "subtopic": "Continuation bias",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot notices lowering ceilings ahead and thinks, “I have already flown this far, so I should keep going.” Which decision error is most important to recognize?",
+    "choices": [
+      "The pilot is showing anti-authority because continuing rejects the original weather forecast rather than an FAA rule",
+      "A sunk-cost or continuation bias reinforced by external pressure",
+      "Plan-continuation bias is not involved because the pilot has new weather information; the issue is primarily impulsivity",
+      "The pilot is showing resignation because the flight has already progressed beyond the point where turning back is practical"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past time or effort does not improve future weather. Good ADM reassesses the current situation and preserves safe alternatives.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — Continuation bias",
+    "learningObjective": "Apply Continuation bias knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-02"
+  },
+  {
+    "id": "CH02-V1-03",
+    "chapter": 2,
+    "topic": "Human factors",
+    "subtopic": "Hazardous attitudes",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot says, “The rules are overly cautious; I know what I can get away with.” Which hazardous attitude is being demonstrated, and what is the useful antidote?",
+    "choices": [
+      "Macho — taking chances is foolish",
+      "Impulsivity — not so fast; think first",
+      "Anti-authority — follow the rules; they are usually right",
+      "Invulnerability — it could happen to me"
+    ],
+    "correctIndex": 2,
+    "explanation": "Anti-authority is the tendency to disregard rules or procedures. Its antidote is to recognize that the rules are usually right and exist for a reason.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — Hazardous attitudes",
+    "learningObjective": "Apply Hazardous attitudes knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-03"
+  },
+  {
+    "id": "CH02-V1-04",
+    "chapter": 2,
+    "topic": "Single-pilot resource management",
+    "subtopic": "Automation management",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot receives a last-minute reroute while hand-flying in turbulence and begins entering it into the GPS with head down. What is the best ADM response?",
+    "choices": [
+      "Continue hand-flying while completing the entire reroute immediately so the navigation system matches the clearance as soon as possible",
+      "Transfer control to the autopilot and begin programming without first confirming that the autopilot is correctly engaged and stable",
+      "Reject every reroute issued in turbulence because navigation programming should never be performed while airborne",
+      "Stabilize the airplane, manage workload, use available resources, and delay or simplify programming until it can be done safely"
+    ],
+    "correctIndex": 3,
+    "explanation": "Aviate first and manage automation deliberately. Programming at a high-workload moment can create fixation and loss of situational awareness.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — Automation management",
+    "learningObjective": "Apply Automation management knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-04"
+  },
+  {
+    "id": "CH02-V1-05",
+    "chapter": 2,
+    "topic": "ADM models",
+    "subtopic": "3P model",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot identifies thunderstorms along the direct route. In the 3P model, what does “Process” require?",
+    "choices": [
+      "Evaluating how the hazard affects the safety of this specific flight",
+      "Identifying that thunderstorms exist somewhere along or near the route",
+      "Selecting and carrying out the first avoidance maneuver that comes to mind",
+      "Recording the hazard on a checklist so it can be reviewed after landing"
+    ],
+    "correctIndex": 0,
+    "explanation": "Perceive identifies the hazard; Process evaluates its impact; Perform implements a course of action.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — 3P model",
+    "learningObjective": "Apply 3P model knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-05"
+  },
+  {
+    "id": "CH02-V1-06",
+    "chapter": 2,
+    "topic": "ADM models",
+    "subtopic": "3P model",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "After evaluating a risk, a pilot decides to delay departure until a front passes. In the 3P model, this is primarily which step?",
+    "choices": [
+      "Evaluate, because the pilot is comparing the new departure time with the original plan",
+      "Perform",
+      "Perceive, because the pilot has noticed the weather system",
+      "Process, because delaying the flight is an evaluation of risk"
+    ],
+    "correctIndex": 1,
+    "explanation": "Choosing and implementing a safer course of action is the Perform step.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — 3P model",
+    "learningObjective": "Apply 3P model knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-06"
+  },
+  {
+    "id": "CH02-V1-07",
+    "chapter": 2,
+    "topic": "Risk management",
+    "subtopic": "CARE checklist",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot is tempted to depart with a known maintenance discrepancy because “it will probably be fine.” Which part of the CARE checklist most directly challenges that rationalization?",
+    "choices": [
+      "Reality only, because CARE is used to decide whether the discrepancy actually exists",
+      "Alternatives only, because any substitute transportation automatically makes the aircraft safe to dispatch",
+      "Consequences and Reality",
+      "Alternatives and External Factors, because another airplane or schedule could remove the discrepancy"
+    ],
+    "correctIndex": 2,
+    "explanation": "CARE asks the pilot to examine Consequences, Alternatives, Reality, and External factors. “Probably fine” should trigger a realistic reassessment of the actual hazard and consequences.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — CARE checklist",
+    "learningObjective": "Apply CARE checklist knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-07"
+  },
+  {
+    "id": "CH02-V1-08",
+    "chapter": 2,
+    "topic": "Risk management",
+    "subtopic": "TEAM checklist",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot recognizes a hazard that cannot be eliminated and chooses a route that keeps the airplane near suitable diversion airports. Under TEAM, what risk-control strategy is this?",
+    "choices": [
+      "Accept, because the pilot still intends to complete the flight with the hazard present",
+      "Eliminate, because choosing a different route removes every consequence of the original hazard",
+      "Transfer, because diversion airports transfer responsibility for the flight to another pilot or facility",
+      "Mitigate"
+    ],
+    "correctIndex": 3,
+    "explanation": "Changing the route to reduce exposure or consequences is mitigation.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — TEAM checklist",
+    "learningObjective": "Apply TEAM checklist knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-08"
+  },
+  {
+    "id": "CH02-V1-09",
+    "chapter": 2,
+    "topic": "Risk management",
+    "subtopic": "PAVE — Pilot",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot is fatigued, mildly ill, and taking a new medication. The airplane and weather are excellent. Why can the overall flight still be unacceptable?",
+    "choices": [
+      "The PAVE model treats pilot condition as a major risk category that can independently make a flight unsafe",
+      "Good aircraft and weather offset moderate pilot risks, so the combined PAVE assessment remains favorable",
+      "Pilot condition matters mainly for IFR flights; in VFR, visual references reduce the effect of illness or medication",
+      "The flight is acceptable if each symptom alone seems minor and no regulation specifically prohibits the medication"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pilot fitness is one of the core PAVE categories. Excellent aircraft and weather do not cancel impaired judgment or performance.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — PAVE — Pilot",
+    "learningObjective": "Apply PAVE — Pilot knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-09"
+  },
+  {
+    "id": "CH02-V1-10",
+    "chapter": 2,
+    "topic": "Human factors",
+    "subtopic": "Hazardous attitudes",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot thinks, “I have flown in worse weather and nothing happened, so this will be fine.” Which hazardous attitude is most evident?",
+    "choices": [
+      "Resignation, because the pilot assumes the weather outcome is already determined by prior experience",
+      "Invulnerability",
+      "Anti-authority, because the pilot is rejecting conservative guidance based on personal experience",
+      "Macho, because the pilot wants to demonstrate superior skill by continuing in poor weather"
+    ],
+    "correctIndex": 1,
+    "explanation": "Invulnerability is the belief that accidents happen to others rather than oneself; prior success does not eliminate current risk.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — Hazardous attitudes",
+    "learningObjective": "Apply Hazardous attitudes knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-10"
+  },
+  {
+    "id": "CH02-V1-11",
+    "chapter": 2,
+    "topic": "Human factors",
+    "subtopic": "Hazardous attitudes",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot is behind schedule and makes a quick fuel decision without checking the numbers because “we need to go now.” Which hazardous attitude is most evident?",
+    "choices": [
+      "Anti-authority, because the pilot is ignoring a formal fuel rule rather than failing to think through the decision",
+      "Invulnerability, because the pilot believes fuel planning errors happen only to other pilots",
+      "Impulsivity",
+      "Macho, because the pilot is trying to prove the flight can be completed despite time pressure"
+    ],
+    "correctIndex": 2,
+    "explanation": "Impulsivity is the urge to act immediately without adequate thought.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — Hazardous attitudes",
+    "learningObjective": "Apply Hazardous attitudes knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-11"
+  },
+  {
+    "id": "CH02-V1-12",
+    "chapter": 2,
+    "topic": "Human factors",
+    "subtopic": "Hazardous attitudes",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot accepts a demanding approach mainly to prove capability to passengers. Which hazardous attitude is most evident?",
+    "choices": [
+      "Invulnerability, because the pilot assumes an accident cannot occur on the approach",
+      "Anti-authority, because accepting the approach rejects the safer expectations of the passengers",
+      "Impulsivity, because the defining error is making the decision before gathering any weather or runway information",
+      "Macho"
+    ],
+    "correctIndex": 3,
+    "explanation": "Macho thinking involves taking unnecessary chances to prove oneself.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — Hazardous attitudes",
+    "learningObjective": "Apply Hazardous attitudes knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-12"
+  },
+  {
+    "id": "CH02-V1-13",
+    "chapter": 2,
+    "topic": "Human factors",
+    "subtopic": "Hazardous attitudes",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot encounters a worsening situation and says, “There is nothing I can do now.” Which hazardous attitude is most evident?",
+    "choices": [
+      "Resignation",
+      "Invulnerability, because the pilot assumes the hazardous situation cannot cause harm",
+      "Impulsivity, because the pilot is acting too quickly rather than giving up on available actions",
+      "Anti-authority, because the pilot is rejecting guidance from ATC or the aircraft checklist"
+    ],
+    "correctIndex": 0,
+    "explanation": "Resignation is the tendency to believe outcomes are beyond one’s control; the antidote is to recognize that useful action is often possible.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — Hazardous attitudes",
+    "learningObjective": "Apply Hazardous attitudes knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-13"
+  },
+  {
+    "id": "CH02-V1-14",
+    "chapter": 2,
+    "topic": "Risk management",
+    "subtopic": "Risk concepts",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot is choosing whether to continue a flight toward deteriorating weather. Which action best demonstrates good risk management rather than risk elimination?",
+    "choices": [
+      "Reducing risk only until the flight becomes legal; additional personal margins are unnecessary once regulations are satisfied",
+      "Reducing the likelihood or severity of hazards to an acceptable level while preserving alternatives",
+      "Avoiding every flight that contains any identifiable hazard, even when the residual risk could be managed",
+      "Continuing whenever the probability of an accident appears low, because risk management focuses on likelihood rather than severity"
+    ],
+    "correctIndex": 1,
+    "explanation": "Aviation always contains some risk. Risk management identifies hazards and reduces their probability or severity to an acceptable level.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — Risk concepts",
+    "learningObjective": "Apply Risk concepts knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-14"
+  },
+  {
+    "id": "CH02-V1-15",
+    "chapter": 2,
+    "topic": "ADM models",
+    "subtopic": "DECIDE",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot discovers the destination runway is unexpectedly closed after departure. In the DECIDE model, recognizing that change is which step?",
+    "choices": [
+      "Choose, because the pilot should immediately select the nearest alternate airport",
+      "Identify, because the pilot has already decided the desired outcome is to avoid the closed runway",
+      "Detect",
+      "Estimate, because the pilot must determine whether the runway closure requires a change"
+    ],
+    "correctIndex": 2,
+    "explanation": "DECIDE begins by detecting that a change has occurred.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — DECIDE",
+    "learningObjective": "Apply DECIDE knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-15"
+  },
+  {
+    "id": "CH02-V1-16",
+    "chapter": 2,
+    "topic": "ADM models",
+    "subtopic": "DECIDE",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "In the DECIDE model, after detecting a change, what should the pilot do before selecting a course of action?",
+    "choices": [
+      "Choose the safest available action first, then determine whether a reaction was actually necessary",
+      "Identify a single action the pilot prefers, then estimate whether its consequences are acceptable",
+      "Do the selected action immediately so the pilot can evaluate the result before considering other alternatives",
+      "Estimate the need to react and identify the desired outcome before choosing among actions"
+    ],
+    "correctIndex": 3,
+    "explanation": "DECIDE requires understanding the significance of the change and the desired result before choosing and implementing an action.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — DECIDE",
+    "learningObjective": "Apply DECIDE knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-16"
+  },
+  {
+    "id": "CH02-V1-17",
+    "chapter": 2,
+    "topic": "ADM",
+    "subtopic": "Continuous evaluation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot diverts to an alternate because weather is deteriorating, then continues monitoring the new route and fuel state. Which ADM principle does that illustrate?",
+    "choices": [
+      "Risk management is continuous and the outcome of a decision must be reevaluated",
+      "A sound decision is complete once a safer alternate has been selected; continued monitoring is mainly an ATC function",
+      "Reassessment is needed only when the diversion airport also becomes unavailable or the pilot declares an emergency",
+      "The original risk assessment remains controlling after a diversion because changing the plan has already reduced the dominant hazard"
+    ],
+    "correctIndex": 0,
+    "explanation": "Conditions continue to change. Good ADM includes evaluating whether the chosen action is working and reassessing new hazards.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — Continuous evaluation",
+    "learningObjective": "Apply Continuous evaluation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-17"
+  },
+  {
+    "id": "CH02-V1-18",
+    "chapter": 2,
+    "topic": "Single-pilot resource management",
+    "subtopic": "5P model",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A passenger repeatedly pressures the pilot to continue because of hotel reservations. Under the 5P model, this pressure belongs most directly to which “P”?",
+    "choices": [
+      "Programming, because changing the trip to satisfy the passenger requires replanning the navigation system",
+      "Passengers",
+      "Plan, because the hotel reservation affects the destination and timing of the flight",
+      "Pilot, because the pressure changes the pilot's emotional state and therefore belongs entirely under personal fitness"
+    ],
+    "correctIndex": 1,
+    "explanation": "Passengers can create operational pressure and are specifically considered in the 5P check.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — 5P model",
+    "learningObjective": "Apply 5P model knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-18"
+  },
+  {
+    "id": "CH02-V1-19",
+    "chapter": 2,
+    "topic": "Single-pilot resource management",
+    "subtopic": "Automation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot is flying a technically advanced aircraft but is unfamiliar with the avionics menu structure. Which conclusion best reflects SRM?",
+    "choices": [
+      "Automation unfamiliarity is mainly an equipment risk; it does not affect pilot workload if the GPS database is current",
+      "The pilot should depend more heavily on automation when unfamiliar with it because the system can compensate for limited procedural knowledge",
+      "Unfamiliar automation can add workload and should lead to more conservative planning and earlier programming",
+      "Advanced avionics always reduce workload, so unfamiliar menus are acceptable if the pilot programs them before the approach"
+    ],
+    "correctIndex": 2,
+    "explanation": "Technology can reduce workload when understood, but unfamiliar automation can create distraction, fixation, and error.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — Automation",
+    "learningObjective": "Apply Automation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-19"
+  },
+  {
+    "id": "CH02-V1-20",
+    "chapter": 2,
+    "topic": "Risk management",
+    "subtopic": "External pressures",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot has several safe alternatives but feels embarrassed about turning back. Which type of risk factor is most directly influencing the decision?",
+    "choices": [
+      "Environment, because embarrassment is caused by other people and therefore belongs with outside operating conditions",
+      "Passengers, because all social pressure is classified under the passenger element of the 5P model",
+      "Plan, because the desire to avoid embarrassment is part of completing the planned route rather than an external influence",
+      "External pressure"
+    ],
+    "correctIndex": 3,
+    "explanation": "Pride, schedule pressure, passenger expectations, and perceived social consequences are external pressures that can distort decisions.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — External pressures",
+    "learningObjective": "Apply External pressures knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-20"
+  },
+  {
+    "id": "CH02-V1-21",
+    "chapter": 2,
+    "topic": "Risk management",
+    "subtopic": "Dynamic risk assessment",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot completes a written risk-assessment worksheet before departure but never revisits it in flight. What is missing?",
+    "choices": [
+      "Ongoing reassessment as conditions, pilot state, aircraft status, and plan change",
+      "A more detailed preflight worksheet; once every hazard is scored numerically, in-flight reassessment is unnecessary",
+      "A second pilot signature before departure confirming that the original risk score was acceptable",
+      "A requirement to cancel if any single risk score changes after takeoff, rather than reconsidering the total situation"
+    ],
+    "correctIndex": 0,
+    "explanation": "Risk management must continue during flight because the risk picture changes.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — Dynamic risk assessment",
+    "learningObjective": "Apply Dynamic risk assessment knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-21"
+  },
+  {
+    "id": "CH02-V1-22",
+    "chapter": 2,
+    "topic": "Risk management",
+    "subtopic": "TEAM checklist",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot is uncertain about a maintenance discrepancy and calls a mechanic or chief flight instructor before deciding. Under TEAM, which strategy is represented?",
+    "choices": [
+      "Eliminate, because asking another person removes the hazard from the aircraft",
+      "Transfer",
+      "Accept, because the pilot accepts that the discrepancy exists before seeking advice",
+      "Mitigate, because discussing the discrepancy reduces its mechanical severity"
+    ],
+    "correctIndex": 1,
+    "explanation": "Transferring a risk decision means involving a person with appropriate expertise or authority when that improves the decision.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — TEAM checklist",
+    "learningObjective": "Apply TEAM checklist knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-22"
+  },
+  {
+    "id": "CH02-V1-23",
+    "chapter": 2,
+    "topic": "ADM",
+    "subtopic": "Legal versus safe",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is “legal” not the same as “safe” in aeronautical decision-making?",
+    "choices": [
+      "Legal requirements already incorporate pilot proficiency and aircraft condition, so additional risk assessment mainly addresses passenger comfort",
+      "A flight that is not prohibited is presumptively safe unless weather or maintenance crosses a published regulatory threshold",
+      "Regulations define minimum requirements, while actual risk also depends on pilot proficiency, aircraft condition, weather, terrain, and other circumstances",
+      "A flight is safe whenever all regulations are satisfied; personal minimums are useful only during training"
+    ],
+    "correctIndex": 2,
+    "explanation": "Regulatory compliance is essential but does not account for every combination of operational risk; personal minimums and conservative decisions may need to be more restrictive.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — Legal versus safe",
+    "learningObjective": "Apply Legal versus safe knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-23"
+  },
+  {
+    "id": "CH02-V1-24",
+    "chapter": 2,
+    "topic": "Risk management",
+    "subtopic": "Personal minimums",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot sets personal weather minimums while calm and on the ground. Why can this improve decisions later?",
+    "choices": [
+      "Personal minimums should be raised or lowered in flight to match the pilot's confidence and the urgency of the trip",
+      "Preselected minimums are most useful as goals to approach closely; exceeding them slightly can be justified if the trend looks stable",
+      "Personal minimums replace regulatory minima for that pilot, so a violation of a personal limit has the same legal effect as breaking a regulation",
+      "It reduces the chance that in-flight pressure or changing emotions will move the pilot toward an unsafe threshold"
+    ],
+    "correctIndex": 3,
+    "explanation": "Pre-established personal minimums create decision boundaries before schedule pressure, fatigue, or commitment bias becomes strong.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — Personal minimums",
+    "learningObjective": "Apply Personal minimums knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-24"
+  },
+  {
+    "id": "CH02-V1-25",
+    "chapter": 2,
+    "topic": "ADM",
+    "subtopic": "Option preservation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot realizes fuel is lower than planned but still adequate to reach several nearby airports. Which decision best preserves options?",
+    "choices": [
+      "Divert early to a suitable airport while choices remain plentiful",
+      "Continue toward the destination until the fuel reserve reaches the legal minimum, then divert to the nearest airport",
+      "Select the closest airport immediately even if weather, runway, services, or terrain make another nearby option safer",
+      "Continue as planned because having several alternates means the risk is controlled as long as one remains reachable"
+    ],
+    "correctIndex": 0,
+    "explanation": "Early action preserves time, fuel, airports, and weather alternatives. Waiting usually narrows options and raises risk.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — Option preservation",
+    "learningObjective": "Apply Option preservation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-25"
+  },
+  {
+    "id": "CH02-V1-26",
+    "chapter": 2,
+    "topic": "Single-pilot resource management",
+    "subtopic": "Workload management",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot becomes fixated on troubleshooting a minor avionics problem while altitude and heading begin to wander. What resource-management principle has been violated?",
+    "choices": [
+      "Turn off the failed equipment immediately without confirming whether it supports any critical navigation, communication, or flight information",
+      "Prioritize aircraft control and situational awareness before lower-priority troubleshooting",
+      "Complete the troubleshooting quickly because restoring avionics reduces workload for the remainder of the flight",
+      "Continue diagnosing the problem while using the autopilot to hold altitude and heading, even if the pilot has not verified its operation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Aviate, navigate, communicate reflects workload prioritization: maintain control and awareness before troubleshooting noncritical systems.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — Workload management",
+    "learningObjective": "Apply Workload management knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-26"
+  },
+  {
+    "id": "CH02-V1-27",
+    "chapter": 2,
+    "topic": "ADM",
+    "subtopic": "PIC responsibility",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot receives advice from ATC that would place the airplane into weather the pilot considers unsafe. What ADM principle applies?",
+    "choices": [
+      "A pilot should comply unless the instruction would violate a regulation; personal weather concerns alone are not enough to refuse",
+      "The safest response is to leave the frequency and deviate without advising ATC so the pilot is no longer constrained by the instruction",
+      "The PIC remains responsible for the safe operation and should communicate inability or request an alternative",
+      "ATC instructions transfer responsibility for terrain and weather avoidance to the controller once radar contact is established"
+    ],
+    "correctIndex": 2,
+    "explanation": "External resources support decisions, but the PIC retains responsibility and should decline or amend a plan that cannot be conducted safely.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — PIC responsibility",
+    "learningObjective": "Apply PIC responsibility knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-27"
+  },
+  {
+    "id": "CH02-V1-28",
+    "chapter": 2,
+    "topic": "Human factors",
+    "subtopic": "Confirmation bias",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot has a strong desire to complete a trip but deliberately lists reasons to cancel, divert, or delay. What decision-making benefit does this provide?",
+    "choices": [
+      "It strengthens commitment to the original plan by proving that alternatives have been considered and rejected in advance",
+      "It reduces workload by allowing the pilot to select one preferred option before gathering additional information",
+      "It prevents sunk-cost bias because listing alternatives makes previous time and money irrelevant to every later decision",
+      "It counters confirmation bias by forcing consideration of evidence against the preferred plan"
+    ],
+    "correctIndex": 3,
+    "explanation": "Actively seeking disconfirming evidence helps prevent a pilot from interpreting information only in ways that support the desired outcome.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — Confirmation bias",
+    "learningObjective": "Apply Confirmation bias knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-28"
+  },
+  {
+    "id": "CH02-V1-29",
+    "chapter": 2,
+    "topic": "Human factors",
+    "subtopic": "Outcome bias",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot has completed a flight safely after accepting a questionable risk. What is the best lesson?",
+    "choices": [
+      "A favorable outcome does not validate the quality of the decision; the risk process should be reviewed independently of luck",
+      "The safe outcome shows the risk estimate was probably conservative and the same choice is more defensible next time",
+      "The result should be weighted more heavily than the original information because real-world success is stronger evidence than a risk model",
+      "The decision is validated if no rule was broken and no corrective action was required during the flight"
+    ],
+    "correctIndex": 0,
+    "explanation": "Outcome bias can make unsafe decisions seem acceptable when nothing bad happens. Good ADM evaluates the process and available information, not just the result.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — Outcome bias",
+    "learningObjective": "Apply Outcome bias knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-29"
+  },
+  {
+    "id": "CH02-V1-30",
+    "chapter": 2,
+    "topic": "ADM",
+    "subtopic": "ADM process",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Which statement best describes expert aeronautical decision-making?",
+    "choices": [
+      "It is the ability to recognize when a regulation permits an operation and then use pilot skill to manage any remaining uncertainty",
+      "It is a disciplined process of recognizing hazards, evaluating risk, choosing and implementing controls, and continuously reassessing as conditions change",
+      "It is primarily an intuitive skill developed through experience; formal models are mainly for student pilots who lack judgment",
+      "It means selecting the option with the lowest numerical risk score before departure and then adhering to that plan unless an emergency occurs"
+    ],
+    "correctIndex": 1,
+    "explanation": "Good ADM is systematic and continuous. Experience helps, but disciplined risk-management processes remain essential.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 2 — ADM process",
+    "learningObjective": "Apply ADM process knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch02-30"
+  }
+]

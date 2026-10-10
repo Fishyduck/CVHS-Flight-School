@@ -1,0 +1,152 @@
+[
+  [
+    "Right traffic unless the windsock or segmented circle indicates that left traffic would create a tailwind on base",
+    "Enter whichever pattern direction provides the shortest route from the pilot's arrival heading when no tower is operating",
+    "Use left traffic only if another aircraft is already established; otherwise either direction is acceptable at a nontowered airport"
+  ],
+  [
+    "Established traffic has priority only after turning final, so alternate entries are acceptable if the pilot broadcasts intentions",
+    "Pattern geometry is advisory at nontowered airports; collision avoidance depends primarily on radio sequencing rather than predictable flight paths",
+    "A nonstandard entry is acceptable whenever it keeps the arriving airplane outside the pattern until within one mile of the runway"
+  ],
+  [
+    "The traffic pattern is empty because aircraft without radios are prohibited from using public-use airports",
+    "Only ultralights or helicopters could be present without radio calls; certificated airplanes must announce in the pattern",
+    "The pilot may enter directly onto final because lack of radio traffic eliminates the need to sequence with unseen aircraft"
+  ],
+  [
+    "Approximately 027\u00b0 magnetic",
+    "Approximately 090\u00b0 magnetic",
+    "Approximately 360\u00b0 magnetic"
+  ],
+  [
+    "Runway numbers are based on true direction and change when magnetic variation alters the difference between true and magnetic north",
+    "Runway numbers change when airport elevation or runway slope changes the compass indication during takeoff",
+    "The number is based on prevailing wind direction, so it is renumbered when long-term wind patterns shift"
+  ],
+  [
+    "A location sign showing the airplane is on the intersection of Runways 15 and 33",
+    "A direction sign pointing toward Runways 15 and 33 from the present taxiway",
+    "An information sign giving the runway's magnetic headings but not imposing a hold or clearance requirement"
+  ],
+  [
+    "Taxiway A is ahead in the direction indicated by the sign, and the airplane is on another unnamed taxiway",
+    "The airplane is approaching Taxiway A but has not yet entered it; black/yellow signs are always direction signs",
+    "Taxiway A is closed to aircraft and the black background indicates the pilot must request ATC permission before entering"
+  ],
+  [
+    "The airplane is currently on Taxiway B, and the arrow shows the direction the taxiway itself runs",
+    "Taxiway B intersects from the right only after crossing the next runway holding position",
+    "Taxiway B is a runway-exit route to the right, so the sign applies only after landing rather than during normal taxi"
+  ],
+  [
+    "The dashed lines are on the taxiway side and should be encountered first when approaching a runway from a taxiway",
+    "The solid and dashed sides have no directional meaning; the marking only identifies the runway centerline area",
+    "An aircraft may cross the solid lines without clearance but must stop before crossing the dashed lines into the runway safety area"
+  ],
+  [
+    "Yes, because a taxi clearance naming the departure runway includes authority to cross any runway along the assigned route",
+    "Yes, unless ATC specifically says 'hold short'; crossing authority is implied when a runway is not named in the taxi clearance",
+    "No only if the intervening runway is active; an inactive runway may be crossed under a normal taxi instruction without explicit clearance"
+  ],
+  [
+    "Continue slowly while reading back the part that is understood; ATC will correct any mistake before a conflict develops",
+    "Follow the airport diagram to the most likely route and request clarification after reaching the next hold-short point",
+    "Repeat the instruction as best as possible and proceed if no other aircraft is visible, because stopping can obstruct taxi traffic"
+  ],
+  [
+    "Accept the clearance and comply as closely as possible; aircraft limitations do not override an ATC movement instruction",
+    "Read back the clearance correctly and then deviate as necessary without further transmission if safety requires",
+    "State 'standby' and continue taxiing while deciding; 'unable' is reserved for airborne clearances rather than surface movement"
+  ],
+  [
+    "It provides legal taxi clearance information and can replace ATC instructions if the expected route differs from the controller's route",
+    "It shows only runway dimensions; taxiway names, hot spots, and hold points are found exclusively in the Chart Supplement",
+    "It is useful mainly after landing because departure taxi routes can be assumed from the runway assigned in the ATIS"
+  ],
+  [
+    "Any loss of separation between two aircraft anywhere on an airport surface, including ramp and parking areas",
+    "Any time an airplane crosses a runway centerline without first making a radio transmission, even at a nontowered airport",
+    "Any pilot deviation involving a taxiway, regardless of whether the protected runway area is entered"
+  ],
+  [
+    "Continue across to clear the runway area, then advise ATC once the airplane is safely on the opposite side",
+    "Reverse immediately back across the hold line if no traffic is visible so the original clearance boundary is restored",
+    "Stop on the runway centerline and wait silently for ATC to notice the incursion and issue corrective instructions"
+  ],
+  [
+    "Indicate the maximum usable pavement width for landing and help judge crosswind component",
+    "Show the touchdown-zone aiming point and tell the pilot where to begin the landing flare",
+    "Identify the runway magnetic heading so the pilot can confirm compass alignment without using runway numbers"
+  ],
+  [
+    "The pavement before the threshold may never be used by aircraft moving in that direction, including taxi and takeoff",
+    "Landing may occur before the displaced threshold if the pilot can clear all obstacles and touches down on pavement markings",
+    "The displaced threshold applies only at night; during daylight the full pavement length is available for normal landing touchdown"
+  ],
+  [
+    "Show the visual glidepath angle by changing color as the airplane moves above or below the desired path",
+    "Mark the far end of the runway so the pilot can judge remaining landing distance at night",
+    "Identify a closed or temporarily unusable runway end with synchronized flashing lights"
+  ],
+  [
+    "Provide runway alignment and lateral-centerline guidance but no vertical glidepath information",
+    "Indicate only whether the runway is open or closed based on light color",
+    "Show wind direction relative to the runway through a white/red light combination"
+  ],
+  [
+    "The airplane is well above the glidepath",
+    "The airplane is approximately on the glidepath but approaching the lower tolerance",
+    "The lights indicate a runway-crossing conflict rather than vertical position"
+  ],
+  [
+    "The airplane is slightly below the glidepath and should climb until three white lights appear",
+    "The airplane is slightly above the glidepath and should descend until one white light remains",
+    "The airplane is on the runway centerline; PAPI color balance indicates lateral rather than vertical alignment"
+  ],
+  [
+    "Identify the active runway direction by rotating toward the runway receiving traffic",
+    "Provide a visual wind-direction indicator for pilots who cannot see the windsock at night",
+    "Signal that the control tower is operating; the beacon is extinguished whenever the airport becomes nontowered"
+  ],
+  [
+    "It gives exact wind speed and direction, so a crosswind calculation can be made without using AWOS or ATIS",
+    "It shows wind direction but not useful relative strength; a fully extended sock has the same meaning as a lightly extended one",
+    "It is aligned to the magnetic runway heading rather than the wind, so extension indicates turbulence intensity only"
+  ],
+  [
+    "ATIS/AWOS replaces the need to monitor tower or CTAF because it contains current traffic and clearance information",
+    "The information is primarily for filing flight plans; pilots should wait to obtain runway and weather conditions directly from the controller",
+    "It is reliable for the entire flight once copied before departure, so a new code or observation need not be checked on return"
+  ],
+  [
+    "The readback transfers responsibility to the controller; if it was not corrected, the pilot may act on the clearance as understood",
+    "Proceed if the runway appears clear visually, because the controller's failure to correct the readback constitutes implied approval",
+    "Hold-short instructions need not be understood word-for-word if the assigned taxi route on the airport diagram is clear"
+  ],
+  [
+    "The runway is available only for takeoff, not landing",
+    "The threshold has been displaced and landing must begin beyond the X",
+    "The runway is closed only to large aircraft; light airplanes may use it if no barricades are present"
+  ],
+  [
+    "Taxi speed is too low for meaningful collision risk, so programming is acceptable as long as the airplane stays near the centerline",
+    "Heads-down time is acceptable on straight taxiways; runway incursions occur mainly during turns and complex intersections",
+    "The main risk is missing an ATC frequency change; position awareness can be restored quickly from the airport diagram after programming"
+  ],
+  [
+    "Continue at minimum taxi speed until a recognizable sign is reached; stopping can create more risk than temporary uncertainty",
+    "Turn toward the nearest visible runway so the pilot can use its number to regain position before contacting ATC",
+    "Follow another aircraft moving toward the same general part of the airport, then request clarification once the route becomes obvious"
+  ],
+  [
+    "Rely on the runway number visible ahead; taxi signs and expected heading are unnecessary once ATC assigns a runway",
+    "Confirm the runway only after beginning the takeoff roll, when the heading indicator provides the most accurate alignment cue",
+    "Use GPS moving-map runway depiction as the primary confirmation because painted markings and signs can be difficult to see at night"
+  ],
+  [
+    "Memorize all airport signs and lights; once their meanings are known, route briefing and radio readbacks add little safety value",
+    "At towered airports, follow clearances exactly and allow ATC to manage runway-conflict awareness; at nontowered airports, rely mainly on CTAF calls",
+    "Keep moving whenever possible because stopping on a taxiway creates congestion; uncertainty should be resolved while taxiing slowly rather than from a stationary position"
+  ]
+]

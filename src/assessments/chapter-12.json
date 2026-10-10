@@ -1,0 +1,602 @@
+[
+  {
+    "id": "CH12-V1-01",
+    "chapter": 12,
+    "topic": "Moisture",
+    "subtopic": "Temperature/dew point spread",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Air temperature is 86 °F and dew point is 82 °F. What does the small temperature/dew-point spread suggest?",
+    "choices": [
+      "The air is close to saturation, so clouds, fog, or precipitation may develop if cooling continues",
+      "The air is very dry, so convective turbulence is more likely than fog if surface heating continues",
+      "The small spread mainly indicates strong wind aloft; saturation depends on pressure rather than temperature/dew point separation",
+      "The air is already saturated and visibility must be below VFR minimums even if no cooling occurs"
+    ],
+    "correctIndex": 0,
+    "explanation": "A small temperature/dew-point spread indicates high relative humidity and little cooling is needed to reach saturation.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Temperature/dew point spread",
+    "learningObjective": "Apply Temperature/dew point spread knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-01"
+  },
+  {
+    "id": "CH12-V1-02",
+    "chapter": 12,
+    "topic": "Fog",
+    "subtopic": "Radiation fog",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A clear, calm night follows a humid day. Which fog type is most likely near sunrise over inland terrain?",
+    "choices": [
+      "Steam fog, because ground cooling causes evaporation into colder air immediately above the surface",
+      "Radiation fog",
+      "Advection fog, because humid air is carried horizontally over the same surface during the night",
+      "Upslope fog, because cooling after sunset creates a weak pressure gradient that pushes air uphill"
+    ],
+    "correctIndex": 1,
+    "explanation": "Radiational cooling under clear skies and light wind can cool moist surface air to its dew point.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Radiation fog",
+    "learningObjective": "Apply Radiation fog knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-02"
+  },
+  {
+    "id": "CH12-V1-03",
+    "chapter": 12,
+    "topic": "Fog",
+    "subtopic": "Advection fog",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Moist air moves over a colder surface and is cooled to saturation while wind continues. Which fog type is most likely?",
+    "choices": [
+      "Upslope fog, because horizontal wind over a cold surface forces the air to rise and cool adiabatically",
+      "Steam fog, because the cold surface adds moisture to the moving air until it becomes saturated",
+      "Advection fog",
+      "Radiation fog, because any cooling to saturation near the surface is caused primarily by terrestrial radiation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Advection fog forms when moist air is transported over a colder surface and cooled to saturation.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Advection fog",
+    "learningObjective": "Apply Advection fog knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-03"
+  },
+  {
+    "id": "CH12-V1-04",
+    "chapter": 12,
+    "topic": "Fog and clouds",
+    "subtopic": "Upslope process",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Wind pushes moist air up rising terrain until it cools to saturation. Which process is producing the cloud/fog?",
+    "choices": [
+      "Advection cooling, because terrain carries the moist air horizontally across progressively colder surfaces",
+      "Radiational cooling, because the terrain surface loses heat and cools the air without requiring vertical motion",
+      "Evaporative cooling, because pressure decreases on the windward slope and moisture evaporates into the parcel",
+      "Upslope cooling"
+    ],
+    "correctIndex": 3,
+    "explanation": "Forced ascent causes expansion and cooling; if saturation is reached, upslope clouds/fog can form.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Upslope process",
+    "learningObjective": "Apply Upslope process knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-04"
+  },
+  {
+    "id": "CH12-V1-05",
+    "chapter": 12,
+    "topic": "Thunderstorms",
+    "subtopic": "Ingredients",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What three ingredients are fundamentally required for thunderstorm development?",
+    "choices": [
+      "Moisture, instability, and a lifting mechanism",
+      "Moisture, stable air, and strong surface wind",
+      "Instability, a temperature inversion, and precipitation already reaching the ground",
+      "A lifting mechanism, dry air aloft, and a strong pressure gradient at the surface"
+    ],
+    "correctIndex": 0,
+    "explanation": "Thunderstorms require sufficient moisture, unstable air, and lift to initiate deep convection.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Ingredients",
+    "learningObjective": "Apply Ingredients knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-05"
+  },
+  {
+    "id": "CH12-V1-06",
+    "chapter": 12,
+    "topic": "Thunderstorms",
+    "subtopic": "Convective development",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why are towering cumulus clouds a serious warning to a VFR pilot even before lightning is observed?",
+    "choices": [
+      "They become hazardous only after a radar echo reaches severe intensity; before that, a VFR airplane can safely pass beneath them",
+      "They indicate strong convective vertical currents that can rapidly develop into thunderstorms and severe turbulence",
+      "Towering cumulus mainly indicate steady stratiform precipitation; lightning is needed before dangerous vertical currents develop",
+      "They show stable air being lifted gently, so the main concern is reduced visibility rather than turbulence"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rapid vertical cloud growth signals significant instability and powerful updrafts.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Convective development",
+    "learningObjective": "Apply Convective development knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-06"
+  },
+  {
+    "id": "CH12-V1-07",
+    "chapter": 12,
+    "topic": "Thunderstorms",
+    "subtopic": "Avoidance",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the safest general strategy for a small airplane confronted with a mature thunderstorm?",
+    "choices": [
+      "Remain below the cloud base where visual references allow the pilot to avoid the strongest rain shafts",
+      "Use airborne or data-link radar to thread between cells as long as the displayed gap remains wider than the airplane's turn radius",
+      "Avoid it by a wide margin rather than attempting to penetrate or “pick through” cells",
+      "Penetrate the weakest visible portion at a right angle so exposure time to turbulence is minimized"
+    ],
+    "correctIndex": 2,
+    "explanation": "Thunderstorms can contain extreme turbulence, hail, lightning, icing, wind shear, and severe vertical currents; avoidance is the primary strategy.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Avoidance",
+    "learningObjective": "Apply Avoidance knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-07"
+  },
+  {
+    "id": "CH12-V1-08",
+    "chapter": 12,
+    "topic": "Thunderstorms",
+    "subtopic": "Anvil hazards",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why can the area beneath a thunderstorm anvil be hazardous even if the airplane remains outside visible precipitation?",
+    "choices": [
+      "The anvil contains only ice crystals, so the primary hazard is static electricity rather than hail or turbulence",
+      "Hazards remain confined beneath the visible precipitation shaft; clear air under an anvil normally indicates safe passage",
+      "Outflow and hail fall vertically beneath the cell, so remaining upwind of the rain shaft eliminates the principal risk",
+      "Hail can be thrown beyond the visible rain shaft and strong outflow/turbulence can extend outside the cell"
+    ],
+    "correctIndex": 3,
+    "explanation": "Thunderstorm hazards extend beyond the visible core; hail and outflow can occur outside the rain shaft.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Anvil hazards",
+    "learningObjective": "Apply Anvil hazards knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-08"
+  },
+  {
+    "id": "CH12-V1-09",
+    "chapter": 12,
+    "topic": "Wind shear",
+    "subtopic": "Microburst",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is a microburst?",
+    "choices": [
+      "A concentrated downdraft that spreads outward near the surface and can produce severe wind shear",
+      "A narrow updraft that strengthens near the surface and produces a rapid increase in headwind on every side",
+      "A rotating horizontal vortex associated only with tornadoes and supercell thunderstorms",
+      "A broad region of steady descending air extending hundreds of miles behind a cold front"
+    ],
+    "correctIndex": 0,
+    "explanation": "Microbursts produce intense, rapidly changing wind vectors and are particularly dangerous during takeoff and landing.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Microburst",
+    "learningObjective": "Apply Microburst knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-09"
+  },
+  {
+    "id": "CH12-V1-10",
+    "chapter": 12,
+    "topic": "Wind shear",
+    "subtopic": "Microburst sequence",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "On final approach, the airplane first gains airspeed in a headwind increase, then encounters a downdraft and tailwind. What hazard pattern does this suggest?",
+    "choices": [
+      "A sea-breeze transition, because surface heating can temporarily shift wind from headwind to tailwind during final approach",
+      "Microburst/wind-shear encounter",
+      "Normal gust spread near a stable cold front, because headwind changes followed by tailwind are expected during frontal passage",
+      "A mountain-wave rotor, because wind direction reverses as the airplane crosses alternating updraft and downdraft zones"
+    ],
+    "correctIndex": 1,
+    "explanation": "A microburst can create a headwind gain followed by downdraft and tailwind, rapidly reducing performance near the ground.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Microburst sequence",
+    "learningObjective": "Apply Microburst sequence knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-10"
+  },
+  {
+    "id": "CH12-V1-11",
+    "chapter": 12,
+    "topic": "Stability",
+    "subtopic": "Stable air",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Stable air is most commonly associated with which conditions?",
+    "choices": [
+      "Clear air with strong thermals and gusty surface winds but little haze or fog",
+      "Narrow convective bands and rapidly changing wind because stable air favors vigorous vertical motion",
+      "Stratiform clouds, smoother air, and potentially poor visibility in haze/fog",
+      "Towering cumulus, frequent turbulence, and short intense showers with excellent mixing"
+    ],
+    "correctIndex": 2,
+    "explanation": "Stable air resists vertical motion, favoring layered clouds and smoother conditions but often trapping haze and moisture.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Stable air",
+    "learningObjective": "Apply Stable air knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-11"
+  },
+  {
+    "id": "CH12-V1-12",
+    "chapter": 12,
+    "topic": "Stability",
+    "subtopic": "Unstable air",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Unstable air is most commonly associated with which conditions?",
+    "choices": [
+      "Layered clouds, steady precipitation, and widespread haze with weak vertical motion",
+      "Smooth air with widespread fog because unstable air suppresses vertical mixing near the surface",
+      "Strong inversions and persistent low stratus because unstable air resists parcels moving away from equilibrium",
+      "Cumuliform clouds, turbulence, showery precipitation, and generally better visibility between clouds"
+    ],
+    "correctIndex": 3,
+    "explanation": "Unstable air supports vertical motion, convective clouds, turbulence, and showery precipitation.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Unstable air",
+    "learningObjective": "Apply Unstable air knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-12"
+  },
+  {
+    "id": "CH12-V1-13",
+    "chapter": 12,
+    "topic": "Stability",
+    "subtopic": "Temperature inversion",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What does a temperature inversion do to vertical mixing?",
+    "choices": [
+      "It increases atmospheric stability and tends to suppress vertical mixing",
+      "It decreases stability because warmer air above accelerates rising parcels upward through the inversion",
+      "It has little effect on stability; inversions change visibility but not vertical parcel motion",
+      "It promotes strong vertical mixing by creating a steep temperature decrease with altitude"
+    ],
+    "correctIndex": 0,
+    "explanation": "Temperature increasing with height creates a stable layer that resists vertical displacement.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Temperature inversion",
+    "learningObjective": "Apply Temperature inversion knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-13"
+  },
+  {
+    "id": "CH12-V1-14",
+    "chapter": 12,
+    "topic": "Stability",
+    "subtopic": "Inversion and visibility",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why can a strong inversion near the surface contribute to poor visibility?",
+    "choices": [
+      "It produces strong convective updrafts that concentrate smoke into narrow columns rather than a broad haze layer",
+      "Stable air traps moisture, smoke, and pollutants near the surface",
+      "It accelerates vertical mixing, spreading smoke and moisture through a deeper layer until visibility improves near the surface",
+      "It lowers dew point rapidly, creating dry surface air while pollutants remain trapped above the inversion"
+    ],
+    "correctIndex": 1,
+    "explanation": "Weak vertical mixing allows haze and contaminants to accumulate in the lower atmosphere.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Inversion and visibility",
+    "learningObjective": "Apply Inversion and visibility knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-14"
+  },
+  {
+    "id": "CH12-V1-15",
+    "chapter": 12,
+    "topic": "Fronts",
+    "subtopic": "Cold front",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A cold front approaches warm, moist, unstable air. What weather pattern is most likely?",
+    "choices": [
+      "Gradual clearing, weak winds, and stable air because cold air undercuts and removes the warm moist layer without convection",
+      "A broad region of radiation fog only, because rapidly moving cold air is too dense to support thunderstorm development",
+      "Narrower band of more vigorous convection, gusty winds, and potentially thunderstorms",
+      "Widespread layered clouds and light continuous precipitation extending far ahead of the front with little turbulence"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cold fronts force warm air upward relatively rapidly, often producing stronger convective weather when moisture and instability are present.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Cold front",
+    "learningObjective": "Apply Cold front knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-15"
+  },
+  {
+    "id": "CH12-V1-16",
+    "chapter": 12,
+    "topic": "Fronts",
+    "subtopic": "Warm front",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A warm front advances over retreating cold air. What general cloud/precipitation pattern is common?",
+    "choices": [
+      "A narrow line of thunderstorms immediately at the surface front with rapid clearing ahead of it",
+      "Mostly clear weather ahead of the front followed by isolated showers only after warm air reaches the surface",
+      "Strong mechanical turbulence with little cloud because warm air descends over the colder surface and warms adiabatically",
+      "Widespread layered clouds and precipitation developing ahead of the surface front"
+    ],
+    "correctIndex": 3,
+    "explanation": "Warm air typically overruns a shallow cold air mass gradually, favoring extensive stratiform clouds and steady precipitation.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Warm front",
+    "learningObjective": "Apply Warm front knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-16"
+  },
+  {
+    "id": "CH12-V1-17",
+    "chapter": 12,
+    "topic": "Icing",
+    "subtopic": "Freezing rain",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is freezing rain especially dangerous to aircraft?",
+    "choices": [
+      "Supercooled large droplets can spread before freezing, producing rapid clear-ice accumulation beyond protected areas",
+      "It forms only a thin rough layer on leading edges and usually stops accumulating once the surface is coated",
+      "It is less serious than rime because transparent ice preserves the airfoil shape and can be seen through from the cockpit",
+      "It normally sheds itself as droplets freeze slowly, so the main concern is visibility rather than aerodynamic degradation"
+    ],
+    "correctIndex": 0,
+    "explanation": "Freezing rain can create severe clear icing quickly and may overwhelm ice-protection systems.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Freezing rain",
+    "learningObjective": "Apply Freezing rain knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-17"
+  },
+  {
+    "id": "CH12-V1-18",
+    "chapter": 12,
+    "topic": "Icing",
+    "subtopic": "Icing ingredients",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What atmospheric conditions are generally required for structural icing?",
+    "choices": [
+      "Any cloud with liquid water can produce structural icing regardless of temperature because aerodynamic cooling always freezes the droplets",
+      "Visible moisture and aircraft surfaces at or below freezing temperature",
+      "Visible moisture and outside-air temperature below 0°C are sufficient even if the aircraft surface remains above freezing",
+      "Subfreezing surface temperature alone; visible moisture is unnecessary because water vapor deposits directly as structural ice in most cases"
+    ],
+    "correctIndex": 1,
+    "explanation": "Structural icing needs supercooled liquid water or suitable frozen/moisture conditions contacting a cold airframe.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Icing ingredients",
+    "learningObjective": "Apply Icing ingredients knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-18"
+  },
+  {
+    "id": "CH12-V1-19",
+    "chapter": 12,
+    "topic": "Icing",
+    "subtopic": "Rime ice",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What characterizes rime ice compared with clear ice?",
+    "choices": [
+      "A dense glaze that forms when supercooled rain freezes slowly and runs aft beyond protected areas",
+      "An ice type caused mainly by water vapor deposition in clear air rather than supercooled cloud droplets",
+      "Rime tends to be rough, opaque, and formed from smaller droplets that freeze rapidly",
+      "A smooth transparent coating formed from large droplets that spread before freezing"
+    ],
+    "correctIndex": 2,
+    "explanation": "Rapid freezing traps air and creates an opaque, rough deposit.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Rime ice",
+    "learningObjective": "Apply Rime ice knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-19"
+  },
+  {
+    "id": "CH12-V1-20",
+    "chapter": 12,
+    "topic": "Icing",
+    "subtopic": "Clear ice",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What characterizes clear ice?",
+    "choices": [
+      "A rough opaque deposit from small droplets that freeze immediately on impact",
+      "A porous white deposit created only at temperatures well below −20°C where liquid water cannot exist",
+      "An ice type confined to propellers because large droplets are centrifuged off wing leading edges before freezing",
+      "Larger supercooled droplets spread before freezing, producing a harder, often transparent or translucent coating"
+    ],
+    "correctIndex": 3,
+    "explanation": "Larger droplets freeze more slowly and can flow aft before solidifying, forming dense clear ice.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Clear ice",
+    "learningObjective": "Apply Clear ice knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-20"
+  },
+  {
+    "id": "CH12-V1-21",
+    "chapter": 12,
+    "topic": "Icing",
+    "subtopic": "Frost",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why can frost be dangerous even when it is very thin?",
+    "choices": [
+      "It roughens the airfoil surface, disturbing airflow and reducing lift while increasing drag",
+      "Thin frost adds negligible roughness; its main effect is the additional weight of the ice on the wing",
+      "Frost can be ignored if the wing's leading edge is clean because lift is generated mainly over the first few inches of chord",
+      "Frost generally raises maximum lift by energizing the boundary layer, although parasite drag may increase slightly"
+    ],
+    "correctIndex": 0,
+    "explanation": "Even small surface roughness can cause early separation and significant aerodynamic degradation.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Frost",
+    "learningObjective": "Apply Frost knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-21"
+  },
+  {
+    "id": "CH12-V1-22",
+    "chapter": 12,
+    "topic": "Wind",
+    "subtopic": "Wind forces",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What causes wind in the atmosphere at the broadest level?",
+    "choices": [
+      "Surface friction is the primary driver of wind; pressure gradients only alter the wind after it begins moving",
+      "Pressure-gradient force, modified by Coriolis effect, friction, and terrain/local effects",
+      "Coriolis force alone; pressure differences develop only after air has already started moving",
+      "Uneven solar heating directly creates wind speed and direction without a pressure-gradient force"
+    ],
+    "correctIndex": 1,
+    "explanation": "Air accelerates from pressure differences, while rotation, friction, and terrain shape the resulting wind.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Wind forces",
+    "learningObjective": "Apply Wind forces knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-22"
+  },
+  {
+    "id": "CH12-V1-23",
+    "chapter": 12,
+    "topic": "Wind",
+    "subtopic": "Surface friction",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why does surface wind typically cross isobars toward lower pressure more than upper-level wind does?",
+    "choices": [
+      "Surface friction increases wind speed, so inertia carries the wind farther across the pressure gradient toward low pressure",
+      "Friction reduces the pressure-gradient force itself, causing the wind to turn toward higher pressure near the surface",
+      "Surface friction slows the wind and weakens Coriolis deflection, allowing a greater component toward low pressure",
+      "Friction strengthens Coriolis force near the ground, turning the wind more sharply parallel to the isobars"
+    ],
+    "correctIndex": 2,
+    "explanation": "Friction changes the force balance near the surface, causing wind to cross isobars toward lower pressure.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Surface friction",
+    "learningObjective": "Apply Surface friction knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-23"
+  },
+  {
+    "id": "CH12-V1-24",
+    "chapter": 12,
+    "topic": "Wind",
+    "subtopic": "Pressure gradient",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot expects strong winds aloft near a region where isobars are tightly packed. Why?",
+    "choices": [
+      "Tightly packed isobars indicate weak pressure change over distance and therefore stronger Coriolis acceleration",
+      "Isobar spacing represents temperature gradient rather than pressure gradient, so strong winds are expected because of thermal mixing",
+      "Closely spaced isobars show pressure changing rapidly with altitude, which strengthens vertical rather than horizontal wind",
+      "Closely spaced isobars indicate a strong horizontal pressure gradient"
+    ],
+    "correctIndex": 3,
+    "explanation": "A stronger pressure gradient generally produces stronger wind when other factors are comparable.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Pressure gradient",
+    "learningObjective": "Apply Pressure gradient knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-24"
+  },
+  {
+    "id": "CH12-V1-25",
+    "chapter": 12,
+    "topic": "Wind",
+    "subtopic": "Coriolis effect",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the Coriolis effect?",
+    "choices": [
+      "The apparent deflection of moving air caused by Earth’s rotation",
+      "A real force caused by Earth's magnetic field pulling moving air to the right or left",
+      "The deflection of wind toward lower pressure caused by surface friction",
+      "The tendency for moving air to curve because pressure decreases with altitude and parcels conserve energy"
+    ],
+    "correctIndex": 0,
+    "explanation": "Earth’s rotation causes large-scale moving air to appear deflected relative to the surface.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Coriolis effect",
+    "learningObjective": "Apply Coriolis effect knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-25"
+  },
+  {
+    "id": "CH12-V1-26",
+    "chapter": 12,
+    "topic": "Atmospheric processes",
+    "subtopic": "Adiabatic cooling",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why does rising unsaturated air cool?",
+    "choices": [
+      "Evaporation always occurs during ascent and absorbs latent heat even when the parcel is dry",
+      "As pressure decreases with height, the parcel expands and uses internal energy, producing adiabatic cooling",
+      "Rising air is compressed by lower surrounding pressure, and compression removes heat from the parcel",
+      "The parcel loses heat primarily by radiation to colder upper-atmosphere layers during ascent"
+    ],
+    "correctIndex": 1,
+    "explanation": "Expansion under lower ambient pressure causes adiabatic cooling.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Adiabatic cooling",
+    "learningObjective": "Apply Adiabatic cooling knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-26"
+  },
+  {
+    "id": "CH12-V1-27",
+    "chapter": 12,
+    "topic": "Atmospheric processes",
+    "subtopic": "Latent heat",
+    "difficulty": "advanced",
+    "type": "scenario",
+    "prompt": "Why is the saturated adiabatic lapse rate generally less than the dry adiabatic lapse rate?",
+    "choices": [
+      "Water vapor has a higher specific heat, and that alone fixes the saturated lapse rate regardless of condensation",
+      "Condensation absorbs latent heat from the parcel, increasing the rate at which saturated air cools",
+      "Condensation releases latent heat, partly offsetting cooling",
+      "Saturated air expands less than dry air, so it experiences less pressure change for the same altitude gain"
+    ],
+    "correctIndex": 2,
+    "explanation": "Latent heat released during condensation reduces the rate of temperature decrease in saturated rising air.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Latent heat",
+    "learningObjective": "Apply Latent heat knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-27"
+  },
+  {
+    "id": "CH12-V1-28",
+    "chapter": 12,
+    "topic": "Mountain weather",
+    "subtopic": "Mountain waves",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot sees lenticular clouds near a mountain range in strong winds. What operational hazard should be suspected?",
+    "choices": [
+      "A strong low-level temperature inversion with smooth air on both sides of the ridge",
+      "Sea-breeze circulation caused by differential heating of mountain slopes and adjacent valleys",
+      "Only localized mechanical turbulence immediately on the windward side; lenticular clouds indicate smooth flow on the lee side",
+      "Mountain-wave activity with potentially severe turbulence and strong vertical currents"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lenticular clouds are classic indicators of mountain waves and may be associated with severe turbulence and rotor activity.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Mountain waves",
+    "learningObjective": "Apply Mountain waves knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-28"
+  },
+  {
+    "id": "CH12-V1-29",
+    "chapter": 12,
+    "topic": "Mountain weather",
+    "subtopic": "Terrain-induced turbulence",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why are rapidly changing surface winds near mountainous terrain a concern even in clear skies?",
+    "choices": [
+      "Terrain can create mechanical turbulence, rotors, downdrafts, and strong local wind gradients",
+      "Clear skies eliminate significant vertical currents, so only crosswind components at airports need consideration",
+      "Mountain terrain smooths strong winds by forcing them to follow the surface, reducing turbulence above ridge level",
+      "Rapid wind shifts usually indicate frontal passage only; terrain affects direction but not vertical motion or rotor formation"
+    ],
+    "correctIndex": 0,
+    "explanation": "Wind interacting with terrain can create hazardous vertical and horizontal flow even without clouds.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Terrain-induced turbulence",
+    "learningObjective": "Apply Terrain-induced turbulence knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-29"
+  },
+  {
+    "id": "CH12-V1-30",
+    "chapter": 12,
+    "topic": "Weather theory",
+    "subtopic": "Operational synthesis",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the best operational summary of weather theory?",
+    "choices": [
+      "Treat each hazard separately; combining stability, moisture, terrain, and wind tends to overstate risk because the factors are independent",
+      "Understand how moisture, stability, pressure, temperature, fronts, terrain, and convection create the conditions that affect aircraft performance and flight safety",
+      "Memorize weather-product symbols; physical weather theory is mainly needed by forecasters rather than pilots",
+      "Use ceiling and visibility as the primary go/no-go values because other weather processes affect comfort more than aircraft safety"
+    ],
+    "correctIndex": 1,
+    "explanation": "Weather theory lets pilots anticipate development and recognize when current observations may lead to hazardous future conditions.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 12 — Operational synthesis",
+    "learningObjective": "Apply Operational synthesis knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch12-30"
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "id": "CH07-V1-01",
+    "chapter": 7,
+    "topic": "Ignition",
+    "subtopic": "Magneto check",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "During the before-takeoff magneto check, one magneto produces an excessive RPM drop. Why is this significant?",
+    "choices": [
+      "The engine ignition system may not be operating within limits, so the discrepancy should be resolved before takeoff",
+      "The drop shows the alternator is not supplying enough electrical power, but ignition is unaffected so takeoff can continue",
+      "An excessive drop confirms both magnetos are firing together; the higher drop is expected as the plugs warm during run-up",
+      "The magneto check is only a carburetor-icing check, so an RPM drop outside limits matters only in visible moisture"
+    ],
+    "correctIndex": 0,
+    "explanation": "Most reciprocating aircraft engines use dual, engine-driven magnetos. An abnormal check can indicate ignition-system problems that affect power and reliability.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Magneto check",
+    "learningObjective": "Apply Magneto check knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-01"
+  },
+  {
+    "id": "CH07-V1-02",
+    "chapter": 7,
+    "topic": "Ignition",
+    "subtopic": "Independent ignition",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "An aircraft experiences a total alternator failure in cruise, but the engine continues running normally. Why?",
+    "choices": [
+      "The alternator powers only avionics; a separate engine-driven generator normally supplies the ignition system",
+      "The magnetos provide ignition independently of the main electrical system",
+      "The battery supplies enough ignition energy to the spark plugs even after the alternator stops charging",
+      "The engine continues because a mechanical fuel pump also generates the ignition spark independently of electricity"
+    ],
+    "correctIndex": 1,
+    "explanation": "Engine-driven magnetos generate ignition energy independently, so a main electrical failure does not normally stop a conventional magneto-ignition engine.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Independent ignition",
+    "learningObjective": "Apply Independent ignition knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-02"
+  },
+  {
+    "id": "CH07-V1-03",
+    "chapter": 7,
+    "topic": "Induction",
+    "subtopic": "Carburetor ice",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A carbureted engine begins running rough with a gradual RPM loss in conditions favorable for carburetor icing. What is the most likely mechanism?",
+    "choices": [
+      "Fuel freezes in the lines because carburetor temperature drops below the fuel's freezing point",
+      "Induction icing increases airflow and leans the mixture until combustion becomes too weak to maintain RPM",
+      "Ice restricts airflow in the carburetor and disturbs the fuel-air mixture",
+      "Ice forms on the outside of the carburetor and mechanically prevents the throttle plate from moving"
+    ],
+    "correctIndex": 2,
+    "explanation": "Fuel vaporization and pressure drop can cool the carburetor throat enough for ice to form and restrict airflow.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Carburetor ice",
+    "learningObjective": "Apply Carburetor ice knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-03"
+  },
+  {
+    "id": "CH07-V1-04",
+    "chapter": 7,
+    "topic": "Induction",
+    "subtopic": "Carburetor icing conditions",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why can carburetor ice form when outside air temperature is above freezing?",
+    "choices": [
+      "Carburetor pressure is higher than ambient, so compression heating can later be followed by rapid icing",
+      "Only high humidity matters; temperature can be well above freezing because ice forms from frozen fuel droplets rather than water",
+      "The venturi and fuel vaporization can raise air temperature first, causing moisture to condense and freeze downstream",
+      "Vaporization and pressure drop in the carburetor can lower internal temperature substantially below ambient"
+    ],
+    "correctIndex": 3,
+    "explanation": "The carburetor can experience a significant temperature drop, so icing is possible in temperatures well above freezing when moisture is present.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Carburetor icing conditions",
+    "learningObjective": "Apply Carburetor icing conditions knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-04"
+  },
+  {
+    "id": "CH07-V1-05",
+    "chapter": 7,
+    "topic": "Induction",
+    "subtopic": "Carburetor heat use",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "When carburetor heat is applied to an engine already experiencing carburetor ice, what initial engine response may occur?",
+    "choices": [
+      "Additional roughness or RPM loss as melting ice/water passes through, followed by improvement if ice is removed",
+      "RPM should rise immediately because carburetor heat always increases available engine power while melting ice",
+      "No change should occur until all ice has melted; any additional roughness proves the problem was not carburetor ice",
+      "RPM normally increases at first because melting ice enriches the mixture, then decreases once warm unfiltered air enters"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hot air is less dense and melting ice can temporarily worsen roughness before normal airflow returns.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Carburetor heat use",
+    "learningObjective": "Apply Carburetor heat use knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-05"
+  },
+  {
+    "id": "CH07-V1-06",
+    "chapter": 7,
+    "topic": "Induction",
+    "subtopic": "Carb heat performance",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why does full carburetor heat normally reduce engine power even when no ice is present?",
+    "choices": [
+      "Heated induction air increases density but reduces fuel vaporization, so combustion becomes less efficient",
+      "Heated induction air is less dense, reducing the mass of oxygen entering the engine",
+      "Heated air contains more oxygen per unit volume, making the mixture excessively lean and reducing power",
+      "Carburetor heat closes a secondary throttle plate, reducing manifold pressure regardless of air temperature"
+    ],
+    "correctIndex": 1,
+    "explanation": "Warmer air is less dense, so the engine receives less oxygen for combustion at a given throttle setting.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Carb heat performance",
+    "learningObjective": "Apply Carb heat performance knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-06"
+  },
+  {
+    "id": "CH07-V1-07",
+    "chapter": 7,
+    "topic": "Fuel-air mixture",
+    "subtopic": "Mixture control",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "At a high-density-altitude airport, a normally aspirated engine is operated with an excessively rich mixture for takeoff. What is the likely effect?",
+    "choices": [
+      "No meaningful power change; mixture ratio affects economy but not maximum-power output during takeoff",
+      "Higher cylinder temperature only; the engine develops the same power because throttle position determines airflow",
+      "Reduced power because the fuel-air mixture contains too much fuel for the reduced mass of air",
+      "Increased power because the rich mixture provides extra fuel needed to compensate for thin air"
+    ],
+    "correctIndex": 2,
+    "explanation": "As air density decreases, an overly rich mixture can reduce combustion efficiency and available power.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Mixture control",
+    "learningObjective": "Apply Mixture control knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-07"
+  },
+  {
+    "id": "CH07-V1-08",
+    "chapter": 7,
+    "topic": "Fuel-air mixture",
+    "subtopic": "Mixture procedures",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why must a pilot follow the aircraft-specific mixture procedure rather than applying one universal leaning technique?",
+    "choices": [
+      "All normally aspirated piston engines use the same best-power mixture, so a universal EGT target can be applied to any airplane",
+      "Mixture should always remain full rich below a single standard density altitude, regardless of manufacturer guidance",
+      "Leaning technique depends only on altitude; fuel-injection versus carburetion and engine instrumentation do not change the procedure",
+      "Engine type, fuel system, instrumentation, operating phase, and manufacturer limitations differ"
+    ],
+    "correctIndex": 3,
+    "explanation": "Proper mixture management is aircraft/engine specific and must follow approved procedures and instrumentation.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Mixture procedures",
+    "learningObjective": "Apply Mixture procedures knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-08"
+  },
+  {
+    "id": "CH07-V1-09",
+    "chapter": 7,
+    "topic": "Combustion",
+    "subtopic": "Detonation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "During a high-power climb, the engine begins producing a sharp metallic knocking sound and unusually high cylinder temperatures even though the spark occurred normally. Which combustion abnormality best describes what is happening?",
+    "choices": [
+      "Abnormally rapid, explosive combustion of the remaining charge after normal ignition has begun",
+      "Ignition occurs before the spark due to a hot spot, starting combustion too early in the cycle",
+      "Normal flame propagation continues smoothly but at an excessively rich fuel-air ratio",
+      "The spark plug fires after top dead center, causing the entire charge to burn too slowly and overheat the exhaust valve"
+    ],
+    "correctIndex": 0,
+    "explanation": "Detonation is an abnormally rapid, explosive combustion of the remaining fuel-air charge after the spark has initiated normal combustion. It creates severe pressure and temperature spikes that can damage pistons, valves, and cylinder heads, so a pilot should treat indications of detonation seriously and follow the aircraft/engine procedures for reducing it.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Detonation",
+    "learningObjective": "Apply Detonation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-09"
+  },
+  {
+    "id": "CH07-V1-10",
+    "chapter": 7,
+    "topic": "Combustion",
+    "subtopic": "Preignition",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is preignition?",
+    "choices": [
+      "A second spark from the opposite magneto fires after combustion starts, creating two normal flame fronts",
+      "The fuel-air charge ignites before the normal spark because of a hot spot in the cylinder",
+      "The remaining unburned charge explodes after normal ignition has begun because pressure and temperature rise excessively",
+      "The mixture burns normally but at a rate too fast for the propeller governor to maintain selected RPM"
+    ],
+    "correctIndex": 1,
+    "explanation": "Preignition occurs when a hot spot ignites the mixture before the normal spark, causing damaging pressure and temperature effects.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Preignition",
+    "learningObjective": "Apply Preignition knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-10"
+  },
+  {
+    "id": "CH07-V1-11",
+    "chapter": 7,
+    "topic": "Combustion",
+    "subtopic": "Engine temperature management",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot suspects detonation or excessive cylinder temperature in climb. Which general response reduces the condition?",
+    "choices": [
+      "Close cowl flaps to reduce drag and richen only if RPM decreases, because excess cooling can worsen detonation",
+      "Maintain the same power and airspeed; detonation normally clears on its own as cylinder temperature stabilizes",
+      "Reduce engine stress according to the POH—such as lowering power/increasing cooling airflow and correcting mixture as applicable",
+      "Increase power to shorten the time the engine spends at high temperature, then lean aggressively for cleaner combustion"
+    ],
+    "correctIndex": 2,
+    "explanation": "Detonation risk is reduced by lowering temperature and pressure and following the engine manufacturer’s operating procedure.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Engine temperature management",
+    "learningObjective": "Apply Engine temperature management knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-11"
+  },
+  {
+    "id": "CH07-V1-12",
+    "chapter": 7,
+    "topic": "Lubrication",
+    "subtopic": "Oil functions",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is engine oil considered both a lubricant and a cooling medium?",
+    "choices": [
+      "Oil primarily seals the combustion chamber; cooling is provided almost entirely by external airflow over the cylinders",
+      "Oil carries heat only from the crankcase, while bearings and pistons are cooled directly by the fuel-air mixture",
+      "Oil reduces friction but should remain thermally insulated from hot components so viscosity does not change",
+      "It reduces friction and carries heat away from internal engine components"
+    ],
+    "correctIndex": 3,
+    "explanation": "Oil lubricates moving surfaces and absorbs/transfers heat while also helping clean, seal, and protect components.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Oil functions",
+    "learningObjective": "Apply Oil functions knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-12"
+  },
+  {
+    "id": "CH07-V1-13",
+    "chapter": 7,
+    "topic": "Lubrication",
+    "subtopic": "Oil-system failure",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Oil pressure drops toward zero while oil temperature begins rising. What should the pilot suspect?",
+    "choices": [
+      "A potentially serious lubrication-system problem requiring prompt action under the aircraft checklist",
+      "A normal indication caused by rapid cooling; lower oil pressure and higher temperature often occur together after leveling off",
+      "A likely electrical-instrument problem because true oil pressure cannot fall while temperature rises",
+      "An indication that the oil is becoming less viscous but lubrication remains adequate as long as engine RPM is stable"
+    ],
+    "correctIndex": 0,
+    "explanation": "Loss of oil pressure can quickly lead to engine damage; rising temperature reinforces the seriousness of the indication.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Oil-system failure",
+    "learningObjective": "Apply Oil-system failure knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-13"
+  },
+  {
+    "id": "CH07-V1-14",
+    "chapter": 7,
+    "topic": "Cooling",
+    "subtopic": "Engine temperature",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is cylinder-head temperature important on an air-cooled piston engine?",
+    "choices": [
+      "Cylinder-head temperature matters only during leaning; detonation and preignition are controlled entirely by magneto timing",
+      "Excessive temperature can lead to detonation, preignition, loss of strength, and engine damage",
+      "It is mainly a comfort indication; cylinder temperatures affect cabin heat but not combustion or engine strength",
+      "Lower cylinder temperature always improves efficiency, so the indication is used only to prevent the engine from running too cool"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cylinder temperature is a key indication of thermal stress and proper engine cooling.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Engine temperature",
+    "learningObjective": "Apply Engine temperature knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-14"
+  },
+  {
+    "id": "CH07-V1-15",
+    "chapter": 7,
+    "topic": "Cooling",
+    "subtopic": "Cowl flaps",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the basic purpose of cowl flaps when installed?",
+    "choices": [
+      "Control induction-air temperature to prevent carburetor icing in climb and cruise",
+      "Change the exhaust back pressure to regulate engine power without moving the throttle",
+      "Regulate cooling airflow through the engine compartment",
+      "Adjust engine oil flow to the propeller governor so selected RPM remains constant"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cowl flaps change cooling-air flow and drag to manage engine temperature.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Cowl flaps",
+    "learningObjective": "Apply Cowl flaps knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-15"
+  },
+  {
+    "id": "CH07-V1-16",
+    "chapter": 7,
+    "topic": "Propellers",
+    "subtopic": "Fixed-pitch propeller",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A fixed-pitch propeller is described as a compromise. Why?",
+    "choices": [
+      "Its blade angle automatically changes with RPM even though the pilot has no propeller control",
+      "A fixed blade angle is efficient for cruise but produces the same thrust and efficiency at every other airspeed",
+      "The propeller can be optimized for either climb or cruise by changing engine RPM alone, so the compromise is mainly noise",
+      "Its blade angle cannot optimize efficiency for both low-speed climb and high-speed cruise"
+    ],
+    "correctIndex": 3,
+    "explanation": "One fixed blade angle must serve a wide range of speeds and power settings, so it cannot be optimal everywhere.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Fixed-pitch propeller",
+    "learningObjective": "Apply Fixed-pitch propeller knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-16"
+  },
+  {
+    "id": "CH07-V1-17",
+    "chapter": 7,
+    "topic": "Propellers",
+    "subtopic": "Constant-speed propeller",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What does a constant-speed propeller governor attempt to maintain?",
+    "choices": [
+      "Selected propeller RPM by changing blade angle",
+      "Selected manifold pressure by varying blade angle while engine RPM changes with airspeed",
+      "Selected engine power by keeping blade angle fixed and adjusting throttle position automatically",
+      "Selected airspeed by changing blade angle until propeller thrust balances aircraft drag"
+    ],
+    "correctIndex": 0,
+    "explanation": "The governor varies propeller blade angle to keep RPM near the selected value as power and airspeed change.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Constant-speed propeller",
+    "learningObjective": "Apply Constant-speed propeller knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-17"
+  },
+  {
+    "id": "CH07-V1-18",
+    "chapter": 7,
+    "topic": "Propellers",
+    "subtopic": "Power management",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "In a constant-speed propeller airplane, why are throttle and propeller controls considered separate?",
+    "choices": [
+      "Throttle sets mixture strength at the intake while propeller control changes manifold pressure through blade pitch",
+      "Throttle primarily affects engine power/manifold pressure while the propeller control selects governing RPM, within operating procedures",
+      "Both controls directly set RPM; the throttle is used for coarse RPM and propeller control for fine RPM",
+      "The propeller control selects engine torque while throttle controls blade angle through the governor"
+    ],
+    "correctIndex": 1,
+    "explanation": "Power and propeller speed are managed through distinct controls in typical constant-speed installations and must be coordinated per the POH.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Power management",
+    "learningObjective": "Apply Power management knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-18"
+  },
+  {
+    "id": "CH07-V1-19",
+    "chapter": 7,
+    "topic": "Electrical",
+    "subtopic": "Alternator failure",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "An alternator fails at night. What is the key energy-management issue?",
+    "choices": [
+      "Engine ignition will stop as soon as battery voltage falls because the magnetos depend on bus power for spark timing",
+      "Landing can be delayed if the engine remains smooth, because radios and lights draw power only when transmitting or illuminated",
+      "The battery becomes a finite source powering essential electrical loads, so load shedding and landing planning become important",
+      "The battery will continue at full output until it is suddenly empty, so load shedding has little value before voltage drops to zero"
+    ],
+    "correctIndex": 2,
+    "explanation": "With no charging source, the battery can supply electrical equipment only for a limited time.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Alternator failure",
+    "learningObjective": "Apply Alternator failure knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-19"
+  },
+  {
+    "id": "CH07-V1-20",
+    "chapter": 7,
+    "topic": "Electrical",
+    "subtopic": "Circuit protection",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the primary function of a circuit breaker or fuse?",
+    "choices": [
+      "Prevent the alternator from overcharging the battery by regulating system voltage during normal operation",
+      "Protect the battery from becoming completely discharged by disconnecting it when charge falls below a set value",
+      "Provide a convenient cockpit switch for equipment that the manufacturer expects the pilot to cycle repeatedly in flight",
+      "Protect wiring/equipment from excessive current by opening the circuit"
+    ],
+    "correctIndex": 3,
+    "explanation": "Circuit protection limits damage and fire risk from electrical faults or overloads.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Circuit protection",
+    "learningObjective": "Apply Circuit protection knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-20"
+  },
+  {
+    "id": "CH07-V1-21",
+    "chapter": 7,
+    "topic": "Electrical",
+    "subtopic": "Circuit-breaker discipline",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is repeatedly resetting a circuit breaker generally unsafe unless the checklist specifically directs it?",
+    "choices": [
+      "A tripped breaker may indicate a fault; repeated resets can overheat wiring or feed a fire",
+      "A breaker should be reset repeatedly until it stays closed because each reset helps identify whether the fault is temporary",
+      "A tripped breaker always means the connected equipment has failed open, so resetting cannot increase fire risk",
+      "Resetting is harmless below maximum bus voltage because circuit protection will immediately prevent any dangerous current"
+    ],
+    "correctIndex": 0,
+    "explanation": "A breaker can trip because of a real electrical fault. Re-energizing the fault may worsen damage or fire risk.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Circuit-breaker discipline",
+    "learningObjective": "Apply Circuit-breaker discipline knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-21"
+  },
+  {
+    "id": "CH07-V1-22",
+    "chapter": 7,
+    "topic": "Fuel systems",
+    "subtopic": "Fuel starvation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A fuel selector is positioned to an empty tank while a full tank remains available. What is the immediate engine risk?",
+    "choices": [
+      "Mixture starvation, because the engine becomes too lean but fuel continues reaching the carburetor from the selected tank",
+      "Fuel starvation despite adequate total fuel aboard",
+      "Fuel exhaustion, because the airplane's usable fuel supply has effectively been consumed even though another tank contains fuel",
+      "Vapor lock only, because selecting an empty tank cannot interrupt fuel flow if total fuel quantity is adequate"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fuel starvation means usable fuel exists but is not reaching the engine due to selection, blockage, pump, or system configuration.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Fuel starvation",
+    "learningObjective": "Apply Fuel starvation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-22"
+  },
+  {
+    "id": "CH07-V1-23",
+    "chapter": 7,
+    "topic": "Fuel systems",
+    "subtopic": "Starvation versus exhaustion",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "How does fuel starvation differ from fuel exhaustion?",
+    "choices": [
+      "Starvation is caused only by vapor in fuel lines, while exhaustion includes any interruption from tank selection or pump failure",
+      "The terms are interchangeable; both describe any engine stoppage caused by insufficient fuel flow",
+      "Starvation means fuel is aboard but not reaching the engine; exhaustion means usable fuel has been consumed",
+      "Starvation means the tanks are empty; exhaustion means fuel remains but is unavailable because of system configuration"
+    ],
+    "correctIndex": 2,
+    "explanation": "The distinction matters during troubleshooting and prevention: one is delivery/configuration, the other is lack of usable fuel.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Starvation versus exhaustion",
+    "learningObjective": "Apply Starvation versus exhaustion knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-23"
+  },
+  {
+    "id": "CH07-V1-24",
+    "chapter": 7,
+    "topic": "Fuel systems",
+    "subtopic": "Fuel venting",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why are fuel-tank vents important?",
+    "choices": [
+      "They allow outside air into the tank only during refueling; in flight, the tank should remain sealed to maintain fuel pressure",
+      "They vent fuel vapor overboard to prevent an excessively rich engine mixture but do not affect liquid fuel flow",
+      "They pressurize the fuel tank above ambient so a gravity-feed system can operate even when the fuel level is below the engine",
+      "They allow pressure equalization so fuel can flow without a vacuum forming in the tank"
+    ],
+    "correctIndex": 3,
+    "explanation": "A blocked vent can restrict fuel flow or deform a tank because fuel removal must be matched by air entering.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Fuel venting",
+    "learningObjective": "Apply Fuel venting knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-24"
+  },
+  {
+    "id": "CH07-V1-25",
+    "chapter": 7,
+    "topic": "Fuel systems",
+    "subtopic": "Fuel quantity verification",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why should a pilot visually verify fuel quantity rather than relying only on cockpit fuel gauges when practical?",
+    "choices": [
+      "Fuel indications can be inaccurate or limited, and direct verification plus records/planning provides a stronger check",
+      "Cockpit gauges are legally required to be exact only when the tanks are full, so visual checking replaces the gauges for dispatch",
+      "Fuel gauges measure total fuel mass but cannot show usable quantity, so visual checking is always more accurate in every airplane",
+      "Visual checking guarantees usable fuel quantity, making fuel records, selector position, and planned burn calculations unnecessary"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fuel planning should use multiple reliable sources because gauge limitations and human errors can lead to fuel mismanagement.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Fuel quantity verification",
+    "learningObjective": "Apply Fuel quantity verification knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-25"
+  },
+  {
+    "id": "CH07-V1-26",
+    "chapter": 7,
+    "topic": "Fuel systems",
+    "subtopic": "Fuel contamination",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why must the pilot sump fuel drains before flight when required by the aircraft procedure?",
+    "choices": [
+      "Contaminants normally remain suspended in fuel, so sampling from low points is useful only immediately after refueling",
+      "Water or contaminants can settle at low points and interrupt safe engine operation",
+      "Sumping verifies the fuel grade by color only; water is lighter than avgas and normally floats above the sample point",
+      "Drain samples are mainly to measure fuel temperature because cold fuel can cause vapor lock after takeoff"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fuel samples help detect water, sediment, and wrong fuel at system low points before they reach the engine.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Fuel contamination",
+    "learningObjective": "Apply Fuel contamination knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-26"
+  },
+  {
+    "id": "CH07-V1-27",
+    "chapter": 7,
+    "topic": "Oxygen systems",
+    "subtopic": "Altitude physiology",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the fundamental reason supplemental oxygen becomes necessary as altitude increases?",
+    "choices": [
+      "Air temperature decreases with altitude, making oxygen molecules too cold to pass efficiently into the bloodstream",
+      "Humidity increases with altitude and displaces oxygen from the lungs even though oxygen partial pressure remains the same",
+      "Atmospheric pressure and therefore oxygen partial pressure decrease, reducing oxygen transfer to the body",
+      "The percentage of oxygen in the atmosphere falls rapidly with altitude even though total pressure stays nearly constant"
+    ],
+    "correctIndex": 2,
+    "explanation": "The oxygen percentage remains roughly constant, but lower total pressure reduces oxygen partial pressure and physiological availability.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Altitude physiology",
+    "learningObjective": "Apply Altitude physiology knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-27"
+  },
+  {
+    "id": "CH07-V1-28",
+    "chapter": 7,
+    "topic": "Electrical",
+    "subtopic": "System interdependence",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pitot-heat switch, landing light, and electric fuel pump all use electrical power, but the engine uses magnetos for ignition. What practical lesson follows from that architecture?",
+    "choices": [
+      "Because the alternator and battery are not involved in ignition, all electrically powered equipment will continue normally as long as the engine runs",
+      "An electrical failure is primarily a communication inconvenience; any flight-critical pump or instrument must have a mechanical backup by certification",
+      "The magnetos keep both the engine and avionics operating because their ignition energy is distributed through the aircraft electrical buses",
+      "An electrical-system failure may leave the engine running while removing important instruments, pumps, lights, or avionics, so the checklist and system knowledge matter"
+    ],
+    "correctIndex": 3,
+    "explanation": "System independence can keep the engine operating while other critical capabilities degrade; pilots must understand which equipment depends on which source.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — System interdependence",
+    "learningObjective": "Apply System interdependence knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-28"
+  },
+  {
+    "id": "CH07-V1-29",
+    "chapter": 7,
+    "topic": "Systems integration",
+    "subtopic": "Aircraft-specific systems",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why should a pilot know whether landing gear, flaps, fuel pumps, and deicing equipment are electrical, hydraulic, pneumatic, or mechanical on the specific airplane?",
+    "choices": [
+      "Failure symptoms and backup procedures depend on how each system is powered and actuated",
+      "Knowing the power source matters mainly for maintenance scheduling; cockpit failure indications and backup procedures are standardized",
+      "A system's actuation method affects only how quickly it operates, not what failures the pilot will see or how the checklist handles them",
+      "All these systems normally revert to gravity or airflow if their primary power source fails, so the exact architecture is not operationally important"
+    ],
+    "correctIndex": 0,
+    "explanation": "Aircraft-specific system architecture determines indications, failure modes, and alternate/emergency operation.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Aircraft-specific systems",
+    "learningObjective": "Apply Aircraft-specific systems knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-29"
+  },
+  {
+    "id": "CH07-V1-30",
+    "chapter": 7,
+    "topic": "Systems integration",
+    "subtopic": "Operational synthesis",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the best operational summary of aircraft-systems knowledge?",
+    "choices": [
+      "Focus on the engine because secondary systems rarely affect the ability to continue a VFR flight in a light airplane",
+      "Know what each system needs to function, how failure will present, what indications confirm it, and what the POH directs you to do",
+      "Memorize the name and location of every component; failure diagnosis can then be made without consulting the checklist",
+      "Know which circuit breaker or switch controls each system so any abnormal indication can be corrected by cycling power until it clears"
+    ],
+    "correctIndex": 1,
+    "explanation": "Useful systems knowledge lets a pilot recognize failures early, preserve critical functions, and execute aircraft-specific procedures correctly.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 7 — Operational synthesis",
+    "learningObjective": "Apply Operational synthesis knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch07-30"
+  }
+]

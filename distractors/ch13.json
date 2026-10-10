@@ -1,0 +1,152 @@
+[
+  [
+    "TAF, because terminal forecasts include the most recent observed wind, ceiling, and visibility at issuance",
+    "SPECI, because any current airport observation used for preflight planning is classified as a special report",
+    "PIREP, because pilot reports provide the most reliable surface observation when an airport has regular reporting"
+  ],
+  [
+    "TAF amendment, because rapidly changing observed conditions are reported by modifying the terminal forecast",
+    "METAR correction, because unscheduled observations are issued only to correct errors in the routine report",
+    "AIRMET, because significant local changes at an airport are distributed as area advisories rather than observations"
+  ],
+  [
+    "METAR, because current observations are extrapolated to provide the expected terminal conditions several hours later",
+    "AIRMET, because ceilings, visibility, and surface wind are forecast for terminal areas through area advisories",
+    "Winds aloft forecast, because terminal ceiling and visibility are derived from the same forecast model as winds and temperatures"
+  ],
+  [
+    "A TAF is a legally controlling forecast, so current METAR trends are useful only when conditions are already below the forecast values",
+    "The TAF covers the entire route to and from the terminal, so broader products add information only about upper-air winds",
+    "Current METARs should be ignored when they conflict with a TAF because the forecast has a longer valid period and therefore more complete data"
+  ],
+  [
+    "METAR, because moderate turbulence and icing encountered aloft should be added to the nearest airport observation",
+    "TAF, because unforecast conditions are reported by amending the destination forecast rather than by individual pilots",
+    "SIGMET, because a pilot who encounters a hazard issues a SIGMET directly over the radio for other aircraft"
+  ],
+  [
+    "They are forecasts based on onboard pilot weather radar, so they predict hazards more accurately than surface observations",
+    "They replace the need for official weather products along routes where enough aircraft are reporting conditions",
+    "They are standardized only for severe conditions; routine reports of cloud tops, turbulence, or icing have little operational value"
+  ],
+  [
+    "As a prohibition on VFR flight through the affected region whenever moderate icing is forecast",
+    "As an advisory that matters mainly to turbine aircraft because light airplanes are normally excluded from AIRMET criteria",
+    "As proof that moderate icing is occurring everywhere in the outlined area and at every altitude listed"
+  ],
+  [
+    "A SIGMET covers a smaller geographic area but is less significant than an AIRMET because it is more localized",
+    "A SIGMET is a forecast only for convective weather, while AIRMETs cover all nonconvective significant hazards",
+    "A SIGMET applies only to IFR aircraft because VFR pilots use AIRMETs for the same severe weather"
+  ],
+  [
+    "Any isolated thunderstorm observed on radar, regardless of severity, coverage, or organization",
+    "Moderate icing and widespread IFR conditions that do not involve thunderstorms",
+    "Nonconvective severe turbulence or dust storms only; convective hazards are covered by ordinary SIGMETs"
+  ],
+  [
+    "The image updates fast enough for tactical use as long as its displayed age is less than five minutes",
+    "The mosaic shows current cell edges but may misstate precipitation intensity, so tactical gaps are safe if confirmed visually",
+    "Data-link radar is safe for tactical avoidance when the airplane remains outside red returns; latency mainly affects green and yellow echoes"
+  ],
+  [
+    "The timestamp is the time the oldest radar site began its scan, so all pixels are at least that old but never older",
+    "Every radar site updates simultaneously, so the only additional delay is the few seconds needed to transmit the image to the airplane",
+    "The displayed age already includes scan, mosaic, and uplink delays; the pilot need consider only the time shown on the cockpit display"
+  ],
+  [
+    "Cloud-base height directly; reflectivity is strongest where cloud droplets are nearest the terrain",
+    "Wind velocity only; precipitation intensity is inferred mainly from surface observations rather than returned radar energy",
+    "Atmospheric pressure gradients, which are converted into precipitation intensity by the radar processor"
+  ],
+  [
+    "A radar shadow proves the air behind the cell is free of precipitation because the strongest echo has already reflected all hazardous energy",
+    "The blank area usually indicates the storm is weakening on its far side, making that portion a preferred route around the cell",
+    "Attenuation affects airborne radar only; ground-based NEXRAD mosaics can always see through the most intense precipitation"
+  ],
+  [
+    "Use the original briefing because standard briefings remain valid until the planned flight is completed",
+    "Update only destination weather; NOTAMs and en route advisories remain valid from the original briefing unless ATC announces a change",
+    "Obtain a new briefing only if the delay exceeds the original forecast period; otherwise the original information is still current enough"
+  ],
+  [
+    "Provide a legal dispatch authorization showing that forecast weather meets VFR or IFR minimums",
+    "Give only adverse-weather warnings; routine observations and winds are left for the pilot to collect separately",
+    "Provide a forecast tailored solely to the destination airport rather than the entire proposed route"
+  ],
+  [
+    "When no previous weather information has been obtained and the pilot wants a shorter version than a standard briefing",
+    "Whenever the flight is less than one hour long, because a full standard briefing would include unnecessary route data",
+    "Only after takeoff when the pilot needs weather updates by radio; preflight abbreviated briefings are not intended for route planning"
+  ],
+  [
+    "A flight departing within the next hour when rapidly changing conditions make a standard briefing too detailed",
+    "Any flight longer than the forecast period of a TAF, regardless of how soon departure occurs",
+    "A completed flight used for postflight weather analysis and training rather than operational planning"
+  ],
+  [
+    "Always select the altitude with the weakest headwind because wind alone determines the most efficient and safest cruise altitude",
+    "Select the altitude with the strongest tailwind or weakest headwind even if it puts the flight closer to terrain or icing layers",
+    "Treat winds aloft as informational only; fuel planning should use still-air performance so later wind changes do not invalidate the calculation"
+  ],
+  [
+    "Actual groundspeed should match forecast wind exactly; any difference proves the GPS or airspeed system is inaccurate",
+    "Groundspeed comparison matters only on the first leg; once the flight reaches cruise altitude, forecast error normally remains constant",
+    "Fuel and ETA should remain based on the preflight forecast unless groundspeed changes by more than the airplane's legal reserve margin"
+  ],
+  [
+    "Low humidity and likely improving visibility because a narrow spread means the air can absorb substantial additional moisture",
+    "Strong instability regardless of wind or cloud cover, because temperature and dew point close together indicate rapid convective heating",
+    "A surface temperature inversion only; the spread does not provide useful information about possible saturation or fog"
+  ],
+  [
+    "Only the steady wind direction matters for crosswind calculations; gusts affect passenger comfort rather than control margin",
+    "Use the highest gust as a direct headwind/tailwind correction but ignore directional variation because runway orientation is fixed",
+    "Average wind should be used for all takeoff and landing decisions because gusts are temporary and cannot be planned for"
+  ],
+  [
+    "Observation time is mainly administrative; a METAR remains representative until the next routine report replaces it",
+    "The time matters only for temperature and dew point; wind, visibility, and ceiling are considered current for the full observation hour",
+    "A recent timestamp guarantees the report matches conditions at the runway because automated sensors sample continuously"
+  ],
+  [
+    "Ignore the temporary group unless it covers more than half the forecast period; TEMPO conditions are too brief to affect planning",
+    "Use the prevailing conditions only for legal and risk decisions because temporary conditions are not considered part of the forecast",
+    "Treat the temporary group as certain to occur for the entire stated window rather than as a forecast of intermittent conditions"
+  ],
+  [
+    "Graphical products combine enough data that separate text products add little value if the image was downloaded recently",
+    "A graphical display is inherently current because it refreshes whenever the tablet has an internet or data-link connection",
+    "Graphical products are mainly useful for precise tactical maneuvering around weather because spatial display removes the ambiguity of text forecasts"
+  ],
+  [
+    "Satellite imagery gives exact cloud bases and tops but cannot show precipitation reaching the surface",
+    "It directly measures turbulence intensity within every cloud, making separate SIGMET or PIREP information unnecessary",
+    "Infrared and visible satellite data identify every layer of cloud separately, so ceilings can be determined without surface observations"
+  ],
+  [
+    "No radar echo means no meaningful turbulence because convective vertical motion requires precipitation-sized particles",
+    "Reflectivity directly measures vertical wind speed, so the color scale can be converted into a turbulence value",
+    "Radar shows all clear-air turbulence even without precipitation, but cannot distinguish whether the motion is convective or mechanical"
+  ],
+  [
+    "Product latency matters mainly for slow-moving stratiform rain; fast thunderstorms are tracked continuously between radar scans",
+    "A cell's location may be old, but intensity and shape remain current because processing updates them using forecast motion",
+    "Latency can be ignored if the pilot adds a fixed distance to the displayed echo; cell growth and decay are too slow to matter over a few minutes"
+  ],
+  [
+    "Continue the flight using the last downloaded display because stored weather remains valid for the planned route until landing",
+    "Treat ATC traffic service as a complete replacement for data-link weather; controllers will provide all weather information needed for VFR flight",
+    "Land at the nearest airport immediately whenever data-link service is lost, even if other weather information and safe options remain available"
+  ],
+  [
+    "A briefing is complete once the pilot has collected each required product, even if the products point to conflicting trends",
+    "The best decision comes from the most pessimistic individual product; integrating uncertainty and route options can dilute clear warnings",
+    "Weather products determine a single objectively safe route, so pilot proficiency and aircraft capability should not change interpretation"
+  ],
+  [
+    "Memorize the coded formats so a pilot can decode every product quickly; latency and product limitations are secondary once decoded",
+    "Use the newest single product available because combining observations and forecasts creates contradictory information",
+    "Focus on whether weather is legally VFR or IFR; product uncertainty and escape options matter mainly to instrument-rated pilots"
+  ]
+]

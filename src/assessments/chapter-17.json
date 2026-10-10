@@ -1,0 +1,602 @@
+[
+  {
+    "id": "CH17-V1-01",
+    "chapter": 17,
+    "topic": "Hypoxia",
+    "subtopic": "Recognition",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot at altitude develops headache, euphoria, poor judgment, and increasing difficulty with simple tasks. What should be suspected first?",
+    "choices": [
+      "Hypoxia",
+      "Hyperventilation, because euphoria and poor judgment are caused by excessive carbon dioxide in the blood",
+      "Carbon monoxide exposure, because all altitude-related impairment is caused primarily by reduced hemoglobin capacity rather than low oxygen pressure",
+      "Decompression sickness, because headache and cognitive changes at altitude are the first sign of nitrogen bubbles in every unpressurized flight"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hypoxia often impairs judgment before the pilot fully recognizes the problem; symptoms can include headache, euphoria, visual changes, and poor coordination.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Recognition",
+    "learningObjective": "Apply Recognition knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-01"
+  },
+  {
+    "id": "CH17-V1-02",
+    "chapter": 17,
+    "topic": "Hypoxia",
+    "subtopic": "Response",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the most appropriate immediate response to suspected hypoxia in flight?",
+    "choices": [
+      "Remain at altitude and drink water; hypoxia symptoms usually improve once the pilot acclimatizes over several minutes",
+      "Use supplemental oxygen if available and descend to a lower altitude as conditions permit",
+      "Slow breathing into a bag to raise carbon dioxide while maintaining altitude until the symptoms resolve",
+      "Increase workload and physical movement to stimulate circulation, then continue if the symptoms improve"
+    ],
+    "correctIndex": 1,
+    "explanation": "Restoring oxygen availability and reducing altitude exposure are the key immediate actions.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Response",
+    "learningObjective": "Apply Response knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-02"
+  },
+  {
+    "id": "CH17-V1-03",
+    "chapter": 17,
+    "topic": "Hypoxia",
+    "subtopic": "Insidious nature",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is hypoxia especially insidious for pilots?",
+    "choices": [
+      "Hypoxia affects motor skill but usually leaves judgment intact, causing the pilot to underestimate only physical fatigue",
+      "The body automatically increases breathing enough to compensate, so pilots mainly need to watch for instrument errors rather than subjective symptoms",
+      "It can degrade judgment and create a sense of well-being, reducing the pilot’s ability to recognize impairment",
+      "Symptoms are always painful enough to distract the pilot, so the main danger is loss of aircraft control rather than recognition"
+    ],
+    "correctIndex": 2,
+    "explanation": "The organ needed to detect and solve the problem—the brain—is itself impaired.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Insidious nature",
+    "learningObjective": "Apply Insidious nature knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-03"
+  },
+  {
+    "id": "CH17-V1-04",
+    "chapter": 17,
+    "topic": "Hypoxia",
+    "subtopic": "Hypoxic hypoxia",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Hypoxic hypoxia at altitude is primarily caused by what?",
+    "choices": [
+      "A lower percentage of oxygen in the atmosphere while total atmospheric pressure remains nearly constant",
+      "A decrease in hemoglobin concentration caused directly by lower barometric pressure",
+      "Reduced circulation to the tissues even though oxygen partial pressure and hemoglobin loading remain normal",
+      "Reduced oxygen partial pressure available for gas exchange"
+    ],
+    "correctIndex": 3,
+    "explanation": "As atmospheric pressure falls, oxygen partial pressure falls even though oxygen percentage remains roughly constant.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Hypoxic hypoxia",
+    "learningObjective": "Apply Hypoxic hypoxia knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-04"
+  },
+  {
+    "id": "CH17-V1-05",
+    "chapter": 17,
+    "topic": "Hypoxia",
+    "subtopic": "Hypemic hypoxia",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Carbon monoxide exposure is an example of which hypoxia mechanism?",
+    "choices": [
+      "Hypemic hypoxia because hemoglobin’s oxygen-carrying capacity is reduced",
+      "Hypoxic hypoxia because the lungs receive too little oxygen partial pressure despite normal hemoglobin",
+      "Stagnant hypoxia because carbon monoxide slows blood flow through capillaries",
+      "Histotoxic hypoxia because carbon monoxide prevents tissue cells from chemically using oxygen that reaches them"
+    ],
+    "correctIndex": 0,
+    "explanation": "Carbon monoxide binds strongly to hemoglobin and reduces the blood’s ability to carry oxygen.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Hypemic hypoxia",
+    "learningObjective": "Apply Hypemic hypoxia knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-05"
+  },
+  {
+    "id": "CH17-V1-06",
+    "chapter": 17,
+    "topic": "Hypoxia",
+    "subtopic": "Stagnant hypoxia",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot with poor circulation from shock has oxygenated blood but inadequate blood flow to tissues. Which hypoxia type fits best?",
+    "choices": [
+      "Hypoxic hypoxia because lung oxygen pressure is too low even though circulation is inadequate",
+      "Stagnant hypoxia",
+      "Hypemic hypoxia because the blood contains too little hemoglobin to carry oxygen",
+      "Histotoxic hypoxia because shock prevents tissue cells from metabolizing available oxygen"
+    ],
+    "correctIndex": 1,
+    "explanation": "Stagnant hypoxia results when circulation is insufficient to deliver available oxygen effectively.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Stagnant hypoxia",
+    "learningObjective": "Apply Stagnant hypoxia knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-06"
+  },
+  {
+    "id": "CH17-V1-07",
+    "chapter": 17,
+    "topic": "Hypoxia",
+    "subtopic": "Histotoxic hypoxia",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Alcohol can contribute to which hypoxia category by interfering with cells’ ability to use oxygen?",
+    "choices": [
+      "Stagnant hypoxia because alcohol slows circulation and prevents oxygenated blood from reaching tissue",
+      "Hypoxic hypoxia because alcohol lowers cabin oxygen pressure through increased respiratory demand",
+      "Histotoxic hypoxia",
+      "Hypemic hypoxia because alcohol reduces the amount of hemoglobin available to bind oxygen"
+    ],
+    "correctIndex": 2,
+    "explanation": "Histotoxic hypoxia occurs when tissues cannot effectively use delivered oxygen; certain toxins and alcohol can contribute.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Histotoxic hypoxia",
+    "learningObjective": "Apply Histotoxic hypoxia knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-07"
+  },
+  {
+    "id": "CH17-V1-08",
+    "chapter": 17,
+    "topic": "Respiration",
+    "subtopic": "Hyperventilation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot is anxious and breathing rapidly, then develops tingling, lightheadedness, and visual symptoms. What is a likely cause?",
+    "choices": [
+      "Hypoxia only, because tingling and lightheadedness indicate inadequate oxygen rather than a breathing-rate problem",
+      "Carbon monoxide poisoning, because rapid breathing is the body's characteristic response to contaminated cabin air",
+      "Decompression sickness, because tingling after rapid breathing indicates nitrogen bubbles forming in the extremities",
+      "Hyperventilation"
+    ],
+    "correctIndex": 3,
+    "explanation": "Excessive ventilation can reduce carbon dioxide levels and cause symptoms that can resemble hypoxia.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Hyperventilation",
+    "learningObjective": "Apply Hyperventilation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-08"
+  },
+  {
+    "id": "CH17-V1-09",
+    "chapter": 17,
+    "topic": "Respiration",
+    "subtopic": "Differential recognition",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why can hyperventilation and hypoxia be difficult to distinguish in flight?",
+    "choices": [
+      "They share symptoms such as lightheadedness, tingling, visual disturbance, and impaired performance",
+      "Both conditions reduce hemoglobin's oxygen-carrying capacity through the same physiological mechanism",
+      "Both always improve with slower breathing, so distinguishing between them is unnecessary before taking action",
+      "Both produce identical pulse-oximeter readings, making cockpit symptoms the only possible way to tell them apart"
+    ],
+    "correctIndex": 0,
+    "explanation": "The overlap in symptoms means pilots should use context and safe corrective actions rather than relying on a single symptom.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Differential recognition",
+    "learningObjective": "Apply Differential recognition knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-09"
+  },
+  {
+    "id": "CH17-V1-10",
+    "chapter": 17,
+    "topic": "Respiration",
+    "subtopic": "Hyperventilation response",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the recommended general response to suspected hyperventilation when oxygen is otherwise adequate?",
+    "choices": [
+      "Descend immediately without changing breathing pattern, because altitude is the primary cause of hyperventilation symptoms",
+      "Consciously slow and regulate breathing while reducing stress and workload; use oxygen if hypoxia cannot be ruled out",
+      "Hold the breath repeatedly for long intervals until tingling stops, then resume normal breathing",
+      "Breathe as deeply and rapidly as possible with supplemental oxygen so carbon dioxide can be expelled faster"
+    ],
+    "correctIndex": 1,
+    "explanation": "Reducing ventilation toward a normal pattern can restore carbon dioxide balance; if hypoxia is possible, oxygen/descent should also be considered.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Hyperventilation response",
+    "learningObjective": "Apply Hyperventilation response knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-10"
+  },
+  {
+    "id": "CH17-V1-11",
+    "chapter": 17,
+    "topic": "Carbon monoxide",
+    "subtopic": "Recognition",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A cabin-heater exhaust leak introduces carbon monoxide. Why may the pilot fail to recognize it quickly?",
+    "choices": [
+      "It causes immediate nausea and eye irritation but little cognitive impairment, allowing the pilot to recognize it reliably",
+      "It is visible as a light haze in the cabin, but darkness and red cockpit lighting can make the haze difficult to see",
+      "Carbon monoxide is colorless and odorless and can cause headache, drowsiness, confusion, and impaired judgment",
+      "It has a strong odor only after dangerous concentrations are reached, so early exposure can be mistaken for normal exhaust smell"
+    ],
+    "correctIndex": 2,
+    "explanation": "CO provides little sensory warning and impairs cognition, making detection difficult without a detector or symptom awareness.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Recognition",
+    "learningObjective": "Apply Recognition knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-11"
+  },
+  {
+    "id": "CH17-V1-12",
+    "chapter": 17,
+    "topic": "Carbon monoxide",
+    "subtopic": "Response",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the best immediate response to suspected carbon monoxide contamination in a piston airplane?",
+    "choices": [
+      "Open the cabin heat fully to dilute exhaust gases with warmer airflow and continue to the nearest planned destination",
+      "Turn off fresh-air ventilation to keep contaminated outside air from entering, then descend while monitoring symptoms",
+      "Continue if a cockpit CO detector has not alarmed; symptoms alone are too nonspecific to justify changing the flight",
+      "Shut off the suspected cabin-heat source/ventilate as appropriate, use oxygen if available, and land as soon as practical according to the situation"
+    ],
+    "correctIndex": 3,
+    "explanation": "The priorities are to stop exposure, increase fresh air/oxygen, and terminate the flight safely.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Response",
+    "learningObjective": "Apply Response knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-12"
+  },
+  {
+    "id": "CH17-V1-13",
+    "chapter": 17,
+    "topic": "Spatial disorientation",
+    "subtopic": "Instrument reliance",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A VFR pilot accidentally enters cloud and feels the airplane is turning even though the instruments show straight-and-level. What should the pilot trust?",
+    "choices": [
+      "Properly functioning flight instruments, not the vestibular sensation",
+      "The body sensation, because vestibular cues respond faster than gyroscopic instruments during an unexpected bank",
+      "Outside peripheral vision even when no natural horizon is visible, because visual sensation remains more reliable than instruments",
+      "The magnetic compass for bank direction and the altimeter for pitch, because attitude instruments are especially vulnerable in clouds"
+    ],
+    "correctIndex": 0,
+    "explanation": "Without reliable visual references, the vestibular system can create powerful false sensations; instruments provide the dependable attitude reference.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Instrument reliance",
+    "learningObjective": "Apply Instrument reliance knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-13"
+  },
+  {
+    "id": "CH17-V1-14",
+    "chapter": 17,
+    "topic": "Spatial disorientation",
+    "subtopic": "Leans",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What produces the “leans”?",
+    "choices": [
+      "An abrupt pitch change stimulates the otolith organs, making the pilot perceive a false bank opposite the actual turn",
+      "A slow unnoticed bank followed by a correction can make level flight feel like a bank in the opposite direction",
+      "A rapid roll into a bank overstimulates the semicircular canals, making the continuing turn feel stronger than it is",
+      "A constant-rate turn eventually feels level, and rolling out then feels like a turn in the same direction as the original bank"
+    ],
+    "correctIndex": 1,
+    "explanation": "The semicircular canals may not detect a gradual turn; returning to level can then be perceived as a turn the other way.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Leans",
+    "learningObjective": "Apply Leans knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-14"
+  },
+  {
+    "id": "CH17-V1-15",
+    "chapter": 17,
+    "topic": "Spatial disorientation",
+    "subtopic": "Graveyard spiral",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is a graveyard spiral?",
+    "choices": [
+      "A low-speed descending turn caused by insufficient elevator back pressure while the wings remain nearly level",
+      "A series of alternating climbing and descending turns created by overcorrecting the attitude indicator",
+      "A prolonged coordinated turn mistaken for level flight, followed by a tightening descending spiral when the pilot tries to correct perceived altitude loss by pulling back",
+      "A stalled autorotation that develops when the pilot pulls back while turning in cloud"
+    ],
+    "correctIndex": 2,
+    "explanation": "In a sustained turn the vestibular system can adapt; pulling to stop the descent without correcting bank tightens the spiral.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Graveyard spiral",
+    "learningObjective": "Apply Graveyard spiral knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-15"
+  },
+  {
+    "id": "CH17-V1-16",
+    "chapter": 17,
+    "topic": "Spatial disorientation",
+    "subtopic": "Spiral versus spin",
+    "difficulty": "advanced",
+    "type": "scenario",
+    "prompt": "Why is a graveyard spiral not the same as a spin?",
+    "choices": [
+      "A graveyard spiral occurs only under IFR; a spin can occur in VMC, so the difference is primarily the visual environment",
+      "A graveyard spiral is a stalled condition on both wings, while a spin stalls only the inside wing",
+      "A graveyard spiral is normally a low-airspeed maneuver, while a spin accelerates to high airspeed as the nose drops",
+      "A graveyard spiral is a high-speed descending turn with the wing generally not stalled; a spin involves a stalled wing and autorotation"
+    ],
+    "correctIndex": 3,
+    "explanation": "The recovery priorities differ because the aerodynamic states are different.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Spiral versus spin",
+    "learningObjective": "Apply Spiral versus spin knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-16"
+  },
+  {
+    "id": "CH17-V1-17",
+    "chapter": 17,
+    "topic": "Visual illusions",
+    "subtopic": "Black-hole approach",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A dark night approach is made over featureless terrain with few lights. Which illusion can cause the pilot to fly too low?",
+    "choices": [
+      "Black-hole approach illusion",
+      "Runway-width illusion, because a dark surrounding area makes the runway appear narrower than it really is",
+      "False-horizon illusion, because the runway lights blend with the horizon and make the airplane appear banked",
+      "Autokinesis, because isolated runway lights appear to move downward and lead the pilot to lower the approach"
+    ],
+    "correctIndex": 0,
+    "explanation": "Without normal peripheral visual cues, a pilot can perceive being high and descend below a safe glidepath.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Black-hole approach",
+    "learningObjective": "Apply Black-hole approach knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-17"
+  },
+  {
+    "id": "CH17-V1-18",
+    "chapter": 17,
+    "topic": "Visual illusions",
+    "subtopic": "Runway-width illusion",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A runway is much narrower than the pilot is used to. What visual illusion may occur on final?",
+    "choices": [
+      "The pilot may perceive excess crosswind because the runway edges converge more rapidly than on a familiar runway",
+      "The pilot may perceive being higher than actual and fly a lower-than-normal approach",
+      "The pilot may perceive being lower than actual and fly a higher-than-normal approach",
+      "The pilot may perceive the runway as shorter, causing an earlier flare but no systematic glidepath error"
+    ],
+    "correctIndex": 1,
+    "explanation": "A narrow runway can appear farther away/higher perspective, causing a tendency toward a low approach.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Runway-width illusion",
+    "learningObjective": "Apply Runway-width illusion knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-18"
+  },
+  {
+    "id": "CH17-V1-19",
+    "chapter": 17,
+    "topic": "Visual illusions",
+    "subtopic": "Runway-width illusion",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A runway is much wider than the pilot is used to. What visual illusion may occur?",
+    "choices": [
+      "The pilot may perceive the runway as longer but remain on the normal glidepath if airspeed is correct",
+      "The pilot may perceive less crosswind and therefore use too little drift correction without changing vertical path",
+      "The pilot may perceive being lower than actual and fly a higher-than-normal approach",
+      "The pilot may perceive being higher than actual and fly a lower-than-normal approach"
+    ],
+    "correctIndex": 2,
+    "explanation": "A wide runway can create the impression of being lower than actual, encouraging a high approach.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Runway-width illusion",
+    "learningObjective": "Apply Runway-width illusion knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-19"
+  },
+  {
+    "id": "CH17-V1-20",
+    "chapter": 17,
+    "topic": "Visual illusions",
+    "subtopic": "False horizon",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is a false horizon?",
+    "choices": [
+      "A real sloping cloud deck that the attitude indicator automatically follows, causing a display error",
+      "A horizon line displaced by magnetic variation, causing the pilot to align the wings with an incorrect compass reference",
+      "A light pattern that changes apparent airspeed rather than attitude, causing the pilot to pitch for an incorrect approach speed",
+      "Cloud formations, sloping terrain, lights, or other visual cues are mistaken for the true horizon, leading to incorrect attitude control"
+    ],
+    "correctIndex": 3,
+    "explanation": "Visual references can create an apparent horizon that is tilted or displaced from the actual one.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — False horizon",
+    "learningObjective": "Apply False horizon knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-20"
+  },
+  {
+    "id": "CH17-V1-21",
+    "chapter": 17,
+    "topic": "Visual illusions",
+    "subtopic": "Autokinesis",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is autokinesis?",
+    "choices": [
+      "A stationary light viewed in darkness can appear to move after prolonged fixation",
+      "A moving light can appear stationary in darkness because peripheral vision suppresses motion cues",
+      "A bright light can appear farther away than a dim light, causing pilots to misjudge runway distance",
+      "Two stationary lights can appear to merge into one because rod vision has poor color discrimination"
+    ],
+    "correctIndex": 0,
+    "explanation": "Without surrounding visual references, small involuntary eye movements can make a fixed light seem to move.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Autokinesis",
+    "learningObjective": "Apply Autokinesis knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-21"
+  },
+  {
+    "id": "CH17-V1-22",
+    "chapter": 17,
+    "topic": "Vision",
+    "subtopic": "Night scanning",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why should a pilot avoid staring at a single light at night?",
+    "choices": [
+      "Changing fixation helps distinguish real movement from apparent movement and also supports the broader night scanning needed to detect traffic",
+      "Peripheral scanning and changing fixation reduce autokinesis and improve detection of dim objects",
+      "Staring makes rod cells more sensitive and exaggerates apparent movement; looking directly away eliminates the illusion completely",
+      "A stationary light becomes a false horizon only when viewed continuously, so scanning prevents bank illusion but not position error"
+    ],
+    "correctIndex": 1,
+    "explanation": "Night vision benefits from scanning and off-center viewing rather than prolonged central fixation.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Night scanning",
+    "learningObjective": "Apply Night scanning knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-22"
+  },
+  {
+    "id": "CH17-V1-23",
+    "chapter": 17,
+    "topic": "Vision",
+    "subtopic": "Off-center viewing",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is off-center viewing useful at night?",
+    "choices": [
+      "Peripheral viewing improves color identification at night because cones become more sensitive away from the center of vision",
+      "Off-center viewing prevents dark adaptation from being lost when the pilot looks at illuminated instruments",
+      "The retina’s rod cells, which are more sensitive in dim light, are concentrated away from the fovea",
+      "The fovea contains the greatest concentration of rods, so looking slightly away places the image on more light-sensitive cone cells"
+    ],
+    "correctIndex": 2,
+    "explanation": "Looking slightly away from a dim object places its image on rod-rich areas of the retina.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Off-center viewing",
+    "learningObjective": "Apply Off-center viewing knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-23"
+  },
+  {
+    "id": "CH17-V1-24",
+    "chapter": 17,
+    "topic": "Vision",
+    "subtopic": "Dark adaptation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why can bright cockpit lighting degrade night vision?",
+    "choices": [
+      "Bright light improves rod sensitivity but temporarily reduces cone color vision, so outside objects become dimmer only in color",
+      "Dark adaptation is lost only if the pilot looks directly at white light; bright red or green displays cannot affect night vision",
+      "Cockpit lighting affects pupil size but not retinal adaptation, so dimming instruments mainly reduces windshield reflections rather than visual sensitivity",
+      "It reduces dark adaptation, especially of rod vision, making dim external objects harder to see"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dark adaptation takes time and is degraded by bright light exposure.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Dark adaptation",
+    "learningObjective": "Apply Dark adaptation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-24"
+  },
+  {
+    "id": "CH17-V1-25",
+    "chapter": 17,
+    "topic": "Fitness for flight",
+    "subtopic": "IMSAFE",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the IMSAFE checklist intended to evaluate?",
+    "choices": [
+      "Illness, Medication, Stress, Alcohol, Fatigue, and Emotion/Eating factors affecting personal fitness",
+      "Instrument condition, Maintenance, Systems, Airspace, Fuel, and Equipment needed for dispatch",
+      "Illness, Medical certificate, Sleep, Alcohol, Food, and External pressure factors",
+      "Illness, Medication, Stress, Altitude, Fatigue, and Experience factors, with emotion evaluated separately"
+    ],
+    "correctIndex": 0,
+    "explanation": "IMSAFE is a personal preflight self-assessment tool for physiological and psychological fitness.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — IMSAFE",
+    "learningObjective": "Apply IMSAFE knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-25"
+  },
+  {
+    "id": "CH17-V1-26",
+    "chapter": 17,
+    "topic": "Medication",
+    "subtopic": "Medication risk",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot took a new over-the-counter medication and feels normal. What is the safest decision process?",
+    "choices": [
+      "Use the medication if the underlying illness is mild; the illness itself is a greater aviation concern than medication side effects",
+      "Determine the medication’s aeromedical effects and compatibility with flying before acting as a crewmember, rather than assuming nonprescription means safe",
+      "Fly if the package is labeled non-drowsy; over-the-counter drugs are designed for normal activities and need no aviation-specific review",
+      "Take a ground dose once, and if no symptoms appear within an hour the medication can be assumed safe for flight"
+    ],
+    "correctIndex": 1,
+    "explanation": "Many common medications can impair alertness, reaction time, vision, or judgment; pilots must consider both the illness and the medication.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Medication risk",
+    "learningObjective": "Apply Medication risk knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-26"
+  },
+  {
+    "id": "CH17-V1-27",
+    "chapter": 17,
+    "topic": "Fatigue",
+    "subtopic": "Performance effects",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is fatigue dangerous even when a pilot can “push through” it subjectively?",
+    "choices": [
+      "Adrenaline from a demanding flight restores normal attention and reaction time, making fatigue most important during low-workload cruise",
+      "Fatigue effects are obvious to the person experiencing them, so self-assessment becomes more accurate as fatigue increases",
+      "Fatigue degrades attention, reaction time, memory, judgment, and error detection, often before the pilot accurately recognizes the extent",
+      "Fatigue mainly reduces physical strength; well-practiced cognitive tasks and judgment remain stable until the pilot feels sleepy"
+    ],
+    "correctIndex": 2,
+    "explanation": "Fatigue produces broad cognitive impairment and can also reduce self-awareness of that impairment.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Performance effects",
+    "learningObjective": "Apply Performance effects knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-27"
+  },
+  {
+    "id": "CH17-V1-28",
+    "chapter": 17,
+    "topic": "Decompression",
+    "subtopic": "Scuba diving",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot completed a scuba dive and plans to fly soon afterward. What is the concern?",
+    "choices": [
+      "Residual nitrogen expands only if cabin altitude exceeds 18,000 feet, so normal light-airplane altitudes create little concern",
+      "The main hazard is oxygen toxicity from breathing compressed gas during the dive rather than pressure reduction after surfacing",
+      "Flying soon after diving increases ear-block risk only; decompression sickness is unrelated to later reductions in atmospheric pressure",
+      "Reduced atmospheric pressure at altitude can promote decompression sickness, so appropriate no-fly intervals should be observed"
+    ],
+    "correctIndex": 3,
+    "explanation": "Flying after diving can allow dissolved inert gas to form bubbles as ambient pressure falls.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Scuba diving",
+    "learningObjective": "Apply Scuba diving knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-28"
+  },
+  {
+    "id": "CH17-V1-29",
+    "chapter": 17,
+    "topic": "Pressure effects",
+    "subtopic": "Ear and sinus block",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot feels ear or sinus pain during descent after flying with congestion. What mechanism is most likely?",
+    "choices": [
+      "Pressure cannot equalize adequately across blocked passages as ambient pressure rises",
+      "Ambient pressure falls during descent, trapping expanding gas that pushes inward on the eardrum or sinus",
+      "Congestion increases oxygen absorption in the ear and sinus cavities, producing pain as oxygen partial pressure rises",
+      "The pain is mainly caused by temperature cooling in the ear as the airplane descends into denser air, not pressure equalization"
+    ],
+    "correctIndex": 0,
+    "explanation": "Blocked Eustachian tubes or sinus passages can prevent pressure equalization and cause barotrauma.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Ear and sinus block",
+    "learningObjective": "Apply Ear and sinus block knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-29"
+  },
+  {
+    "id": "CH17-V1-30",
+    "chapter": 17,
+    "topic": "Aeromedical factors",
+    "subtopic": "Operational synthesis",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the best operational summary of aeromedical knowledge?",
+    "choices": [
+      "Rely on experience to distinguish harmless sensations from dangerous ones; conservative action is needed mainly when symptoms become severe enough to impair control",
+      "Use a disciplined fitness check before flight, recognize early physiological/visual-disorientation symptoms, and take conservative action before impairment erodes the ability to decide",
+      "Use physiological symptoms mainly after takeoff; preflight fitness can be inferred from whether the pilot meets medical-certificate requirements",
+      "If symptoms are mild and no regulation prohibits flight, continue while monitoring because early diversion can create additional workload and risk"
+    ],
+    "correctIndex": 1,
+    "explanation": "Day-of-flight fitness and symptom recognition are continuous pilot responsibilities, regardless of certificate status.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 17 — Operational synthesis",
+    "learningObjective": "Apply Operational synthesis knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch17-30"
+  }
+]

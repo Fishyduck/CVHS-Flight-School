@@ -1,0 +1,602 @@
+[
+  {
+    "id": "CH04-V1-01",
+    "chapter": 4,
+    "topic": "Atmosphere",
+    "subtopic": "Density and lift",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "An airplane climbs to a higher altitude without other changes. Why does the wing generally need either more true airspeed or a higher lift coefficient to produce the same lift?",
+    "choices": [
+      "Air density decreases with altitude, reducing dynamic pressure at a given true airspeed",
+      "Air viscosity increases with altitude, so the wing must move faster to overcome the additional surface friction",
+      "Gravity becomes stronger with altitude, requiring more lift even though air density and dynamic pressure remain unchanged",
+      "The wing's geometric angle of attack decreases automatically with altitude, so true airspeed must increase to restore the same chord angle"
+    ],
+    "correctIndex": 0,
+    "explanation": "Lift depends on air density, velocity, wing area, and lift coefficient. Lower density reduces dynamic pressure for the same true airspeed.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Density and lift",
+    "learningObjective": "Apply Density and lift knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-01"
+  },
+  {
+    "id": "CH04-V1-02",
+    "chapter": 4,
+    "topic": "Atmosphere",
+    "subtopic": "Air density",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot flies from cool dense air into hot high-altitude conditions. What aerodynamic/engine consequence should be anticipated?",
+    "choices": [
+      "Lower density reduces wing lift but increases normally aspirated engine power because there is less pumping resistance",
+      "Lower air density reduces wing, propeller, and engine performance",
+      "Lower density improves propeller efficiency and wing lift but reduces only engine cooling capacity",
+      "Lower density reduces engine power but leaves wing and propeller performance unchanged at the same indicated airspeed"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hot, high conditions reduce density, which degrades aerodynamic and powerplant performance.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Air density",
+    "learningObjective": "Apply Air density knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-02"
+  },
+  {
+    "id": "CH04-V1-03",
+    "chapter": 4,
+    "topic": "Fluid behavior",
+    "subtopic": "Boundary layer",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why does a wing surface roughened by frost or contamination create concern even before a stall occurs?",
+    "choices": [
+      "Surface contamination delays boundary-layer separation, increasing lift while also increasing parasite drag",
+      "Roughness affects only laminar-flow wings; ordinary training-airplane wings retain the same maximum lift when lightly contaminated",
+      "Surface roughness can disturb the boundary layer, increase drag, and reduce the wing’s ability to produce lift efficiently",
+      "Frost mainly increases wing weight; airflow remains essentially unchanged until the added weight raises the stall speed"
+    ],
+    "correctIndex": 2,
+    "explanation": "The boundary layer is sensitive to surface condition. Contamination can cause earlier separation and degrade lift/drag performance.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Boundary layer",
+    "learningObjective": "Apply Boundary layer knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-03"
+  },
+  {
+    "id": "CH04-V1-04",
+    "chapter": 4,
+    "topic": "Pressure and velocity",
+    "subtopic": "Bernoulli principle",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "As airflow passes through the throat of a venturi and speeds up, what generally happens to static pressure?",
+    "choices": [
+      "It increases because the faster air molecules strike the venturi wall with greater force",
+      "It remains constant because conservation of mass requires pressure to be the same at the inlet and throat",
+      "It first increases at the throat and then falls only after the airflow begins slowing in the diffuser",
+      "It decreases"
+    ],
+    "correctIndex": 3,
+    "explanation": "Bernoulli’s principle describes an inverse relationship between flow speed and static pressure along a streamline under the applicable assumptions.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Bernoulli principle",
+    "learningObjective": "Apply Bernoulli principle knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-04"
+  },
+  {
+    "id": "CH04-V1-05",
+    "chapter": 4,
+    "topic": "Lift theory",
+    "subtopic": "Newton laws",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A wing produces lift while deflecting airflow downward. Which principle helps explain the reaction force on the wing?",
+    "choices": [
+      "Newton’s third law",
+      "Newton’s first law, because airflow tends to remain attached to the wing unless another force acts",
+      "Newton’s second law only, because lift depends on mass flow but no equal-and-opposite reaction is involved",
+      "Bernoulli’s principle alone, because any downward momentum change is a consequence rather than part of the force balance"
+    ],
+    "correctIndex": 0,
+    "explanation": "Changing the momentum of airflow downward produces an equal and opposite reaction on the wing.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Newton laws",
+    "learningObjective": "Apply Newton laws knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-05"
+  },
+  {
+    "id": "CH04-V1-06",
+    "chapter": 4,
+    "topic": "Airfoil geometry",
+    "subtopic": "Angle of attack",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot raises the nose but the flight path initially continues nearly level. What happens to angle of attack?",
+    "choices": [
+      "It increases only after the airplane begins climbing; until the flight path changes, angle of attack cannot change",
+      "It increases because the chord line rotates relative to the oncoming relative wind",
+      "It remains essentially unchanged because angle of attack depends on flight-path angle, not pitch attitude",
+      "It decreases because raising the nose moves the chord line closer to the relative wind in level flight"
+    ],
+    "correctIndex": 1,
+    "explanation": "Angle of attack is the angle between the chord line and relative wind, not simply pitch attitude relative to the horizon.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Angle of attack",
+    "learningObjective": "Apply Angle of attack knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-06"
+  },
+  {
+    "id": "CH04-V1-07",
+    "chapter": 4,
+    "topic": "Airfoil geometry",
+    "subtopic": "Relative wind",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "An airplane is descending on a steady glide path with the nose slightly above the horizon. Which statement about relative wind is correct?",
+    "choices": [
+      "Relative wind is horizontal in a steady glide because gravity, not airflow, causes the airplane to descend",
+      "Relative wind follows the flight path in the same direction as motion, so it approaches the wing from above the glide path",
+      "Relative wind is opposite the flight path, so it approaches the wing from below the geometric horizon line",
+      "Relative wind is opposite the airplane's pitch attitude, so it approaches from directly ahead along the longitudinal axis"
+    ],
+    "correctIndex": 2,
+    "explanation": "Relative wind is parallel and opposite to the airfoil’s flight path through the air. Pitch attitude and flight path are not necessarily the same.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Relative wind",
+    "learningObjective": "Apply Relative wind knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-07"
+  },
+  {
+    "id": "CH04-V1-08",
+    "chapter": 4,
+    "topic": "Airfoil design",
+    "subtopic": "Symmetrical airfoils",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why can a symmetrical airfoil produce lift even though its upper and lower surfaces have equal geometric curvature?",
+    "choices": [
+      "A symmetrical airfoil can produce lift only by using a flap or other device to create geometric camber",
+      "Symmetrical airfoils produce lift because the upper surface still forces air to travel farther than the lower surface at zero angle of attack",
+      "A symmetrical airfoil produces positive lift at any angle because equal curvature creates a fixed pressure difference between the two surfaces",
+      "A positive angle of attack changes the airflow and pressure/momentum distribution to create lift"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lift is not dependent on camber alone; angle of attack and airflow deflection/pressure distribution allow symmetrical airfoils to generate lift.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Symmetrical airfoils",
+    "learningObjective": "Apply Symmetrical airfoils knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-08"
+  },
+  {
+    "id": "CH04-V1-09",
+    "chapter": 4,
+    "topic": "Airfoil geometry",
+    "subtopic": "Chord line",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A wing’s chord line is used primarily as what reference?",
+    "choices": [
+      "A straight geometric line from leading edge to trailing edge for defining airfoil geometry and angle of attack",
+      "A line tangent to the upper surface at maximum camber, used to measure local flow separation",
+      "A line from the leading edge through the center of pressure, used to define the lift vector",
+      "A line perpendicular to the relative wind, used as the reference for measuring pitch attitude"
+    ],
+    "correctIndex": 0,
+    "explanation": "The chord line is a geometric reference connecting the leading and trailing edges.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Chord line",
+    "learningObjective": "Apply Chord line knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-09"
+  },
+  {
+    "id": "CH04-V1-10",
+    "chapter": 4,
+    "topic": "Pressure and velocity",
+    "subtopic": "Dynamic pressure",
+    "difficulty": "advanced",
+    "type": "calculation",
+    "prompt": "If true airspeed doubles while density and configuration remain constant, how does dynamic pressure change?",
+    "choices": [
+      "It remains unchanged because density and wing configuration have not changed",
+      "It becomes four times as large",
+      "It doubles because dynamic pressure changes in direct proportion to velocity",
+      "It increases by a factor of eight because both mass flow and velocity double"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dynamic pressure varies with the square of velocity, so doubling speed produces four times the dynamic pressure.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Dynamic pressure",
+    "learningObjective": "Apply Dynamic pressure knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-10"
+  },
+  {
+    "id": "CH04-V1-11",
+    "chapter": 4,
+    "topic": "Atmosphere",
+    "subtopic": "Pressure with altitude",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why does air pressure decrease with increasing altitude in the atmosphere?",
+    "choices": [
+      "Temperature always decreases with altitude, and colder air directly creates higher pressure at lower levels",
+      "The Earth's magnetic field compresses the atmosphere near the surface, producing a larger static-pressure reading",
+      "There is less weight of air above the point exerting pressure",
+      "Air molecules become heavier as altitude decreases, so pressure is greatest where molecular mass is highest"
+    ],
+    "correctIndex": 2,
+    "explanation": "Atmospheric pressure is produced by the weight of the air column above; that column becomes smaller with altitude.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Pressure with altitude",
+    "learningObjective": "Apply Pressure with altitude knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-11"
+  },
+  {
+    "id": "CH04-V1-12",
+    "chapter": 4,
+    "topic": "Atmosphere",
+    "subtopic": "Standard atmosphere",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot hears “standard atmosphere” used in performance calculations. Why is that concept useful?",
+    "choices": [
+      "It predicts the exact atmosphere for any flight, so performance corrections are unnecessary when pressure altitude is known",
+      "It defines only a standard sea-level pressure; temperature and density must always be measured independently",
+      "It represents the most conservative atmospheric condition expected, so performance calculated from it is automatically safe in nonstandard weather",
+      "It provides a reference set of pressure, temperature, and density conditions from which nonstandard performance effects can be evaluated"
+    ],
+    "correctIndex": 3,
+    "explanation": "Standard atmosphere is a reference model used to compare actual conditions and calculate performance-related quantities.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Standard atmosphere",
+    "learningObjective": "Apply Standard atmosphere knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-12"
+  },
+  {
+    "id": "CH04-V1-13",
+    "chapter": 4,
+    "topic": "Atmosphere",
+    "subtopic": "Density factors",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "At the same pressure altitude, which condition produces the lowest air density?",
+    "choices": [
+      "High temperature and high humidity",
+      "Low temperature and high humidity, because water vapor is heavier than dry air",
+      "High temperature and very dry air, because humidity has no effect on air density",
+      "Low temperature and low humidity, because colder dry air contains fewer molecules at the same pressure altitude"
+    ],
+    "correctIndex": 0,
+    "explanation": "Higher temperature lowers density, and water vapor is less dense than dry air, so humidity also reduces density slightly.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Density factors",
+    "learningObjective": "Apply Density factors knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-13"
+  },
+  {
+    "id": "CH04-V1-14",
+    "chapter": 4,
+    "topic": "Atmosphere",
+    "subtopic": "Humidity and density",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why can high humidity slightly degrade aircraft performance?",
+    "choices": [
+      "Water vapor raises static pressure at a given pressure altitude, causing the airplane to indicate a lower airspeed than it actually has",
+      "Replacing some dry-air molecules with lighter water-vapor molecules reduces air density",
+      "Water vapor is heavier than nitrogen and oxygen, increasing density but reducing oxygen available to the engine",
+      "Humidity increases viscosity enough to raise parasite drag even though air density is unchanged"
+    ],
+    "correctIndex": 1,
+    "explanation": "Humid air is slightly less dense than dry air at the same pressure and temperature.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Humidity and density",
+    "learningObjective": "Apply Humidity and density knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-14"
+  },
+  {
+    "id": "CH04-V1-15",
+    "chapter": 4,
+    "topic": "Airfoil behavior",
+    "subtopic": "Angle of attack and lift",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot increases wing angle of attack while remaining below the critical angle. What is the general aerodynamic effect?",
+    "choices": [
+      "Lift coefficient stays essentially constant until critical angle of attack, while only drag coefficient changes",
+      "Lift coefficient rises but induced-drag effects decrease because the stronger pressure difference weakens wingtip vortices",
+      "Lift coefficient generally increases, along with induced-drag effects",
+      "Lift coefficient generally decreases because the wing presents more frontal area and creates more parasite drag"
+    ],
+    "correctIndex": 2,
+    "explanation": "Below the critical angle, increasing angle of attack generally increases lift coefficient, while drag also changes.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Angle of attack and lift",
+    "learningObjective": "Apply Angle of attack and lift knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-15"
+  },
+  {
+    "id": "CH04-V1-16",
+    "chapter": 4,
+    "topic": "Lift theory",
+    "subtopic": "Integrated lift explanation",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the most important reason not to think of Bernoulli and Newton as competing explanations of lift?",
+    "choices": [
+      "Bernoulli explains subsonic lift while Newton applies only to propellers and jet exhaust",
+      "Newton explains lift on symmetrical airfoils while Bernoulli applies only to cambered airfoils",
+      "Bernoulli and Newton predict different lift forces, so pilots should use whichever model better matches the aircraft configuration",
+      "Both describe aspects of the same airflow physics: pressure distribution and momentum change are consistent parts of the force on the wing"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lift involves pressure forces and changes in airflow momentum; Bernoulli and Newtonian descriptions are complementary.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Integrated lift explanation",
+    "learningObjective": "Apply Integrated lift explanation knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-16"
+  },
+  {
+    "id": "CH04-V1-17",
+    "chapter": 4,
+    "topic": "Pressure and velocity",
+    "subtopic": "Lift equation reasoning",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot increases airspeed while holding lift constant in level flight. What generally must happen to lift coefficient?",
+    "choices": [
+      "It must decrease because higher dynamic pressure can produce the same lift with a lower coefficient",
+      "It must increase because more airflow requires a larger coefficient to keep total lift unchanged",
+      "It remains constant because level flight always requires the same lift regardless of airspeed",
+      "It must become negative because higher speed alone would otherwise force the airplane to climb"
+    ],
+    "correctIndex": 0,
+    "explanation": "For constant lift, increasing dynamic pressure requires a lower lift coefficient, normally achieved with lower angle of attack.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Lift equation reasoning",
+    "learningObjective": "Apply Lift equation reasoning knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-17"
+  },
+  {
+    "id": "CH04-V1-18",
+    "chapter": 4,
+    "topic": "Airfoil behavior",
+    "subtopic": "Slow-flight lift",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot slows in level flight while maintaining altitude. What general change is required before reaching the critical angle?",
+    "choices": [
+      "Increase angle of attack only after airspeed reaches the published stall speed; before that lift remains equal to weight automatically",
+      "Increase angle of attack to maintain the required lift as dynamic pressure decreases",
+      "Decrease angle of attack because slower airflow remains attached only when the chord aligns more closely with the relative wind",
+      "Hold the same angle of attack and increase only pitch attitude; lift coefficient does not need to change with speed"
+    ],
+    "correctIndex": 1,
+    "explanation": "As speed decreases, the pilot must generally increase lift coefficient/angle of attack to maintain lift equal to weight.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Slow-flight lift",
+    "learningObjective": "Apply Slow-flight lift knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-18"
+  },
+  {
+    "id": "CH04-V1-19",
+    "chapter": 4,
+    "topic": "Airfoil behavior",
+    "subtopic": "Center of pressure",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is the center of pressure operationally important?",
+    "choices": [
+      "It is the point where parasite drag acts, so its movement determines only yawing moment rather than pitch",
+      "It remains at a fixed wing station for all angles of attack, providing a constant reference for calculating lift",
+      "Its position represents where the resultant aerodynamic lift force acts and can shift with angle of attack, affecting pitching moments",
+      "It fixes the aircraft CG location because the center of pressure and CG must coincide in stable flight"
+    ],
+    "correctIndex": 2,
+    "explanation": "Movement of the resultant aerodynamic force location changes pitching moments and interacts with stability and control.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Center of pressure",
+    "learningObjective": "Apply Center of pressure knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-19"
+  },
+  {
+    "id": "CH04-V1-20",
+    "chapter": 4,
+    "topic": "Fluid behavior",
+    "subtopic": "Viscosity and boundary layer",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Which statement about viscosity and the boundary layer is most accurate?",
+    "choices": [
+      "Air at the surface moves at free-stream speed while viscosity slows only the outer edge of the flow",
+      "The boundary layer is a region of constant pressure and constant velocity created only when airflow becomes turbulent",
+      "Viscosity causes the entire airflow around the wing to slow uniformly, so there is no significant velocity gradient near the surface",
+      "Air viscosity causes air near the surface to slow, creating a boundary layer in which velocity changes from near zero at the surface to free-stream value"
+    ],
+    "correctIndex": 3,
+    "explanation": "Viscosity and friction make the fluid adhere to the surface and create a velocity gradient through the boundary layer.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Viscosity and boundary layer",
+    "learningObjective": "Apply Viscosity and boundary layer knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-20"
+  },
+  {
+    "id": "CH04-V1-21",
+    "chapter": 4,
+    "topic": "Fluid behavior",
+    "subtopic": "Surface condition",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is a smooth, clean leading edge important?",
+    "choices": [
+      "It helps maintain the intended boundary-layer and pressure behavior; contamination can trigger premature separation",
+      "A rough leading edge increases turbulence in a way that normally delays separation and raises maximum lift",
+      "Leading-edge condition affects parasite drag but not the pressure distribution or stall behavior of the wing",
+      "Contamination near the leading edge matters mainly at high cruise speed; at approach speed the boundary layer is too slow to be affected"
+    ],
+    "correctIndex": 0,
+    "explanation": "Leading-edge condition strongly influences airflow attachment and the wing’s ability to generate lift.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Surface condition",
+    "learningObjective": "Apply Surface condition knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-21"
+  },
+  {
+    "id": "CH04-V1-22",
+    "chapter": 4,
+    "topic": "Pressure and velocity",
+    "subtopic": "IAS versus TAS concept",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot observes that indicated airspeed for a given aerodynamic condition changes much less with altitude than true airspeed. Which idea explains this?",
+    "choices": [
+      "Indicated and true airspeed should remain equal at all altitudes unless wind changes, because both measure motion relative to the air",
+      "Indicated airspeed is related to dynamic pressure sensed by the pitot-static system, while true airspeed accounts for actual air density",
+      "Indicated airspeed is corrected for altitude automatically, while true airspeed is the raw pressure sensed by the pitot tube",
+      "True airspeed is tied to dynamic pressure while indicated airspeed measures actual motion through the airmass independent of density"
+    ],
+    "correctIndex": 1,
+    "explanation": "The wing responds to dynamic pressure; indicated airspeed approximates that pressure effect, while true airspeed increases as density decreases for a given dynamic pressure.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — IAS versus TAS concept",
+    "learningObjective": "Apply IAS versus TAS concept knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-22"
+  },
+  {
+    "id": "CH04-V1-23",
+    "chapter": 4,
+    "topic": "Fluid behavior",
+    "subtopic": "Air as a fluid",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the operational value of understanding that air is a fluid?",
+    "choices": [
+      "It allows pilots to calculate structural loads from material strength without considering airflow around the airplane",
+      "It explains why aerodynamic forces depend only on air temperature and not on the motion of the aircraft through the fluid",
+      "It allows pilots to reason about pressure, velocity, viscosity, boundary layers, and forces on airfoils",
+      "It shows why air can be treated as incompressible at all airplane speeds, eliminating the need to consider pressure changes"
+    ],
+    "correctIndex": 2,
+    "explanation": "Treating air as a fluid provides the physical framework for understanding aerodynamic flow and forces.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Air as a fluid",
+    "learningObjective": "Apply Air as a fluid knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-23"
+  },
+  {
+    "id": "CH04-V1-24",
+    "chapter": 4,
+    "topic": "Lift theory",
+    "subtopic": "Newton second law",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "An airplane accelerates while thrust exceeds drag. Which Newtonian idea is most directly illustrated?",
+    "choices": [
+      "Newton's first law: thrust maintains acceleration as long as it is applied, regardless of drag",
+      "Newton's third law: thrust and drag are equal-and-opposite forces on the same object, so acceleration results",
+      "Conservation of pressure: excess thrust raises pressure ahead of the airplane and that pressure change produces acceleration",
+      "A net force produces acceleration"
+    ],
+    "correctIndex": 3,
+    "explanation": "Under Newton’s second law, a net force causes acceleration proportional to that force and inversely proportional to mass.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Newton second law",
+    "learningObjective": "Apply Newton second law knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-24"
+  },
+  {
+    "id": "CH04-V1-25",
+    "chapter": 4,
+    "topic": "Lift theory",
+    "subtopic": "Newton third law",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A propeller accelerates a mass of air rearward. Which reaction contributes to thrust?",
+    "choices": [
+      "The air exerts an equal and opposite forward force on the propeller",
+      "The propeller pulls itself forward because the rearward-moving air creates lower static pressure only on the back of each blade",
+      "The engine's torque directly creates forward thrust; accelerating air rearward is a byproduct that does not affect the aircraft force",
+      "The rearward air pushes on the tail, and the tail transmits an equal forward force through the fuselage to the propeller"
+    ],
+    "correctIndex": 0,
+    "explanation": "Newton’s third law applies: accelerating air rearward produces a forward reaction on the propeller/aircraft.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Newton third law",
+    "learningObjective": "Apply Newton third law knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-25"
+  },
+  {
+    "id": "CH04-V1-26",
+    "chapter": 4,
+    "topic": "Airfoil behavior",
+    "subtopic": "AOA significance",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why is angle of attack a more fundamental aerodynamic variable than pitch attitude for stall awareness?",
+    "choices": [
+      "Critical angle of attack applies only in level unaccelerated flight; in turns and climbs the airplane stalls according to load factor rather than angle of attack",
+      "A stall occurs when the wing exceeds critical angle of attack, which can happen at many pitch attitudes and airspeeds",
+      "Pitch attitude determines stall first; angle of attack is mainly a convenient way to estimate pitch attitude during slow flight",
+      "A stall occurs when airspeed falls below the marked stall speed, while angle of attack only determines how abruptly the stall develops"
+    ],
+    "correctIndex": 1,
+    "explanation": "The wing stalls based on its angle to the relative wind, not its visual pitch attitude.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — AOA significance",
+    "learningObjective": "Apply AOA significance knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-26"
+  },
+  {
+    "id": "CH04-V1-27",
+    "chapter": 4,
+    "topic": "Airfoil behavior",
+    "subtopic": "Gust effects on AOA",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot enters a rising airmass that changes the flight path faster than the airplane’s attitude changes. Can angle of attack change without a control input?",
+    "choices": [
+      "No; a gust can change airspeed and load factor but angle of attack changes only with elevator movement",
+      "Yes, but only if the gust changes indicated airspeed enough to move the airplane below its published stall speed",
+      "Yes; a change in relative-wind direction can change angle of attack even if pitch attitude initially stays the same",
+      "No; without a pilot control input the chord line cannot change, so angle of attack remains fixed until the aircraft pitches"
+    ],
+    "correctIndex": 2,
+    "explanation": "Angle of attack depends on the relationship between chord and relative wind, so gusts can change it even before the aircraft attitude changes.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Gust effects on AOA",
+    "learningObjective": "Apply Gust effects on AOA knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-27"
+  },
+  {
+    "id": "CH04-V1-28",
+    "chapter": 4,
+    "topic": "Atmosphere",
+    "subtopic": "High-density-altitude reasoning",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why does a high-elevation, hot-day takeoff require special attention even though indicated liftoff speed may be similar to a low-elevation takeoff?",
+    "choices": [
+      "Indicated liftoff speed rises sharply with density altitude, but true airspeed and groundspeed remain nearly unchanged",
+      "The wing needs roughly the same groundspeed as at sea level, but the altimeter and engine instruments become less accurate",
+      "Only engine power is reduced; aerodynamic liftoff and climb performance are unchanged if the same indicated airspeed is maintained",
+      "The airplane needs a higher true airspeed and groundspeed to achieve the same dynamic pressure, while power and propeller performance are also reduced"
+    ],
+    "correctIndex": 3,
+    "explanation": "At lower density, the indicated aerodynamic speed may be similar but true airspeed/groundspeed are higher and powerplant/propeller performance is poorer.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — High-density-altitude reasoning",
+    "learningObjective": "Apply High-density-altitude reasoning knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-28"
+  },
+  {
+    "id": "CH04-V1-29",
+    "chapter": 4,
+    "topic": "Lift theory",
+    "subtopic": "Operational synthesis",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What should a pilot be able to articulate after studying basic flight principles?",
+    "choices": [
+      "How density, velocity, angle of attack, pressure distribution, and airflow momentum combine to create aerodynamic forces",
+      "How pitch attitude alone determines lift, with density and velocity affecting only engine performance",
+      "How Bernoulli pressure creates lift independently of airflow momentum, while Newton's laws mainly explain thrust",
+      "How wing shape fixes a single lift value for each airplane, with pilot controls changing direction rather than magnitude"
+    ],
+    "correctIndex": 0,
+    "explanation": "The practical value is the ability to connect atmospheric conditions and wing geometry to the aerodynamic forces the pilot controls.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Operational synthesis",
+    "learningObjective": "Apply Operational synthesis knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-29"
+  },
+  {
+    "id": "CH04-V1-30",
+    "chapter": 4,
+    "topic": "Airfoil behavior",
+    "subtopic": "Airspeed versus groundspeed",
+    "difficulty": "advanced",
+    "type": "scenario",
+    "prompt": "A pilot says, “A strong headwind cannot create lift while the airplane is stationary because the airplane has zero groundspeed.” What concept corrects this?",
+    "choices": [
+      "A strong headwind creates only drag while the airplane is on the ground; lift begins only after forward thrust produces positive groundspeed",
+      "Aerodynamic forces depend on motion relative to the surrounding air, not groundspeed; a stationary airplane in sufficient wind can experience aerodynamic lift, although actual liftoff also depends on restraints, orientation, lift, and weight",
+      "Aerodynamic lift depends on groundspeed, so a stationary airplane cannot produce lift regardless of wind speed",
+      "A stationary airplane can experience relative airflow from wind, but wind-generated lift is impossible until the wheels begin moving over the ground"
+    ],
+    "correctIndex": 1,
+    "explanation": "Aerodynamics respond to relative airflow rather than groundspeed. Wind across a stationary wing can create lift; whether the aircraft actually leaves the surface depends on the full force balance and any restraints.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 4 — Airspeed versus groundspeed",
+    "learningObjective": "Apply Airspeed versus groundspeed knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch04-30"
+  }
+]

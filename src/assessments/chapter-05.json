@@ -1,0 +1,602 @@
+[
+  {
+    "id": "CH05-V1-01",
+    "chapter": 5,
+    "topic": "Four forces",
+    "subtopic": "Force balance",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "An airplane is in straight-and-level, unaccelerated flight at constant speed. What force relationship must exist?",
+    "choices": [
+      "Lift equals weight and thrust equals drag",
+      "Lift must exceed weight by the same amount that thrust exceeds drag, creating zero net acceleration overall",
+      "Lift equals thrust and weight equals drag because opposite force pairs must balance in unaccelerated flight",
+      "Lift is slightly greater than weight while thrust is slightly less than drag so the airplane can hold altitude at constant speed"
+    ],
+    "correctIndex": 0,
+    "explanation": "With no vertical or longitudinal acceleration, the opposing force components are balanced: lift equals weight and thrust equals drag.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Force balance",
+    "learningObjective": "Apply Force balance knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-01"
+  },
+  {
+    "id": "CH05-V1-02",
+    "chapter": 5,
+    "topic": "Four forces",
+    "subtopic": "Climb force vectors",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot begins a steady climb at constant airspeed. Why is it inaccurate to say that lift must simply be greater than weight for the entire climb?",
+    "choices": [
+      "Weight becomes smaller in a climb because part of gravity is converted into forward force, so lift can exceed the reduced weight",
+      "In a steady climb the force vectors are tilted relative to the flight path; a component of weight acts along the path, so force balance is not the same as level flight",
+      "Lift must remain greater than weight throughout any climb because climb angle is created only by excess vertical force",
+      "Thrust must equal drag in a steady climb, while lift alone supports all of the airplane's weight just as in level flight"
+    ],
+    "correctIndex": 1,
+    "explanation": "In a steady climb, forces resolve along and perpendicular to the flight path; the vector relationships differ from level flight.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Climb force vectors",
+    "learningObjective": "Apply Climb force vectors knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-02"
+  },
+  {
+    "id": "CH05-V1-03",
+    "chapter": 5,
+    "topic": "Four forces",
+    "subtopic": "Glide force vectors",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "During a power-off glide at constant airspeed, what provides the forward component that balances drag?",
+    "choices": [
+      "Lift tilts forward in a glide and provides the component that balances drag while weight remains entirely vertical",
+      "Stored kinetic energy continuously supplies the forward force; once speed becomes constant, no force component is needed to oppose drag",
+      "A component of the airplane’s weight acting along the descending flight path",
+      "Residual engine thrust, even at idle, must equal drag or the airplane cannot maintain a constant glide speed"
+    ],
+    "correctIndex": 2,
+    "explanation": "In a glide, part of the weight vector acts along the flight path and supplies the force that balances drag.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Glide force vectors",
+    "learningObjective": "Apply Glide force vectors knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-03"
+  },
+  {
+    "id": "CH05-V1-04",
+    "chapter": 5,
+    "topic": "Lift and drag",
+    "subtopic": "Slow flight",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot slows while maintaining level flight. What combination is generally required as speed decreases?",
+    "choices": [
+      "Decrease angle of attack to prevent induced drag from rising as speed falls",
+      "Hold angle of attack constant and add only power; level-flight lift remains constant automatically",
+      "Increase pitch attitude but keep angle of attack unchanged because lift depends primarily on attitude relative to the horizon",
+      "Increase angle of attack to maintain lift, which also increases induced drag"
+    ],
+    "correctIndex": 3,
+    "explanation": "At lower dynamic pressure, the wing needs a higher lift coefficient/angle of attack to support the same weight, increasing induced drag.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Slow flight",
+    "learningObjective": "Apply Slow flight knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-04"
+  },
+  {
+    "id": "CH05-V1-05",
+    "chapter": 5,
+    "topic": "Drag",
+    "subtopic": "Parasite drag",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "At high speed in level flight, which drag component generally dominates?",
+    "choices": [
+      "Parasite drag",
+      "Induced drag, because producing lift at high dynamic pressure requires stronger wingtip vortices",
+      "Wave drag in every light airplane, because compressibility becomes the dominant effect whenever indicated airspeed is high",
+      "Skin-friction drag decreases with speed while induced drag increases, so induced drag dominates the high-speed region"
+    ],
+    "correctIndex": 0,
+    "explanation": "Parasite drag rises rapidly with speed, while induced drag is greatest at low speed/high lift coefficient.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Parasite drag",
+    "learningObjective": "Apply Parasite drag knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-05"
+  },
+  {
+    "id": "CH05-V1-06",
+    "chapter": 5,
+    "topic": "Drag",
+    "subtopic": "Induced drag",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "At very low speed in level flight, which drag component generally becomes large?",
+    "choices": [
+      "Wave drag, because low-speed flow separates from the wing in the same way as compressibility flow",
+      "Induced drag",
+      "Parasite drag, because slower flight exposes the airplane to the airflow for a longer time",
+      "Profile drag alone, because wingtip vortices weaken as angle of attack rises"
+    ],
+    "correctIndex": 1,
+    "explanation": "Producing the required lift at low speed requires high angle of attack and lift coefficient, which increases induced drag.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Induced drag",
+    "learningObjective": "Apply Induced drag knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-06"
+  },
+  {
+    "id": "CH05-V1-07",
+    "chapter": 5,
+    "topic": "Drag",
+    "subtopic": "Total drag curve",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why does the total-drag curve have a minimum at an intermediate airspeed?",
+    "choices": [
+      "Parasite and induced drag both increase with speed, but at different rates that happen to cross at the minimum-drag speed",
+      "Minimum drag occurs where thrust equals weight rather than where the induced and parasite components of drag balance",
+      "Parasite drag decreases as speed is reduced while induced drag increases, creating a point where their sum is lowest",
+      "Both parasite and induced drag decrease as speed is reduced until the stall, so minimum drag occurs just above stall speed"
+    ],
+    "correctIndex": 2,
+    "explanation": "The opposing trends of parasite and induced drag produce a minimum total-drag condition near best lift-to-drag ratio.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Total drag curve",
+    "learningObjective": "Apply Total drag curve knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-07"
+  },
+  {
+    "id": "CH05-V1-08",
+    "chapter": 5,
+    "topic": "Turns and load factor",
+    "subtopic": "Level turns",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot steepens a coordinated level turn from 30° to 60° bank while maintaining altitude. What must happen to lift and load factor?",
+    "choices": [
+      "Total lift can remain equal to weight because banking changes only the horizontal direction of lift, not its vertical component",
+      "Total lift decreases as bank increases because centrifugal force supports part of the airplane's weight",
+      "Load factor remains 1 G in every coordinated level turn; only turn rate and radius change with bank",
+      "Total lift must increase because only its vertical component supports weight, so load factor rises"
+    ],
+    "correctIndex": 3,
+    "explanation": "Banking tilts the lift vector. To keep the vertical component equal to weight, total lift must increase, raising load factor.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Level turns",
+    "learningObjective": "Apply Level turns knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-08"
+  },
+  {
+    "id": "CH05-V1-09",
+    "chapter": 5,
+    "topic": "Stalls and load factor",
+    "subtopic": "Accelerated stall",
+    "difficulty": "advanced",
+    "type": "calculation",
+    "prompt": "In a coordinated 60° banked level turn, the load factor is approximately 2 G. What happens to stall speed compared with 1-G flight?",
+    "choices": [
+      "It increases by approximately the square root of 2",
+      "It remains the same because critical angle of attack is independent of load factor",
+      "It doubles because stall speed changes in direct proportion to load factor",
+      "It decreases by the square root of 2 because bank converts some lift into the horizontal turn force"
+    ],
+    "correctIndex": 0,
+    "explanation": "Stall speed increases with the square root of load factor, so 2 G raises stall speed by about 41 percent.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Accelerated stall",
+    "learningObjective": "Apply Accelerated stall knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-09"
+  },
+  {
+    "id": "CH05-V1-10",
+    "chapter": 5,
+    "topic": "Stalls",
+    "subtopic": "Critical angle of attack",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why can an airplane stall at any airspeed and any attitude?",
+    "choices": [
+      "A stall occurs only when lift becomes less than weight; high-speed accelerated maneuvers cannot stall while lift is above weight",
+      "A stall is caused by exceeding critical angle of attack, not by a particular airspeed or pitch attitude",
+      "A stall is caused whenever indicated airspeed falls below the published 1-G stall speed, regardless of angle of attack",
+      "A stall requires a nose-high pitch attitude because the wing must be pointed above the horizon to separate airflow"
+    ],
+    "correctIndex": 1,
+    "explanation": "Critical angle of attack is the direct aerodynamic cause of a stall; high load factor or abrupt control inputs can reach it at higher airspeeds.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Critical angle of attack",
+    "learningObjective": "Apply Critical angle of attack knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-10"
+  },
+  {
+    "id": "CH05-V1-11",
+    "chapter": 5,
+    "topic": "Stalls and load factor",
+    "subtopic": "Accelerated stalls",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot makes an abrupt pull-up at an airspeed well above the normal 1-G stall speed. What aerodynamic event can occur first?",
+    "choices": [
+      "Only a high-speed buffet can occur; the wing cannot stall until the airspeed decays to the 1-G stall speed",
+      "The airplane will necessarily enter a spin because any abrupt pull above 1-G stall speed creates autorotation",
+      "An accelerated stall if the increased load factor drives the wing beyond critical angle of attack",
+      "Structural failure must occur before a stall because airspeed is above the published stall speed"
+    ],
+    "correctIndex": 2,
+    "explanation": "Higher load factor requires greater lift and angle of attack, which can produce a stall at a higher airspeed.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Accelerated stalls",
+    "learningObjective": "Apply Accelerated stalls knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-11"
+  },
+  {
+    "id": "CH05-V1-12",
+    "chapter": 5,
+    "topic": "Load factor",
+    "subtopic": "Maneuvering speed",
+    "difficulty": "advanced",
+    "type": "scenario",
+    "prompt": "What is the principal reason maneuvering speed decreases as aircraft weight decreases?",
+    "choices": [
+      "At lighter weight the structure is weaker because there is less inertia resisting gust and maneuver loads",
+      "At lighter weight the published stall speed rises, so maneuvering speed must be reduced to preserve the same speed margin",
+      "Maneuvering speed is actually independent of weight; only maximum structural cruising speed changes with loading",
+      "At a lighter weight, the wing can reach the structural load limit at a lower airspeed relative to the stall/load relationship, so the published maneuvering speed must be lower"
+    ],
+    "correctIndex": 3,
+    "explanation": "Maneuvering speed is weight dependent; the lighter aircraft reaches the relevant aerodynamic/structural relationship at a lower speed.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Maneuvering speed",
+    "learningObjective": "Apply Maneuvering speed knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-12"
+  },
+  {
+    "id": "CH05-V1-13",
+    "chapter": 5,
+    "topic": "Load factor",
+    "subtopic": "Turbulence and maneuvering speed",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot encounters a sharp gust. Why does reducing to an appropriate turbulence penetration/maneuvering speed reduce structural risk?",
+    "choices": [
+      "It increases the likelihood the wing will stall before excessive aerodynamic load can be imposed by a full abrupt input or gust, within the assumptions of the speed",
+      "It guarantees the airplane cannot exceed any structural limit in turbulence because a stall always occurs first at or below VA",
+      "It reduces gust loads mainly by lowering parasite drag; structural protection is unrelated to the stall/load-factor relationship",
+      "It is the speed at which abrupt full control deflection is always safe regardless of weight, turbulence intensity, or manufacturer limitations"
+    ],
+    "correctIndex": 0,
+    "explanation": "An appropriate maneuvering/turbulence speed provides greater protection from excessive aerodynamic loads, though it is not immunity from all structural damage or multiple control inputs.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Turbulence and maneuvering speed",
+    "learningObjective": "Apply Turbulence and maneuvering speed knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-13"
+  },
+  {
+    "id": "CH05-V1-14",
+    "chapter": 5,
+    "topic": "Wake turbulence",
+    "subtopic": "Vortex strength",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "When are wake vortices from a fixed-wing aircraft generally strongest?",
+    "choices": [
+      "Heavy, clean, and fast, because higher airspeed always creates the strongest circulation for the same weight",
+      "When the generating aircraft is heavy, clean, and slow",
+      "Light, dirty, and fast, because high flap drag and speed strengthen the pressure differential at the wingtips",
+      "Heavy, dirty, and fast, because weight and configuration increase vortex strength while speed determines how long vortices persist"
+    ],
+    "correctIndex": 1,
+    "explanation": "Strongest vortices occur with high lift demand: heavy weight, clean configuration, and slow speed.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Vortex strength",
+    "learningObjective": "Apply Vortex strength knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-14"
+  },
+  {
+    "id": "CH05-V1-15",
+    "chapter": 5,
+    "topic": "Wake turbulence",
+    "subtopic": "Avoidance",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A light airplane is landing behind a larger airplane. Which strategy best reduces wake-vortex exposure?",
+    "choices": [
+      "Cross the larger airplane's flight path at the same altitude shortly after it passes because wake vortices rise away from the runway",
+      "Aim for the larger airplane's touchdown point because the vortices dissipate immediately once the generating airplane is on the runway",
+      "Stay at or above the larger airplane’s final approach path and land beyond its touchdown point when practical and safe",
+      "Stay below the larger airplane's approach path and land before its touchdown point so the light airplane passes under the sinking vortices"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vortices sink and move with the wind; remaining above the generating aircraft’s path and avoiding its touchdown region reduces exposure.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Avoidance",
+    "learningObjective": "Apply Avoidance knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-15"
+  },
+  {
+    "id": "CH05-V1-16",
+    "chapter": 5,
+    "topic": "Ground effect",
+    "subtopic": "Induced drag in ground effect",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why does ground effect reduce induced drag near the surface?",
+    "choices": [
+      "Ground effect increases dynamic pressure at the wing, so induced drag falls because the airplane is effectively flying at a higher airspeed",
+      "Ground effect reduces parasite drag by shielding the fuselage and landing gear from the relative wind",
+      "The ground increases wing camber aerodynamically, raising lift coefficient without changing downwash or vortex strength",
+      "The ground interferes with wingtip-vortex/downwash development, reducing induced angle and induced drag"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ground proximity alters the wing’s vortex system and downwash, reducing induced drag and changing lift characteristics.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Induced drag in ground effect",
+    "learningObjective": "Apply Induced drag in ground effect knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-16"
+  },
+  {
+    "id": "CH05-V1-17",
+    "chapter": 5,
+    "topic": "Ground effect",
+    "subtopic": "Premature liftoff",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What risk can occur if a pilot lifts off in ground effect at a high-density-altitude airport before the airplane has enough speed to climb out of ground effect?",
+    "choices": [
+      "The airplane may fly in ground effect but be unable to climb once induced drag increases outside it",
+      "The airplane will immediately stall on liftoff because indicated stall speed increases sharply when the wing leaves ground effect",
+      "The airplane may climb normally but accelerate poorly because parasite drag, rather than induced drag, increases outside ground effect",
+      "Ground effect masks reduced engine power only; once airborne, wing lift is unchanged and climb performance depends solely on excess thrust"
+    ],
+    "correctIndex": 0,
+    "explanation": "An airplane can become airborne in ground effect at a speed that is insufficient for an out-of-ground-effect climb, especially when performance is marginal.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Premature liftoff",
+    "learningObjective": "Apply Premature liftoff knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-17"
+  },
+  {
+    "id": "CH05-V1-18",
+    "chapter": 5,
+    "topic": "Lift and drag",
+    "subtopic": "Flaps",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot extends flaps on approach. What is the typical combined aerodynamic effect?",
+    "choices": [
+      "Increase only wing area; lift and drag coefficients remain essentially unchanged when trailing-edge flaps are extended",
+      "Increase lift coefficient and increase drag, allowing a steeper/lower-speed approach within aircraft limitations",
+      "Increase lift coefficient while reducing drag, allowing both a slower and shallower approach without additional power",
+      "Reduce lift coefficient and increase drag, requiring a higher approach speed to preserve stall margin"
+    ],
+    "correctIndex": 1,
+    "explanation": "Flaps change camber and often area, increasing lift and drag; their exact effects are aircraft/configuration specific.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Flaps",
+    "learningObjective": "Apply Flaps knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-18"
+  },
+  {
+    "id": "CH05-V1-19",
+    "chapter": 5,
+    "topic": "Stalls",
+    "subtopic": "Contamination",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot carries ice contamination on the leading edge. What is the key stall-related danger?",
+    "choices": [
+      "The stall occurs at the same angle and airspeed; the primary effect is only increased parasite drag and reduced cruise speed",
+      "Ice increases wing weight but does not materially change the airflow unless its mass moves the center of gravity outside limits",
+      "The contamination can reduce maximum lift and cause airflow separation at a lower angle of attack and/or higher airspeed than expected",
+      "Contamination raises the critical angle of attack, so the airplane may stall later but with a more abrupt break"
+    ],
+    "correctIndex": 2,
+    "explanation": "Contamination changes the airfoil shape and boundary layer, degrading lift and stall characteristics.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Contamination",
+    "learningObjective": "Apply Contamination knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-19"
+  },
+  {
+    "id": "CH05-V1-20",
+    "chapter": 5,
+    "topic": "Stability",
+    "subtopic": "Longitudinal stability",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why does an aft center of gravity generally reduce longitudinal stability?",
+    "choices": [
+      "An aft CG increases the tail's stabilizing lever arm, producing stronger restoring moments after a pitch disturbance",
+      "An aft CG increases directional instability rather than longitudinal instability because the vertical tail has less leverage",
+      "Longitudinal stability is unchanged as long as total weight remains constant; CG affects only elevator control force",
+      "The restoring pitching moments are reduced because the CG is closer to the aerodynamic balance point"
+    ],
+    "correctIndex": 3,
+    "explanation": "Moving CG aft reduces the stabilizing leverage/moments required to return the airplane toward equilibrium after a pitch disturbance.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Longitudinal stability",
+    "learningObjective": "Apply Longitudinal stability knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-20"
+  },
+  {
+    "id": "CH05-V1-21",
+    "chapter": 5,
+    "topic": "Stability",
+    "subtopic": "Forward CG effects",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why can an excessively forward CG make stall recovery more difficult even though it generally increases stability?",
+    "choices": [
+      "Greater nose-up control force may be required in normal flight and available elevator authority may be reduced for some maneuvers, especially flare; recovery/control margins are aircraft specific",
+      "A forward CG reduces stability so much that the airplane naturally pitches farther nose-up during a stall",
+      "A forward CG makes the elevator overly sensitive, so small recovery inputs create excessive nose-down pitch",
+      "Forward CG always makes stall recovery easier because the stronger nose-down tendency guarantees sufficient elevator authority in every configuration"
+    ],
+    "correctIndex": 0,
+    "explanation": "Forward CG increases stability but can require greater tail force/elevator authority and degrade performance; limits ensure adequate control.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Forward CG effects",
+    "learningObjective": "Apply Forward CG effects knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-21"
+  },
+  {
+    "id": "CH05-V1-22",
+    "chapter": 5,
+    "topic": "Stability",
+    "subtopic": "Static stability",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is static stability?",
+    "choices": [
+      "The resistance of the structure to aerodynamic loads at the maneuvering limit",
+      "The initial tendency of an aircraft to return toward, remain at, or move away from equilibrium after a disturbance",
+      "The rate at which oscillations grow or decay over time after the initial disturbance",
+      "The ability of the pilot to return the airplane to trimmed flight using the controls"
+    ],
+    "correctIndex": 1,
+    "explanation": "Static stability describes the initial response to a displacement. Dynamic stability describes how the motion evolves over time.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Static stability",
+    "learningObjective": "Apply Static stability knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-22"
+  },
+  {
+    "id": "CH05-V1-23",
+    "chapter": 5,
+    "topic": "Stability",
+    "subtopic": "Dynamic stability",
+    "difficulty": "advanced",
+    "type": "scenario",
+    "prompt": "An airplane initially tends to return toward equilibrium after a disturbance but its oscillations grow with time. How should its stability be described?",
+    "choices": [
+      "Neutral static stability and negative dynamic stability, because growing oscillations mean there is no initial restoring tendency",
+      "Positive static stability and positive dynamic stability, because any initial tendency toward equilibrium defines both forms of stability",
+      "Positive static stability but negative dynamic stability",
+      "Negative static stability and positive dynamic stability, because the initial response is toward equilibrium but the later motion diverges"
+    ],
+    "correctIndex": 2,
+    "explanation": "The initial restoring tendency is positive static stability, but increasing oscillation amplitude indicates negative dynamic stability.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Dynamic stability",
+    "learningObjective": "Apply Dynamic stability knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-23"
+  },
+  {
+    "id": "CH05-V1-24",
+    "chapter": 5,
+    "topic": "Stability",
+    "subtopic": "Dihedral effect",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why does dihedral contribute to lateral stability?",
+    "choices": [
+      "Dihedral makes the high wing in a sideslip produce more lift, increasing the existing bank rather than opposing it",
+      "Dihedral creates directional stability by yawing the nose into the relative wind, with little effect on rolling moment",
+      "Dihedral works mainly through a change in wing loading from gravity, not through the sideslip angle seen by the two wings",
+      "A sideslip changes the effective angle of attack/lift between the wings, tending to roll the airplane back toward level"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dihedral geometry creates a restoring roll tendency during sideslip.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Dihedral effect",
+    "learningObjective": "Apply Dihedral effect knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-24"
+  },
+  {
+    "id": "CH05-V1-25",
+    "chapter": 5,
+    "topic": "Stability",
+    "subtopic": "Directional stability",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What is the primary role of the vertical tail in directional stability?",
+    "choices": [
+      "Provide a weather-vane tendency that aligns the airplane with the relative wind after a yaw disturbance",
+      "Provide roll stability by increasing lift on the lower wing whenever the airplane banks",
+      "Provide longitudinal stability by balancing the pitching moment of the wing and horizontal tail",
+      "Create the horizontal component of lift needed for a coordinated turn whenever rudder is applied"
+    ],
+    "correctIndex": 0,
+    "explanation": "The vertical stabilizer produces a restoring yawing moment when the aircraft is sideslipped.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Directional stability",
+    "learningObjective": "Apply Directional stability knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-25"
+  },
+  {
+    "id": "CH05-V1-26",
+    "chapter": 5,
+    "topic": "Turns and load factor",
+    "subtopic": "Vertical lift component",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot enters a coordinated level turn and then increases bank without increasing back pressure. What is the likely immediate flight-path tendency?",
+    "choices": [
+      "The airplane will skid outward while remaining level because bank changes only turn coordination, not the vertical lift component",
+      "The airplane will begin descending because the vertical component of lift is reduced",
+      "The airplane will maintain altitude but turn more slowly because the horizontal component of lift increases",
+      "The airplane will climb because total lift rises automatically with bank even if angle of attack is unchanged"
+    ],
+    "correctIndex": 1,
+    "explanation": "Banking tilts lift. Without increasing total lift, the vertical component becomes less than weight, causing a descent.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Vertical lift component",
+    "learningObjective": "Apply Vertical lift component knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-26"
+  },
+  {
+    "id": "CH05-V1-27",
+    "chapter": 5,
+    "topic": "Turns and load factor",
+    "subtopic": "Turn radius",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "Why does turn radius increase with true airspeed at a given bank angle?",
+    "choices": [
+      "Radius remains unchanged at a fixed bank; only rate of turn changes with airspeed",
+      "Radius changes in direct proportion to speed, not with the square of speed, because centripetal force is constant",
+      "More distance is traveled while the same bank produces a given rate of change in direction; mathematically radius rises with the square of speed for fixed bank",
+      "Radius decreases because higher speed creates more horizontal lift for the same bank angle"
+    ],
+    "correctIndex": 2,
+    "explanation": "For a coordinated level turn at fixed bank, radius increases strongly with speed.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Turn radius",
+    "learningObjective": "Apply Turn radius knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-27"
+  },
+  {
+    "id": "CH05-V1-28",
+    "chapter": 5,
+    "topic": "Turns and load factor",
+    "subtopic": "Rate of turn",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "At a given true airspeed, what happens to rate of turn as bank angle increases in a coordinated level turn?",
+    "choices": [
+      "Rate of turn decreases because more lift is used to support load factor rather than change direction",
+      "Rate of turn remains constant because a coordinated turn rate depends only on true airspeed",
+      "Rate of turn changes only if the pilot also changes power; bank by itself affects load factor but not directional rate",
+      "Rate of turn increases"
+    ],
+    "correctIndex": 3,
+    "explanation": "A steeper bank creates a larger horizontal lift component and higher centripetal acceleration, increasing turn rate at a given speed.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Rate of turn",
+    "learningObjective": "Apply Rate of turn knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-28"
+  },
+  {
+    "id": "CH05-V1-29",
+    "chapter": 5,
+    "topic": "Lift and drag",
+    "subtopic": "Best L/D",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "A pilot wants the best glide distance in still air. Which aerodynamic condition is fundamentally being sought?",
+    "choices": [
+      "Maximum lift-to-drag ratio",
+      "Minimum sink speed, because staying aloft longer always produces the greatest horizontal distance",
+      "The speed for minimum parasite drag, because induced drag does not affect glide distance",
+      "The highest practical glide airspeed below VNE, because greater true airspeed always increases distance before touchdown"
+    ],
+    "correctIndex": 0,
+    "explanation": "Best glide distance in still air is associated with the airplane’s maximum lift-to-drag ratio, subject to aircraft-specific guidance.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Best L/D",
+    "learningObjective": "Apply Best L/D knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-29"
+  },
+  {
+    "id": "CH05-V1-30",
+    "chapter": 5,
+    "topic": "Aerodynamics",
+    "subtopic": "Operational synthesis",
+    "difficulty": "application",
+    "type": "scenario",
+    "prompt": "What should a student ultimately be able to explain about airplane control from aerodynamics alone?",
+    "choices": [
+      "How thrust and lift can be controlled independently while weight and drag remain essentially constant throughout normal maneuvers",
+      "How changing power, attitude, angle of attack, configuration, and bank changes the balance of lift, weight, thrust, drag, load factor, and stall margin",
+      "How elevator, aileron, and rudder positions alone determine the airplane's path regardless of power or energy state",
+      "How airspeed alone predicts stall margin, turn performance, and structural load without needing angle of attack or bank"
+    ],
+    "correctIndex": 1,
+    "explanation": "Operational understanding requires connecting pilot inputs and configuration to changing force vectors, drag, load factor, and stall behavior.",
+    "sourcePage": "FAA-H-8083-25C, Chapter 5 — Operational synthesis",
+    "learningObjective": "Apply Operational synthesis knowledge to a realistic pilot decision or flight condition.",
+    "family": "ch05-30"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  [
+    "It freezes near the value shown when the blockage occurred because pressure is trapped in the pitot line",
+    "It behaves like an altimeter because static pressure changes while pitot pressure remains fixed",
+    "It reads progressively high in a climb and low in a descent because the open drain senses static pressure"
+  ],
+  [
+    "It remains fixed at the airspeed shown when both openings became blocked, regardless of altitude change",
+    "It decreases during a climb because trapped pitot pressure becomes lower relative to the outside static pressure",
+    "It drops toward zero because blocking both pitot openings prevents total pressure from remaining in the line"
+  ],
+  [
+    "Altimeter and VSI only; airspeed remains accurate because its pitot source is still open",
+    "Airspeed indicator and altimeter only; the VSI uses an independent calibrated pressure source",
+    "Airspeed indicator and VSI only; the altimeter uses a sealed aneroid reference and does not require static pressure"
+  ],
+  [
+    "It continues to indicate altitude changes but with an increasing time lag, similar to a VSI",
+    "It begins indicating pressure altitude based on the trapped static pressure and current pitot pressure",
+    "It reads progressively higher in a climb and lower in a descent because the trapped pressure behaves like a pitot source"
+  ],
+  [
+    "It continues indicating the initial climb or descent rate because static pressure is trapped at the blockage altitude",
+    "It reverses direction, showing a descent during a climb and a climb during a descent",
+    "It remains accurate because the calibrated leak supplies an alternate source of outside static pressure"
+  ],
+  [
+    "Higher than indicated, because the altimeter still references the higher pressure setting from the departure area",
+    "At approximately the indicated altitude, because pressure-setting errors cancel as the airplane crosses pressure systems",
+    "The direction cannot be determined without outside temperature because pressure changes affect only density altitude, not true altitude"
+  ],
+  [
+    "True altitude can be higher than indicated because colder, denser air compresses the pressure levels closer to sea level",
+    "True altitude remains equal to indicated altitude as long as the local altimeter setting is correct",
+    "The main risk is an indicated-air-speed error; temperature does not change the geometric height of pressure surfaces"
+  ],
+  [
+    "The airplane's actual vertical distance above mean sea level after corrections for pressure and temperature",
+    "The altitude above the standard 29.92-inch pressure datum used for performance calculations",
+    "The height of the airplane above the terrain directly beneath it at the moment of observation"
+  ],
+  [
+    "The actual vertical distance above mean sea level after correcting indicated altitude for temperature and instrument error",
+    "Pressure altitude corrected for nonstandard temperature so it reflects the density experienced by the airplane",
+    "The height above the surface obtained by subtracting local terrain elevation from indicated altitude"
+  ],
+  [
+    "True altitude corrected for humidity and wind so it reflects the airplane's actual height above the runway",
+    "Indicated altitude corrected only for the current altimeter setting, used mainly for terrain and obstacle clearance",
+    "Absolute altitude corrected for pressure changes, representing height above ground in standard-atmosphere conditions"
+  ],
+  [
+    "It measures the rate at which static pressure changes and converts that directly into indicated airspeed",
+    "It compares pitot pressure with a sealed standard-atmosphere reference rather than outside static pressure",
+    "It senses ram-air temperature and static pressure, then computes speed from air density without using total pressure"
+  ],
+  [
+    "Indicated airspeed corrected for pressure altitude and nonstandard temperature",
+    "True airspeed corrected for wind so it represents speed over the ground in still-air equivalent conditions",
+    "Equivalent airspeed corrected for compressibility and density so it equals the reading seen on the airspeed indicator"
+  ],
+  [
+    "Indicated airspeed rises with altitude while true airspeed remains nearly constant because the pitot tube senses less static pressure",
+    "True airspeed is greater because the airplane must create the same lift coefficient at a higher angle of attack rather than because of density",
+    "The two speeds differ mainly because the altimeter setting changes with altitude; at a constant setting IAS and TAS remain nearly equal"
+  ],
+  [
+    "The range from VS1 to VNO in which the airplane may be operated normally with flaps retracted",
+    "The range from VNO to VNE in which operation is permitted only in smooth air and with caution",
+    "The range from VS0 to VX that identifies speeds approved for takeoff and initial climb with partial flaps"
+  ],
+  [
+    "The flap operating range from VS0 to VFE",
+    "The caution range between VNO and VNE",
+    "The approved maneuvering range from VA to VNO for abrupt control inputs"
+  ],
+  [
+    "The normal operating range for routine cruise and maneuvering below VNO",
+    "The flap operating range in which any approved flap setting may be selected",
+    "The prohibited range above VNE where operation is permitted only for flight test"
+  ],
+  [
+    "Maximum structural cruising speed VNO",
+    "Maximum flap-extended speed VFE",
+    "Design maneuvering speed VA for the airplane at maximum gross weight"
+  ],
+  [
+    "The diaphragm receives pitot pressure through a restricted line, delaying the indication as airspeed changes",
+    "The VSI gyro requires time to precess after the airplane stops climbing, so the needle settles gradually",
+    "The altimeter-setting mechanism shares the same pointer shaft, and barometric changes momentarily drive the VSI after level-off"
+  ],
+  [
+    "Precession, which keeps a spinning rotor aligned with the airplane's pitch and bank axes",
+    "Magnetic dip, which creates a stable reference to the Earth's field regardless of airplane motion",
+    "Pendulous-vane action alone, which keeps the gyro erect without relying on the spinning rotor's inertia"
+  ],
+  [
+    "A force applied to a spinning gyro acts immediately at the exact point of application, while the case moves 90 degrees later",
+    "A gyro gradually aligns itself with magnetic north as friction slows the rotor, creating an apparent 90-degree heading error",
+    "A spinning gyro resists any applied force completely until rotor speed falls below the instrument's operating range"
+  ],
+  [
+    "Magnetic variation changes as the airplane travels, causing the heading indicator to drift even though its gyro remains fixed to north",
+    "The heading indicator is intentionally slaved to the pitot-static system and must be reset when pressure altitude changes",
+    "Earth-rate precession alone produces a standardized drift that is corrected by resetting exactly once each hour"
+  ],
+  [
+    "The compass initially turns in the correct direction but overshoots only when rolling out on north or south headings",
+    "Acceleration error rather than turning error dominates on north/south headings, causing the compass to show a false climb or descent",
+    "Compass deviation from aircraft electrical equipment increases during turns and temporarily reverses the indicated direction"
+  ],
+  [
+    "An apparent turn toward south during acceleration and toward north during deceleration",
+    "An apparent turn toward north during both acceleration and deceleration, with only the amount of error changing",
+    "No acceleration/deceleration error on east or west headings; those headings are affected only by turning error"
+  ],
+  [
+    "The angle between the aircraft's magnetic compass and its electrically driven heading indicator",
+    "The difference between magnetic north and compass north caused by magnetic fields within the aircraft",
+    "The correction between pressure altitude and true altitude caused by geographic changes in the Earth's magnetic field"
+  ],
+  [
+    "The angular difference between true north and magnetic north at the aircraft's geographic position",
+    "The change in magnetic variation that occurs when the airplane accelerates or turns",
+    "Gyroscopic drift between the heading indicator and magnetic compass caused by friction in the gyro bearings"
+  ],
+  [
+    "Select whichever instrument agrees with the pilot's body sensations, then use the others only to confirm the trend",
+    "Assume the standby instrument is correct because independent instruments are certified not to share failure sources",
+    "Use the primary display unless a warning flag appears; conflicting performance indications are less reliable than attitude information"
+  ],
+  [
+    "Electronic displays fail only as complete screens, so the pilot may lose all flight information without any partial indications",
+    "Integrated systems can share sensors or processing, but reversionary modes automatically identify every bad source for the pilot",
+    "A glass cockpit is more hazardous mainly because electronic attitude displays react more slowly than vacuum-driven gyros"
+  ],
+  [
+    "Only altitude and vertical speed; airspeed uses pitot pressure and is independent of static-pressure accuracy",
+    "Only airspeed and altitude; vertical speed comes from an accelerometer rather than pressure information",
+    "Heading, attitude, and altitude simultaneously because the air data computer supplies reference data to every flight display"
+  ],
+  [
+    "Use outside references only if every instrument agrees; disagreement between instruments usually indicates visual illusion rather than failure",
+    "Choose the instrument with the most stable indication and ignore the others until the discrepancy resolves",
+    "Use GPS groundspeed and track as the primary substitute for attitude, altitude, and airspeed whenever conventional indications conflict"
+  ],
+  [
+    "Memorize the normal instrument scan and assume an abnormal indication is a failed instrument unless an annunciation says otherwise",
+    "Know the color markings and instrument locations; pressure sources and failure modes are mainly maintenance knowledge",
+    "Use integrated electronic indications as primary truth and treat standby instruments only as emergency backups after a complete display failure"
+  ]
+]

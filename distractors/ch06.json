@@ -1,0 +1,152 @@
+[
+  [
+    "Left rudder as needed, because the down-going aileron on the left wing creates less drag",
+    "No rudder; coordinated turns are established with aileron first and rudder is used only to correct a skid after the bank is set",
+    "Right rudder only after the desired bank is reached; using it during roll-in would create excessive proverse yaw"
+  ],
+  [
+    "Left aileron lowers and right aileron rises, increasing lift on the left wing to roll left",
+    "Both ailerons rise together, reducing total lift so the airplane can roll without pitching",
+    "Left aileron rises while the right remains neutral; roll is produced by drag rather than differential lift"
+  ],
+  [
+    "Elevator trailing edge moves down, increasing downward tail force and pitching the nose up",
+    "Elevator trailing edge moves up, reducing downward tail force so the nose rises as the tail lifts",
+    "Horizontal stabilizer incidence changes automatically while the elevator remains neutral"
+  ],
+  [
+    "Roll to the right about the longitudinal axis, because rudder deflection changes lift on the vertical tail",
+    "Yaw to the left about the vertical axis because the rudder moves the tail in the same direction as the pedal",
+    "Pitch down about the lateral axis because the vertical tail force acts behind the center of gravity"
+  ],
+  [
+    "Each primary control acts about only one axis; any secondary motion indicates incorrect rigging or pilot overcontrol",
+    "Coupling matters mainly in aerobatics; at normal training-bank angles aileron, elevator, and rudder effects can be treated independently",
+    "Secondary effects occur only at high speed, so coordinated control is unnecessary during slow flight and landing"
+  ],
+  [
+    "Use trim first to establish the climb attitude, then use elevator only for small corrections around the trimmed position",
+    "Continue holding the force and leave trim neutral so the pilot can feel the exact aerodynamic load throughout the climb",
+    "Trim to eliminate control pressure before establishing the target airspeed, because trim determines the airplane's pitch attitude more precisely than elevator"
+  ],
+  [
+    "Trim setting should remain valid because trim balances the airplane's center of gravity rather than aerodynamic forces",
+    "Retrimming is needed only after configuration changes such as flap extension; power and airspeed alone do not alter trim requirements",
+    "Trim changes are required mainly to correct control-system friction, so a previously smooth airplane should not need retrimming in a new flight condition"
+  ],
+  [
+    "Trim is a more precise pitch control than the elevator, so using it primarily can cause the pilot to make corrections too slowly",
+    "Trim changes the aircraft center of gravity; excessive use can move the CG outside its approved envelope",
+    "Trim is structurally weaker than the elevator and may fail if used repeatedly to change pitch attitude"
+  ],
+  [
+    "Only the trailing-edge elevator portion moves; the fixed stabilizer pivots to provide trim",
+    "The vertical stabilizer and elevator move together as one surface to control both pitch and yaw",
+    "The entire horizontal tail pivots only for trim, while a separate elevator provides all normal pitch control"
+  ],
+  [
+    "It moves opposite the stabilator to reduce hinge force and make pitch control more sensitive",
+    "It remains fixed during stabilator movement and functions only as a ground-adjustable trim tab",
+    "It moves with the stabilator primarily to increase lift on the tail, with no meaningful effect on control feel"
+  ],
+  [
+    "Increase lift coefficient while reducing drag, producing a flatter glide at the same approach speed",
+    "Reduce lift coefficient and increase drag, requiring a higher angle of attack and higher approach speed",
+    "Increase wing area without materially changing lift or drag coefficient, so the main effect is only lower wing loading"
+  ],
+  [
+    "The airplane may exceed its structural load factor because flap extension increases wing bending but not flap loads",
+    "The primary risk is an accelerated stall because extending flaps above VFE raises stall speed sharply",
+    "Flap limits protect only the motor or handle mechanism; aerodynamic loads on the flap surfaces are unchanged with speed"
+  ],
+  [
+    "The airplane will pitch up and climb because retraction removes flap drag faster than it reduces lift",
+    "The stall margin improves immediately because clean-wing stall speed is always lower than the flaps-extended stall speed",
+    "The main risk is overspeeding the flaps during retraction; lift remains nearly constant until they are fully up"
+  ],
+  [
+    "Increase lift and reduce drag so the airplane can descend at a lower power setting",
+    "Increase lift and drag together, functioning much like landing flaps",
+    "Reduce drag while leaving lift nearly unchanged, allowing the airplane to accelerate without adding power"
+  ],
+  [
+    "Only drag changes; spoilers do not meaningfully affect lift or pitch unless deployed asymmetrically",
+    "A predictable nose-up pitch always occurs because spoiler deployment moves the center of lift forward",
+    "A predictable nose-down pitch always occurs, so elevator compensation can be applied before deployment without reference to the aircraft manual"
+  ],
+  [
+    "The down-going aileron deflects more, increasing lift enough to overcome the yaw from its additional drag",
+    "Both ailerons deflect the same amount, but the up-going surface is larger and therefore creates more drag",
+    "Differential ailerons eliminate adverse yaw by coupling the rudder mechanically to the control wheel rather than by changing aileron geometry"
+  ],
+  [
+    "The leading edge of the down-going aileron projects into the airflow, increasing drag on the rising wing",
+    "The up-going aileron retracts fully into the wing, reducing drag on the descending wing",
+    "The aileron nose projects into the airflow primarily to increase lift, while drag remains symmetric between the wings"
+  ],
+  [
+    "The turn coordinator miniature airplane bank indication, because any bank without rudder is automatically uncoordinated",
+    "The heading indicator lagging the magnetic compass, because adverse yaw appears directly as a heading-system disagreement",
+    "The altimeter momentarily changing, because a skid produces a static-pressure error proportional to lateral acceleration"
+  ],
+  [
+    "A forward slip, because opposite aileron and rudder always increases descent rate rather than correcting lateral drift",
+    "A skid, because any crossed-control condition puts the ball to the outside of the turn and is therefore a skid",
+    "A coordinated crab, because opposite controls align the nose with the runway while keeping both wings level"
+  ],
+  [
+    "Rudder effectiveness is mainly a function of engine RPM, so it changes because propeller slipstream grows or shrinks with airspeed",
+    "The rudder has essentially constant authority because its area and deflection limits do not change with speed",
+    "Rudder force varies only with angle of sideslip; dynamic pressure affects the wing but not a vertical control surface"
+  ],
+  [
+    "High speed reduces aerodynamic force on the controls because deflection changes the flow by a smaller percentage",
+    "Structural loads are limited only by airplane weight; control-surface deflection cannot create an excessive load without a gust",
+    "The airplane must stall before any large control input can create dangerous loads, regardless of speed above maneuvering speed"
+  ],
+  [
+    "Create a tactile detent so the pilot knows when the control reaches neutral",
+    "Prevent flutter by keeping each control surface exactly aligned with the fixed surface in flight",
+    "Limit cockpit-control travel mainly for ergonomic reasons; aerodynamic surfaces can continue farther through flexible linkages"
+  ],
+  [
+    "Complete the flight if control movement is full and free; opposite movement can be compensated with reversed cockpit inputs",
+    "Taxi slowly and test the controls again under airflow, because some linkages reverse direction only when the airplane is moving",
+    "Use the remaining controls to verify that the airplane can still be maneuvered before deciding whether the discrepancy requires maintenance"
+  ],
+  [
+    "Continue if the control reaches each stop; binding is acceptable as long as full travel is available",
+    "Lubricate or exercise the cockpit control until it loosens, then depart if the resistance decreases",
+    "Compare resistance with the opposite control direction; symmetrical resistance indicates normal cable tension and needs no further action"
+  ],
+  [
+    "It increases the aerodynamic force required to move the main surface, preventing overcontrol",
+    "It moves the aircraft center of pressure so the control surface stays neutral without pilot input",
+    "It supplies trim only; unlike a trim tab, a balance tab has no effect on the force needed to move the primary surface"
+  ],
+  [
+    "A servo tab is positioned by a trim wheel to hold the main surface at a selected deflection after the pilot releases the controls",
+    "A servo tab moves in the same direction as the main surface to increase hinge force and improve control feel",
+    "A servo tab is fixed on the ground and bends the airflow enough to correct a persistent yaw or roll tendency"
+  ],
+  [
+    "Configuration changes affect only takeoff distance; once the airplane is moving, primary controls can compensate for any flap or trim setting",
+    "Incorrect trim matters mainly after liftoff, while flap configuration can be corrected safely during the takeoff roll at any speed",
+    "A configuration error changes control forces but not lift or drag enough to prevent takeoff if the airplane is below maximum weight"
+  ],
+  [
+    "A runaway trim changes the center of gravity, potentially moving it outside limits faster than the pilot can correct",
+    "Electric trim can disconnect the elevator mechanically, leaving no primary pitch control even if the pilot holds the yoke",
+    "The trim tab may detach from the control surface due to continuous motor operation, which is the primary hazard rather than pitch force"
+  ],
+  [
+    "All light airplanes use the same basic cable-and-pulley architecture, so generic control knowledge is sufficient until complex-airplane training",
+    "Differences matter mainly to maintenance personnel; the pilot's cockpit inputs and failure responses are standardized across certificated airplanes",
+    "Aircraft-specific knowledge is needed only for secondary controls such as flaps; primary control failures are handled the same way in every airplane"
+  ],
+  [
+    "Primary controls change the flight path directly while trim changes the center of gravity and secondary controls mainly alter engine power",
+    "Aileron, elevator, and rudder each control one independent axis, so coordinated flight is achieved by selecting the correct single control for each maneuver",
+    "Secondary controls determine attitude while primary controls relieve pressure and trim the airplane for the selected configuration"
+  ]
+]

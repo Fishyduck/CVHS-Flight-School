@@ -1,0 +1,152 @@
+[
+  [
+    "Lift must exceed weight by the same amount that thrust exceeds drag, creating zero net acceleration overall",
+    "Lift equals thrust and weight equals drag because opposite force pairs must balance in unaccelerated flight",
+    "Lift is slightly greater than weight while thrust is slightly less than drag so the airplane can hold altitude at constant speed"
+  ],
+  [
+    "Lift must remain greater than weight throughout any climb because climb angle is created only by excess vertical force",
+    "Thrust must equal drag in a steady climb, while lift alone supports all of the airplane's weight just as in level flight",
+    "Weight becomes smaller in a climb because part of gravity is converted into forward force, so lift can exceed the reduced weight"
+  ],
+  [
+    "Residual engine thrust, even at idle, must equal drag or the airplane cannot maintain a constant glide speed",
+    "Lift tilts forward in a glide and provides the component that balances drag while weight remains entirely vertical",
+    "Stored kinetic energy continuously supplies the forward force; once speed becomes constant, no force component is needed to oppose drag"
+  ],
+  [
+    "Decrease angle of attack to prevent induced drag from rising as speed falls",
+    "Hold angle of attack constant and add only power; level-flight lift remains constant automatically",
+    "Increase pitch attitude but keep angle of attack unchanged because lift depends primarily on attitude relative to the horizon"
+  ],
+  [
+    "Induced drag, because producing lift at high dynamic pressure requires stronger wingtip vortices",
+    "Wave drag in every light airplane, because compressibility becomes the dominant effect whenever indicated airspeed is high",
+    "Skin-friction drag decreases with speed while induced drag increases, so induced drag dominates the high-speed region"
+  ],
+  [
+    "Parasite drag, because slower flight exposes the airplane to the airflow for a longer time",
+    "Profile drag alone, because wingtip vortices weaken as angle of attack rises",
+    "Wave drag, because low-speed flow separates from the wing in the same way as compressibility flow"
+  ],
+  [
+    "Both parasite and induced drag decrease as speed is reduced until the stall, so minimum drag occurs just above stall speed",
+    "Parasite and induced drag both increase with speed, but at different rates that happen to cross at the minimum-drag speed",
+    "Minimum drag occurs where thrust equals weight rather than where the induced and parasite components of drag balance"
+  ],
+  [
+    "Total lift can remain equal to weight because banking changes only the horizontal direction of lift, not its vertical component",
+    "Total lift decreases as bank increases because centrifugal force supports part of the airplane's weight",
+    "Load factor remains 1 G in every coordinated level turn; only turn rate and radius change with bank"
+  ],
+  [
+    "It remains the same because critical angle of attack is independent of load factor",
+    "It doubles because stall speed changes in direct proportion to load factor",
+    "It decreases by the square root of 2 because bank converts some lift into the horizontal turn force"
+  ],
+  [
+    "A stall is caused whenever indicated airspeed falls below the published 1-G stall speed, regardless of angle of attack",
+    "A stall requires a nose-high pitch attitude because the wing must be pointed above the horizon to separate airflow",
+    "A stall occurs only when lift becomes less than weight; high-speed accelerated maneuvers cannot stall while lift is above weight"
+  ],
+  [
+    "Structural failure must occur before a stall because airspeed is above the published stall speed",
+    "Only a high-speed buffet can occur; the wing cannot stall until the airspeed decays to the 1-G stall speed",
+    "The airplane will necessarily enter a spin because any abrupt pull above 1-G stall speed creates autorotation"
+  ],
+  [
+    "At lighter weight the structure is weaker because there is less inertia resisting gust and maneuver loads",
+    "At lighter weight the published stall speed rises, so maneuvering speed must be reduced to preserve the same speed margin",
+    "Maneuvering speed is actually independent of weight; only maximum structural cruising speed changes with loading"
+  ],
+  [
+    "It guarantees the airplane cannot exceed any structural limit in turbulence because a stall always occurs first at or below VA",
+    "It reduces gust loads mainly by lowering parasite drag; structural protection is unrelated to the stall/load-factor relationship",
+    "It is the speed at which abrupt full control deflection is always safe regardless of weight, turbulence intensity, or manufacturer limitations"
+  ],
+  [
+    "Light, dirty, and fast, because high flap drag and speed strengthen the pressure differential at the wingtips",
+    "Heavy, dirty, and fast, because weight and configuration increase vortex strength while speed determines how long vortices persist",
+    "Heavy, clean, and fast, because higher airspeed always creates the strongest circulation for the same weight"
+  ],
+  [
+    "Stay below the larger airplane's approach path and land before its touchdown point so the light airplane passes under the sinking vortices",
+    "Cross the larger airplane's flight path at the same altitude shortly after it passes because wake vortices rise away from the runway",
+    "Aim for the larger airplane's touchdown point because the vortices dissipate immediately once the generating airplane is on the runway"
+  ],
+  [
+    "Ground effect increases dynamic pressure at the wing, so induced drag falls because the airplane is effectively flying at a higher airspeed",
+    "Ground effect reduces parasite drag by shielding the fuselage and landing gear from the relative wind",
+    "The ground increases wing camber aerodynamically, raising lift coefficient without changing downwash or vortex strength"
+  ],
+  [
+    "The airplane will immediately stall on liftoff because indicated stall speed increases sharply when the wing leaves ground effect",
+    "The airplane may climb normally but accelerate poorly because parasite drag, rather than induced drag, increases outside ground effect",
+    "Ground effect masks reduced engine power only; once airborne, wing lift is unchanged and climb performance depends solely on excess thrust"
+  ],
+  [
+    "Increase lift coefficient while reducing drag, allowing both a slower and shallower approach without additional power",
+    "Reduce lift coefficient and increase drag, requiring a higher approach speed to preserve stall margin",
+    "Increase only wing area; lift and drag coefficients remain essentially unchanged when trailing-edge flaps are extended"
+  ],
+  [
+    "Contamination raises the critical angle of attack, so the airplane may stall later but with a more abrupt break",
+    "The stall occurs at the same angle and airspeed; the primary effect is only increased parasite drag and reduced cruise speed",
+    "Ice increases wing weight but does not materially change the airflow unless its mass moves the center of gravity outside limits"
+  ],
+  [
+    "An aft CG increases the tail's stabilizing lever arm, producing stronger restoring moments after a pitch disturbance",
+    "An aft CG increases directional instability rather than longitudinal instability because the vertical tail has less leverage",
+    "Longitudinal stability is unchanged as long as total weight remains constant; CG affects only elevator control force"
+  ],
+  [
+    "A forward CG reduces stability so much that the airplane naturally pitches farther nose-up during a stall",
+    "A forward CG makes the elevator overly sensitive, so small recovery inputs create excessive nose-down pitch",
+    "Forward CG always makes stall recovery easier because the stronger nose-down tendency guarantees sufficient elevator authority in every configuration"
+  ],
+  [
+    "The rate at which oscillations grow or decay over time after the initial disturbance",
+    "The ability of the pilot to return the airplane to trimmed flight using the controls",
+    "The resistance of the structure to aerodynamic loads at the maneuvering limit"
+  ],
+  [
+    "Negative static stability and positive dynamic stability, because the initial response is toward equilibrium but the later motion diverges",
+    "Neutral static stability and negative dynamic stability, because growing oscillations mean there is no initial restoring tendency",
+    "Positive static stability and positive dynamic stability, because any initial tendency toward equilibrium defines both forms of stability"
+  ],
+  [
+    "Dihedral makes the high wing in a sideslip produce more lift, increasing the existing bank rather than opposing it",
+    "Dihedral creates directional stability by yawing the nose into the relative wind, with little effect on rolling moment",
+    "Dihedral works mainly through a change in wing loading from gravity, not through the sideslip angle seen by the two wings"
+  ],
+  [
+    "Provide roll stability by increasing lift on the lower wing whenever the airplane banks",
+    "Provide longitudinal stability by balancing the pitching moment of the wing and horizontal tail",
+    "Create the horizontal component of lift needed for a coordinated turn whenever rudder is applied"
+  ],
+  [
+    "The airplane will maintain altitude but turn more slowly because the horizontal component of lift increases",
+    "The airplane will climb because total lift rises automatically with bank even if angle of attack is unchanged",
+    "The airplane will skid outward while remaining level because bank changes only turn coordination, not the vertical lift component"
+  ],
+  [
+    "Radius decreases because higher speed creates more horizontal lift for the same bank angle",
+    "Radius remains unchanged at a fixed bank; only rate of turn changes with airspeed",
+    "Radius changes in direct proportion to speed, not with the square of speed, because centripetal force is constant"
+  ],
+  [
+    "Rate of turn decreases because more lift is used to support load factor rather than change direction",
+    "Rate of turn remains constant because a coordinated turn rate depends only on true airspeed",
+    "Rate of turn changes only if the pilot also changes power; bank by itself affects load factor but not directional rate"
+  ],
+  [
+    "Minimum sink speed, because staying aloft longer always produces the greatest horizontal distance",
+    "The speed for minimum parasite drag, because induced drag does not affect glide distance",
+    "The highest practical glide airspeed below VNE, because greater true airspeed always increases distance before touchdown"
+  ],
+  [
+    "How elevator, aileron, and rudder positions alone determine the airplane's path regardless of power or energy state",
+    "How airspeed alone predicts stall margin, turn performance, and structural load without needing angle of attack or bank",
+    "How thrust and lift can be controlled independently while weight and drag remain essentially constant throughout normal maneuvers"
+  ]
+]
