@@ -8,10 +8,10 @@
     "type": "scenario",
     "prompt": "The pitot opening becomes blocked but the drain hole remains open. What happens to the airspeed indicator?",
     "choices": [
-      "It drops toward zero",
-      "It freezes near the value shown when the blockage occurred",
-      "It behaves like an altimeter",
-      "It reads progressively high in a climb and low in a descent"
+      "Airspeed indication drops toward zero",
+      "Airspeed indication freezes at its last value",
+      "Airspeed indication follows altitude changes",
+      "Airspeed indication increases during a climb"
     ],
     "correctIndex": 0,
     "explanation": "With the ram-pressure opening blocked and the drain open, pitot pressure is lost and the airspeed indicator cannot sense the required pressure difference.",
@@ -108,10 +108,10 @@
     "type": "scenario",
     "prompt": "A pilot flies from an area of high pressure to lower pressure without resetting the altimeter. Relative to indicated altitude, where is the airplane actually?",
     "choices": [
-      "The direction cannot be determined without outside temperature",
-      "Lower than indicated",
-      "Higher than indicated",
-      "At approximately the indicated altitude"
+      "Altitude cannot be determined without temperature",
+      "True altitude is lower than indicated",
+      "True altitude is higher than indicated",
+      "True altitude approximately equals indicated"
     ],
     "correctIndex": 1,
     "explanation": "From high pressure to low without resetting, true altitude is lower than indicated—the classic “high to low, look out below.”",
@@ -268,10 +268,10 @@
     "type": "scenario",
     "prompt": "The white arc on a conventional airspeed indicator primarily identifies what range?",
     "choices": [
-      "The range from VS0 to VX that identifies speeds approved for takeoff and initial climb with partial flaps",
+      "Takeoff-speed range from VSO to VX",
       "Flap operating range from VSO to VFE",
-      "The range from VS1 to VNO in which the airplane may be operated normally with flaps retracted",
-      "The range from VNO to VNE in which operation is permitted only in smooth air and with caution"
+      "Normal range from VS1 to VNO",
+      "Caution range from VNO to VNE"
     ],
     "correctIndex": 1,
     "explanation": "The white arc is the flap operating range.",

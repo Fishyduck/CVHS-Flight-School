@@ -10,7 +10,7 @@
     "choices": [
       "Hypoxia",
       "Hyperventilation",
-      "Carbon monoxide exposure",
+      "Carbon monoxide poisoning",
       "Decompression sickness"
     ],
     "correctIndex": 0,

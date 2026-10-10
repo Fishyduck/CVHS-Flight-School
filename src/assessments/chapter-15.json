@@ -8,10 +8,10 @@
     "type": "scenario",
     "prompt": "A VFR pilot plans to enter Class B airspace. What must happen before entry?",
     "choices": [
-      "An explicit ATC clearance into the Class B must be received",
-      "Two-way radio communication with ATC and an assigned transponder code are sufficient",
-      "The pilot may enter after establishing radar contact if remaining VFR and below the Class B primary airport traffic flow",
-      "A flight-following handoff to the Class B controller constitutes entry authorization even without an explicit Class B clearance"
+      "Receive an explicit ATC clearance into Class B",
+      "Establish radio contact and obtain a code",
+      "Establish radar contact and remain VFR",
+      "Receive flight following from approach control"
     ],
     "correctIndex": 0,
     "explanation": "Class B entry requires an ATC clearance, not merely establishment of communications.",
@@ -70,7 +70,7 @@
     "choices": [
       "VFR and IFR operations above 18,000 MSL with a Class A clearance when the pilot can maintain VMC",
       "High-altitude controlled operations where VFR is permitted with two-way radio communication and Mode C equipment",
-      "Special-use operations above the transition altitude; ordinary IFR traffic remains in Class E unless entering Class B or C",
+      "Special-use operations above the transition altitude",
       "High-altitude controlled operations conducted under IFR"
     ],
     "correctIndex": 3,
@@ -89,7 +89,7 @@
     "prompt": "A pilot flying VFR sees that controlled airspace above is Class E. What does “Class E” mean?",
     "choices": [
       "Controlled airspace that is not Class A, B, C, or D",
-      "Controlled airspace used only for IFR aircraft; VFR flights in the same volume are considered to be operating in Class G",
+      "Controlled airspace used only for IFR aircraft",
       "Airspace surrounding airports with an operating tower but without enough traffic to qualify for Class D",
       "Airspace where ATC exercises positive separation of all aircraft and therefore requires an explicit clearance for VFR entry"
     ],
@@ -110,8 +110,8 @@
     "choices": [
       "Controlled airspace with optional radio contact",
       "Uncontrolled airspace",
-      "Advisory-only airspace with Class E weather rules",
-      "Airspace outside ATC radar coverage"
+      "Advisory airspace using Class E minima",
+      "Airspace beyond radar coverage"
     ],
     "correctIndex": 1,
     "explanation": "Class G is airspace not designated as controlled airspace; VFR weather minima and services differ by altitude/time/location.",
@@ -328,10 +328,10 @@
     "type": "scenario",
     "prompt": "Why must pilots check current NOTAMs for TFRs even when using a current sectional chart?",
     "choices": [
-      "TFRs can be created or changed after the chart was published",
-      "Sectional charts depict all TFRs that will be effective during the chart cycle, so NOTAM checking matters only for last-minute changes on the departure day",
-      "A current GPS database automatically incorporates every active TFR, making separate NOTAM review unnecessary when moving-map airspace alerts are enabled",
-      "TFRs are published only for IFR traffic, but checking them helps VFR pilots anticipate areas of increased ATC workload"
+      "TFRs can change after the chart is published",
+      "Sectionals depict all TFRs for their chart cycle",
+      "GPS databases always include every active TFR",
+      "TFRs apply only to IFR flights"
     ],
     "correctIndex": 0,
     "explanation": "Time-sensitive airspace restrictions are distributed via NOTAM systems rather than waiting for chart publication cycles.",
@@ -368,10 +368,10 @@
     "type": "scenario",
     "prompt": "A dashed magenta line surrounds an airport on a sectional. What does it generally depict?",
     "choices": [
-      "A Class D surface area whose tower may be part-time and changes to Class E when the tower closes",
-      "A special VFR corridor through controlled airspace around the airport",
-      "Class E airspace beginning at the surface",
-      "A Class C surface area whose base begins at the surface and whose shelf is shown by solid magenta lines"
+      "A Class D surface area",
+      "A special VFR corridor",
+      "A Class E surface area",
+      "A Class C surface area"
     ],
     "correctIndex": 2,
     "explanation": "Dashed magenta boundaries identify Class E surface areas designated for an airport.",
@@ -528,10 +528,10 @@
     "type": "scenario",
     "prompt": "A pilot receives VFR flight following while outside Class B. Does that service itself authorize entry into Class B?",
     "choices": [
-      "Yes, if the controller is providing traffic advisories and does not tell the pilot to remain outside Class B",
-      "No only if the pilot plans to land at the primary Class B airport; overflight beneath a shelf may continue into the surface area with flight following",
-      "No; a specific Class B clearance is still required",
-      "Yes; a discrete transponder code and radar identification are equivalent to a Class B clearance"
+      "Yes, when receiving ATC traffic advisories",
+      "No, only when landing at the primary airport",
+      "No; a specific Class B clearance is required",
+      "Yes, when radar identified with a squawk code"
     ],
     "correctIndex": 2,
     "explanation": "Radar advisory service and Class B entry clearance are distinct.",

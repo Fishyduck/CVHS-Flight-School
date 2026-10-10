@@ -8,10 +8,10 @@
     "type": "scenario",
     "prompt": "An airplane is loaded below maximum gross weight but the CG is aft of the approved limit. Is the aircraft acceptably loaded?",
     "choices": [
-      "No; both weight and CG must remain within approved limits",
-      "Yes, because maximum gross weight is the primary structural limit and CG is advisory when the airplane is below gross",
-      "Yes, if the aft-CG exceedance is less than one inch and no baggage-compartment limit is exceeded",
-      "Only if the pilot compensates with additional nose-down trim; trim can restore the stability lost by an aft CG"
+      "No; both weight and CG must be within limits",
+      "Yes; gross weight alone determines loading safety",
+      "Yes; a small CG exceedance is acceptable",
+      "Yes; trim can compensate for a CG exceedance"
     ],
     "correctIndex": 0,
     "explanation": "Maximum weight and CG envelope are separate limits. An aircraft can be underweight and still be dangerously out of balance.",
@@ -328,10 +328,10 @@
     "type": "scenario",
     "prompt": "Why does unusable fuel normally remain part of empty-weight accounting rather than payload planning?",
     "choices": [
-      "It is fuel that cannot be safely used in flight and is included according to the aircraft’s empty-weight definition",
+      "Unusable fuel is included under empty-weight definitions",
       "Unusable fuel is excluded from empty weight",
-      "Unusable fuel is treated as payload so the pilot can subtract it when calculating fuel reserve",
-      "Unusable fuel is ignored in weight-and-balance calculations"
+      "Unusable fuel is treated as removable payload",
+      "Unusable fuel is ignored in loading calculations"
     ],
     "correctIndex": 0,
     "explanation": "The approved weight-and-balance data defines what is included in basic empty weight, including unusable fuel under standardized definitions.",
@@ -348,10 +348,10 @@
     "type": "scenario",
     "prompt": "A loading calculation produces a CG inside the numeric limits, but the airplane exceeds maximum ramp/takeoff weight. Is it acceptable?",
     "choices": [
-      "It is acceptable at ramp but not takeoff whenever the value exceeds maximum takeoff weight; maximum ramp weight is never a separate limit",
+      "No; ramp weight must also meet its limit",
       "No; satisfying CG does not waive weight limits",
-      "Yes, because weight limit exceedance is acceptable if the CG is well inside the envelope",
-      "Yes, if the excess weight will be burned off as fuel before the airplane reaches climb altitude"
+      "Yes; acceptable CG permits excess weight",
+      "Yes; fuel burn later permits excess weight"
     ],
     "correctIndex": 1,
     "explanation": "All applicable weight limits and CG limits must be satisfied at the relevant phase of operation.",

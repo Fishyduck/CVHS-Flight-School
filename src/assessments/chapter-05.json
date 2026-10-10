@@ -8,10 +8,10 @@
     "type": "scenario",
     "prompt": "An airplane is in straight-and-level, unaccelerated flight at constant speed. What force relationship must exist?",
     "choices": [
-      "Lift equals weight and thrust equals drag",
-      "Lift must exceed weight by the same amount that thrust exceeds drag, creating zero net acceleration overall",
-      "Lift equals thrust and weight equals drag",
-      "Lift is slightly greater than weight while thrust is slightly less than drag so the airplane can hold altitude at constant speed"
+      "Lift equals weight; thrust equals drag",
+      "Lift exceeds weight; thrust exceeds drag",
+      "Lift equals thrust; weight equals drag",
+      "Lift exceeds weight; thrust is less than drag"
     ],
     "correctIndex": 0,
     "explanation": "With no vertical or longitudinal acceleration, the opposing force components are balanced: lift equals weight and thrust equals drag.",
@@ -268,10 +268,10 @@
     "type": "scenario",
     "prompt": "When are wake vortices from a fixed-wing aircraft generally strongest?",
     "choices": [
-      "Heavy, clean, and fast, because higher airspeed always creates the strongest circulation for the same weight",
-      "When the generating aircraft is heavy, clean, and slow",
-      "Light, dirty, and fast, because high flap drag and speed strengthen the pressure differential at the wingtips",
-      "Heavy, dirty, and fast, because weight and configuration increase vortex strength while speed determines how long vortices persist"
+      "Heavy, clean, and fast",
+      "Heavy, clean, and slow",
+      "Light, dirty, and fast",
+      "Heavy, dirty, and fast"
     ],
     "correctIndex": 1,
     "explanation": "Strongest vortices occur with high lift demand: heavy weight, clean configuration, and slow speed.",

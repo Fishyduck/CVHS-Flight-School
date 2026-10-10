@@ -71,7 +71,7 @@
       "027° magnetic",
       "090° magnetic",
       "360° magnetic",
-      "270°"
+      "270° magnetic"
     ],
     "correctIndex": 3,
     "explanation": "Runway numbers represent magnetic direction rounded to the nearest ten degrees with the last zero omitted.",
@@ -128,10 +128,10 @@
     "type": "scenario",
     "prompt": "A pilot sees a black sign with yellow inscription “A.” What does it generally indicate?",
     "choices": [
-      "The airplane is approaching Taxiway A but has not yet entered it; black/yellow signs are always direction signs",
-      "Taxiway A is closed to aircraft and the black background indicates the pilot must request ATC permission before entering",
-      "The taxiway on which the aircraft is currently located",
-      "Taxiway A is ahead in the direction indicated by the sign, and the airplane is on another unnamed taxiway"
+      "Approaching Taxiway A",
+      "Taxiway A is closed",
+      "Currently located on Taxiway A",
+      "Taxiway A is ahead"
     ],
     "correctIndex": 2,
     "explanation": "Black background with yellow inscription is a location sign.",
@@ -148,10 +148,10 @@
     "type": "scenario",
     "prompt": "A pilot sees a yellow sign with black inscription and an arrow pointing right toward “B.” What does it mean?",
     "choices": [
-      "The airplane is currently on Taxiway B, and the arrow shows the direction the taxiway itself runs",
-      "Taxiway B intersects from the right only after crossing the next runway holding position",
-      "Taxiway B is a runway-exit route to the right, so the sign applies only after landing rather than during normal taxi",
-      "Taxiway B is in the indicated direction"
+      "The aircraft is currently on Taxiway B",
+      "Taxiway B intersects after the next runway",
+      "Taxiway B is an exit route only",
+      "Taxiway B lies in the indicated direction"
     ],
     "correctIndex": 3,
     "explanation": "Yellow background/black inscription with arrow is a direction sign.",
@@ -188,10 +188,10 @@
     "type": "scenario",
     "prompt": "A towered-airport pilot receives “Taxi to Runway 20 via Alpha, Bravo” without an explicit runway-crossing clearance. May the pilot cross an intervening runway?",
     "choices": [
-      "No only if the intervening runway is active; an inactive runway may be crossed under a normal taxi instruction without explicit clearance",
+      "No only if the intervening runway is active",
       "No; runway crossings require an explicit clearance",
       "Yes, because a taxi clearance naming the departure runway includes authority to cross any runway along the assigned route",
-      "Yes, unless ATC specifically says 'hold short'; crossing authority is implied when a runway is not named in the taxi clearance"
+      "Yes, unless ATC specifically says 'hold short'"
     ],
     "correctIndex": 1,
     "explanation": "Modern taxi clearances require explicit authorization to cross a runway.",
@@ -228,10 +228,10 @@
     "type": "scenario",
     "prompt": "ATC issues a taxi instruction the pilot cannot safely comply with because of aircraft limitations. What should the pilot say?",
     "choices": [
-      "Accept the clearance and comply as closely as possible; aircraft limitations do not override an ATC movement instruction",
-      "Read back the clearance correctly and then deviate as necessary without further transmission if safety requires",
-      "State 'standby' and continue taxiing while deciding; 'unable' is reserved for airborne clearances rather than surface movement",
-      "“Unable” and explain/request an alternative as needed"
+      "Accept and approximate the clearance",
+      "Read back then deviate silently",
+      "Say standby and continue taxiing",
+      "Say unable and request an alternative"
     ],
     "correctIndex": 3,
     "explanation": "The PIC must not accept an unsafe instruction; “unable” clearly communicates the need for an alternative.",
@@ -308,10 +308,10 @@
     "type": "scenario",
     "prompt": "What do runway centerline lights or markings primarily help a pilot do?",
     "choices": [
-      "Indicate the maximum usable pavement width for landing and help judge crosswind component",
-      "Show the touchdown-zone aiming point and tell the pilot where to begin the landing flare",
-      "Identify the runway magnetic heading so the pilot can confirm compass alignment without using runway numbers",
-      "Maintain alignment with the runway center"
+      "Indicate usable pavement width",
+      "Show the intended touchdown point",
+      "Identify the runway magnetic heading",
+      "Help maintain runway center alignment"
     ],
     "correctIndex": 3,
     "explanation": "Centerline cues support runway alignment during takeoff/landing and reduced visibility.",
@@ -348,10 +348,10 @@
     "type": "scenario",
     "prompt": "What is the purpose of runway end identifier lights (REIL)?",
     "choices": [
-      "Identify a closed or temporarily unusable runway end with synchronized flashing lights",
-      "Rapidly identify the approach end of a runway",
-      "Show the visual glidepath angle by changing color as the airplane moves above or below the desired path",
-      "Mark the far end of the runway so the pilot can judge remaining landing distance at night"
+      "Mark a runway as closed",
+      "Identify the runway approach end",
+      "Indicate visual glidepath position",
+      "Mark the far end of the runway"
     ],
     "correctIndex": 1,
     "explanation": "REILs are synchronized flashing lights near the runway threshold that aid runway identification.",
@@ -388,10 +388,10 @@
     "type": "scenario",
     "prompt": "A PAPI shows all red lights. What does that mean?",
     "choices": [
-      "The airplane is well above the glidepath",
-      "The airplane is approximately on the glidepath but approaching the lower tolerance",
-      "The lights indicate a runway-crossing conflict rather than vertical position",
-      "The aircraft is well below the glidepath"
+      "Well above the glidepath",
+      "Approximately on the glidepath",
+      "A runway-crossing conflict warning",
+      "Well below the glidepath"
     ],
     "correctIndex": 3,
     "explanation": "On a standard PAPI, more red indicates lower relative to glidepath; all red is well below.",

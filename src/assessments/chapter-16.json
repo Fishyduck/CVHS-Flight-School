@@ -449,7 +449,7 @@
     "prompt": "A CDI centers with a TO indication and 090 selected. What course would take the aircraft toward the station if wind were ignored?",
     "choices": [
       "090° magnetic course away from the station",
-      "The selected course gives only radial identity; a TO indication cannot be used to determine an inbound course",
+      "The selected course gives only radial identity",
       "090° magnetic course toward the station",
       "270° magnetic course toward the station"
     ],

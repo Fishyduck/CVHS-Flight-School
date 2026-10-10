@@ -268,10 +268,10 @@
     "type": "scenario",
     "prompt": "What is the primary function of the vertical stabilizer?",
     "choices": [
-      "Pitch control by carrying the elevator and balancing wing lift",
+      "Pitch stability",
       "Directional stability in yaw",
-      "Lateral stability in roll by resisting wing-drop disturbances",
-      "Longitudinal stability by producing a restoring pitching moment"
+      "Lateral stability in roll",
+      "Longitudinal stability in pitch"
     ],
     "correctIndex": 1,
     "explanation": "The vertical stabilizer provides directional stability about the vertical axis.",

@@ -108,9 +108,9 @@
     "type": "scenario",
     "prompt": "A pilot raises the nose but the flight path initially continues nearly level. What happens to angle of attack?",
     "choices": [
-      "It increases only after the aircraft climbs",
       "It increases",
-      "It remains essentially unchanged",
+      "It increases only after climbing",
+      "It remains unchanged",
       "It decreases"
     ],
     "correctIndex": 1,

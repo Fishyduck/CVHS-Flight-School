@@ -328,10 +328,10 @@
     "type": "scenario",
     "prompt": "What does a constant-speed propeller governor attempt to maintain?",
     "choices": [
-      "Selected propeller RPM by changing blade angle",
-      "Selected manifold pressure by varying blade angle while engine RPM changes with airspeed",
-      "Selected engine power by keeping blade angle fixed and adjusting throttle position automatically",
-      "Selected airspeed by changing blade angle until propeller thrust balances aircraft drag"
+      "Selected RPM by adjusting propeller blade angle",
+      "Selected manifold pressure by changing blade angle",
+      "Selected engine power by adjusting the throttle",
+      "Selected airspeed by changing propeller blade angle"
     ],
     "correctIndex": 0,
     "explanation": "The governor varies propeller blade angle to keep RPM near the selected value as power and airspeed change.",
@@ -428,10 +428,10 @@
     "type": "scenario",
     "prompt": "A fuel selector is positioned to an empty tank while a full tank remains available. What is the immediate engine risk?",
     "choices": [
-      "Mixture starvation, because the engine becomes too lean but fuel continues reaching the carburetor from the selected tank",
+      "Mixture starvation despite fuel reaching the engine",
       "Fuel starvation despite adequate total fuel aboard",
-      "Fuel exhaustion, because the airplane's usable fuel supply has effectively been consumed even though another tank contains fuel",
-      "Vapor lock only, because selecting an empty tank cannot interrupt fuel flow if total fuel quantity is adequate"
+      "Fuel exhaustion despite usable fuel in another tank",
+      "Vapor lock despite selecting an empty tank"
     ],
     "correctIndex": 1,
     "explanation": "Fuel starvation means usable fuel exists but is not reaching the engine due to selection, blockage, pump, or system configuration.",

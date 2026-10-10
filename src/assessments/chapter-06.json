@@ -28,10 +28,10 @@
     "type": "scenario",
     "prompt": "A pilot moves the control wheel left. Which initial control-surface response should occur in a conventional aileron system?",
     "choices": [
-      "Left aileron rises while the right remains neutral; roll is produced by drag rather than differential lift",
-      "Left aileron rises and right aileron lowers",
-      "Left aileron lowers and right aileron rises, increasing lift on the left wing to roll left",
-      "Both ailerons rise together, reducing total lift so the airplane can roll without pitching"
+      "Left aileron up; right aileron neutral",
+      "Left aileron up; right aileron down",
+      "Left aileron down; right aileron up",
+      "Both ailerons up together"
     ],
     "correctIndex": 1,
     "explanation": "Raising the left aileron reduces lift on the left wing while lowering the right increases lift on the right, producing a left roll.",
@@ -168,10 +168,10 @@
     "type": "scenario",
     "prompt": "A stabilator differs from a conventional elevator because what moves?",
     "choices": [
-      "The entire horizontal tail surface pivots",
-      "Only the trailing-edge elevator portion moves",
-      "The vertical stabilizer and elevator move together as one surface to control both pitch and yaw",
-      "The entire horizontal tail pivots only for trim, while a separate elevator provides all normal pitch control"
+      "The entire horizontal tail pivots",
+      "Only the elevator portion pivots",
+      "The vertical tail and elevator pivot",
+      "The horizontal tail pivots only for trim"
     ],
     "correctIndex": 0,
     "explanation": "A stabilator is an all-moving horizontal tail surface that provides pitch control.",
@@ -268,10 +268,10 @@
     "type": "scenario",
     "prompt": "What do spoilers primarily do when deployed?",
     "choices": [
-      "Reduce drag while leaving lift nearly unchanged, allowing the airplane to accelerate without adding power",
+      "Reduce drag without changing lift",
       "Reduce lift and usually increase drag",
-      "Increase lift and reduce drag so the airplane can descend at a lower power setting",
-      "Increase lift and drag together, functioning much like landing flaps"
+      "Increase lift while reducing drag",
+      "Increase lift and drag together"
     ],
     "correctIndex": 1,
     "explanation": "Spoilers disturb airflow over the wing, reducing lift and adding drag.",
@@ -428,10 +428,10 @@
     "type": "scenario",
     "prompt": "Why are mechanical stops used in many flight-control systems?",
     "choices": [
-      "Limit cockpit-control travel mainly for ergonomic reasons; aerodynamic surfaces can continue farther through flexible linkages",
-      "Limit control-surface travel to approved ranges",
-      "Create a tactile detent so the pilot knows when the control reaches neutral",
-      "Prevent flutter by keeping each control surface exactly aligned with the fixed surface in flight"
+      "Limit cockpit control movement for comfort",
+      "Limit surface travel to approved ranges",
+      "Create a neutral-position tactile detent",
+      "Prevent flutter by locking surfaces in line"
     ],
     "correctIndex": 1,
     "explanation": "Stops prevent surface movement beyond the designed/approved deflection range.",
