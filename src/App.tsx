@@ -11,6 +11,11 @@ import {
   ExternalLink,
   FileText,
   Library,
+  Search,
+  LayoutDashboard,
+  CheckCircle2,
+  TrendingUp,
+  RotateCcw,
   X,
   Plane, BrainCircuit, PanelsTopLeft, Wind, Waves, SlidersHorizontal, Cog, Gauge, Files, Scale, ChartNoAxesCombined, CloudSun, Radar, TowerControl, CircleDotDashed, Compass, HeartPulse,
 } from "lucide-react";
@@ -18,6 +23,8 @@ import { isSupabaseConfigured, supabase } from "./supabase";
 import { buildQuiz, type Question } from "./questionBank";
 import { getReflection } from "./reflections";
 import { getStoredAttempts, putStoredAttempt, putStoredAttempts, type StoredQuizAttempt } from "./storage";
+import { courseGuide, topics, type Topic } from "./courseGuide";
+import StudyNotes from "./StudyNotes";
 
 const modules = [
   { id: 1, title: 'Introduction To Flying', icon: Plane, pdf: "https://www.faa.gov/sites/faa.gov/files/03_phak_ch1.pdf" },
@@ -130,12 +137,95 @@ function App() {
   const [authMessage, setAuthMessage] = useState("");
   const [authBusy, setAuthBusy] = useState(false);
   const [activeModule, setActiveModule] = useState<(typeof modules)[number] | null>(null);
+  const [search, setSearch] = useState("");
+  const [topic, setTopic] = useState<Topic>("All topics");
+  const [statusFilter, setStatusFilter] = useState("all");
+  const [activeSection, setActiveSection] = useState("overview");
+  const [lastVisited, setLastVisited] = useState<{ owner: string; moduleId: number } | null>(null);
 
   const currentOwner = session?.user.id ?? GUEST_OWNER;
+  const nextModule = modules.find((module) => moduleProgress[module.id] !== 100);
+  const resumeModule = modules.find((module) => lastVisited?.owner === currentOwner && module.id === lastVisited.moduleId && moduleProgress[module.id] !== 100) ?? nextModule;
+  const completedCount = modules.filter((module) => moduleProgress[module.id] === 100).length;
+  const averageScore = quizAttempts.length ? Math.round(quizAttempts.reduce((total, attempt) => total + attempt.score, 0) / quizAttempts.length) : null;
+  const visibleModules = modules.filter((module) => {
+    const guide = courseGuide[module.id];
+    const done = moduleProgress[module.id] === 100;
+    const latestAttempt = quizAttempts.find((attempt) => attempt.module_id === module.id);
+    const matchesStatus = statusFilter === "all" || (statusFilter === "complete" && done) || (statusFilter === "incomplete" && !done) || (statusFilter === "practice" && latestAttempt?.passed === false);
+    const searchable = `${module.id} ${module.title} ${guide.description} ${guide.focus}`.toLowerCase();
+    return matchesStatus && (topic === "All topics" || guide.topic === topic) && searchable.includes(search.trim().toLowerCase());
+  });
+  const modalOpen = Boolean(activeModule || quizModule || authOpen || reviewAttempt);
   const progress = useMemo(
     () => Math.round(modules.reduce((sum, module) => sum + (moduleProgress[module.id] || 0), 0) / modules.length),
     [moduleProgress],
   );
+
+  function openModule(module: (typeof modules)[number]) {
+    setActiveModule(module);
+    setLastVisited({ owner: currentOwner, moduleId: module.id });
+    try { localStorage.setItem(`cvhs-last-module-${currentOwner}`, String(module.id)); }
+    catch { /* Reading remains available when browser storage is full. */ }
+  }
+
+  function resetFilters() {
+    setSearch("");
+    setTopic("All topics");
+    setStatusFilter("all");
+  }
+
+  useEffect(() => {
+    try {
+      const moduleId = Number(localStorage.getItem(`cvhs-last-module-${currentOwner}`));
+      setLastVisited(modules.some((module) => module.id === moduleId) ? { owner: currentOwner, moduleId } : null);
+    } catch { setLastVisited(null); }
+  }, [currentOwner]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      const visible = entries.find((entry) => entry.isIntersecting);
+      if (visible) setActiveSection(visible.target.id);
+    }, { rootMargin: "-15% 0px -60% 0px" });
+    for (const id of ["overview", "modules", "resources"]) {
+      const section = document.getElementById(id);
+      if (section) observer.observe(section);
+    }
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (!modalOpen && !mobileOpen) return;
+    const dialogs = document.querySelectorAll<HTMLElement>('[role="dialog"]');
+    const dialog = dialogs[dialogs.length - 1];
+    if (!dialog) return;
+    const previousFocus = document.activeElement as HTMLElement | null;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const focusable = () => Array.from(dialog.querySelectorAll<HTMLElement>('button:not([disabled]), a[href], input, textarea, select, summary, iframe, [tabindex="0"]')).filter((element) => element.getClientRects().length > 0);
+    focusable()[0]?.focus({ preventScroll: true });
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        setActiveModule(null);
+        setQuizModule(null);
+        setReviewAttempt(null);
+        setAuthOpen(false);
+        setMobileOpen(false);
+      }
+      if (event.key !== "Tab") return;
+      const elements = focusable();
+      const first = elements[0];
+      const last = elements[elements.length - 1];
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+    }
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      document.removeEventListener("keydown", onKeyDown);
+      previousFocus?.focus({ preventScroll: true });
+    };
+  }, [modalOpen, mobileOpen, activeModule, quizModule, authOpen, reviewAttempt]);
 
   useEffect(() => {
     if (!supabase) return;
@@ -431,19 +521,23 @@ function App() {
 
   const brandAsset = (file: string) => `${import.meta.env.BASE_URL}brand/${file}`;
 
-  const Sidebar = () => (
+  const sidebar = (
     <aside className="sidebar">
       <a className="brand" href="#top" aria-label="CVHS Flight School home">
         <img className="sidebar-logo" src={brandAsset("cvhs-wordmark-reverse-transparent-cropped.png")} alt="CVHS Flight School" />
       </a>
       <nav aria-label="Primary navigation">
-        <a className="active" href="#modules" onClick={() => setMobileOpen(false)}>
-          <BookOpen /> Course modules
-        </a>
-        <a href="#resources" onClick={() => setMobileOpen(false)}>
-          <Library /> Important resources
-        </a>
+        <span className="nav-label">YOUR LEARNING SPACE</span>
+        {[{ id: "overview", label: "Overview", icon: LayoutDashboard }, { id: "modules", label: "Course modules", icon: BookOpen }, { id: "resources", label: "Resource library", icon: Library }].map((item) => (
+          <a key={item.id} className={activeSection === item.id ? "active" : ""} aria-current={activeSection === item.id ? "location" : undefined} href={`#${item.id}`} onClick={() => setMobileOpen(false)}><item.icon />{item.label}</a>
+        ))}
       </nav>
+      <div className="sidebar-progress">
+        <Compass aria-hidden="true" /><strong>Your flight path</strong>
+        <p>{completedCount} of 17 modules complete</p>
+        <div className="progress-track" role="progressbar" aria-label="Course completion" aria-valuenow={completedCount} aria-valuemin={0} aria-valuemax={17}><span style={{ width: `${progress}%` }} /></div>
+        <small>Build your knowledge, one chapter at a time.</small>
+      </div>
       <div className="source-note">
         <ShieldCheck />
         <p><strong>FAA-based curriculum</strong><span>FAA-H-8083-25C</span></p>
@@ -453,18 +547,19 @@ function App() {
 
   return (
     <div className="app" id="top">
-      <div className={`mobile-panel ${mobileOpen ? "open" : ""}`}>
+      <a className="skip-link" href="#modules">Skip to course modules</a>
+      <div className={`mobile-panel ${mobileOpen ? "open" : ""}`} inert={!mobileOpen || modalOpen} role={mobileOpen ? "dialog" : undefined} aria-modal={mobileOpen ? true : undefined} aria-label="Navigation">
         <button className="icon-button panel-close" aria-label="Close navigation" onClick={() => setMobileOpen(false)}><X /></button>
-        <Sidebar />
+        {sidebar}
       </div>
       {mobileOpen && <button className="scrim" aria-label="Close navigation" onClick={() => setMobileOpen(false)} />}
-      <div className="desktop-sidebar"><Sidebar /></div>
+      <div className="desktop-sidebar" inert={modalOpen || mobileOpen}>{sidebar}</div>
 
-      <main>
+      <main inert={modalOpen || mobileOpen}>
         <header className="topbar">
           <button className="icon-button menu-button" aria-label="Open navigation" onClick={() => setMobileOpen(true)}><Menu /></button>
           <a className="mobile-wordmark" href="#top" aria-label="CVHS Flight School home"><img src={brandAsset("cvhs-wordmark-transparent-cropped.png")} alt="CVHS Flight School" /></a>
-          <div className="route"><span>TRAINING PORTAL</span><b>GROUND SCHOOL</b></div>
+          <div className="route"><span>CVHS AVIATION</span><b>Student learning hub</b></div>
           <div className="account-area">
             {session ? (
               <>
@@ -478,38 +573,70 @@ function App() {
         </header>
 
         <div className="page">
-          <section className="course-header" aria-labelledby="course-title">
-            <div>
-              <p className="eyebrow">PRIVATE PILOT FOUNDATIONS</p>
-              <h1 id="course-title">Ground School</h1>
-              <p>Seventeen modules aligned to the chapters of the FAA Pilot’s Handbook of Aeronautical Knowledge.</p>
+          <section id="overview" className="course-header" aria-labelledby="course-title">
+            <div className="hero-copy">
+              <p className="eyebrow"><span className="live-dot" /> CAPISTRANO VALLEY HIGH SCHOOL</p>
+              <h1 id="course-title">A clearer path<br />to the <em>skies.</em></h1>
+              <p className="hero-description">Your ground school journey starts here. Explore the aircraft, understand the airspace, and build the knowledge behind every flight.</p>
+              <div className="course-actions">
+                {resumeModule ? <button className="button course-primary" onClick={() => openModule(resumeModule)}>
+                  {lastVisited?.owner === currentOwner ? "Continue learning" : "Start ground school"} <ArrowRight />
+                </button> : <a className="button course-primary" href="#modules">Review your course <CheckCircle2 /></a>}
+                <a className="hero-text-link" href="#resources">Explore the library <ArrowRight /></a>
+              </div>
+              <div className="hero-caption"><ShieldCheck /> Based on the FAA Pilot's Handbook of Aeronautical Knowledge</div>
             </div>
-            <div className="progress-card" aria-label={`${progress}% complete`}>
-              <div><span>COURSE PROGRESS</span><b>{progress}%</b></div>
-              <div className="progress-track"><span style={{ width: `${progress}%` }} /></div>
-              <p>Modules are complete after a quiz score of 70% or higher.</p>
-              {!session && <small>Progress is saved on this device. Sign in to sync it to your account.</small>}
+            <div className="flight-visual" aria-hidden="true">
+              <div className="compass-dial"><span className="bearing north">N</span><span className="bearing east">E</span><span className="bearing south">S</span><span className="bearing west">W</span>
+                <div className="compass-orbit" /><div className="compass-inner" /><div className="flight-line" /><Plane className="hero-plane" />
+              </div>
+              <div className="visual-tag"><span>THE JOURNEY</span><strong>Knowledge before altitude.</strong></div>
             </div>
+            <div className="hero-bottom"><span>GROUND SCHOOL / PRIVATE PILOT FOUNDATIONS</span><span>17 CHAPTERS <i /> ONE FLIGHT PATH</span></div>
           </section>
 
+          <section className="learning-dashboard" aria-label="Your learning overview">
+            <article className="continue-card">
+              <span className="dashboard-icon"><BookOpen /></span>
+              <div><p className="eyebrow">{completedCount === 17 ? "COURSE COMPLETE" : "YOUR NEXT CHAPTER"}</p>
+                <h2>{resumeModule?.title ?? "Keep your knowledge sharp"}</h2>
+                <p>{resumeModule ? `Module ${String(resumeModule.id).padStart(2, "0")} · ${courseGuide[resumeModule.id].topic}` : "All 17 modules passed. Revisit any chapter below."}</p>
+              </div>
+              {resumeModule && <button className="round-link" onClick={() => openModule(resumeModule)} aria-label={`Open ${resumeModule.title}`}><ArrowRight /></button>}
+            </article>
+            <article className="dashboard-stat"><CheckCircle2 /><span><b>{completedCount}<small> / 17</small></b><span>Modules complete</span></span></article>
+            <article className="dashboard-stat"><TrendingUp /><span><b>{averageScore === null ? "—" : `${averageScore}%`}</b><span>{quizAttempts.length ? `Average · ${quizAttempts.length} quiz attempts` : "Quiz average · start your first"}</span></span></article>
+          </section>
+          <div className="course-progress-strip">
+            <div className="progress-track" role="progressbar" aria-label="Course progress" aria-valuenow={progress} aria-valuemin={0} aria-valuemax={100}><span style={{ width: `${progress}%` }} /></div>
+            <span>{progress}% complete</span><small>{session ? "Signed in to sync course progress" : "Progress saved on this device"}</small>
+          </div>
           <section id="modules" className="modules-section" aria-labelledby="modules-title">
             <div className="section-heading">
-              <div><p className="eyebrow">FAA-H-8083-25C</p><h2 id="modules-title">Course modules</h2></div>
-              <span>17 CHAPTERS</span>
+              <div><p className="eyebrow">BUILD YOUR FOUNDATION</p><h2 id="modules-title">Your course. Your pace.</h2><p className="section-description">Read a chapter, make it your own, then put your knowledge to the test.</p></div>
+              <span className="chapter-count">17 MODULES</span>
             </div>
+            <div className="catalog-toolbar">
+              <div className="module-search"><Search aria-hidden="true" /><input type="search" aria-label="Search course modules" value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Search topics, chapters, or keywords" />{search && <button className="icon-button" onClick={() => setSearch("")} aria-label="Clear search"><X /></button>}</div>
+              <label className="status-filter">Progress<select value={statusFilter} onChange={(event) => setStatusFilter(event.target.value)}><option value="all">All modules</option><option value="incomplete">To complete</option><option value="complete">Completed</option><option value="practice">Needs practice</option></select></label>
+            </div>
+            <div className="topic-filters" role="group" aria-label="Filter by topic">{topics.map((item) => <button key={item} aria-pressed={topic === item} onClick={() => setTopic(item)}>{item}</button>)}</div>
+            <div className="catalog-meta"><span role="status">Showing {visibleModules.length} of 17 modules</span><span>70% quiz score to complete a module</span></div>
+            {visibleModules.length === 0 && <div className="empty-catalog"><Search /><h3>No modules match these filters</h3><p>Try a different topic or search term. Completed quizzes will appear in your progress filters.</p><button className="button subtle" onClick={resetFilters}><RotateCcw /> Reset filters</button></div>}
             <div className="module-grid">
-              {modules.map((module) => {
+              {visibleModules.map((module) => {
                 const percent = moduleProgress[module.id] || 0;
                 const done = percent === 100;
                 const moduleAttempts = quizAttempts.filter((attempt) => attempt.module_id === module.id);
                 const bestScore = moduleAttempts.length ? Math.max(...moduleAttempts.map((attempt) => attempt.score)) : null;
                 return (
                   <article className={`module-card ${done ? "complete" : ""}`} key={module.id}>
-                    <div className="module-top"><span>MODULE {String(module.id).padStart(2, "0")}</span><b className={`status-badge ${done ? "done" : "pending"}`}>{done ? "COMPLETE" : "NOT COMPLETE"}</b></div>
+                    <div className="module-top"><span>CHAPTER {String(module.id).padStart(2, "0")}</span><b className={`status-badge ${done ? "done" : "pending"}`}>{done ? "COMPLETE" : courseGuide[module.id].topic.toUpperCase()}</b></div>
                     <div className="module-title-row"><span className={`module-icon module-icon-${((module.id - 1) % 4) + 1}`}><module.icon /></span><h3>{module.title}</h3></div>
-                    <p>Chapter {module.id}</p>
+                    <p className="module-description">{courseGuide[module.id].description}</p>
+                    <div className="module-meta"><span><FileText /> FAA chapter</span><span><CheckCircle2 /> 30 questions</span></div>
                     <div className="module-actions">
-                      <button className="open-button" onClick={() => setActiveModule(module)}>
+                      <button className="open-button" onClick={() => openModule(module)}>
                         {done ? "Review module" : "Open module"} <ArrowRight />
                       </button>
                       <button className="practice-quiz-button" onClick={() => startQuiz(module)}>{moduleAttempts.length ? "Take another quiz" : "Take module quiz"}</button>
@@ -522,7 +649,7 @@ function App() {
           </section>
 
           <section id="resources" className="resources-section" aria-labelledby="resources-title">
-            <div className="section-heading"><div><p className="eyebrow">REFERENCE LIBRARY</p><h2 id="resources-title">Important resources</h2></div><span>OFFICIAL FAA</span></div>
+            <div className="section-heading"><div><p className="eyebrow">GO A LITTLE DEEPER</p><h2 id="resources-title">The reference library.</h2><p className="section-description">Keep the original sources close. Explore these FAA publications as you learn.</p></div><span>OFFICIAL FAA</span></div>
             <article className="resource-card">
               <FileText />
               <div><span>FAA-H-8083-25C</span><h3>Pilot’s Handbook of Aeronautical Knowledge</h3><p>The complete FAA textbook used across all 17 course modules.</p></div>
@@ -547,6 +674,9 @@ function App() {
           <section className="module-modal" role="dialog" aria-modal="true" aria-labelledby="module-title">
             <div className="module-modal-head"><div><p className="eyebrow">MODULE {String(activeModule.id).padStart(2, "0")} · FAA COURSE READING</p><h2 id="module-title">{activeModule.title}</h2></div><button className="icon-button" aria-label="Close module" onClick={() => setActiveModule(null)}><X /></button></div>
             <div className="module-toolbar"><span>Chapter {activeModule.id} · FAA-H-8083-25C</span><a href={activeModule.pdf} target="_blank" rel="noreferrer">Open PDF in new tab <ExternalLink /></a></div>
+            <div className="lesson-workspace">
+              <aside className="lesson-brief"><p className="eyebrow">CHAPTER BRIEFING</p><h3>What you'll explore</h3><p>{courseGuide[activeModule.id].description}</p><p className="lesson-focus">{courseGuide[activeModule.id].focus}</p><StudyNotes key={`${currentOwner}-${activeModule.id}`} owner={currentOwner} moduleId={activeModule.id} /></aside>
+              <div className="lesson-reading">
             <iframe className="pdf-frame" src={`${activeModule.pdf}#view=FitH`} title={`FAA Chapter ${activeModule.id}: ${activeModule.title}`} />
             <div className="mobile-pdf-reader" role="region" aria-label="Mobile chapter reader">
               <BookOpen />
@@ -555,7 +685,9 @@ function App() {
               <a className="button primary mobile-pdf-button" href={activeModule.pdf} target="_blank" rel="noreferrer">Open full chapter PDF <ExternalLink /></a>
               <small>The chapter opens in a new tab so your place in CVHS Flight School stays available.</small>
             </div>
-            <div className="module-modal-foot"><div><p>Reading does not change completion status. Score 70% or higher on this module's quiz to mark it complete. Quizzes can be retaken anytime.</p></div><button className="button primary" onClick={() => { startQuiz(activeModule); setActiveModule(null); }}>Next: Module quiz <ArrowRight /></button></div>
+              </div>
+            </div>
+            <div className="module-modal-foot"><div><p>Complete this chapter with a quiz score of 70% or higher. You can return to your reading and retake the quiz anytime.</p></div><button className="button primary" onClick={() => { startQuiz(activeModule); setActiveModule(null); }}>Next: Module quiz <ArrowRight /></button></div>
           </section>
         </div>
       )}
