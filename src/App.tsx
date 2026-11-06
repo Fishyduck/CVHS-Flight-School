@@ -138,14 +138,18 @@ function App() {
   const [authBusy, setAuthBusy] = useState(false);
   const [activeModule, setActiveModule] = useState<(typeof modules)[number] | null>(null);
   const [search, setSearch] = useState("");
-  const [topic, setTopic] = useState<Topic>("All topics");
+  const [topic, setTopic] = useState<Topic>("All Topics");
   const [statusFilter, setStatusFilter] = useState("all");
   const [activeSection, setActiveSection] = useState("overview");
   const [lastVisited, setLastVisited] = useState<{ owner: string; moduleId: number } | null>(null);
 
   const currentOwner = session?.user.id ?? GUEST_OWNER;
-  const nextModule = modules.find((module) => moduleProgress[module.id] !== 100);
-  const resumeModule = modules.find((module) => lastVisited?.owner === currentOwner && module.id === lastVisited.moduleId && moduleProgress[module.id] !== 100) ?? nextModule;
+  const lastModuleId = lastVisited?.owner === currentOwner ? lastVisited.moduleId : null;
+  const incompleteModules = modules.filter((module) => moduleProgress[module.id] !== 100);
+  const nextModule = incompleteModules.find((module) => module.id > (lastModuleId ?? 0))
+    ?? incompleteModules.find((module) => module.id !== lastModuleId)
+    ?? incompleteModules[0];
+
   const completedCount = modules.filter((module) => moduleProgress[module.id] === 100).length;
   const averageScore = quizAttempts.length ? Math.round(quizAttempts.reduce((total, attempt) => total + attempt.score, 0) / quizAttempts.length) : null;
   const visibleModules = modules.filter((module) => {
@@ -154,7 +158,7 @@ function App() {
     const latestAttempt = quizAttempts.find((attempt) => attempt.module_id === module.id);
     const matchesStatus = statusFilter === "all" || (statusFilter === "complete" && done) || (statusFilter === "incomplete" && !done) || (statusFilter === "practice" && latestAttempt?.passed === false);
     const searchable = `${module.id} ${module.title} ${guide.description} ${guide.focus}`.toLowerCase();
-    return matchesStatus && (topic === "All topics" || guide.topic === topic) && searchable.includes(search.trim().toLowerCase());
+    return matchesStatus && (topic === "All Topics" || guide.topic === topic) && searchable.includes(search.trim().toLowerCase());
   });
   const modalOpen = Boolean(activeModule || quizModule || authOpen || reviewAttempt);
   const progress = useMemo(
@@ -171,7 +175,7 @@ function App() {
 
   function resetFilters() {
     setSearch("");
-    setTopic("All topics");
+    setTopic("All Topics");
     setStatusFilter("all");
   }
 
@@ -579,8 +583,8 @@ function App() {
               <h1 id="course-title">A clearer path<br />to the <em>skies.</em></h1>
               <p className="hero-description">Your ground school journey starts here. Explore the aircraft, understand the airspace, and build the knowledge behind every flight.</p>
               <div className="course-actions">
-                {resumeModule ? <button className="button course-primary" onClick={() => openModule(resumeModule)}>
-                  {lastVisited?.owner === currentOwner ? "Continue learning" : "Start ground school"} <ArrowRight />
+                {nextModule ? <button className="button course-primary" onClick={() => openModule(nextModule)}>
+                  {lastModuleId === null ? "Start ground school" : nextModule.id === lastModuleId ? "Resume final module" : "Continue to next module"} <ArrowRight />
                 </button> : <a className="button course-primary" href="#modules">Review your course <CheckCircle2 /></a>}
                 <a className="hero-text-link" href="#resources">Explore the library <ArrowRight /></a>
               </div>
@@ -599,10 +603,10 @@ function App() {
             <article className="continue-card">
               <span className="dashboard-icon"><BookOpen /></span>
               <div><p className="eyebrow">{completedCount === 17 ? "COURSE COMPLETE" : "YOUR NEXT CHAPTER"}</p>
-                <h2>{resumeModule?.title ?? "Keep your knowledge sharp"}</h2>
-                <p>{resumeModule ? `Module ${String(resumeModule.id).padStart(2, "0")} · ${courseGuide[resumeModule.id].topic}` : "All 17 modules passed. Revisit any chapter below."}</p>
+                <h2>{nextModule?.title ?? "Keep your knowledge sharp"}</h2>
+                <p>{nextModule ? `Module ${String(nextModule.id).padStart(2, "0")} · ${courseGuide[nextModule.id].topic}` : "All 17 modules passed. Revisit any chapter below."}</p>
               </div>
-              {resumeModule && <button className="round-link" onClick={() => openModule(resumeModule)} aria-label={`Open ${resumeModule.title}`}><ArrowRight /></button>}
+              {nextModule && <button className="round-link" onClick={() => openModule(nextModule)} aria-label={`Open ${nextModule.title}`}><ArrowRight /></button>}
             </article>
             <article className="dashboard-stat"><CheckCircle2 /><span><b>{completedCount}<small> / 17</small></b><span>Modules complete</span></span></article>
             <article className="dashboard-stat"><TrendingUp /><span><b>{averageScore === null ? "—" : `${averageScore}%`}</b><span>{quizAttempts.length ? `Average · ${quizAttempts.length} quiz attempts` : "Quiz average · start your first"}</span></span></article>
@@ -618,7 +622,7 @@ function App() {
             </div>
             <div className="catalog-toolbar">
               <div className="module-search"><Search aria-hidden="true" /><input type="search" aria-label="Search course modules" value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Search topics, chapters, or keywords" />{search && <button className="icon-button" onClick={() => setSearch("")} aria-label="Clear search"><X /></button>}</div>
-              <label className="status-filter">Progress<select value={statusFilter} onChange={(event) => setStatusFilter(event.target.value)}><option value="all">All modules</option><option value="incomplete">To complete</option><option value="complete">Completed</option><option value="practice">Needs practice</option></select></label>
+              <label className="status-filter">Progress<select value={statusFilter} onChange={(event) => setStatusFilter(event.target.value)}><option value="all">All Modules</option><option value="incomplete">To Complete</option><option value="complete">Completed</option><option value="practice">Needs Practice</option></select></label>
             </div>
             <div className="topic-filters" role="group" aria-label="Filter by topic">{topics.map((item) => <button key={item} aria-pressed={topic === item} onClick={() => setTopic(item)}>{item}</button>)}</div>
             <div className="catalog-meta"><span role="status">Showing {visibleModules.length} of 17 modules</span><span>70% quiz score to complete a module</span></div>
